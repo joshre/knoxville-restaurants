@@ -697,13 +697,13 @@
 
             table.classList.remove('hidden');
 
-            tbody.innerHTML = filteredRestaurants.map(r => {
+            tbody.innerHTML = filteredRestaurants.map((r, index) => {
                 const addressParts = r.address.split(',').slice(0, 2).join(',');
                 const displayTags = (r.tags || []).filter(t => !t.startsWith('group_') && !t.startsWith('chef_')).slice(0, 3);
 
                 return '<tr>' +
                     '<td>' +
-                        '<div class="restaurant-name" onclick=\'showRestaurant(' + JSON.stringify(r).replace(/'/g, "\\'") + ')\'>' +
+                        '<div class="restaurant-name" onclick="showRestaurantByIndex(' + index + ')">' +
                             r.name +
                             (isNewRestaurant(r) ? ' <span class="badge badge-new">New</span>' : '') +
                         '</div>' +
@@ -721,7 +721,10 @@
             }).join('');
         }
 
-        function showRestaurant(r) {
+        function showRestaurantByIndex(index) {
+            const r = filteredRestaurants[index];
+            if (!r) return;
+
             document.getElementById('modal-name').textContent = r.name;
             let meta = r.cuisine_type + ' · ' + r.price_range;
             if (r.average_rating) meta += ' · ' + r.average_rating.toFixed(1) + '/10';
