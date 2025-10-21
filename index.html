@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knoxville Restaurants</title>
     <style>
+        /* Preload critical fonts - copied from Cortex */
+        @font-face {
+            font-family: 'Serrif VF';
+            src: url('fonts/SerrifVF.woff2') format('woff2-variations'),
+                 url('fonts/SerrifVF.woff2') format('woff2');
+            font-weight: 100 900;
+            font-style: normal;
+            font-display: swap;
+            font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+        }
+
+        @font-face {
+            font-family: 'Saans VF';
+            src: url('fonts/SaansVF.woff2') format('woff2-variations'),
+                 url('fonts/SaansVF.woff2') format('woff2');
+            font-weight: 100 900;
+            font-style: normal;
+            font-display: swap;
+            font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+        }
+
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         :root {
@@ -303,6 +324,48 @@
         }
         .modal.active { display: block; }
 
+        /* Fade-in animation for modal */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(3rem);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes scaleIn {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .modal.active .modal-backdrop {
+            animation: fadeIn 100ms ease-out;
+        }
+
+        .modal.active .modal-content {
+            animation: slideUp 100ms ease-out;
+        }
+
+        @media (min-width: 640px) {
+            .modal.active .modal-content {
+                animation: scaleIn 100ms ease-out;
+            }
+        }
+
         .modal-backdrop {
             position: fixed;
             inset: 0;
@@ -376,13 +439,18 @@
         body.dark .modal-header { border-color: var(--stone-800); }
 
         .modal-title {
+            font-family: 'Serrif VF', 'Times New Roman', 'Times', 'Georgia', 'Cambria', 'Book Antiqua', serif;
+            font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'onum' 1;
+            font-kerning: normal;
+            font-variant-ligatures: common-ligatures contextual;
+            text-rendering: optimizeLegibility;
             font-size: 1.875rem;
             font-weight: 300;
             color: var(--stone-900);
             margin-bottom: 0.75rem;
             line-height: 1.2;
         }
-        body.dark .modal-title { color: white; }
+        body.dark .modal-title { color: var(--stone-100); }
 
         .modal-meta {
             font-size: 0.875rem;
