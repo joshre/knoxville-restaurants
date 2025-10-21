@@ -4,333 +4,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knoxville Restaurants</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        sienna: {
+                            50: '#fef8f5',
+                            100: '#fdf1ea',
+                            200: '#faddd0',
+                            300: '#f6c4aa',
+                            400: '#f0a27e',
+                            500: '#e87f52',
+                            600: '#c6613f',
+                            700: '#a14f34',
+                            800: '#823f2a',
+                            900: '#683223',
+                            950: '#3a1b13'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --bg: #ffffff;
-            --surface: #fafaf9;
-            --border: #e7e5e4;
-            --text-primary: #1c1917;
-            --text-secondary: #57534e;
-            --text-tertiary: #a8a29e;
-            --accent: #b45309;
-            --accent-hover: #92400e;
-            --shadow: rgba(0, 0, 0, 0.1);
-        }
-
-        [data-theme="dark"] {
-            --bg: #0c0a09;
-            --surface: #1c1917;
-            --border: #292524;
-            --text-primary: #fafaf9;
-            --text-secondary: #a8a29e;
-            --text-tertiary: #78716c;
-            --accent: #fb923c;
-            --accent-hover: #fdba74;
-            --shadow: rgba(0, 0, 0, 0.3);
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: var(--bg);
-            color: var(--text-primary);
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 2rem 1rem;
-        }
-
-        header {
-            margin-bottom: 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-
-        h1 {
-            font-size: 2rem;
-            font-weight: 600;
-        }
-
-        .theme-toggle {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            padding: 0.5rem 1rem;
-            border-radius: 0.5rem;
-            cursor: pointer;
-            color: var(--text-primary);
-        }
-
-        .controls {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 1rem;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .search-box {
-            width: 100%;
-            padding: 0.75rem 1rem;
-            border: 1px solid var(--border);
-            border-radius: 0.5rem;
-            background: var(--bg);
-            color: var(--text-primary);
-            font-size: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        .filters {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        select {
-            padding: 0.75rem;
-            border: 1px solid var(--border);
-            border-radius: 0.5rem;
-            background: var(--bg);
-            color: var(--text-primary);
-            font-size: 0.875rem;
-        }
-
-        .quick-filters {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-
-        .quick-filter {
-            padding: 0.5rem 1rem;
-            border: 1px solid var(--border);
-            border-radius: 2rem;
-            background: var(--bg);
-            color: var(--text-secondary);
-            cursor: pointer;
-            font-size: 0.875rem;
-            transition: all 0.2s;
-        }
-
-        .quick-filter.active {
-            background: var(--accent);
-            color: white;
-            border-color: var(--accent);
-        }
-
-        .stats {
-            color: var(--text-secondary);
-            font-size: 0.875rem;
-            margin-bottom: 1rem;
-        }
-
-        .restaurant-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .restaurant-card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 1rem;
-            padding: 1.5rem;
-            transition: all 0.2s;
-            cursor: pointer;
-        }
-
-        .restaurant-card:hover {
-            border-color: var(--accent);
-            box-shadow: 0 4px 12px var(--shadow);
-        }
-
-        .restaurant-name {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .badge {
-            display: inline-block;
-            padding: 0.125rem 0.5rem;
-            border-radius: 0.25rem;
-            font-size: 0.75rem;
-            font-weight: 500;
-        }
-
-        .badge-new {
-            background: #fed7aa;
-            color: #9a3412;
-        }
-
-        .restaurant-meta {
-            color: var(--text-secondary);
-            font-size: 0.875rem;
-            margin-bottom: 0.75rem;
-        }
-
-        .restaurant-highlights {
-            color: var(--text-secondary);
-            font-size: 0.875rem;
-            margin-bottom: 1rem;
-        }
-
-        .restaurant-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-
-        .tag {
-            background: var(--bg);
-            border: 1px solid var(--border);
-            padding: 0.25rem 0.5rem;
-            border-radius: 0.25rem;
-            font-size: 0.75rem;
-            color: var(--text-secondary);
-        }
-
-        .modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.7);
-            z-index: 1000;
-            overflow-y: auto;
-            padding: 2rem;
-        }
-
-        .modal.active {
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-        }
-
-        .modal-content {
-            background: var(--bg);
-            border-radius: 1rem;
-            max-width: 800px;
-            width: 100%;
-            margin: 2rem auto;
-            max-height: 90vh;
-            overflow-y: auto;
-        }
-
-        .modal-header {
-            padding: 2rem;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .modal-body {
-            padding: 2rem;
-        }
-
-        .modal-close {
-            float: right;
-            font-size: 1.5rem;
-            cursor: pointer;
-            color: var(--text-secondary);
-        }
-
-        .info-grid {
-            display: grid;
-            gap: 1.5rem;
-        }
-
-        .info-section h3 {
-            font-size: 0.875rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            color: var(--text-secondary);
-        }
-
-        .info-section p {
-            color: var(--text-primary);
-        }
-
-        a {
-            color: var(--accent);
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: var(--accent-hover);
-        }
-
-        @media (max-width: 768px) {
-            .restaurant-grid {
-                grid-template-columns: 1fr;
-            }
-            .filters {
-                grid-template-columns: 1fr;
-            }
-        }
+        [data-theme="dark"] { color-scheme: dark; }
     </style>
 </head>
-<body>
-    <div class="container">
-        <header>
-            <div>
-                <h1>Knoxville Restaurants</h1>
-                <p class="stats" id="stats">Loading...</p>
-            </div>
-            <button class="theme-toggle" onclick="toggleTheme()">Toggle Dark Mode</button>
-        </header>
+<body class="bg-stone-50 dark:bg-stone-950 min-h-screen">
+    <div class="flex flex-col h-screen">
+        <!-- Header -->
+        <div class="flex-shrink-0 bg-white border-b border-stone-200 dark:bg-stone-900 dark:border-stone-800">
+            <div class="py-5 px-4 sm:px-6">
+                <!-- Title Row -->
+                <div class="flex flex-col gap-3 mb-4 sm:flex-row sm:justify-between sm:items-end">
+                    <div>
+                        <h1 class="mb-1 text-2xl font-semibold text-stone-900 dark:text-stone-100">
+                            Knoxville Restaurants
+                        </h1>
+                        <p class="text-sm text-stone-500 dark:text-stone-400" id="stats">
+                            Loading...
+                        </p>
+                    </div>
+                    <button onclick="toggleTheme()" class="px-4 py-2 text-sm bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-700 rounded-lg hover:bg-stone-50 dark:hover:bg-stone-800 transition">
+                        Toggle Theme
+                    </button>
+                </div>
 
-        <div class="controls">
-            <input type="text" class="search-box" id="search" placeholder="Search restaurants, cuisines, descriptions...">
+                <!-- Search & Filters -->
+                <div class="flex flex-col gap-4">
+                    <div class="flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-center">
+                        <div class="relative w-full sm:max-w-md">
+                            <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                            </svg>
+                            <input
+                                type="text"
+                                id="search"
+                                placeholder="Search restaurants..."
+                                class="pr-4 pl-10 w-full h-11 text-sm bg-white rounded-full border shadow-sm transition-shadow hover:shadow-md focus:border-transparent focus:ring-2 focus:outline-none border-stone-300 dark:bg-stone-900 dark:border-stone-700 dark:focus:ring-sienna-500 focus:ring-sienna-400"
+                            />
+                        </div>
+                    </div>
 
-            <div class="filters">
-                <select id="cuisine-filter">
-                    <option value="">All Cuisines</option>
-                </select>
-                <select id="price-filter">
-                    <option value="">All Prices</option>
-                    <option value="$">$ (Under $15)</option>
-                    <option value="$$">$$ ($15-25)</option>
-                    <option value="$$$">$$$ ($25-40)</option>
-                    <option value="$$$$">$$$$ ($40+)</option>
-                </select>
-                <select id="neighborhood-filter">
-                    <option value="">All Areas</option>
-                </select>
-            </div>
+                    <div class="flex gap-3 flex-wrap justify-between items-center">
+                        <div class="flex flex-wrap gap-2">
+                            <!-- Cuisine Filter -->
+                            <select id="cuisine-filter" class="h-11 rounded-xl border px-4 text-sm font-medium bg-white dark:bg-stone-900 border-stone-300 dark:border-stone-700 hover:border-sienna-400">
+                                <option value="">All Cuisines</option>
+                            </select>
 
-            <div class="quick-filters">
-                <button class="quick-filter" id="new-filter">✨ New</button>
-                <button class="quick-filter" id="coffee-filter">☕ Coffee</button>
-                <button class="quick-filter" id="clear-filters">Clear All</button>
+                            <!-- Price Filter -->
+                            <select id="price-filter" class="h-11 rounded-xl border px-4 text-sm font-medium bg-white dark:bg-stone-900 border-stone-300 dark:border-stone-700 hover:border-sienna-400">
+                                <option value="">All Prices</option>
+                                <option value="$">$ (Under $15)</option>
+                                <option value="$$">$$ ($15-25)</option>
+                                <option value="$$$">$$$ ($25-40)</option>
+                                <option value="$$$$">$$$$ ($40+)</option>
+                            </select>
+
+                            <!-- Neighborhood Filter -->
+                            <select id="neighborhood-filter" class="h-11 rounded-xl border px-4 text-sm font-medium bg-white dark:bg-stone-900 border-stone-300 dark:border-stone-700 hover:border-sienna-400">
+                                <option value="">All Areas</option>
+                            </select>
+
+                            <!-- Groups Filter -->
+                            <select id="group-filter" class="h-11 rounded-xl border px-4 text-sm font-medium bg-white dark:bg-stone-900 border-stone-300 dark:border-stone-700 hover:border-sienna-400">
+                                <option value="">All Groups</option>
+                            </select>
+                        </div>
+
+                        <div class="flex gap-2 items-center">
+                            <button id="new-filter" onclick="toggleFilter('new')" class="inline-flex h-11 items-center gap-2 rounded-full border px-4 text-sm font-medium transition bg-white dark:bg-stone-900 text-stone-700 dark:text-stone-300 border-stone-300 dark:border-stone-700">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                New
+                            </button>
+                            <button id="coffee-filter" onclick="toggleFilter('coffee')" class="inline-flex h-11 items-center gap-2 rounded-full border px-4 text-sm font-medium transition bg-white dark:bg-stone-900 text-stone-700 dark:text-stone-300 border-stone-300 dark:border-stone-700">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z"/></svg>
+                            </button>
+                            <button id="clear-filters" onclick="clearFilters()" class="text-sm text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 underline underline-offset-4 hidden">
+                                Clear
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="restaurant-grid" id="restaurants"></div>
+        <!-- Restaurant Grid -->
+        <div class="overflow-y-auto flex-1 p-6 min-h-0 bg-white dark:bg-stone-900">
+            <div id="loading" class="flex justify-center items-center h-96">
+                <svg class="animate-spin w-8 h-8 text-sienna-500" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+            </div>
+            <div id="no-results" class="hidden flex-col justify-center items-center h-96 text-stone-500">
+                <svg class="mb-3 w-10 h-10 text-stone-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+                <p class="text-sm">No restaurants found</p>
+            </div>
+            <div id="restaurants" class="hidden grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"></div>
+        </div>
     </div>
 
-    <div class="modal" id="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <span class="modal-close" onclick="closeModal()">&times;</span>
-                <h2 id="modal-name"></h2>
-                <p id="modal-meta" class="restaurant-meta"></p>
+    <!-- Modal -->
+    <div id="modal" class="hidden fixed inset-0 bg-black/70 z-50 overflow-y-auto p-4 sm:p-8" onclick="if(event.target===this) closeModal()">
+        <div class="bg-white dark:bg-stone-900 rounded-2xl max-w-4xl mx-auto my-8">
+            <div class="px-6 pt-6 pb-4 border-b border-stone-200 dark:border-stone-800">
+                <div class="flex justify-between items-start">
+                    <div class="flex-1">
+                        <h2 id="modal-name" class="text-3xl font-light text-stone-900 dark:text-stone-100 mb-2"></h2>
+                        <p id="modal-meta" class="text-sm text-stone-600 dark:text-stone-400"></p>
+                    </div>
+                    <button onclick="closeModal()" class="text-stone-400 hover:text-stone-600 dark:hover:text-stone-200">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="modal-body" id="modal-body"></div>
+            <div id="modal-body" class="p-6 max-h-[70vh] overflow-y-auto"></div>
         </div>
     </div>
 
@@ -344,26 +161,29 @@
             allRestaurants = RESTAURANTS || [];
             populateFilters();
             filterRestaurants();
+            setupEventListeners();
 
-            // Event listeners
+            // Load theme
+            if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark');
+            }
+        });
+
+        function setupEventListeners() {
             document.getElementById('search').addEventListener('input', filterRestaurants);
             document.getElementById('cuisine-filter').addEventListener('change', filterRestaurants);
             document.getElementById('price-filter').addEventListener('change', filterRestaurants);
             document.getElementById('neighborhood-filter').addEventListener('change', filterRestaurants);
-            document.getElementById('new-filter').addEventListener('click', () => toggleQuickFilter('new'));
-            document.getElementById('coffee-filter').addEventListener('click', () => toggleQuickFilter('coffee'));
-            document.getElementById('clear-filters').addEventListener('click', clearAllFilters);
-
-            // Load theme
-            if (localStorage.getItem('theme') === 'dark') {
-                document.documentElement.setAttribute('data-theme', 'dark');
-            }
-        });
+            document.getElementById('group-filter').addEventListener('change', filterRestaurants);
+        }
 
         function populateFilters() {
             const cuisines = [...new Set(allRestaurants.map(r => r.cuisine_type))].sort();
             const neighborhoods = [...new Set(
-                allRestaurants.flatMap(r => (r.tags || []).filter(t => t.includes('_') && !t.includes('group_') && !t.includes('chef_')))
+                allRestaurants.flatMap(r => (r.tags || []).filter(t => t.includes('_') && !t.startsWith('group_') && !t.startsWith('chef_') && !t.includes('dining') && !t.includes('night')))
+            )].sort();
+            const groups = [...new Set(
+                allRestaurants.flatMap(r => (r.tags || []).filter(t => t.startsWith('group_') || t.startsWith('chef_')))
             )].sort();
 
             const cuisineFilter = document.getElementById('cuisine-filter');
@@ -381,21 +201,44 @@
                 opt.textContent = n.replace(/_/g, ' ');
                 neighborhoodFilter.appendChild(opt);
             });
+
+            const groupFilter = document.getElementById('group-filter');
+            groups.forEach(g => {
+                const opt = document.createElement('option');
+                opt.value = g;
+                opt.textContent = formatGroupName(g);
+                groupFilter.appendChild(opt);
+            });
         }
 
-        function toggleQuickFilter(type) {
+        function formatGroupName(tag) {
+            const cleaned = tag.replace(/^(group_|chef_)/, '');
+            const formatted = cleaned.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+            return tag.startsWith('chef_') ? `Chef: ${formatted}` : formatted;
+        }
+
+        function toggleFilter(type) {
             const btn = document.getElementById(type + '-filter');
-            btn.classList.toggle('active');
+            btn.classList.toggle('bg-orange-500', type === 'new');
+            btn.classList.toggle('text-white', type === 'new');
+            btn.classList.toggle('border-orange-500', type === 'new');
+            btn.classList.toggle('bg-amber-700', type === 'coffee');
+            btn.classList.toggle('border-amber-700', type === 'coffee');
+            btn.dataset.active = btn.dataset.active === 'true' ? 'false' : 'true';
             filterRestaurants();
         }
 
-        function clearAllFilters() {
+        function clearFilters() {
             document.getElementById('search').value = '';
             document.getElementById('cuisine-filter').value = '';
             document.getElementById('price-filter').value = '';
             document.getElementById('neighborhood-filter').value = '';
-            document.getElementById('new-filter').classList.remove('active');
-            document.getElementById('coffee-filter').classList.remove('active');
+            document.getElementById('group-filter').value = '';
+            ['new', 'coffee'].forEach(type => {
+                const btn = document.getElementById(type + '-filter');
+                btn.dataset.active = 'false';
+                btn.classList.remove('bg-orange-500', 'text-white', 'border-orange-500', 'bg-amber-700', 'border-amber-700');
+            });
             filterRestaurants();
         }
 
@@ -404,114 +247,138 @@
             const cuisine = document.getElementById('cuisine-filter').value;
             const price = document.getElementById('price-filter').value;
             const neighborhood = document.getElementById('neighborhood-filter').value;
-            const showNew = document.getElementById('new-filter').classList.contains('active');
-            const showCoffee = document.getElementById('coffee-filter').classList.contains('active');
+            const group = document.getElementById('group-filter').value;
+            const showNew = document.getElementById('new-filter').dataset.active === 'true';
+            const showCoffee = document.getElementById('coffee-filter').dataset.active === 'true';
 
             filteredRestaurants = allRestaurants.filter(r => {
                 if (search && !matchesSearch(r, search)) return false;
                 if (cuisine && r.cuisine_type !== cuisine) return false;
                 if (price && r.price_range !== price) return false;
                 if (neighborhood && !(r.tags || []).includes(neighborhood)) return false;
+                if (group && !(r.tags || []).includes(group)) return false;
                 if (showNew && !isNewRestaurant(r)) return false;
                 if (showCoffee && !r.cuisine_type.toLowerCase().includes('coffee') && !r.cuisine_type.toLowerCase().includes('cafe')) return false;
                 return true;
             });
 
             renderRestaurants();
+
+            // Show/hide clear button
+            const hasFilters = search || cuisine || price || neighborhood || group || showNew || showCoffee;
+            document.getElementById('clear-filters').classList.toggle('hidden', !hasFilters);
         }
 
-        function matchesSearch(restaurant, search) {
-            return restaurant.name.toLowerCase().includes(search) ||
-                   restaurant.cuisine_type.toLowerCase().includes(search) ||
-                   (restaurant.description || '').toLowerCase().includes(search) ||
-                   (restaurant.highlights || '').toLowerCase().includes(search) ||
-                   (restaurant.tags || []).some(t => t.toLowerCase().includes(search));
+        function matchesSearch(r, search) {
+            return r.name.toLowerCase().includes(search) ||
+                   r.cuisine_type.toLowerCase().includes(search) ||
+                   (r.description || '').toLowerCase().includes(search) ||
+                   (r.highlights || '').toLowerCase().includes(search) ||
+                   (r.tags || []).some(t => t.toLowerCase().includes(search));
         }
 
-        function isNewRestaurant(restaurant) {
-            if (!restaurant.opening_date) return false;
-            const openingDate = new Date(restaurant.opening_date);
+        function isNewRestaurant(r) {
+            if (!r.opening_date) return false;
+            const openingDate = new Date(r.opening_date);
             const threeMonthsAgo = new Date();
             threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
             return openingDate > threeMonthsAgo;
         }
 
         function renderRestaurants() {
-            const container = document.getElementById('restaurants');
-            const stats = document.getElementById('stats');
+            document.getElementById('stats').textContent = `${filteredRestaurants.length} restaurant${filteredRestaurants.length !== 1 ? 's' : ''}`;
 
-            stats.textContent = `${filteredRestaurants.length} restaurant${filteredRestaurants.length !== 1 ? 's' : ''}`;
+            const loading = document.getElementById('loading');
+            const noResults = document.getElementById('no-results');
+            const container = document.getElementById('restaurants');
+
+            loading.classList.add('hidden');
+
+            if (filteredRestaurants.length === 0) {
+                noResults.classList.remove('hidden');
+                noResults.classList.add('flex');
+                container.classList.add('hidden');
+                return;
+            }
+
+            noResults.classList.add('hidden');
+            container.classList.remove('hidden');
 
             container.innerHTML = filteredRestaurants.map(r => `
-                <div class="restaurant-card" onclick='showRestaurant(${JSON.stringify(r)})'>
-                    <div class="restaurant-name">
-                        ${r.name}
-                        ${isNewRestaurant(r) ? '<span class="badge badge-new">New</span>' : ''}
-                    </div>
-                    <div class="restaurant-meta">
-                        ${r.cuisine_type} · ${r.price_range}
-                        ${r.average_rating ? ` · ${r.average_rating}/10` : ''}
-                    </div>
-                    ${r.highlights ? `<div class="restaurant-highlights">${r.highlights}</div>` : ''}
-                    ${(r.tags || []).length > 0 ? `
-                        <div class="restaurant-tags">
-                            ${(r.tags || []).slice(0, 3).map(t => `<span class="tag">${t.replace(/_/g, ' ')}</span>`).join('')}
+                <div onclick='showRestaurant(${JSON.stringify(r).replace(/'/g, "\\'")})'
+                     class="p-4 bg-white rounded-2xl border shadow-sm transition cursor-pointer hover:shadow-md border-stone-200 dark:border-stone-800 dark:bg-stone-900">
+                    <div class="flex gap-3 justify-between items-start">
+                        <div class="flex-1 min-w-0">
+                            <div class="flex gap-2 items-center">
+                                <span class="text-lg font-semibold text-stone-900 dark:text-stone-100">
+                                    ${r.name}
+                                </span>
+                                ${isNewRestaurant(r) ? '<span class="px-2 py-0.5 text-xs font-medium bg-orange-200 text-orange-900 rounded">New</span>' : ''}
+                            </div>
+                            <div class="flex flex-wrap gap-y-1 gap-x-2 items-center mt-1 text-sm text-stone-500 dark:text-stone-400">
+                                <span>${r.cuisine_type}</span>
+                                <span class="text-stone-300 dark:text-stone-700">•</span>
+                                <span class="truncate">${r.address.split(',').slice(0, 2).join(',')}</span>
+                            </div>
+                            ${r.highlights ? `<p class="mt-2 text-sm text-stone-600 dark:text-stone-300">${r.highlights}</p>` : ''}
                         </div>
-                    ` : ''}
+                        <div class="flex flex-col gap-2 items-end">
+                            ${r.average_rating ? `<span class="text-sm font-medium text-stone-700 dark:text-stone-300">${r.average_rating.toFixed(1)}/10</span>` : ''}
+                            <span class="px-2 py-0.5 text-xs font-mono bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 rounded">${r.price_range}</span>
+                        </div>
+                    </div>
                 </div>
             `).join('');
         }
 
-        function showRestaurant(restaurant) {
-            document.getElementById('modal-name').textContent = restaurant.name;
-            document.getElementById('modal-meta').textContent = `${restaurant.cuisine_type} · ${restaurant.price_range}`;
+        function showRestaurant(r) {
+            document.getElementById('modal-name').textContent = r.name;
+            document.getElementById('modal-meta').textContent = `${r.cuisine_type} · ${r.price_range}${r.average_rating ? ` · ${r.average_rating.toFixed(1)}/10` : ''}`;
 
             document.getElementById('modal-body').innerHTML = `
-                <div class="info-grid">
-                    <div class="info-section">
-                        <h3>Address</h3>
-                        <p>${restaurant.address}</p>
-                        ${restaurant.phone ? `<p><a href="tel:${restaurant.phone}">${restaurant.phone}</a></p>` : ''}
-                        ${restaurant.website ? `<p><a href="${restaurant.website}" target="_blank">Website →</a></p>` : ''}
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-sm font-semibold text-stone-900 dark:text-stone-100 mb-2">Address</h3>
+                        <p class="text-stone-700 dark:text-stone-300">${r.address}</p>
+                        ${r.phone ? `<p class="mt-1"><a href="tel:${r.phone}" class="text-sienna-600 dark:text-sienna-400 hover:underline">${r.phone}</a></p>` : ''}
+                        ${r.website ? `<p class="mt-1"><a href="${r.website}" target="_blank" class="text-sienna-600 dark:text-sienna-400 hover:underline">Website →</a></p>` : ''}
                     </div>
-                    ${restaurant.description ? `
-                        <div class="info-section">
-                            <h3>Description</h3>
-                            <p>${restaurant.description}</p>
+                    ${r.description ? `
+                        <div>
+                            <h3 class="text-sm font-semibold text-stone-900 dark:text-stone-100 mb-2">Description</h3>
+                            <p class="text-stone-700 dark:text-stone-300">${r.description}</p>
                         </div>
                     ` : ''}
-                    ${restaurant.atmosphere ? `
-                        <div class="info-section">
-                            <h3>Atmosphere</h3>
-                            <p>${restaurant.atmosphere}</p>
+                    ${r.atmosphere ? `
+                        <div>
+                            <h3 class="text-sm font-semibold text-stone-900 dark:text-stone-100 mb-2">Atmosphere</h3>
+                            <p class="text-stone-700 dark:text-stone-300">${r.atmosphere}</p>
                         </div>
                     ` : ''}
-                    ${restaurant.special_features ? `
-                        <div class="info-section">
-                            <h3>Special Features</h3>
-                            <p>${restaurant.special_features}</p>
+                    ${r.special_features ? `
+                        <div>
+                            <h3 class="text-sm font-semibold text-stone-900 dark:text-stone-100 mb-2">Special Features</h3>
+                            <p class="text-stone-700 dark:text-stone-300">${r.special_features}</p>
                         </div>
                     ` : ''}
                 </div>
             `;
 
-            document.getElementById('modal').classList.add('active');
+            document.getElementById('modal').classList.remove('hidden');
         }
 
         function closeModal() {
-            document.getElementById('modal').classList.remove('active');
+            document.getElementById('modal').classList.add('hidden');
         }
 
         function toggleTheme() {
-            const currentTheme = document.documentElement.getAttribute('data-theme');
-            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-            document.documentElement.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
+            document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
         }
 
-        // Close modal on background click
-        document.getElementById('modal').addEventListener('click', (e) => {
-            if (e.target.id === 'modal') closeModal();
+        // Escape key closes modal
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
         });
     </script>
 </body>
