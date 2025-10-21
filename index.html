@@ -1347,8 +1347,8 @@
             // Build metadata line with scores
             let meta = r.cuisine_type + ' · ' + r.price_range;
             if (r.average_rating) meta += ' · ' + r.average_rating.toFixed(1) + '/10 avg';
-            if (r.date_night_score) meta += ' · ❤️ ' + r.date_night_score.toFixed(1) + ' date night';
-            if (r.atmosphere_score) meta += ' · ✨ ' + r.atmosphere_score.toFixed(1) + ' atmosphere';
+            if (r.date_night_score) meta += ' · ' + r.date_night_score.toFixed(1) + ' date night';
+            if (r.atmosphere_score) meta += ' · ' + r.atmosphere_score.toFixed(1) + ' atmosphere';
             document.getElementById('modal-meta').textContent = meta;
 
             // Two-column layout
