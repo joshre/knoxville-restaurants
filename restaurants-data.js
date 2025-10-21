@@ -44,7 +44,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free parking lot on-site at Baker Creek Preserve. Additional parking available along Sevier Heights Road.",
     "created_at": "2025-09-30T22:55:28.753796Z",
-    "updated_at": "2025-10-21T17:41:03.236322Z"
+    "updated_at": "2025-10-21T17:57:53.785602Z"
   },
   {
     "id": "40a05aa9-7ec0-4c4e-b389-3d7dd8177f1b",
@@ -60,29 +60,20 @@ const RESTAURANTS = [
     "hours": "{\"mon\": \"5pm-9:30pm\", \"tue\": \"5pm-9:30pm\", \"wed\": \"5pm-9:30pm\", \"thu\": \"5pm-9:30pm\", \"fri\": \"5pm-10pm\", \"sat\": \"5pm-10pm\", \"sun\": \"5pm-9:30pm\"}",
     "description": "Brian and Jessica Strutz opened this wood-fired pizzeria in 2016, earning national recognition from Food & Wine and Bon Appétit, plus USA Today's 2025 Restaurants of the Year—the only pizzeria on the list.\n\nThe menu features eight carefully balanced pizzas (four red sauce, four white) with four vegetarian options, all made with naturally-leavened sourdough crust baked in a custom wood-fired oven. Italian wines on tap and house-made gelato (including espresso from neighboring Remedy Coffee) complement the focused menu. Custom white oak tables from Fork Design and preserved paint splatters on original floors reflect the Strutzes' commitment to local craftsmanship and downtown Knoxville's creative community.",
     "atmosphere": "Intimate 40-seat space with communal and individual seating, marble dough station, concrete countertops, and artisan woodwork showcasing local craftsmanship.",
-    "special_features": "USA Today 2025 Restaurant of the Year (sole pizzeria on list). Owner Brian Strutz is Blackberry Farm alumnus who lived in Italy for a year. Uses naturally leavened sourdough starter kept alive for years. Staff pulls fresh mozzarella daily from curds. Featured in Food & Wine and Bon Appétit. Dinner-only service. Online ordering available through Toast.",
+    "special_features": "USA Today 2025 Restaurant of the Year (sole pizzeria on list). Owner Brian Strutz is Blackberry Farm alumnus who lived in Italy for a year. Uses naturally leavened sourdough starter kept alive for years. Staff pulls fresh mozzarella daily from curds. Featured in Food & Wine and Bon Appétit. Dinner-only service. Signature truffle pie features 15-inch naturally leavened pizza topped with aged mozzarella, white truffle oil, speck ham, mushrooms, chives and finished with fig jam. House-made gelato in small batches. Online ordering available through Toast.",
     "opening_date": "2016-10-06T00:00:00Z",
     "last_visited": "2024-01-26T12:00:00Z",
     "visit_count": 4,
     "average_rating": 9.0,
     "tags": [
       "pizza",
-      "sourdough",
-      "neapolitan",
-      "wood-fired",
       "italian",
-      "dinner-only",
-      "date-night",
-      "award-winning",
-      "reservations-required",
-      "gelato",
-      "craft-beer",
-      "wine",
-      "seasonal",
-      "local-ingredients",
       "downtown",
-      "usa-today",
-      "artisanal"
+      "new_city",
+      "date_night",
+      "award_winning",
+      "sourdough",
+      "gelato"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -97,7 +88,7 @@ const RESTAURANTS = [
     "menu_cached_at": "2025-10-03T15:44:41Z",
     "parking_info": "Street parking on Williams St (metered during business hours, free evenings and weekends). Nearby downtown parking garages: Locust Street Garage and State Street Garage (free nights and weekends).",
     "created_at": "2025-09-30T22:55:28.753519Z",
-    "updated_at": "2025-10-21T17:41:03.236347Z"
+    "updated_at": "2025-10-21T17:57:53.785634Z"
   },
   {
     "id": "f6025477-f89d-47c1-bb1b-3edddb4b3537",
@@ -142,8 +133,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.toasttab.com/local/order/abridged-brewpub/r-bbcb9b1c-215c-422a-ab62-27bbcfe498df\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:49:58Z",
     "parking_info": "Free parking lot on-site. Additional parking available at adjacent church lot (watch for restriction signs). Street parking on Lockett Rd.",
-    "created_at": "2025-10-21T17:41:03.236352Z",
-    "updated_at": "2025-10-21T17:41:03.236352Z"
+    "created_at": "2025-10-21T17:57:53.785640Z",
+    "updated_at": "2025-10-21T17:57:53.785640Z"
   },
   {
     "id": "5b5262e1-b38a-4ddb-8e96-a04a007320aa",
@@ -189,8 +180,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.abridgedbeer.com/hqfood\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-01T20:38:26Z",
     "parking_info": "Free parking lot on-site in Cedar Bluff retail complex at 320 N Peters Rd.",
-    "created_at": "2025-10-21T17:41:03.236355Z",
-    "updated_at": "2025-10-21T17:41:03.236355Z"
+    "created_at": "2025-10-21T17:57:53.785645Z",
+    "updated_at": "2025-10-21T17:57:53.785646Z"
   },
   {
     "id": "68c0d8cb-54f0-4ccb-befc-2f581f854a75",
@@ -228,8 +219,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://acapulcorestaurantknoxville.com/knoxville-acapulco-mexican-restaurant-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-01T20:26:22Z",
     "parking_info": "Free parking lot on-site along Chapman Highway retail corridor.",
-    "created_at": "2025-10-21T17:41:03.236361Z",
-    "updated_at": "2025-10-21T17:41:03.236361Z"
+    "created_at": "2025-10-21T17:57:53.785649Z",
+    "updated_at": "2025-10-21T17:57:53.785649Z"
   },
   {
     "id": "8964c8ed-9bd0-4931-8874-afc7852ecd56",
@@ -268,8 +259,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://theadmiralpubfarragut.com/drinks-and-food-menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-01T22:46:40Z",
     "parking_info": "Free parking lot on-site at Brooklawn St location in Farragut Town Center. Additional parking available in surrounding retail center.",
-    "created_at": "2025-10-21T17:41:03.236364Z",
-    "updated_at": "2025-10-21T17:41:03.236364Z"
+    "created_at": "2025-10-21T17:57:53.785652Z",
+    "updated_at": "2025-10-21T17:57:53.785652Z"
   },
   {
     "id": "80a61cfb-c253-48bf-bdee-86a06fe17d2d",
@@ -308,8 +299,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.aladdingrill.com/av2r4s90/aladdin-grill-and-pizza-knoxville-37916/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Cumberland Ave ($1.50/hr metered, enforced 8am-6pm Mon-Sat). Nearby UT garages: Vol Hall Garage at 1545 White Ave and White Avenue Garage (G12). Over 1,000 hourly mobile pay spaces available across campus.",
-    "created_at": "2025-10-21T17:41:03.236368Z",
-    "updated_at": "2025-10-21T17:41:03.236369Z"
+    "created_at": "2025-10-21T17:57:53.785655Z",
+    "updated_at": "2025-10-21T17:57:53.785655Z"
   },
   {
     "id": "d58a88b7-30a9-4764-bf3a-be622a0c8303",
@@ -356,8 +347,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"hasMenu\":true,\"menuLocation\":\"Found 4 menus via common patterns\",\"navigationPath\":[\"Menu: https://www.aleraes.live/menu\",\"Menu: https://www.aleraes.live/cocktails\",\"Menu: https://www.aleraes.live/#menu\",\"Menu: https://www.aleraes.live/#menus\"],\"menuTypes\":[\"Menu\"],\"alternativeAccess\":\"Direct URLs: https://www.aleraes.live/menu, https://www.aleraes.live/cocktails, https://www.aleraes.live/#menu, https://www.aleraes.live/#menus\",\"confidence\":\"medium\"}",
     "menu_cached_at": "2025-10-03T15:58:56Z",
     "parking_info": "Street parking on N Broadway and surrounding neighborhood streets. Free on-street parking available in Fourth and Gill historic district.",
-    "created_at": "2025-10-21T17:41:03.236376Z",
-    "updated_at": "2025-10-21T17:41:03.236376Z"
+    "created_at": "2025-10-21T17:57:53.785660Z",
+    "updated_at": "2025-10-21T17:57:53.785660Z"
   },
   {
     "id": "a4135188-092c-4d80-8d1c-29f7784046ed",
@@ -397,8 +388,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://scruffycity.com/alice-in-appalachia-menu-page/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"Cocktails approximately $12, brunch $30-50 per person. Price range verified as $$.\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage adjacent to venue (free weeknights after 6pm, free Sundays, $3 flat rate Saturdays). All city garages (Market Square, State Street, Locust Street) offer $1/hour weekdays 7am-7pm ($7 max/day), free weeknights after 6pm, free all weekend. Street parking available on Market Square (metered).",
-    "created_at": "2025-10-21T17:41:03.236379Z",
-    "updated_at": "2025-10-21T17:41:03.236379Z"
+    "created_at": "2025-10-21T17:57:53.785663Z",
+    "updated_at": "2025-10-21T17:57:53.785663Z"
   },
   {
     "id": "fd6a2a41-df2d-4cf1-82d8-aa002171973b",
@@ -445,8 +436,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://alliancebrewing.com/on-tap/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"Taproom with rotating beer list, 10 taps typically available, pint prices not published online but typical craft brewery range $6-8\"}",
     "menu_cached_at": null,
     "parking_info": "Free street parking available along Sevier Ave. Small on-site parking lot at brewery. Additional parking available under James White Parkway (gravel lot 1 block away). Parking generally not an issue in South Knoxville area.",
-    "created_at": "2025-10-21T17:41:03.236384Z",
-    "updated_at": "2025-10-21T17:41:03.236384Z"
+    "created_at": "2025-10-21T17:57:53.785667Z",
+    "updated_at": "2025-10-21T17:57:53.785667Z"
   },
   {
     "id": "1aac31bb-26ae-4bb7-adf1-e01b37314cae",
@@ -486,8 +477,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-21T17:41:03.236386Z",
-    "updated_at": "2025-10-21T17:41:03.236386Z"
+    "created_at": "2025-10-21T17:57:53.785669Z",
+    "updated_at": "2025-10-21T17:57:53.785670Z"
   },
   {
     "id": "dfc7af43-dbc8-4400-a9f7-76f9e63627a6",
@@ -528,8 +519,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://order.toasttab.com/online/amici-1420-e-broadway-ave-maryville-tn-37804\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\", \"sample_prices\": {\"pizzas\": \"$14-17\", \"pastas\": \"$16-18\", \"appetizers\": \"$5-12\"}}",
     "menu_cached_at": null,
     "parking_info": "On-site parking available at restaurant. Additional street parking on E Broadway Ave (limited). Broadway Avenue Municipal Parking Garage available nearby in downtown Maryville. Located at Five Points roundabout with easy access.",
-    "created_at": "2025-10-21T17:41:03.236390Z",
-    "updated_at": "2025-10-21T17:41:03.236390Z"
+    "created_at": "2025-10-21T17:57:53.785673Z",
+    "updated_at": "2025-10-21T17:57:53.785673Z"
   },
   {
     "id": "5c8a4fd5-efc7-49d0-8f8b-21f3e39e0dce",
@@ -569,8 +560,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.anabajapanese.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"sample_prices\": {\"ramen\": \"$8-17\", \"sushi_rolls\": \"$12-20\", \"sashimi_9pc\": \"$25\", \"sashimi_15pc\": \"$37\", \"nigiri_combos\": \"$23-35\", \"chicken_bowl\": \"$12\", \"udon\": \"$8-11\"}}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at Northshore Town Center shopping plaza. Restaurant located in strip mall at 9405 S Northshore Dr with ample parking directly in front. Adjacent to other retail shops in the development. Street parking also available on S Northshore Dr.",
-    "created_at": "2025-10-21T17:41:03.236393Z",
-    "updated_at": "2025-10-21T17:41:03.236393Z"
+    "created_at": "2025-10-21T17:57:53.785676Z",
+    "updated_at": "2025-10-21T17:57:53.785676Z"
   },
   {
     "id": "d418064d-f623-4604-b55c-8ea50116be7e",
@@ -610,8 +601,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ancientlorevillage.com/events/sunday-brunch/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site private parking available in resort lot. Easy vehicle access approximately 15 minutes southeast of downtown Knoxville on Sevierville Pike.",
-    "created_at": "2025-10-21T17:41:03.236396Z",
-    "updated_at": "2025-10-21T17:41:03.236397Z"
+    "created_at": "2025-10-21T17:57:53.785679Z",
+    "updated_at": "2025-10-21T17:57:53.785679Z"
   },
   {
     "id": "2751b70b-6ac9-4fe4-b45c-080a3748536b",
@@ -649,8 +640,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://order.toasttab.com/online/angry-dumpling-and-sweet-tea-1119-sevier-avenue-suite-a\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking available in front of building at 1119 Sevier Ave. Additional street parking on Sevier Avenue (metered).",
-    "created_at": "2025-10-21T17:41:03.236399Z",
-    "updated_at": "2025-10-21T17:41:03.236399Z"
+    "created_at": "2025-10-21T17:57:53.785683Z",
+    "updated_at": "2025-10-21T17:57:53.785683Z"
   },
   {
     "id": "0cf6eb37-4edf-494f-b6a5-6cb869ee89d6",
@@ -688,8 +679,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.apnakitchenrestaurant.com/pdf/menu.pdf\", \"type\": \"pdf\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at commercial retail property (3,072 sq ft building built 1972). On-site parking available directly in front of restaurant.",
-    "created_at": "2025-10-21T17:41:03.236402Z",
-    "updated_at": "2025-10-21T17:41:03.236402Z"
+    "created_at": "2025-10-21T17:57:53.785685Z",
+    "updated_at": "2025-10-21T17:57:53.785685Z"
   },
   {
     "id": "6f7ffbd6-8672-4fa6-ba90-bd4f8b8e0c26",
@@ -728,8 +719,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"type\": \"reviews\", \"verified_date\": \"2025-10-01\", \"notes\": \"Menu prices found in reviews: Tea Room Medley $9.15, sandwiches $9-12 range, entrees under $15\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot on-site at Station West Drive shopping center. Additional parking available at Park & Ride-Farragut (224 meters away).",
-    "created_at": "2025-10-21T17:41:03.236407Z",
-    "updated_at": "2025-10-21T17:41:03.236407Z"
+    "created_at": "2025-10-21T17:57:53.785687Z",
+    "updated_at": "2025-10-21T17:57:53.785687Z"
   },
   {
     "id": "133868d8-b611-464f-ba2c-44157aa0cdf7",
@@ -767,8 +758,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://aroma-indian-kitchen.res-menu.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot with wheelchair accessible spaces available at restaurant location on N Cedar Bluff Rd.",
-    "created_at": "2025-10-21T17:41:03.236411Z",
-    "updated_at": "2025-10-21T17:41:03.236411Z"
+    "created_at": "2025-10-21T17:57:53.785692Z",
+    "updated_at": "2025-10-21T17:57:53.785692Z"
   },
   {
     "id": "b0d25c1a-eaa8-4002-9307-5546ba80cfc6",
@@ -809,8 +800,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking available on Kingston Pike. Located near Bearden Shopping Center at 5941 Kingston Pike with additional parking options. Bearden Banquet Hall parking nearby at 5806 Kingston Pike.",
-    "created_at": "2025-10-21T17:41:03.236414Z",
-    "updated_at": "2025-10-21T17:41:03.236414Z"
+    "created_at": "2025-10-21T17:57:53.785696Z",
+    "updated_at": "2025-10-21T17:57:53.785696Z"
   },
   {
     "id": "f685a1a9-a749-4c6c-9a75-516caa5681d0",
@@ -853,8 +844,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.myasiakitchentn.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot in strip mall location with easy access",
-    "created_at": "2025-10-21T17:41:03.236417Z",
-    "updated_at": "2025-10-21T17:41:03.236417Z"
+    "created_at": "2025-10-21T17:57:53.785699Z",
+    "updated_at": "2025-10-21T17:57:53.785699Z"
   },
   {
     "id": "1abb8019-0367-4a6d-8152-0503bc0567de",
@@ -902,8 +893,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://aubreysrestaurants.com/papermill/food/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:03:09Z",
     "parking_info": "On-site parking lot available at restaurant. Additional parking at Brookview Parking Garage located 0.14 miles away.",
-    "created_at": "2025-10-21T17:41:03.236420Z",
-    "updated_at": "2025-10-21T17:41:03.236420Z"
+    "created_at": "2025-10-21T17:57:53.785702Z",
+    "updated_at": "2025-10-21T17:57:53.785702Z"
   },
   {
     "id": "baad2c82-4f58-4cd1-ab7e-77cc325d7560",
@@ -950,8 +941,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/store/awaken-coffee-w-jackson-ave/zPMfDgIoVNSBs0bJZN3CiA\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking at lot beside Barley's on East Jackson; City of Knoxville lot at end of depot (free nights/weekends, GPS: 410 W. Jackson Ave); Jackson Ave Lot, I-40 Lot West, I-40 Lot East (all free nights/weekends)",
-    "created_at": "2025-10-21T17:41:03.236425Z",
-    "updated_at": "2025-10-21T17:41:03.236425Z"
+    "created_at": "2025-10-21T17:57:53.785708Z",
+    "updated_at": "2025-10-21T17:57:53.785708Z"
   },
   {
     "id": "d7e639f8-cdd5-460b-9e75-b12065a08376",
@@ -990,7 +981,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot available. Nearby options: Jackson Ave Lot (8 min walk), Langley Garage (9 min walk), Market Square Garage (10 min walk, $3 Saturdays, free Sundays). Downtown garages free weeknights after 6pm and all weekend.",
     "created_at": "2025-09-30T22:55:28.753664Z",
-    "updated_at": "2025-10-21T17:41:03.236427Z"
+    "updated_at": "2025-10-21T17:57:53.785711Z"
   },
   {
     "id": "467fa96d-1286-42b4-8423-8369f5d0585a",
@@ -1031,8 +1022,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://barleysknoxville.com/food/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"Menu available as PDF on website. Appetizers $5-8, entrees estimated $10-18 based on reviews indicating moderate pricing ($$).\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Jackson Avenue (metered, $1.50/hr, 2hr max). Jackson Avenue Lot adjacent to restaurant. Municipal garages downtown $1/hr weekdays. Free parking weeknights after 6pm and all weekend in city garages. Multiple free 24/7 lots within walking distance in Old City area.",
-    "created_at": "2025-10-21T17:41:03.236429Z",
-    "updated_at": "2025-10-21T17:41:03.236430Z"
+    "created_at": "2025-10-21T17:57:53.785714Z",
+    "updated_at": "2025-10-21T17:57:53.785714Z"
   },
   {
     "id": "fa736695-1deb-458a-a5c6-c610f29f3c03",
@@ -1077,8 +1068,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://bellamaryville.com/maryville-downtown-maryville-bella-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:08:51Z",
     "parking_info": "Broadway Avenue Municipal Parking Garage adjacent to restaurant (3 levels, entrances from Church Ave and Broadway Ave). Downtown Maryville has 1,000+ city-owned parking spaces. Street parking on Broadway Ave (no meters, free). Restaurant located at high point of Broadway with easy walking access.",
-    "created_at": "2025-10-21T17:41:03.236432Z",
-    "updated_at": "2025-10-21T17:41:03.236432Z"
+    "created_at": "2025-10-21T17:57:53.785718Z",
+    "updated_at": "2025-10-21T17:57:53.785718Z"
   },
   {
     "id": "b0f6f714-35cf-4d6d-9496-53ea1707ce8e",
@@ -1122,8 +1113,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://scruffycity.com/bernadettes-menu-page/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"Cocktails ~$12, food menu limited availability online\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage (closest - 151 steps/3.4 min walk), Langley Garage (254 steps/5.8 min walk), State Street Garage (335 steps/7.6 min walk)",
-    "created_at": "2025-10-21T17:41:03.236435Z",
-    "updated_at": "2025-10-21T17:41:03.236435Z"
+    "created_at": "2025-10-21T17:57:53.785721Z",
+    "updated_at": "2025-10-21T17:57:53.785722Z"
   },
   {
     "id": "b9d67442-fe39-4bb6-99c8-e68a56efd553",
@@ -1162,8 +1153,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.zmenu.com/bida-saigon-knoxville-2-online-menu/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at The Plaza shopping center (8078 Kingston Pike). Ample shared parking for all tenants in the retail plaza. Easy access from Kingston Pike with high visibility location. No metered parking or garages required.",
-    "created_at": "2025-10-21T17:41:03.236437Z",
-    "updated_at": "2025-10-21T17:41:03.236437Z"
+    "created_at": "2025-10-21T17:57:53.785724Z",
+    "updated_at": "2025-10-21T17:57:53.785724Z"
   },
   {
     "id": "b9649329-3ced-45b3-a96d-0449efcdaf79",
@@ -1204,8 +1195,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.thebistroatthebijou.com/bistro-menu.pdf\", \"type\": \"pdf\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage at 406 Walnut St 3 blocks away ($1/hr weekdays, $7 max; $3 flat Sat; free Sun). Paid parking around Bijou Theatre and public spaces on Gay St. Free parking at James White Fort and downtown garages after 6pm weeknights. Street parking metered with time restrictions.",
-    "created_at": "2025-10-21T17:41:03.236441Z",
-    "updated_at": "2025-10-21T17:41:03.236441Z"
+    "created_at": "2025-10-21T17:57:53.785727Z",
+    "updated_at": "2025-10-21T17:57:53.785727Z"
   },
   {
     "id": "89c9075d-0156-40df-9154-c2517edc6f7a",
@@ -1245,7 +1236,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "On-site parking available at restaurant location. Additional street parking on Homberg Drive in Bearden neighborhood.",
     "created_at": "2025-09-30T22:55:28.753639Z",
-    "updated_at": "2025-10-21T17:41:03.236444Z"
+    "updated_at": "2025-10-21T17:57:53.785730Z"
   },
   {
     "id": "f70c2cd0-39a3-4cee-8226-89f732dd0e78",
@@ -1289,8 +1280,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://order.toasttab.com/online/boyd-s-jig-and-reel-101-s-central-st\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:19:29Z",
     "parking_info": "Free covered parking available under I-40 on Magnolia (between Central Ave. and Gay St.) and at Jackson Ave Lot under James White (between Barley's and the stadium). Old City Lot South is a 303-step walk (6.8 minutes); Old City Lot North is a 375-step walk (8.5 minutes). Note: Stadium events affect parking availability and nearby lots may charge +.",
-    "created_at": "2025-10-21T17:41:03.236446Z",
-    "updated_at": "2025-10-21T17:41:03.236446Z"
+    "created_at": "2025-10-21T17:57:53.785734Z",
+    "updated_at": "2025-10-21T17:57:53.785734Z"
   },
   {
     "id": "a012b4d1-465b-411e-9bd3-ee0a53ad3f16",
@@ -1306,16 +1297,20 @@ const RESTAURANTS = [
     "hours": "{\"mon\": \"4pm-1am\", \"tue\": \"4pm-1am\", \"wed\": \"4pm-1am\", \"thu\": \"4pm-1am\", \"fri\": \"4pm-3am\", \"sat\": \"4pm-3am\", \"sun\": \"4pm-1am\"}",
     "description": "Tennessee's first aperitivo bar brings sophisticated Italian drinking culture to Knoxville's Old City, earning national recognition as one of Esquire's Best Bars in America 2022 and USA Today Best Bars 2025 within its first year.\n\nThe bar showcases Knoxville's largest collection of Italian spirits—rare amari, grappe, vermouth, and liqueurs—featuring 10 different Negronis and 8 spritzes designed by D.C. cocktail consultant Shawn Moriarty. The signature \"Il Professore\" triple-amaro cocktail exemplifies their commitment to bitter Italian spirits, while rustic small plates like arancini with pork ragu, Genovese focaccia, and meatballs complement the aperitivo experience.",
     "atmosphere": "Bright, lively space blending Italian aperitivo culture with Southern hospitality, featuring a yellow back-lit bar, polished wood floors, plush red booths, and a bright orange neon \"Brother Wolf\" sign. Intentionally designed without televisions to encourage face-to-face conversation and civilized European-style socializing.",
-    "special_features": "No TVs - conversation-focused environment; Espresso machine; Complimentary chips and Castelvetrano olives; Largest Italian spirits collection in Knoxville; Connected to Osteria Stella restaurant; Late-night hours (until 3am Fri-Sat)",
+    "special_features": "No TVs - conversation-focused environment; Espresso machine; Complimentary chips and Castelvetrano olives; Largest Italian spirits collection in Knoxville; Connected to Osteria Stella restaurant; Late-night hours (until 3am Fri-Sat); Featured on USA Today Bars of the Year 2025 (July 30) and Esquire Best Bars in America 2022; Italian aperitivo bar opened July 2021; Signature 'Il Professore' triple-amari cocktail; 10 different Negroni variations and 8 spritzes; Designed by D.C. cocktail consultant Shawn Moriarty",
     "opening_date": "2021-07-01T00:00:00Z",
     "last_visited": "2023-01-27T12:00:00Z",
     "visit_count": 4,
     "average_rating": 9.0,
     "tags": [
-      "intimate",
-      "sophisticated",
-      "european",
-      "group_thompson_king"
+      "cocktail_bar",
+      "italian",
+      "old_city",
+      "downtown",
+      "date_night",
+      "award_winning",
+      "late_night",
+      "aperitivo"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -1330,50 +1325,7 @@ const RESTAURANTS = [
     "menu_cached_at": "2025-10-03T15:59:38Z",
     "parking_info": "Old City Garage at 216 W Jackson Ave (same block, $1/hour, $9 daily max). Jackson Avenue Garage at 131 W Jackson Ave (half block east, $1/hour, $9 daily max). Street parking available on Jackson Ave and nearby Old City streets (metered, check signs for restrictions). Many downtown garages offer free parking weeknights after 6pm and all weekend.",
     "created_at": "2025-09-30T22:55:28.753490Z",
-    "updated_at": "2025-10-21T17:41:03.236450Z"
-  },
-  {
-    "id": "e3aab5ba-ebb1-4246-b47e-cdbd399e0bb8",
-    "name": "Brown Bag",
-    "address": "800 S. Gay Street, Knoxville, TN 37929",
-    "cuisine_type": "Healthy American",
-    "price_range": "$",
-    "date_night_score": 4.6,
-    "atmosphere_score": 7.0,
-    "phone": "(865) 474-0587",
-    "website": "https://brownbagnow.com/downtown-knoxville/",
-    "reservation_url": null,
-    "hours": "{\"mon\": \"11am-2pm\", \"tue\": \"11am-2pm\", \"wed\": \"11am-2pm\", \"thu\": \"11am-2pm\", \"fri\": \"11am-2pm\", \"sat\": \"closed\", \"sun\": \"closed\"}",
-    "description": "Founded in 2014 by Peter Brown as an extension of his successful 2009 catering business, Brown Bag Downtown serves simple, healthy meals at reasonable prices in Knoxville's First Horizon Plaza, filling a gap Brown noticed while managing Qdoba: \"No one was serving simple, healthy meals at a reasonable price.\"\n\nThe concept emphasizes \"Food with a Purpose,\" delivering made-from-scratch lunch options that avoid typical fast-food offerings. The menu features grilled proteins like chicken, steak, salmon burgers, and fish tacos paired with health-focused sides including jalapeño corn casserole, berry cole slaw, grilled asparagus, and baby spinach salad. Daily chalk board specials showcase fresh, simple preparations with generous portions designed for downtown professionals seeking nutritious weekday lunches.",
-    "atmosphere": "Fast-casual counter service in the First Horizon Plaza with pleasant outdoor seating area, designed for efficient weekday lunch service for downtown professionals.",
-    "special_features": "Customizable protein + 2 sides format; extensive gluten-free options; catering services; online ordering; outdoor patio; bulk meal options; health-focused menu",
-    "opening_date": "2014-08-01T00:00:00Z",
-    "last_visited": null,
-    "visit_count": 0,
-    "average_rating": null,
-    "tags": [
-      "healthy",
-      "lunch",
-      "catering",
-      "gluten-free",
-      "downtown",
-      "patio",
-      "quick-service"
-    ],
-    "status": "Active",
-    "discovery_source": "web_search_gay_street",
-    "verification_status": "Verified",
-    "social_media": "{\"facebook\": \"https://www.facebook.com/BrownBagNow/\", \"instagram\": \"https://www.instagram.com/brownbagnow\"}",
-    "instagram_url": "https://www.instagram.com/brownbagdowntown/",
-    "facebook_url": "https://www.facebook.com/BrownBagNow/",
-    "yelp_url": "https://www.yelp.com/biz/brown-bag-knoxville-2",
-    "twitter_url": null,
-    "notes": "Enriched 2025-10-01. Founded by Peter Brown (2009 catering, 2011 first restaurant, 2014 downtown location). Christian faith-based \"Food with a Purpose\" mission. Restaurant phone: (865) 474-0587, Catering phone: (865) 228-3283. Email: Knoxville@BrownBagNow.com. Suite P-360 in First Horizon Plaza.",
-    "cached_menu_info": "{\"url\": \"https://brownbagnow.com/menus/restaurant-menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
-    "menu_cached_at": "2025-10-02T02:08:09Z",
-    "parking_info": "First Horizon Plaza Garage on-site (399 spaces). Weekday: $5/hr, $10/2hrs, $12 max. Weekday nights after 5pm: $5. Weekends (Fri 5pm-Mon 6am): $5. Phone: (865) 633-0350. Street parking available on S Gay St (metered).",
-    "created_at": "2025-10-21T17:41:03.236452Z",
-    "updated_at": "2025-10-21T17:41:03.236452Z"
+    "updated_at": "2025-10-21T17:57:53.785738Z"
   },
   {
     "id": "7be5868e-152a-40ea-8624-842ca6de6699",
@@ -1413,8 +1365,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://buttermilkskypie.com/pies/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Strip center parking lot with ample free parking at 5400 Kingston Pike. Street parking available on Kingston Pike (no meters in Bearden area). Convenient West Knoxville location with easy access.",
-    "created_at": "2025-10-21T17:41:03.236455Z",
-    "updated_at": "2025-10-21T17:41:03.236455Z"
+    "created_at": "2025-10-21T17:57:53.785740Z",
+    "updated_at": "2025-10-21T17:57:53.785740Z"
   },
   {
     "id": "ddc0bbc9-6c40-4e45-913f-9f46f98940be",
@@ -1454,8 +1406,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.menuwithprice.com/menu/calhouns/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Turkey Creek shopping center surface lots. Ample parking throughout the development, located near the Pinnacle Shopping Center across from Regal Cinemas' Pinnacle 18. Stores spread out allowing close parking to restaurant entrance.",
-    "created_at": "2025-10-21T17:41:03.236460Z",
-    "updated_at": "2025-10-21T17:41:03.236460Z"
+    "created_at": "2025-10-21T17:57:53.785743Z",
+    "updated_at": "2025-10-21T17:57:53.785743Z"
   },
   {
     "id": "59d54eaf-0390-430d-8838-5b127f210a5f",
@@ -1496,8 +1448,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://calhouns.com/menus/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking available for restaurant patrons. Shared parking access with Volunteer Landing Park. Additional parking available at nearby downtown garages: City-County Building Garage (3-minute walk), Main Street Garage (8-minute walk), Dwight Kessel Garage (9-minute walk).",
-    "created_at": "2025-10-21T17:41:03.236462Z",
-    "updated_at": "2025-10-21T17:41:03.236463Z"
+    "created_at": "2025-10-21T17:57:53.785749Z",
+    "updated_at": "2025-10-21T17:57:53.785750Z"
   },
   {
     "id": "f09368a1-d7c0-4968-9caf-ffac9eb49e31",
@@ -1536,8 +1488,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "On-site parking lot with 20+ paved spaces. Lot can be busy during operating hours, with customers often using outdoor picnic tables for meetings and gatherings.",
-    "created_at": "2025-10-21T17:41:03.236464Z",
-    "updated_at": "2025-10-21T17:41:03.236465Z"
+    "created_at": "2025-10-21T17:57:53.785751Z",
+    "updated_at": "2025-10-21T17:57:53.785752Z"
   },
   {
     "id": "094db6c1-41f1-4e6c-8c3a-e63dad7b6a0d",
@@ -1583,8 +1535,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://cappuccinos-italian.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:23:00Z",
     "parking_info": "Private parking lot shared with Copper Cellar West at 7316 Kingston Pike. Free on-site parking available.",
-    "created_at": "2025-10-21T17:41:03.236467Z",
-    "updated_at": "2025-10-21T17:41:03.236467Z"
+    "created_at": "2025-10-21T17:57:53.785754Z",
+    "updated_at": "2025-10-21T17:57:53.785754Z"
   },
   {
     "id": "60199068-e0ad-4f8d-aa30-0e80b9e6f4c7",
@@ -1621,8 +1573,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "University Commons shopping center parking lot (Publix/Walmart plaza). Street parking available.",
-    "created_at": "2025-10-21T17:41:03.236469Z",
-    "updated_at": "2025-10-21T17:41:03.236469Z"
+    "created_at": "2025-10-21T17:57:53.785756Z",
+    "updated_at": "2025-10-21T17:57:53.785756Z"
   },
   {
     "id": "6baee259-f56a-439e-a075-a1b9c93392fb",
@@ -1666,8 +1618,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.casadongallomex.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:22:57Z",
     "parking_info": "Free parking available in retail shopping center lot at 7741 S Northshore Dr. On-site parking shared with other tenants including hair salon, nail salon, and Papa Murphy's. Additional parking available in surrounding Rocky Hill/Turkey Creek shopping area.",
-    "created_at": "2025-10-21T17:41:03.236472Z",
-    "updated_at": "2025-10-21T17:41:03.236472Z"
+    "created_at": "2025-10-21T17:57:53.785759Z",
+    "updated_at": "2025-10-21T17:57:53.785759Z"
   },
   {
     "id": "b998c036-714d-42b4-aabc-72ed070c49e6",
@@ -1705,8 +1657,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.cazzys.com/menu/dinner/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Brookview Town Centre shared lot with 811 total spaces (4.27 spaces per 1,000 SF). Parking readily available directly in front of restaurant. Shopping center features reciprocal parking easement throughout development, including access to 4-level parking garage. Eight Tesla supercharger stations available in parking lot. Easy access from I-40/75 Papermill exit.",
-    "created_at": "2025-10-21T17:41:03.236474Z",
-    "updated_at": "2025-10-21T17:41:03.236474Z"
+    "created_at": "2025-10-21T17:57:53.785761Z",
+    "updated_at": "2025-10-21T17:57:53.785761Z"
   },
   {
     "id": "9cff3d08-beb1-42af-b82e-f772894e036d",
@@ -1744,7 +1696,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free parking available in The Shops at Bexhill shopping center lot (80 spaces total). The retail center is located at the corner of Bexhill Drive and Ebenezer Drive in West Knoxville with sidewalks and crosswalks providing easy pedestrian access.",
     "created_at": "2025-09-30T22:55:28.753597Z",
-    "updated_at": "2025-10-21T17:41:03.236476Z"
+    "updated_at": "2025-10-21T17:57:53.785765Z"
   },
   {
     "id": "a9ec2e84-227e-484a-9f2f-e86f4318d0f7",
@@ -1784,8 +1736,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://flatsandtaps.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on N Central St (free or metered depending on time). Parking lot located directly behind restaurant accessible from rear entrance. Additional street parking in surrounding Happy Holler neighborhood within 1-2 blocks. Downtown Knoxville garages available within 10-minute walk if needed.",
-    "created_at": "2025-10-21T17:41:03.236478Z",
-    "updated_at": "2025-10-21T17:41:03.236478Z"
+    "created_at": "2025-10-21T17:57:53.785767Z",
+    "updated_at": "2025-10-21T17:57:53.785767Z"
   },
   {
     "id": "f79d80d7-adef-4eb7-a167-623d6442be25",
@@ -1825,8 +1777,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://chesapeakes.com/locations/west-knoxville/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"OpenTable indicates $31-50 price range confirmed\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot available at restaurant. Located off Parkside Drive near Cedar Bluff in West Knoxville business district with ample parking. Courtesy shuttle service available for guests staying at local hotels.",
-    "created_at": "2025-10-21T17:41:03.236480Z",
-    "updated_at": "2025-10-21T17:41:03.236481Z"
+    "created_at": "2025-10-21T17:57:53.785769Z",
+    "updated_at": "2025-10-21T17:57:53.785769Z"
   },
   {
     "id": "1b4b2245-d797-48bd-b40a-37543c5734cb",
@@ -1877,8 +1829,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.opentable.com/r/chesapeakes-downtown-knoxville\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:23:21Z",
     "parking_info": "Free onsite parking available. Locust Street Garage located 3-minute walk ($1/hr, $7 max/day, free evenings after 6pm and all weekend). Additional parking at nearby Langley Garage.",
-    "created_at": "2025-10-21T17:41:03.236485Z",
-    "updated_at": "2025-10-21T17:41:03.236485Z"
+    "created_at": "2025-10-21T17:57:53.785774Z",
+    "updated_at": "2025-10-21T17:57:53.785774Z"
   },
   {
     "id": "c7d51cf3-5b24-4b42-b1e4-a69ef2170624",
@@ -1928,8 +1880,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://chismosoknox.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"Menu available on website, reviews indicate 3 tacos cost $27, positioned as upscale for Knoxville area\"}",
     "menu_cached_at": null,
     "parking_info": "State Street Garage near Gay St (free after 7pm weeknights, free weekends). W. Jackson Ave Lot near 100 block S Gay St (free nights & weekends). Market Square Garage (free weeknights after 6pm, $3 Saturdays, free Sundays). First Horizon Plaza Garage ($5/1hr, $10/2hrs, $12 max weekdays).",
-    "created_at": "2025-10-21T17:41:03.236488Z",
-    "updated_at": "2025-10-21T17:41:03.236488Z"
+    "created_at": "2025-10-21T17:57:53.785777Z",
+    "updated_at": "2025-10-21T17:57:53.785777Z"
   },
   {
     "id": "ad285260-836b-4d54-9609-befc2f7939b4",
@@ -1974,8 +1926,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://chivotaqueria.com/wp-content/uploads/2025/04/FOOD-Chivo-Menu-Redesign-3.31.25.pdf\", \"type\": \"pdf\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:28:19Z",
     "parking_info": "Street parking on Gay St (metered, $1.50/hr, 2hr max). Market Square Garage at 406 Walnut St ($1/hr, $7/day max, free nights/weekends except Sat 8am-6pm $3 flat fee, 3 blocks). State Street Garage at 500 State St ($1/hr, $7/day max, free after 6pm weekdays and all day weekends, 4 blocks).",
-    "created_at": "2025-10-21T17:41:03.236491Z",
-    "updated_at": "2025-10-21T17:41:03.236491Z"
+    "created_at": "2025-10-21T17:57:53.785780Z",
+    "updated_at": "2025-10-21T17:57:53.785780Z"
   },
   {
     "id": "e3a850e6-f814-44eb-bd26-7e2880199ef7",
@@ -2013,8 +1965,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Market Square Garage adjacent ($3 flat rate Saturdays, free Sundays, free weeknights after 6pm). Street parking on Union Ave (metered).",
-    "created_at": "2025-10-21T17:41:03.236492Z",
-    "updated_at": "2025-10-21T17:41:03.236493Z"
+    "created_at": "2025-10-21T17:57:53.785782Z",
+    "updated_at": "2025-10-21T17:57:53.785782Z"
   },
   {
     "id": "a03bc01f-8897-4f8d-b05c-d98859d402d7",
@@ -2052,8 +2004,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Shopping center parking lot at Kingston Pike location.",
-    "created_at": "2025-10-21T17:41:03.236494Z",
-    "updated_at": "2025-10-21T17:41:03.236494Z"
+    "created_at": "2025-10-21T17:57:53.785785Z",
+    "updated_at": "2025-10-21T17:57:53.785785Z"
   },
   {
     "id": "856052df-d3f3-46fb-89c3-f0cfa0e3018d",
@@ -2103,8 +2055,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/store/colonels-cafe-4809-newcom-ave/DLTpr9YeRS-iOHtzwmBOcw\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:28:26Z",
     "parking_info": "Small shared parking lot with adjacent businesses on Newcom Ave. Street parking available on Newcom Ave and surrounding Bearden neighborhood streets. No metered parking, free street parking.",
-    "created_at": "2025-10-21T17:41:03.236497Z",
-    "updated_at": "2025-10-21T17:41:03.236497Z"
+    "created_at": "2025-10-21T17:57:53.785789Z",
+    "updated_at": "2025-10-21T17:57:53.785789Z"
   },
   {
     "id": "567c112e-6fc8-42a1-a573-4aadd0a6f03e",
@@ -2138,8 +2090,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://condadotacos.com/menu-food/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free dedicated parking lot on-site at 11383 Parkside Dr. Additional parking available throughout Turkey Creek shopping district including Pinnacle Parking at 11361 Parkside Dr (adjacent, 1-minute walk) and The Pinnacle at Turkey Creek mall parking at 11251 Parkside Dr (2-minute walk). All parking is free with ample spaces available in this retail/dining complex.",
-    "created_at": "2025-10-21T17:41:03.236499Z",
-    "updated_at": "2025-10-21T17:41:03.236499Z"
+    "created_at": "2025-10-21T17:57:53.785791Z",
+    "updated_at": "2025-10-21T17:57:53.785791Z"
   },
   {
     "id": "c3cbbd9f-73f2-42f1-a56c-79168efcaa80",
@@ -2184,8 +2136,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.connorsrestaurant.com/pdf/knoxville-menu.pdf\", \"type\": \"pdf\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Turkey Creek shopping center lot. Ample parking available under normal conditions, though spots may be limited during peak dining hours (Fri-Sat evenings) and holiday shopping periods. Restaurant entrance accessible from main parking area.",
-    "created_at": "2025-10-21T17:41:03.236501Z",
-    "updated_at": "2025-10-21T17:41:03.236501Z"
+    "created_at": "2025-10-21T17:57:53.785793Z",
+    "updated_at": "2025-10-21T17:57:53.785793Z"
   },
   {
     "id": "7cb50240-200b-4256-9315-6958aa47278b",
@@ -2230,8 +2182,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.allmenus.com/tn/knoxville/210351-copper-cellar-west/menu/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:28:14Z",
     "parking_info": "On-site parking lot available at the restaurant. Street parking available on Kingston Pike. Restaurant is wheelchair accessible.",
-    "created_at": "2025-10-21T17:41:03.236504Z",
-    "updated_at": "2025-10-21T17:41:03.236504Z"
+    "created_at": "2025-10-21T17:57:53.785796Z",
+    "updated_at": "2025-10-21T17:57:53.785796Z"
   },
   {
     "id": "937b1e3c-a65c-4d50-8237-1a1d9bc6f1b6",
@@ -2275,8 +2227,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"type\": \"beer_pricing\", \"verified_date\": \"2025-10-01\", \"notes\": \"16oz drafts $7, 8oz drafts $4, Mug Club offers 20oz pours at standard pint price\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on Emory Place (much of the historic wide avenue has been converted to parking). Additional on-street parking in Fourth and Gill neighborhood. Downtown municipal garages nearby offer $1/hour weekday rates, free after 6pm weekdays and all day weekends.",
-    "created_at": "2025-10-21T17:41:03.236507Z",
-    "updated_at": "2025-10-21T17:41:03.236507Z"
+    "created_at": "2025-10-21T17:57:53.785800Z",
+    "updated_at": "2025-10-21T17:57:53.785800Z"
   },
   {
     "id": "9fdac0e7-a85b-4a52-917f-40b0e203aab1",
@@ -2321,8 +2273,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://cravenwings.com/food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:28:14Z",
     "parking_info": "Free parking in Markets at Choto shopping center lot with ample spaces. Wheelchair accessible parking available near entrance.",
-    "created_at": "2025-10-21T17:41:03.236510Z",
-    "updated_at": "2025-10-21T17:41:03.236511Z"
+    "created_at": "2025-10-21T17:57:53.785803Z",
+    "updated_at": "2025-10-21T17:57:53.785803Z"
   },
   {
     "id": "c303422e-1da5-4aa1-8d29-2bba9481cea0",
@@ -2368,8 +2320,8 @@ const RESTAURANTS = [
     "cached_menu_info": "Fresh-churned soft serve ice cream, specialty cone dips (peanut butter, chocolate, cherry, toasted coconut), signature churns (Rocky Top Road, S'mores, Cookies & Cream, Peanut Butter Cup), creative shakes (Nutella, Cookies & Cream, Peanut Butter), classic floats, affogato, sundaes with hot fudge, dairy-free sorbet options, ice cream pints for takeout",
     "menu_cached_at": null,
     "parking_info": "Street parking on Gay Street (metered). State Street Garage 2 blocks away (free evenings after 7pm and weekends). Market Square Garage nearby ($3 flat rate Saturdays, free Sundays, free weeknights after 6pm). First Horizon Plaza Garage ($5 weekends/evenings). Highly walkable downtown area.",
-    "created_at": "2025-10-21T17:41:03.236513Z",
-    "updated_at": "2025-10-21T17:41:03.236513Z"
+    "created_at": "2025-10-21T17:57:53.785807Z",
+    "updated_at": "2025-10-21T17:57:53.785807Z"
   },
   {
     "id": "6575fa02-6fa9-4c31-b41e-f9d54aa13a14",
@@ -2407,8 +2359,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://cultivate-coffee-and-flowers.square.site/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available. Entrance can be difficult during high traffic times depending on direction of approach. Drive-thru lane available for quick pickup. Located at 5221 N Broadway with street parking also available on Broadway.",
-    "created_at": "2025-10-21T17:41:03.236515Z",
-    "updated_at": "2025-10-21T17:41:03.236515Z"
+    "created_at": "2025-10-21T17:57:53.785809Z",
+    "updated_at": "2025-10-21T17:57:53.785809Z"
   },
   {
     "id": "d7a83c5f-2e55-48a1-8381-3ad5d022f9c7",
@@ -2448,8 +2400,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://curiousdogknoxville.com/knoxville-curious-dog-hotdogs-and-sandwiches-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Jackson Ave Lot nearby offers free parking weeknights after 6pm and free all weekend. Street parking available with metered spots. Check City of Knoxville parking website for specific lot locations and rates.",
-    "created_at": "2025-10-21T17:41:03.236517Z",
-    "updated_at": "2025-10-21T17:41:03.236517Z"
+    "created_at": "2025-10-21T17:57:53.785811Z",
+    "updated_at": "2025-10-21T17:57:53.785811Z"
   },
   {
     "id": "acae45e6-5b6e-43c9-b6f3-e3e859c6138a",
@@ -2487,8 +2439,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.doordash.com/store/curry-pot-express-ooltewah-989098/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking available in Apison Crossing shopping center lot. Located in retail strip center at 9408 Apison Pike with shared parking for multiple businesses.",
-    "created_at": "2025-10-21T17:41:03.236520Z",
-    "updated_at": "2025-10-21T17:41:03.236520Z"
+    "created_at": "2025-10-21T17:57:53.785813Z",
+    "updated_at": "2025-10-21T17:57:53.785814Z"
   },
   {
     "id": "2d0a1c20-9c69-4a28-9d6a-77a3d8d6c88d",
@@ -2528,8 +2480,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.opentable.com/dancing-bear-appalachian-bistro\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"sample_prices\": {\"Filet Mignon\": \"$57\", \"Sweet Tea Brined Pork Chop\": \"$42\", \"Plum Glazed Duck Breast\": \"$42\", \"Local Wagyu Bistro Burger\": \"$28\"}}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking directly at restaurant entrance. During special events (concerts, weddings), overflow parking available off Highway 321 at Dancing Bear entrance next to Apple Valley Country Store with complimentary shuttle service to restaurant and lodge.",
-    "created_at": "2025-10-21T17:41:03.236523Z",
-    "updated_at": "2025-10-21T17:41:03.236523Z"
+    "created_at": "2025-10-21T17:57:53.785816Z",
+    "updated_at": "2025-10-21T17:57:53.785816Z"
   },
   {
     "id": "6f976ef6-c1cd-4929-b8e5-efb5a6256974",
@@ -2567,8 +2519,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.deadendbbq.com/food-menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Ample on-site parking lot with wheelchair-accessible spaces. Full wheelchair accessibility throughout including entrance, parking, restrooms, and seating.",
-    "created_at": "2025-10-21T17:41:03.236525Z",
-    "updated_at": "2025-10-21T17:41:03.236525Z"
+    "created_at": "2025-10-21T17:57:53.785819Z",
+    "updated_at": "2025-10-21T17:57:53.785819Z"
   },
   {
     "id": "7efde406-5d78-4fee-acd4-914ca4c259fc",
@@ -2609,7 +2561,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "State Street Garage (closest, 193 steps/4.4 min walk) offers free parking weeknights after 6pm and all weekend. Market Square Garage (283 steps/6.4 min walk) has free parking weeknights after 6pm, Sundays free, Saturdays $3 flat rate. Locust Street Garage provides free parking after 7pm and all weekend. Street parking is also available on Gay Street and surrounding blocks. The Promenade Garage off State Street provides pedestrian walkway access to Gay Street but charges for parking.",
     "created_at": "2025-09-30T22:55:28.753740Z",
-    "updated_at": "2025-10-21T17:41:03.236528Z"
+    "updated_at": "2025-10-21T17:57:53.785821Z"
   },
   {
     "id": "0029ac25-7370-4d04-b638-93891f54cdcb",
@@ -2649,7 +2601,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free parking available at Market Square Garage (152 steps/3.4 min walk) after 6 PM on weeknights and all day Sunday. Saturday flat rate $3. Langley Garage also nearby (253 steps/5.7 min walk). Downtown offers 5,000+ free parking spaces in municipal garages weekdays after 6 PM and all weekends. Normal weekday rates $1/hour in garages, street metered parking $1.50/hour with 2-hour limit.",
     "created_at": "2025-09-30T22:55:28.753472Z",
-    "updated_at": "2025-10-21T17:41:03.236530Z"
+    "updated_at": "2025-10-21T17:57:53.785826Z"
   },
   {
     "id": "05541c84-b0e9-4beb-a099-a595b4cba7d2",
@@ -2687,8 +2639,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Strip mall parking lot at Tazewell Pike, Fountain City location.",
-    "created_at": "2025-10-21T17:41:03.236532Z",
-    "updated_at": "2025-10-21T17:41:03.236532Z"
+    "created_at": "2025-10-21T17:57:53.785829Z",
+    "updated_at": "2025-10-21T17:57:53.785829Z"
   },
   {
     "id": "3f786b5f-a038-4743-8eb8-36b5c2ddc143",
@@ -2731,7 +2683,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking available on S Central Ave and nearby streets (metered, $2/hr). State Street Garage 2 blocks away. Multiple Old City public garages offer free parking weeknights after 6pm and all weekend.",
     "created_at": "2025-09-30T22:55:28.753672Z",
-    "updated_at": "2025-10-21T17:41:03.236535Z"
+    "updated_at": "2025-10-21T17:57:53.785831Z"
   },
   {
     "id": "05856226-c591-46d2-b235-760477ccf937",
@@ -2765,8 +2717,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.finnstavern.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available (wheelchair accessible). Parking can be challenging to find spaces during peak times. Enter on first floor near oil change business, follow signs to front door.",
-    "created_at": "2025-10-21T17:41:03.236537Z",
-    "updated_at": "2025-10-21T17:41:03.236537Z"
+    "created_at": "2025-10-21T17:57:53.785833Z",
+    "updated_at": "2025-10-21T17:57:53.785833Z"
   },
   {
     "id": "6051a00f-d23b-44be-b6b3-7152a311d26c",
@@ -2806,8 +2758,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://fire-smoke.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Located in Turkey Creek shopping center with ample free parking. Surface lot parking directly in front of restaurant. Additional parking available throughout Turkey Creek complex on Parkside Dr and S Northshore Dr.",
-    "created_at": "2025-10-21T17:41:03.236539Z",
-    "updated_at": "2025-10-21T17:41:03.236539Z"
+    "created_at": "2025-10-21T17:57:53.785836Z",
+    "updated_at": "2025-10-21T17:57:53.785836Z"
   },
   {
     "id": "be7197fa-081c-492d-ae69-28e6b0ba7c06",
@@ -2847,8 +2799,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.flybynightknox.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on Sevier Avenue. South Knoxville area offers free street parking with no meters.",
-    "created_at": "2025-10-21T17:41:03.236541Z",
-    "updated_at": "2025-10-21T17:41:03.236541Z"
+    "created_at": "2025-10-21T17:57:53.785838Z",
+    "updated_at": "2025-10-21T17:57:53.785838Z"
   },
   {
     "id": "b04f8f08-f89a-4634-b3e4-024f8888d273",
@@ -2887,7 +2839,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking available on Washington Street. Broadway Avenue Municipal Parking Garage in downtown Maryville (253 spaces, entrances from Church Avenue and Broadway, located beside Barley's). Downtown Maryville has over 1,000 public parking spaces within walking distance.",
     "created_at": "2025-09-30T22:55:28.753562Z",
-    "updated_at": "2025-10-21T17:41:03.236543Z"
+    "updated_at": "2025-10-21T17:57:53.785841Z"
   },
   {
     "id": "5eb2f4e6-1d5d-4d4b-93db-d449f9cdd497",
@@ -2926,7 +2878,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Ample parking available in private shopping center lot at Montvue Center. Free parking with easy access from Kingston Pike.",
     "created_at": "2025-09-30T22:55:28.753613Z",
-    "updated_at": "2025-10-21T17:41:03.236545Z"
+    "updated_at": "2025-10-21T17:57:53.785843Z"
   },
   {
     "id": "7caa1896-3e8c-47df-993a-1329cfec0768",
@@ -2965,7 +2917,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking on Willow Ave and Jackson Ave. Free parking under James White Parkway (when no game). Old City South Lot available ($3 max). Central Street has 15-minute quick pickup parking.",
     "created_at": "2025-09-30T22:55:28.753715Z",
-    "updated_at": "2025-10-21T17:41:03.236547Z"
+    "updated_at": "2025-10-21T17:57:53.785845Z"
   },
   {
     "id": "f4e59c2a-fa54-4b25-a332-82b036b89ddc",
@@ -2999,8 +2951,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.vegginoutandabout.com/2016/04/gosh-ethiopian-restaurant-healthy-plant-based-dining-in-knoxville-tennessee/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available at restaurant location on Sutherland Ave. Additional street parking on Sutherland Ave in West Knoxville area.",
-    "created_at": "2025-10-21T17:41:03.236549Z",
-    "updated_at": "2025-10-21T17:41:03.236549Z"
+    "created_at": "2025-10-21T17:57:53.785847Z",
+    "updated_at": "2025-10-21T17:57:53.785847Z"
   },
   {
     "id": "0b16060f-6b69-4676-9ba8-cda74167d08f",
@@ -3039,8 +2991,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://gourmetsmarketandcafe.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Ample on-site parking lot available at restaurant location on Kingston Pike.",
-    "created_at": "2025-10-21T17:41:03.236552Z",
-    "updated_at": "2025-10-21T17:41:03.236552Z"
+    "created_at": "2025-10-21T17:57:53.785849Z",
+    "updated_at": "2025-10-21T17:57:53.785849Z"
   },
   {
     "id": "f249d44d-f2c0-4e6d-b019-69257d86602d",
@@ -3078,8 +3030,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.yelp.com/menu/guss-good-times-deli-knoxville\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Melrose Place with metered spots ($2/hr, enforcement by City of Knoxville). White Avenue Garage (G12) nearby on campus. Fort Sanders Hospital lot at 19th & White available after 6pm weeknights and weekends. UT visitor parking available at various campus locations ($1-2/hr).",
-    "created_at": "2025-10-21T17:41:03.236554Z",
-    "updated_at": "2025-10-21T17:41:03.236554Z"
+    "created_at": "2025-10-21T17:57:53.785851Z",
+    "updated_at": "2025-10-21T17:57:53.785852Z"
   },
   {
     "id": "a7182547-7bc6-4a28-86ad-be0804ad1d65",
@@ -3118,8 +3070,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://order.toasttab.com/online/ham-goodys-downtown-knoxville-507-s-gay-street\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Gay Street (metered, $1.50/hr, 2hr max). State Street Garage nearby (free after 7pm weeknights and weekends, $1/hr weekdays). W. Jackson Ave Lot near 100 block of S Gay Street (free nights & weekends).",
-    "created_at": "2025-10-21T17:41:03.236556Z",
-    "updated_at": "2025-10-21T17:41:03.236556Z"
+    "created_at": "2025-10-21T17:57:53.785855Z",
+    "updated_at": "2025-10-21T17:57:53.785855Z"
   },
   {
     "id": "e3132527-d375-470a-aec2-6baf6347f91b",
@@ -3158,8 +3110,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"type\": \"nightclub\", \"verified_date\": \"2025-10-02\", \"notes\": \"Ladies free entry, $5 cover for men, drink specials available\"}",
     "menu_cached_at": null,
     "parking_info": "Old City Lot North offers free parking 24/7 (101 spaces, excluding special events). Free street parking after 8pm and all day Sunday. Free covered parking under I-40 on Magnolia. Additional paid lots on Jackson Ave, Central Ave, and surrounding streets.",
-    "created_at": "2025-10-21T17:41:03.236558Z",
-    "updated_at": "2025-10-21T17:41:03.236558Z"
+    "created_at": "2025-10-21T17:57:53.785857Z",
+    "updated_at": "2025-10-21T17:57:53.785857Z"
   },
   {
     "id": "57681049-6a3d-49a8-bdeb-9847553189d6",
@@ -3198,7 +3150,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Public parking lot available on-site at 5200 Kingston Pike, located at corner of Kingston Pike and Mohican Street.",
     "created_at": "2025-09-30T22:55:28.753622Z",
-    "updated_at": "2025-10-21T17:41:03.236560Z"
+    "updated_at": "2025-10-21T17:57:53.785859Z"
   },
   {
     "id": "f422ed24-09cc-4158-91ad-3f595d51f5f9",
@@ -3237,7 +3189,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "On-site parking available at building. Street parking on Barber St. See brewery website for detailed parking map. Located in South Knoxville across Tennessee River from downtown.",
     "created_at": "2025-09-30T22:55:28.753731Z",
-    "updated_at": "2025-10-21T17:41:03.236571Z"
+    "updated_at": "2025-10-21T17:57:53.785863Z"
   },
   {
     "id": "7b10fcad-2e37-4183-bd0d-d40251b8101e",
@@ -3283,8 +3235,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://holylandknoxville.com/knoxville-holy-land-market-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot available for customers.",
-    "created_at": "2025-10-21T17:41:03.236573Z",
-    "updated_at": "2025-10-21T17:41:03.236573Z"
+    "created_at": "2025-10-21T17:57:53.785865Z",
+    "updated_at": "2025-10-21T17:57:53.785865Z"
   },
   {
     "id": "955b8625-85bd-4487-aedc-098efa3d6506",
@@ -3322,8 +3274,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-21T17:41:03.236575Z",
-    "updated_at": "2025-10-21T17:41:03.236575Z"
+    "created_at": "2025-10-21T17:57:53.785867Z",
+    "updated_at": "2025-10-21T17:57:53.785867Z"
   },
   {
     "id": "3a5e430a-fa37-4773-957c-40bf13fd0b90",
@@ -3364,8 +3316,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"http://places.singleplatform.com/hot-rods-50s-diner/menu\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot on site. Additional parking available at Blount County Library (accessible via stairs from restaurant) or across Hannum Street.",
-    "created_at": "2025-10-21T17:41:03.236578Z",
-    "updated_at": "2025-10-21T17:41:03.236578Z"
+    "created_at": "2025-10-21T17:57:53.785871Z",
+    "updated_at": "2025-10-21T17:57:53.785871Z"
   },
   {
     "id": "20ffd78c-40c7-40b7-bd79-3da31ebfdcc2",
@@ -3404,7 +3356,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking on S Gay St (metered, 2hr max). State Street Garage nearby (free after 7pm weeknights and weekends). First Horizon Plaza Garage 2 blocks away ($5-12 weekdays, $5 evenings/weekends).",
     "created_at": "2025-09-30T22:55:28.753588Z",
-    "updated_at": "2025-10-21T17:41:03.236580Z"
+    "updated_at": "2025-10-21T17:57:53.785874Z"
   },
   {
     "id": "8099cec7-7eda-41d1-90c3-17c032f4fc95",
@@ -3448,8 +3400,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://inskipgrill.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available. Additional street parking on N Broadway (US-441). Located in Fountain City shopping area with shared parking access.",
-    "created_at": "2025-10-21T17:41:03.236582Z",
-    "updated_at": "2025-10-21T17:41:03.236582Z"
+    "created_at": "2025-10-21T17:57:53.785876Z",
+    "updated_at": "2025-10-21T17:57:53.785876Z"
   },
   {
     "id": "9b7f13ff-154d-4906-8750-81b46f5064b9",
@@ -3487,8 +3439,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Shopping center parking at Kingston Pike, Bearden location.",
-    "created_at": "2025-10-21T17:41:03.236584Z",
-    "updated_at": "2025-10-21T17:41:03.236584Z"
+    "created_at": "2025-10-21T17:57:53.785878Z",
+    "updated_at": "2025-10-21T17:57:53.785878Z"
   },
   {
     "id": "de85a2a6-b5ce-4927-a3d5-bcf2393fc68c",
@@ -3504,15 +3456,21 @@ const RESTAURANTS = [
     "hours": "{\"mon\": \"closed\", \"tue\": \"5pm-9pm\", \"wed\": \"5pm-9pm\", \"thu\": \"5pm-9pm\", \"fri\": \"5pm-10pm\", \"sat\": \"5pm-10pm\", \"sun\": \"closed\"}",
     "description": "Named after Chef Joseph Lenn's late uncle, J.C. Holdway honors the James Beard Award-winning chef's Appalachian roots through wood-fired Southern cuisine. Featured on The New York Times' 50 Best Restaurants in America 2025, the restaurant earned acclaim as \"among the country's most reliably satisfying regional bistros.\"\n\nChef Lenn, who won the 2013 James Beard Award for Best Chef: Southeast (the first Tennessee chef to earn this distinction), brings his Blackberry Farm pedigree to downtown Knoxville. His cooking philosophy embraces old-world wood-fire techniques inspired by rural Appalachia before modern conveniences, highlighting seasonal southeastern ingredients through live-fire cooking. Signature dishes include pork-belly biscuits and grilled North Carolina trout, with dining options ranging from à la carte to an exclusive five-course tasting menu at the chef's counter.",
     "atmosphere": "Refined yet welcoming downtown setting with wood-fired cooking as the centerpiece. Chef's counter offers intimate view of live-fire techniques.",
-    "special_features": "chef's counter, wine pairings, wood-fired cooking, tasting menu, james beard award",
+    "special_features": "Chef's counter with exclusive five-course tasting menu; Wine pairings available; Wood-fired cooking using old-world Appalachian techniques; Featured on The New York Times' 50 Best Restaurants in America 2025; Chef Joseph Lenn won 2013 James Beard Award for Best Chef: Southeast (first Tennessee chef with this distinction); Named after Chef Lenn's late uncle; Blackberry Farm pedigree; Signature dishes include pork-belly biscuits and grilled North Carolina trout; À la carte and tasting menu options; Embraces seasonal southeastern ingredients; Live-fire cooking philosophy; Named among country's 'most reliably satisfying regional bistros' by NYT",
     "opening_date": "2016-09-10T00:00:00Z",
     "last_visited": "2025-04-11T12:00:00Z",
     "visit_count": 9,
     "average_rating": 9.0,
     "tags": [
-      "romantic",
-      "elegant",
-      "theatrical kitchen"
+      "fine_dining",
+      "southern",
+      "appalachian",
+      "downtown",
+      "union_avenue",
+      "date_night",
+      "award_winning",
+      "wood_fire",
+      "tasting_menu"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -3527,7 +3485,7 @@ const RESTAURANTS = [
     "menu_cached_at": "2025-10-03T16:02:10Z",
     "parking_info": "Convenient parking at Market Square Garage (96 steps, 2.2 min walk), Locust Street Garage (122 steps, 2.8 min walk), and Langley Garage (91 steps, 2.1 min walk). Several downtown garages free on weeknights and weekends.",
     "created_at": "2025-09-30T22:55:28.753353Z",
-    "updated_at": "2025-10-21T17:41:03.236587Z"
+    "updated_at": "2025-10-21T17:57:53.785882Z"
   },
   {
     "id": "54933448-0a9a-4936-912e-a208d9b85ef4",
@@ -3565,8 +3523,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.doordash.com/store/jabonis-pizzeria-25388435/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at restaurant location on Kingston Pike. Additional parking available at nearby West Town Mall (7600 Kingston Pike), approximately 200 yards away, with large parking lot and parking garage.",
-    "created_at": "2025-10-21T17:41:03.236588Z",
-    "updated_at": "2025-10-21T17:41:03.236589Z"
+    "created_at": "2025-10-21T17:57:53.785884Z",
+    "updated_at": "2025-10-21T17:57:53.785884Z"
   },
   {
     "id": "9c2a2351-a17d-4c7b-b6f0-562fc731b1f0",
@@ -3600,8 +3558,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/store/jackies-dream-1008-e-woodland-ave/hdzJLlEmS_qc8D3eLjKfFQ\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot with ample spaces. Lot fills quickly during peak lunch hours (11am-2pm). Additional street parking available on E. Woodland Ave.",
-    "created_at": "2025-10-21T17:41:03.236591Z",
-    "updated_at": "2025-10-21T17:41:03.236591Z"
+    "created_at": "2025-10-21T17:57:53.785886Z",
+    "updated_at": "2025-10-21T17:57:53.785886Z"
   },
   {
     "id": "0651499e-29de-4c05-a3d6-01767bb3289b",
@@ -3639,8 +3597,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking on S Gay St downtown. Nearby public garages including State Street Garage (free weeknights after 6pm, free weekends).",
-    "created_at": "2025-10-21T17:41:03.236594Z",
-    "updated_at": "2025-10-21T17:41:03.236594Z"
+    "created_at": "2025-10-21T17:57:53.785888Z",
+    "updated_at": "2025-10-21T17:57:53.785888Z"
   },
   {
     "id": "878fcc1e-9ba1-462f-a605-f838a8a8607e",
@@ -3677,8 +3635,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking on N Central St in Happy Holler neighborhood.",
-    "created_at": "2025-10-21T17:41:03.236596Z",
-    "updated_at": "2025-10-21T17:41:03.236596Z"
+    "created_at": "2025-10-21T17:57:53.785889Z",
+    "updated_at": "2025-10-21T17:57:53.785890Z"
   },
   {
     "id": "39243707-694a-4018-80d9-d0671620e6ca",
@@ -3716,8 +3674,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-21T17:41:03.236598Z",
-    "updated_at": "2025-10-21T17:41:03.236598Z"
+    "created_at": "2025-10-21T17:57:53.785891Z",
+    "updated_at": "2025-10-21T17:57:53.785891Z"
   },
   {
     "id": "db734990-9ee4-4d97-8eb8-10b432defc0f",
@@ -3757,8 +3715,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.restaurantkabuki.com/downtownmenu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage adjacent to restaurant (53 steps, 1-minute walk, free evenings after 6pm and all day Sunday, $3 Saturdays, $1/hour weekdays). Langley Garage 156 steps away (3.5-minute walk). Locust Street Garage 252 steps (5.7-minute walk). Street parking on Market Square with meters ($1.50/hour, 2-hour limit).",
-    "created_at": "2025-10-21T17:41:03.236601Z",
-    "updated_at": "2025-10-21T17:41:03.236601Z"
+    "created_at": "2025-10-21T17:57:53.785894Z",
+    "updated_at": "2025-10-21T17:57:53.785894Z"
   },
   {
     "id": "88b6d509-0b03-4d51-9eeb-d70e3952b068",
@@ -3798,7 +3756,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Old City Lot North free parking 24/7 (2 blocks). Street parking on Central Ave (metered). State Street Garage offers free parking weeknights after 6pm and all weekend.",
     "created_at": "2025-09-30T22:55:28.753784Z",
-    "updated_at": "2025-10-21T17:41:03.236603Z"
+    "updated_at": "2025-10-21T17:57:53.785896Z"
   },
   {
     "id": "679235e6-91f6-4f42-bb6e-2bbf468baa4c",
@@ -3840,8 +3798,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://kefiknox.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Old City Lot North at 305 E Jackson Ave (1 block east, free 24/7 except special events, 101 spaces). Jackson Ave Lot at 401 W Jackson Ave (3 blocks west, $1/hr, $7 max daily, free after 6pm weeknights and all weekend, 190 spaces). Street parking on Jackson Ave (metered during business hours).",
-    "created_at": "2025-10-21T17:41:03.236606Z",
-    "updated_at": "2025-10-21T17:41:03.236606Z"
+    "created_at": "2025-10-21T17:57:53.785900Z",
+    "updated_at": "2025-10-21T17:57:53.785900Z"
   },
   {
     "id": "4aabb709-f1f3-4ba1-9297-befc75304701",
@@ -3880,7 +3838,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot (paid parking system removed in early 2025). Convenient parking near entrance, accessible for all visitors.",
     "created_at": "2025-09-30T22:55:28.753822Z",
-    "updated_at": "2025-10-21T17:41:03.236608Z"
+    "updated_at": "2025-10-21T17:57:53.785902Z"
   },
   {
     "id": "685580a6-fa17-435d-899e-5ced8ac42a9c",
@@ -3919,8 +3877,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.restaurantji.com/tn/knoxville/king-gyros-mediterranean-restaurant-/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\", \"notes\": \"Based on similar King Gyros locations, sandwiches range $8-9, platters $10-11, confirming $$ price range\"}",
     "menu_cached_at": null,
     "parking_info": "Excellent parking access at West Town Mall including a six-level parking garage on the southwest side of the mall by Belk Men, Home & Kids. Handicapped parking is available at each entrance, and select spaces are reserved for military and veterans. The mall is conveniently located just off Interstate 40/75 at exit 380, with straightforward access via Montvue Road. Multiple parking options ensure easy access to the food court location.",
-    "created_at": "2025-10-21T17:41:03.236610Z",
-    "updated_at": "2025-10-21T17:41:03.236610Z"
+    "created_at": "2025-10-21T17:57:53.785904Z",
+    "updated_at": "2025-10-21T17:57:53.785904Z"
   },
   {
     "id": "1f7c53f7-03bb-4760-af19-3c612923f76b",
@@ -3959,8 +3917,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "On-site parking lot at Kingston Pike shopping center location. Free parking available directly at the business.",
-    "created_at": "2025-10-21T17:41:03.236612Z",
-    "updated_at": "2025-10-21T17:41:03.236612Z"
+    "created_at": "2025-10-21T17:57:53.785906Z",
+    "updated_at": "2025-10-21T17:57:53.785906Z"
   },
   {
     "id": "93117bb5-1666-45ad-934b-11b6324ffea1",
@@ -4000,8 +3958,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.knoxwhiskeyworks.com/tours\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"notes\": \"Tasting flight $10 (13 spirits), cocktail flight $8 (4 mini cocktails), tours $15\"}",
     "menu_cached_at": null,
     "parking_info": "Jackson Avenue Lot (401 W Jackson Ave) closest option - free nights and weekends. Free 24/7 parking in two large lots under James White Parkway on East Jackson Ave in Old City. City garages (State Street, Locust Street, Market Square) free all day Saturday-Sunday, $1/hour weekdays 7am-7pm ($7 max). Street parking available on Jackson Ave and Old City streets.",
-    "created_at": "2025-10-21T17:41:03.236614Z",
-    "updated_at": "2025-10-21T17:41:03.236614Z"
+    "created_at": "2025-10-21T17:57:53.785908Z",
+    "updated_at": "2025-10-21T17:57:53.785908Z"
   },
   {
     "id": "970e3ba4-69ea-49ca-b59a-6ec2f4199011",
@@ -4047,8 +4005,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"type\": \"wholesale_roaster\", \"note\": \"Primarily wholesale operation - retail coffee bags sold online and via on-site pickup\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking available at roastery/warehouse location on Sutherland Ave.",
-    "created_at": "2025-10-21T17:41:03.236616Z",
-    "updated_at": "2025-10-21T17:41:03.236617Z"
+    "created_at": "2025-10-21T17:57:53.785911Z",
+    "updated_at": "2025-10-21T17:57:53.785911Z"
   },
   {
     "id": "208d1b31-6edf-4037-bc47-198e2f3b2125",
@@ -4088,8 +4046,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://kopitarestaurants.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Embassy Suites valet parking $35/day. Nearby public garages: State Street Garage (500 State St, 1 block east, 0.2 miles, $7/day), Market Square Garage (5-min walk, 233 steps), Locust Street Garage (3 blocks, 7-min walk, $7/day). Public garages free on weekends.",
-    "created_at": "2025-10-21T17:41:03.236618Z",
-    "updated_at": "2025-10-21T17:41:03.236619Z"
+    "created_at": "2025-10-21T17:57:53.785913Z",
+    "updated_at": "2025-10-21T17:57:53.785913Z"
   },
   {
     "id": "0f0da795-3777-4e6e-9e96-50d1d4394fd2",
@@ -4127,8 +4085,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/ca/store/kokoro-ramen/KEDU7wJDSQSbqawV787NRw\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on Victoria Drive (metered). Public transit access directly at doorstep (bus routes on Victoria Drive). London Drugs parking lot adjacent to restaurant.",
-    "created_at": "2025-10-21T17:41:03.236620Z",
-    "updated_at": "2025-10-21T17:41:03.236621Z"
+    "created_at": "2025-10-21T17:57:53.785915Z",
+    "updated_at": "2025-10-21T17:57:53.785915Z"
   },
   {
     "id": "8653616d-ab5e-452a-b9b4-1129081b03ba",
@@ -4168,8 +4126,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.doordash.com/store/taqueria-la-herradura-knoxville-22990480/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available at 2625 N Broadway. Wheelchair accessible with ample parking spaces for customers.",
-    "created_at": "2025-10-21T17:41:03.236622Z",
-    "updated_at": "2025-10-21T17:41:03.236623Z"
+    "created_at": "2025-10-21T17:57:53.785917Z",
+    "updated_at": "2025-10-21T17:57:53.785917Z"
   },
   {
     "id": "fdbc47d8-53a1-46d8-814a-87052e3b42b5",
@@ -4208,8 +4166,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://lakeside-tavern.bartgrocerybbq.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking available for restaurant and marina customers at Concord Marina.",
-    "created_at": "2025-10-21T17:41:03.236624Z",
-    "updated_at": "2025-10-21T17:41:03.236624Z"
+    "created_at": "2025-10-21T17:57:53.785919Z",
+    "updated_at": "2025-10-21T17:57:53.785919Z"
   },
   {
     "id": "cd342a6c-9497-4f66-a701-df7acc653423",
@@ -4247,8 +4205,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.yelp.com/menu/likewise-coffee-knoxville\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Behind Likewise: 5 spots (30-minute limit). Gibbons St: 2-hour street parking. Gibbons Corner Lot at Magnolia Ave & Gibbons St (1-minute walk). YMCA parking lot 2 blocks away for extended stays.",
-    "created_at": "2025-10-21T17:41:03.236626Z",
-    "updated_at": "2025-10-21T17:41:03.236626Z"
+    "created_at": "2025-10-21T17:57:53.785921Z",
+    "updated_at": "2025-10-21T17:57:53.785922Z"
   },
   {
     "id": "651912ac-1ad2-46d0-b882-152d30cccc20",
@@ -4288,7 +4246,7 @@ const RESTAURANTS = [
     "menu_cached_at": "2025-10-03T15:55:24Z",
     "parking_info": "Street parking on Gay St (metered during business hours). State Street Garage 2 blocks north (free after 7pm weeknights, free weekends). Market Square Garage nearby. W. Jackson Ave Lot near 100 block of S Gay St (free nights and weekends). Downtown Knoxville parking app available via Parkopedia for real-time garage availability.",
     "created_at": "2025-09-30T22:55:28.753431Z",
-    "updated_at": "2025-10-21T17:41:03.236629Z"
+    "updated_at": "2025-10-21T17:57:53.785924Z"
   },
   {
     "id": "e15e89e4-81bd-4a46-83a7-f46a44a385bf",
@@ -4327,8 +4285,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://asiacafe.org/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Ample on-site parking available with wheelchair accessible spaces near front entrance.",
-    "created_at": "2025-10-21T17:41:03.236630Z",
-    "updated_at": "2025-10-21T17:41:03.236630Z"
+    "created_at": "2025-10-21T17:57:53.785926Z",
+    "updated_at": "2025-10-21T17:57:53.785926Z"
   },
   {
     "id": "a2f45a5b-3121-41ab-b218-0010989032e1",
@@ -4367,8 +4325,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free mall parking in West Town Mall garage and surface lots. Regal Cinemas parking garage available at 7600 Kingston Pike. East entrance parking lot provides direct access. MyPark app available for express curbside pickup parking near main entrances.",
-    "created_at": "2025-10-21T17:41:03.236632Z",
-    "updated_at": "2025-10-21T17:41:03.236632Z"
+    "created_at": "2025-10-21T17:57:53.785928Z",
+    "updated_at": "2025-10-21T17:57:53.785928Z"
   },
   {
     "id": "6b6ade51-4e56-480d-9bc6-01a24b2ff1f8",
@@ -4413,7 +4371,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Valet available. Street parking on Central St (free after 8pm and all day Sunday). Old City Lot North at 300 N Central St (paid). Free covered parking under I-40 on Magnolia Ave (nights/weekends). State Street Garage nearby (free weeknights after 6pm, free all weekend).",
     "created_at": "2025-09-30T22:55:28.753706Z",
-    "updated_at": "2025-10-21T17:41:03.236635Z"
+    "updated_at": "2025-10-21T17:57:53.785931Z"
   },
   {
     "id": "2a630866-8b02-434a-9c9c-b1918b3f7ea5",
@@ -4451,8 +4409,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.allmenus.com/tn/knoxville/680602-love-that-bbq/menu/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot at the converted gas station location on Maryville Pike. Free parking available where fuel pumps were previously located.",
-    "created_at": "2025-10-21T17:41:03.236637Z",
-    "updated_at": "2025-10-21T17:41:03.236638Z"
+    "created_at": "2025-10-21T17:57:53.785933Z",
+    "updated_at": "2025-10-21T17:57:53.785933Z"
   },
   {
     "id": "0b9321c7-20bb-4c49-b3f1-29927a13325e",
@@ -4491,8 +4449,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://magpies-bakery.square.site/s/order\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"sample_prices\": \"Regular cupcakes $4.00, Mini 6-pack $10.50, Mini dozen $20.00\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking available in lots under I-40 next to W. Magnolia Ave between Williams St and N Central St (very close to bakery). Street parking on N Central St (metered, $1.50/hr, 2hr max). Downtown municipal garages nearby ($1/hr weekdays, free after 6pm and weekends).",
-    "created_at": "2025-10-21T17:41:03.236639Z",
-    "updated_at": "2025-10-21T17:41:03.236639Z"
+    "created_at": "2025-10-21T17:57:53.785935Z",
+    "updated_at": "2025-10-21T17:57:53.785935Z"
   },
   {
     "id": "6b2ca186-b9bc-4bd1-8169-d013bb1ba7b1",
@@ -4532,8 +4490,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.yelp.com/biz/mahalo-coffee-roasters-knoxville-4\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\", \"notes\": \"Iced vanilla latte with oat milk $7, black coffee 12oz $4\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Union Ave (metered). Locust Street Garage 2-3 blocks away at 540 Locust St ($1/hr, $7 max/day, free weeknights after 6pm and all weekend). State Street Garage and Market Square Garage at 406 Walnut St ($1/hr, free weeknights after 6pm, $3 flat rate Saturday, free Sunday).",
-    "created_at": "2025-10-21T17:41:03.236642Z",
-    "updated_at": "2025-10-21T17:41:03.236642Z"
+    "created_at": "2025-10-21T17:57:53.785937Z",
+    "updated_at": "2025-10-21T17:57:53.785938Z"
   },
   {
     "id": "9dde8454-6b8c-4517-9fdd-6b8f3ed5421d",
@@ -4577,8 +4535,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.mahalocoffeeroasters.com/pages/in-store-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"note\": \"Menu available on website but specific prices not listed online\"}",
     "menu_cached_at": null,
     "parking_info": "Ample parking available in front and back parking lots at the Powell location on E Emory Rd.",
-    "created_at": "2025-10-21T17:41:03.236645Z",
-    "updated_at": "2025-10-21T17:41:03.236645Z"
+    "created_at": "2025-10-21T17:57:53.785940Z",
+    "updated_at": "2025-10-21T17:57:53.785940Z"
   },
   {
     "id": "22508b82-8de5-402e-ae52-2286c21169dc",
@@ -4617,8 +4575,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.marblecitysweets.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Market Place Shopping Center lot (shared with Home Depot, Planet Fitness). Easy access off Kingston Pike with central parking throughout the shopping center.",
-    "created_at": "2025-10-21T17:41:03.236647Z",
-    "updated_at": "2025-10-21T17:41:03.236647Z"
+    "created_at": "2025-10-21T17:57:53.785942Z",
+    "updated_at": "2025-10-21T17:57:53.785942Z"
   },
   {
     "id": "33f27ad7-2e73-47d9-93f5-2072668c7138",
@@ -4656,8 +4614,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://masalaindopak.com/our-menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking available in private lot at location. Broadway Avenue Municipal Parking Garage available nearby with public parking on all three levels.",
-    "created_at": "2025-10-21T17:41:03.236648Z",
-    "updated_at": "2025-10-21T17:41:03.236648Z"
+    "created_at": "2025-10-21T17:57:53.785944Z",
+    "updated_at": "2025-10-21T17:57:53.785944Z"
   },
   {
     "id": "7a7210e0-8709-4466-ae83-fbd76925b537",
@@ -4697,8 +4655,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/store/matt-robbs-biscuits/9dtxnD6FQ96r1Kg-TB5VlQ\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage directly adjacent at Market Square (free after 6pm weekdays, $3 flat rate Saturdays, free Sundays). Street parking on Market St (metered, $1.50/hr, 2hr max). State Street Garage 2 blocks away with $1/hr rates.",
-    "created_at": "2025-10-21T17:41:03.236650Z",
-    "updated_at": "2025-10-21T17:41:03.236650Z"
+    "created_at": "2025-10-21T17:57:53.785946Z",
+    "updated_at": "2025-10-21T17:57:53.785946Z"
   },
   {
     "id": "8ff63e0b-4ff1-48f5-b08e-1098dff9e22e",
@@ -4739,8 +4697,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.midland-restaurant.com/lunch-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free off-street parking lot available at New Midland Plaza with ample space. Wheelchair-accessible parking spaces available. Parking lot regularly fills during breakfast and lunch hours.",
-    "created_at": "2025-10-21T17:41:03.236652Z",
-    "updated_at": "2025-10-21T17:41:03.236652Z"
+    "created_at": "2025-10-21T17:57:53.785949Z",
+    "updated_at": "2025-10-21T17:57:53.785949Z"
   },
   {
     "id": "b1380d59-7671-4d4c-990b-fc269999e62c",
@@ -4778,8 +4736,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://mirageknoxville.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "State Street Garage 3 blocks away (free after 7pm weeknights and all weekend, $1/hr weekdays). Market Square Garage nearby. Multiple city parking garages within 2-3 blocks offer free parking weekdays after 6pm and all day weekends.",
-    "created_at": "2025-10-21T17:41:03.236654Z",
-    "updated_at": "2025-10-21T17:41:03.236654Z"
+    "created_at": "2025-10-21T17:57:53.785953Z",
+    "updated_at": "2025-10-21T17:57:53.785953Z"
   },
   {
     "id": "4a2efb1f-cea3-4b39-8e6a-e13f7d9840c7",
@@ -4825,7 +4783,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free parking at Kern's Food Hall lot with validation system. First 2 hours free without validation. After 2 hours: scan QR code from vendor with any purchase for free all-day parking. Non-validated parking $5 (up to 4 hours) or $10 (up to 12 hours).",
     "created_at": "2025-09-30T22:55:28.753749Z",
-    "updated_at": "2025-10-21T17:41:03.236657Z"
+    "updated_at": "2025-10-21T17:57:53.785957Z"
   },
   {
     "id": "6f282b1e-eb0e-4a50-8bd6-b9576a316cc8",
@@ -4866,8 +4824,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://moonshinemountaincookies.com/pages/in-store-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot. Additional parking available at nearby West Town Mall (directly west of location).",
-    "created_at": "2025-10-21T17:41:03.236658Z",
-    "updated_at": "2025-10-21T17:41:03.236659Z"
+    "created_at": "2025-10-21T17:57:53.785959Z",
+    "updated_at": "2025-10-21T17:57:53.785959Z"
   },
   {
     "id": "c7bee645-48db-4a28-a5a4-a0efbaf7e89e",
@@ -4905,8 +4863,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.nixonsdeli.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at Merchants Village Shopping Center directly adjacent to restaurant.",
-    "created_at": "2025-10-21T17:41:03.236660Z",
-    "updated_at": "2025-10-21T17:41:03.236660Z"
+    "created_at": "2025-10-21T17:57:53.785961Z",
+    "updated_at": "2025-10-21T17:57:53.785961Z"
   },
   {
     "id": "6d18f990-8fb6-42d9-8715-57d6ee6d97ae",
@@ -4945,7 +4903,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free parking lot available on-site with convenient connecting lot access. Reviewers consistently note plenty of parking available.",
     "created_at": "2025-09-30T22:55:28.753545Z",
-    "updated_at": "2025-10-21T17:41:03.236662Z"
+    "updated_at": "2025-10-21T17:57:53.785964Z"
   },
   {
     "id": "65563d7c-6bf3-4bd2-98a4-d8153f6e0437",
@@ -4984,8 +4942,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://notwatsons.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage at 406 Walnut St ($1/hr weekdays, $3 flat rate Saturdays, free after 6pm weeknights and all day Sundays). Street parking available on Market Square (metered). Multiple city garages within 2 blocks offer free parking after 6pm and weekends.",
-    "created_at": "2025-10-21T17:41:03.236664Z",
-    "updated_at": "2025-10-21T17:41:03.236664Z"
+    "created_at": "2025-10-21T17:57:53.785966Z",
+    "updated_at": "2025-10-21T17:57:53.785966Z"
   },
   {
     "id": "0ebbdc62-0088-46c3-806f-37636d264c13",
@@ -5023,8 +4981,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://oldcityjava.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on S Central St in Old City. Nearby Old City parking lots and garages (free weeknights after 6pm, free weekends).",
-    "created_at": "2025-10-21T17:41:03.236666Z",
-    "updated_at": "2025-10-21T17:41:03.236666Z"
+    "created_at": "2025-10-21T17:57:53.785968Z",
+    "updated_at": "2025-10-21T17:57:53.785968Z"
   },
   {
     "id": "3b1f5f2c-d93c-4fd5-8eb8-5a7067b26690",
@@ -5064,7 +5022,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Market Square Garage at 406 Walnut St (1 block away): free parking weeknights after 6pm and all day Sunday, $3 flat rate Saturday. Locust Street Garage: free after 6pm weeknights and all weekend, $1/hour weekdays ($7 max). Street metered parking on Market Square ($1.50/hr, 2hr max).",
     "created_at": "2025-09-30T22:55:28.753528Z",
-    "updated_at": "2025-10-21T17:41:03.236669Z"
+    "updated_at": "2025-10-21T17:57:53.785970Z"
   },
   {
     "id": "4f0c97aa-024e-419f-b0b5-1c483eaffe95",
@@ -5101,8 +5059,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.oohlalaindiankitchen.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking for first 2 hours at Kern's Food Hall lot. Scan vendor QR code for extended free parking with any food purchase. Accessible parking available near entrance.",
-    "created_at": "2025-10-21T17:41:03.236670Z",
-    "updated_at": "2025-10-21T17:41:03.236671Z"
+    "created_at": "2025-10-21T17:57:53.785973Z",
+    "updated_at": "2025-10-21T17:57:53.785973Z"
   },
   {
     "id": "779bc6c8-42d0-4dd9-a3e2-dbaf7e73c7ec",
@@ -5142,7 +5100,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Jackson Avenue Lot at 401 W Jackson Ave (free nights/weekends). Market Square Garage, State Street Garage (900 State St), and Locust Street Garage nearby (all free weeknights after 6pm and all weekend, $1/hr daytime, $7 max).",
     "created_at": "2025-09-30T22:55:28.753481Z",
-    "updated_at": "2025-10-21T17:41:03.236673Z"
+    "updated_at": "2025-10-21T17:57:53.785975Z"
   },
   {
     "id": "41020f15-4566-43c7-a819-83688ece88fe",
@@ -5181,7 +5139,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking on W Depot Ave (metered during weekdays). Free parking available in downtown municipal garages after 6pm weekdays and all day weekends ($1/hour during business hours). Market Square Garage nearby offers Sunday free parking and $3 flat rate on Saturdays. Old City area has multiple surface lots and on-street metered parking.",
     "created_at": "2025-09-30T22:55:28.753605Z",
-    "updated_at": "2025-10-21T17:41:03.236674Z"
+    "updated_at": "2025-10-21T17:57:53.785977Z"
   },
   {
     "id": "616c6fa5-aa57-4d57-bdd0-2318ef7daed4",
@@ -5219,8 +5177,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.pigeonforgejapanese.com/pho/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking available in Earthfare Shops at Turkey Creek center lot. Additional parking in adjacent Turkey Creek shopping complex lots along Parkside Drive. Located across from Walmart with easy access from I-40.",
-    "created_at": "2025-10-21T17:41:03.236676Z",
-    "updated_at": "2025-10-21T17:41:03.236676Z"
+    "created_at": "2025-10-21T17:57:53.785978Z",
+    "updated_at": "2025-10-21T17:57:53.785978Z"
   },
   {
     "id": "0d75dae7-15c6-4bf6-823f-aeb28659fb22",
@@ -5259,8 +5217,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.partialcafe.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"Menu pricing not publicly listed online. Coffee drinks typical cafe range.\"}",
     "menu_cached_at": null,
     "parking_info": "Parking lot across street on N Broadway. Street parking available in Fourth & Gill neighborhood.",
-    "created_at": "2025-10-21T17:41:03.236678Z",
-    "updated_at": "2025-10-21T17:41:03.236678Z"
+    "created_at": "2025-10-21T17:57:53.785982Z",
+    "updated_at": "2025-10-21T17:57:53.785982Z"
   },
   {
     "id": "4ce9eab4-dd76-4da5-9dbc-b7c97f4dd065",
@@ -5299,8 +5257,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://pastelitoscubanbakery.com/index.html\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in shared shopping center lot at 402 N Cedar Bluff Rd. Parking lot serves multiple businesses in the complex.",
-    "created_at": "2025-10-21T17:41:03.236680Z",
-    "updated_at": "2025-10-21T17:41:03.236680Z"
+    "created_at": "2025-10-21T17:57:53.785984Z",
+    "updated_at": "2025-10-21T17:57:53.785984Z"
   },
   {
     "id": "262dd13e-c05d-414d-9a87-90841af561d5",
@@ -5339,8 +5297,8 @@ const RESTAURANTS = [
     "cached_menu_info": "https://www.doordash.com/en/store/patches-bbq-&-more-knoxville-33988659/",
     "menu_cached_at": null,
     "parking_info": "Accessible parking available at Rutledge Pike location",
-    "created_at": "2025-10-21T17:41:03.236682Z",
-    "updated_at": "2025-10-21T17:41:03.236682Z"
+    "created_at": "2025-10-21T17:57:53.785986Z",
+    "updated_at": "2025-10-21T17:57:53.785986Z"
   },
   {
     "id": "d103e3de-d50b-4a84-9807-36bb13a89b0b",
@@ -5378,8 +5336,8 @@ const RESTAURANTS = [
     "cached_menu_info": "https://order.peacefulsidesocial.com",
     "menu_cached_at": null,
     "parking_info": "On-site parking available at Townsend Town Square location",
-    "created_at": "2025-10-21T17:41:03.236684Z",
-    "updated_at": "2025-10-21T17:41:03.236684Z"
+    "created_at": "2025-10-21T17:57:53.785988Z",
+    "updated_at": "2025-10-21T17:57:53.785988Z"
   },
   {
     "id": "c50bc6cf-45fb-4256-a724-d6e2848f5445",
@@ -5417,8 +5375,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available",
-    "created_at": "2025-10-21T17:41:03.236686Z",
-    "updated_at": "2025-10-21T17:41:03.236686Z"
+    "created_at": "2025-10-21T17:57:53.785990Z",
+    "updated_at": "2025-10-21T17:57:53.785990Z"
   },
   {
     "id": "bbdf7ef0-c3ff-4ccb-b71d-9b1f24cdf936",
@@ -5456,8 +5414,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Parking lot at E Magnolia Ave location.",
-    "created_at": "2025-10-21T17:41:03.236687Z",
-    "updated_at": "2025-10-21T17:41:03.236687Z"
+    "created_at": "2025-10-21T17:57:53.785992Z",
+    "updated_at": "2025-10-21T17:57:53.785992Z"
   },
   {
     "id": "671752d2-018a-4240-92be-c1cd65a434e0",
@@ -5497,8 +5455,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://petescoffeeshop.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free street parking on Union Ave. Nearby Market Square Garage (2 blocks) offers $1/hr weekday parking, free after 6pm and all day weekends. Locust Street Garage (3 blocks) offers similar rates with 649 spaces.",
-    "created_at": "2025-10-21T17:41:03.236691Z",
-    "updated_at": "2025-10-21T17:41:03.236691Z"
+    "created_at": "2025-10-21T17:57:53.785995Z",
+    "updated_at": "2025-10-21T17:57:53.785995Z"
   },
   {
     "id": "60c59d41-d4eb-4d1d-9155-a009efe05681",
@@ -5534,8 +5492,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Parking garage and valet parking available at The Oliver Hotel",
-    "created_at": "2025-10-21T17:41:03.236693Z",
-    "updated_at": "2025-10-21T17:41:03.236693Z"
+    "created_at": "2025-10-21T17:57:53.785998Z",
+    "updated_at": "2025-10-21T17:57:53.785998Z"
   },
   {
     "id": "9ad982f4-75c2-4bed-9edb-e42626b4c661",
@@ -5573,8 +5531,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Shopping center parking lot available at Brookview Centre.",
-    "created_at": "2025-10-21T17:41:03.236695Z",
-    "updated_at": "2025-10-21T17:41:03.236695Z"
+    "created_at": "2025-10-21T17:57:53.786Z",
+    "updated_at": "2025-10-21T17:57:53.786Z"
   },
   {
     "id": "678367bc-fb7b-4642-b0f6-5246a69908e6",
@@ -5613,8 +5571,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking in shared shopping center lot on Executive Park Drive",
-    "created_at": "2025-10-21T17:41:03.236697Z",
-    "updated_at": "2025-10-21T17:41:03.236697Z"
+    "created_at": "2025-10-21T17:57:53.786002Z",
+    "updated_at": "2025-10-21T17:57:53.786002Z"
   },
   {
     "id": "3c62b959-772e-43ff-857f-7e7b54b85dc2",
@@ -5651,8 +5609,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Parking available on-site",
-    "created_at": "2025-10-21T17:41:03.236698Z",
-    "updated_at": "2025-10-21T17:41:03.236698Z"
+    "created_at": "2025-10-21T17:57:53.786004Z",
+    "updated_at": "2025-10-21T17:57:53.786004Z"
   },
   {
     "id": "521b39e0-9a03-4148-8c1c-4224706142e6",
@@ -5695,8 +5653,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking lot with ample spaces",
-    "created_at": "2025-10-21T17:41:03.236700Z",
-    "updated_at": "2025-10-21T17:41:03.236701Z"
+    "created_at": "2025-10-21T17:57:53.786008Z",
+    "updated_at": "2025-10-21T17:57:53.786008Z"
   },
   {
     "id": "0f14b334-cd47-41fd-a7e2-0479e12c6518",
@@ -5736,8 +5694,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Parking lot available adjacent to the distillery on West Jackson Avenue",
-    "created_at": "2025-10-21T17:41:03.236702Z",
-    "updated_at": "2025-10-21T17:41:03.236702Z"
+    "created_at": "2025-10-21T17:57:53.786010Z",
+    "updated_at": "2025-10-21T17:57:53.786010Z"
   },
   {
     "id": "0baa5998-9c8a-4c96-9d1b-6f7b07f45bee",
@@ -5778,8 +5736,8 @@ const RESTAURANTS = [
     "cached_menu_info": "https://www.potchkedeli.com/bagel-menu",
     "menu_cached_at": null,
     "parking_info": "Dedicated parking lot available; can fill quickly during peak morning hours (before 8 AM)",
-    "created_at": "2025-10-21T17:41:03.236704Z",
-    "updated_at": "2025-10-21T17:41:03.236704Z"
+    "created_at": "2025-10-21T17:57:53.786013Z",
+    "updated_at": "2025-10-21T17:57:53.786013Z"
   },
   {
     "id": "036609c9-4e81-4ae0-84c2-a7395d8a739f",
@@ -5820,8 +5778,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Paid street parking and public lots nearby. Closest options: Jackson Ave Lot (6 min walk), I-40 Lot West (8 min walk)",
-    "created_at": "2025-10-21T17:41:03.236706Z",
-    "updated_at": "2025-10-21T17:41:03.236706Z"
+    "created_at": "2025-10-21T17:57:53.786015Z",
+    "updated_at": "2025-10-21T17:57:53.786015Z"
   },
   {
     "id": "04bd46f1-a8e1-4286-aa6f-18ad9e3660f1",
@@ -5860,8 +5818,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"menu_url\": \"https://scruffycity.com/preservation-pub-menu-page/\", \"items\": [\"pizzas\", \"sandwiches\", \"quesadillas\", \"chips\"], \"price_range\": \"$10-20 per person\", \"happy_hour\": \"3pm-8pm daily\"}",
     "menu_cached_at": "2025-10-02T14:59:28Z",
     "parking_info": "Market Square Garage (153 steps, 3.5 min walk), Langley Garage (256 steps, 5.8 min walk), State Street Garage (339 steps, 7.7 min walk)",
-    "created_at": "2025-10-21T17:41:03.236709Z",
-    "updated_at": "2025-10-21T17:41:03.236709Z"
+    "created_at": "2025-10-21T17:57:53.786017Z",
+    "updated_at": "2025-10-21T17:57:53.786017Z"
   },
   {
     "id": "1093e539-c95d-4bb0-84a9-90bd20df1ad1",
@@ -5895,8 +5853,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking available on S Central St; nearby public lots include Old City Lot South, Jackson Ave Lot, and Old City Lot North within walking distance",
-    "created_at": "2025-10-21T17:41:03.236711Z",
-    "updated_at": "2025-10-21T17:41:03.236711Z"
+    "created_at": "2025-10-21T17:57:53.786019Z",
+    "updated_at": "2025-10-21T17:57:53.786019Z"
   },
   {
     "id": "d280debd-af5e-4e14-affd-87d7159ea9dd",
@@ -5934,8 +5892,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Shopping center parking available at Northshore Town Center, Cornerstone Building.",
-    "created_at": "2025-10-21T17:41:03.236713Z",
-    "updated_at": "2025-10-21T17:41:03.236713Z"
+    "created_at": "2025-10-21T17:57:53.786022Z",
+    "updated_at": "2025-10-21T17:57:53.786022Z"
   },
   {
     "id": "4df19cd8-be20-42fb-a391-08c278b034a4",
@@ -5973,8 +5931,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Limited parking in main lot; two overflow lots available on the east side of neighboring Norco Metal Finishing",
-    "created_at": "2025-10-21T17:41:03.236714Z",
-    "updated_at": "2025-10-21T17:41:03.236714Z"
+    "created_at": "2025-10-21T17:57:53.786024Z",
+    "updated_at": "2025-10-21T17:57:53.786024Z"
   },
   {
     "id": "dfba31ad-91ba-4747-bb8f-b79bfb2deffc",
@@ -6014,8 +5972,8 @@ const RESTAURANTS = [
     "cached_menu_info": "Menu features craft cocktails, specialty hotdogs, regional charcuterie, beer cheese with pretzels, fancy popcorn. Full menus: Food, Cocktails (Winter 2024), Wine (Winter 2024), Beer and Spirits (Winter 2024). Available at: http://www.knoxpublichouse.com/menus",
     "menu_cached_at": null,
     "parking_info": "Parking lot on-site and additional street parking across Magnolia Avenue",
-    "created_at": "2025-10-21T17:41:03.236717Z",
-    "updated_at": "2025-10-21T17:41:03.236717Z"
+    "created_at": "2025-10-21T17:57:53.786026Z",
+    "updated_at": "2025-10-21T17:57:53.786026Z"
   },
   {
     "id": "9c03b6c0-8563-4363-9a96-c9655e6fd106",
@@ -6055,8 +6013,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free on-site private parking lot available; shuttle service provided for large events when parking capacity is exceeded",
-    "created_at": "2025-10-21T17:41:03.236719Z",
-    "updated_at": "2025-10-21T17:41:03.236719Z"
+    "created_at": "2025-10-21T17:57:53.786028Z",
+    "updated_at": "2025-10-21T17:57:53.786028Z"
   },
   {
     "id": "8f99d629-de17-497d-a713-aae90077d5aa",
@@ -6096,8 +6054,50 @@ const RESTAURANTS = [
     "cached_menu_info": "https://www.radiusrooftopbar.com/menus/",
     "menu_cached_at": null,
     "parking_info": "State Street Garage with 3rd floor skywalk access (5.7 min walk), Market Square Garage (5.0 min walk), Langley Garage (7.0 min walk), street parking available",
-    "created_at": "2025-10-21T17:41:03.236722Z",
-    "updated_at": "2025-10-21T17:41:03.236722Z"
+    "created_at": "2025-10-21T17:57:53.786030Z",
+    "updated_at": "2025-10-21T17:57:53.786030Z"
+  },
+  {
+    "id": "acdc494f-c809-446f-8f7c-ca63c739696c",
+    "name": "Raising Cane's Chicken Fingers - Kingston Pike",
+    "address": "7723 Kingston Pike, Knoxville, TN 37919",
+    "cuisine_type": "Chicken, Fast Casual",
+    "price_range": "$",
+    "date_night_score": 3.0,
+    "atmosphere_score": null,
+    "phone": "",
+    "website": "https://locations.raisingcanes.com/tn/knoxville/7723-kingston-pike",
+    "reservation_url": null,
+    "hours": null,
+    "description": "Louisiana-based fast-casual chain specializing in chicken fingers opened its second Knoxville location near West Town Mall on January 28, 2025. The restaurant features Cane's signature menu: perfectly cooked chicken tenderloins, crinkle-cut fries, coleslaw, Texas toast, and their famous Cane's sauce. Convenient location with drive-through service.",
+    "atmosphere": "Bright, energetic fast-casual dining room with Louisiana-inspired decor. High-energy crew serves chicken finger combos with signature sauce in a quick-service format perfect for families and students. Drive-through available for on-the-go orders.",
+    "special_features": "Opened January 28, 2025 with grand opening featuring free Cane's for a year giveaway for 20 winners and commemorative beanies for first 100 customers. Second Knoxville location (first opened on Cumberland Avenue in May 2024). Eleventh Tennessee location. Menu focuses on quality over quantity: chicken finger combos, sandwiches, and kids meals. Drive-through and dine-in service. Signature Cane's sauce made fresh daily. Open late for night owls and post-game crowds.",
+    "opening_date": "2025-01-28T00:00:00Z",
+    "last_visited": null,
+    "visit_count": 0,
+    "average_rating": null,
+    "tags": [
+      "fast_casual",
+      "chicken",
+      "drive_through",
+      "new_2025",
+      "west_knoxville",
+      "kingston_pike"
+    ],
+    "status": "Active",
+    "discovery_source": "manual",
+    "verification_status": "Verified",
+    "social_media": null,
+    "instagram_url": null,
+    "facebook_url": null,
+    "yelp_url": null,
+    "twitter_url": null,
+    "notes": null,
+    "cached_menu_info": null,
+    "menu_cached_at": null,
+    "parking_info": null,
+    "created_at": "2025-10-21T17:57:53.786035Z",
+    "updated_at": "2025-10-21T17:57:53.786035Z"
   },
   {
     "id": "b2a268ef-61e8-401d-a0ad-febbb19199a6",
@@ -6135,8 +6135,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"menu_url\": \"https://www.ramiscafe.com/menu\", \"description\": \"Breakfast and lunch menu featuring omelets, pancakes, sandwiches\"}",
     "menu_cached_at": null,
     "parking_info": "Small shared parking lot at N. Broadway and Raleigh Avenue intersection, across from Fisher Tire",
-    "created_at": "2025-10-21T17:41:03.236724Z",
-    "updated_at": "2025-10-21T17:41:03.236724Z"
+    "created_at": "2025-10-21T17:57:53.786037Z",
+    "updated_at": "2025-10-21T17:57:53.786037Z"
   },
   {
     "id": "34e145d4-d00f-4447-9801-f5a92de17b7a",
@@ -6213,8 +6213,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://remedycoffee.square.site/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"sample_prices\": {\"espresso\": \"$3.50\", \"latte_regular\": \"$5.15\", \"latte_large\": \"$6.15\", \"americano_regular\": \"$4.35\", \"cappuccino\": \"$4.95\", \"drip_coffee_regular\": \"$3.35\"}}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Tyson St and surrounding Downtown North streets.",
-    "created_at": "2025-10-21T17:41:03.236728Z",
-    "updated_at": "2025-10-21T17:41:03.236728Z"
+    "created_at": "2025-10-21T17:57:53.786041Z",
+    "updated_at": "2025-10-21T17:57:53.786041Z"
   },
   {
     "id": "3e60d4ed-f913-4029-91a9-b1348cd42285",
@@ -6252,8 +6252,8 @@ const RESTAURANTS = [
     "cached_menu_info": "https://roostersknoxville.com/food",
     "menu_cached_at": null,
     "parking_info": "Parking lot available on-site",
-    "created_at": "2025-10-21T17:41:03.236730Z",
-    "updated_at": "2025-10-21T17:41:03.236730Z"
+    "created_at": "2025-10-21T17:57:53.786043Z",
+    "updated_at": "2025-10-21T17:57:53.786043Z"
   },
   {
     "id": "2515a3f6-614a-47a3-ba44-861e2d8efd72",
@@ -6291,8 +6291,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Ample parking space available on-site",
-    "created_at": "2025-10-21T17:41:03.236731Z",
-    "updated_at": "2025-10-21T17:41:03.236731Z"
+    "created_at": "2025-10-21T17:57:53.786044Z",
+    "updated_at": "2025-10-21T17:57:53.786045Z"
   },
   {
     "id": "f4fc44d2-3b89-403a-b45f-b8c014f043c6",
@@ -6332,7 +6332,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Paid parking lots available nearby including Old City Lot South (5-minute walk) and Old City Lot North (7-minute walk). Street parking also available with typical rates of $11-16 for 2-hour minimum.",
     "created_at": "2025-09-30T22:55:28.753461Z",
-    "updated_at": "2025-10-21T17:41:03.236733Z"
+    "updated_at": "2025-10-21T17:57:53.786047Z"
   },
   {
     "id": "d6be4521-1965-402d-83e0-e8ab6c19df40",
@@ -6374,7 +6374,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking available in Emory Place district; nearby parking reservable through SpotHero",
     "created_at": "2025-10-01T20:50:19.769617Z",
-    "updated_at": "2025-10-21T17:41:03.236735Z"
+    "updated_at": "2025-10-21T17:57:53.786049Z"
   },
   {
     "id": "d3cbd35b-836f-4a74-b7d8-9a7d819bfb9a",
@@ -6413,8 +6413,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Limited on-site parking available. Adjacent lot (Gus's Hot Chicken) is not available for restaurant use.",
-    "created_at": "2025-10-21T17:41:03.236737Z",
-    "updated_at": "2025-10-21T17:41:03.236738Z"
+    "created_at": "2025-10-21T17:57:53.786051Z",
+    "updated_at": "2025-10-21T17:57:53.786051Z"
   },
   {
     "id": "f2555f5a-816e-4baa-b378-0d52dc518a53",
@@ -6450,8 +6450,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.schulzbraubrewing.com/schulzes-schnitzel-food/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking available. Additional parking across the street in Health Department lot. Street parking on Bernard Ave, Tyson St, and Pruett Place. Located just off interstate with generally good parking availability.",
-    "created_at": "2025-10-21T17:41:03.236739Z",
-    "updated_at": "2025-10-21T17:41:03.236739Z"
+    "created_at": "2025-10-21T17:57:53.786054Z",
+    "updated_at": "2025-10-21T17:57:53.786054Z"
   },
   {
     "id": "1200a0c2-901b-417f-957d-b51ec940a524",
@@ -6490,8 +6490,8 @@ const RESTAURANTS = [
     "cached_menu_info": "https://scrambledjakes.com/menus/",
     "menu_cached_at": null,
     "parking_info": "Free parking lot available on-site",
-    "created_at": "2025-10-21T17:41:03.236741Z",
-    "updated_at": "2025-10-21T17:41:03.236741Z"
+    "created_at": "2025-10-21T17:57:53.786056Z",
+    "updated_at": "2025-10-21T17:57:53.786056Z"
   },
   {
     "id": "567be1af-b526-4cb2-9211-521a418a103e",
@@ -6530,8 +6530,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Public parking in Scruffy City Lot (86 spaces, $16/day, $80/month), Market Square Garage nearby, street parking on Market Square",
-    "created_at": "2025-10-21T17:41:03.236745Z",
-    "updated_at": "2025-10-21T17:41:03.236746Z"
+    "created_at": "2025-10-21T17:57:53.786058Z",
+    "updated_at": "2025-10-21T17:57:53.786059Z"
   },
   {
     "id": "85c7780d-ec7d-4cfa-99d5-ce22626f1acb",
@@ -6570,7 +6570,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free parking available in Turkey Creek shopping center lot",
     "created_at": "2025-09-30T22:55:28.753647Z",
-    "updated_at": "2025-10-21T17:41:03.236749Z"
+    "updated_at": "2025-10-21T17:57:53.786061Z"
   },
   {
     "id": "088aad42-ec4e-4ffc-b248-3ea1f8a2ec40",
@@ -6608,8 +6608,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free street parking available on Sutherland Ave and surrounding residential streets in Fort Sanders neighborhood near UT Knoxville.",
-    "created_at": "2025-10-21T17:41:03.236753Z",
-    "updated_at": "2025-10-21T17:41:03.236753Z"
+    "created_at": "2025-10-21T17:57:53.786062Z",
+    "updated_at": "2025-10-21T17:57:53.786063Z"
   },
   {
     "id": "dc047892-8b4f-40f0-bece-d137c4335de2",
@@ -6648,8 +6648,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street and lot parking available on North Broadway",
-    "created_at": "2025-10-21T17:41:03.236756Z",
-    "updated_at": "2025-10-21T17:41:03.236756Z"
+    "created_at": "2025-10-21T17:57:53.786064Z",
+    "updated_at": "2025-10-21T17:57:53.786065Z"
   },
   {
     "id": "a2392684-973a-46aa-8c5a-3a239af54dbb",
@@ -6687,8 +6687,8 @@ const RESTAURANTS = [
     "cached_menu_info": "http://sitarknoxville.com/menu.aspx",
     "menu_cached_at": null,
     "parking_info": "Free parking available on-site",
-    "created_at": "2025-10-21T17:41:03.236760Z",
-    "updated_at": "2025-10-21T17:41:03.236760Z"
+    "created_at": "2025-10-21T17:57:53.786066Z",
+    "updated_at": "2025-10-21T17:57:53.786066Z"
   },
   {
     "id": "024fb2b3-ed27-4f7d-adf3-e3bf1e56ec44",
@@ -6726,8 +6726,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Downtown location with nearby public parking at State Street Garage and Old City Lot South, both within 10-minute walk",
-    "created_at": "2025-10-21T17:41:03.236763Z",
-    "updated_at": "2025-10-21T17:41:03.236763Z"
+    "created_at": "2025-10-21T17:57:53.786068Z",
+    "updated_at": "2025-10-21T17:57:53.786068Z"
   },
   {
     "id": "8051c705-28d7-490f-90b3-09b9778c829d",
@@ -6766,8 +6766,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking available in Turkey Creek shopping center lot, located across from Regal Cinemas Pinnacle 18",
-    "created_at": "2025-10-21T17:41:03.236766Z",
-    "updated_at": "2025-10-21T17:41:03.236767Z"
+    "created_at": "2025-10-21T17:57:53.786071Z",
+    "updated_at": "2025-10-21T17:57:53.786071Z"
   },
   {
     "id": "feb69ce5-d787-47e6-a312-314c2d35440b",
@@ -6807,7 +6807,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available",
     "created_at": "2025-09-30T22:55:28.753723Z",
-    "updated_at": "2025-10-21T17:41:03.236770Z"
+    "updated_at": "2025-10-21T17:57:53.786073Z"
   },
   {
     "id": "a438d476-a0b3-4f6f-9e16-b77e8b860992",
@@ -6845,8 +6845,8 @@ const RESTAURANTS = [
     "cached_menu_info": "https://soccertaco.com/menu/",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage (78 steps), Langley Garage (165 steps), and Locust Street Garage (218 steps) provide nearby parking options",
-    "created_at": "2025-10-21T17:41:03.236776Z",
-    "updated_at": "2025-10-21T17:41:03.236776Z"
+    "created_at": "2025-10-21T17:57:53.786075Z",
+    "updated_at": "2025-10-21T17:57:53.786075Z"
   },
   {
     "id": "d23f1b84-66da-4e9c-9073-b1b23b2399bf",
@@ -6887,8 +6887,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "On-site parking available",
-    "created_at": "2025-10-21T17:41:03.236780Z",
-    "updated_at": "2025-10-21T17:41:03.236780Z"
+    "created_at": "2025-10-21T17:57:53.786077Z",
+    "updated_at": "2025-10-21T17:57:53.786077Z"
   },
   {
     "id": "6085f3b9-49e8-4c25-a48b-ccefdcb5bf3c",
@@ -6927,8 +6927,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Old City Lot South (5.6 min walk, free weeknights/weekends, $3 max weekdays) and Old City Lot North (7.4 min walk) nearby",
-    "created_at": "2025-10-21T17:41:03.236783Z",
-    "updated_at": "2025-10-21T17:41:03.236783Z"
+    "created_at": "2025-10-21T17:57:53.786079Z",
+    "updated_at": "2025-10-21T17:57:53.786079Z"
   },
   {
     "id": "640321ce-9e5e-44b2-9f9d-cdcb605c97b5",
@@ -6968,8 +6968,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking available on S Central St. Nearby parking at Old City Lot South, approximately 6-minute walk.",
-    "created_at": "2025-10-21T17:41:03.236787Z",
-    "updated_at": "2025-10-21T17:41:03.236787Z"
+    "created_at": "2025-10-21T17:57:53.786081Z",
+    "updated_at": "2025-10-21T17:57:53.786081Z"
   },
   {
     "id": "abac5471-6d97-43b6-bc05-1cb0a843ff6f",
@@ -7007,8 +7007,8 @@ const RESTAURANTS = [
     "cached_menu_info": "https://spiceexpressindiankitchen.com/menu/",
     "menu_cached_at": null,
     "parking_info": "Free parking right outside",
-    "created_at": "2025-10-21T17:41:03.236790Z",
-    "updated_at": "2025-10-21T17:41:03.236790Z"
+    "created_at": "2025-10-21T17:57:53.786083Z",
+    "updated_at": "2025-10-21T17:57:53.786083Z"
   },
   {
     "id": "e355ffee-bba0-46b0-934b-4e46494adda1",
@@ -7045,8 +7045,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Ample free parking in shared lot at gas station location with easy access from I-75 and I-40",
-    "created_at": "2025-10-21T17:41:03.236793Z",
-    "updated_at": "2025-10-21T17:41:03.236793Z"
+    "created_at": "2025-10-21T17:57:53.786085Z",
+    "updated_at": "2025-10-21T17:57:53.786085Z"
   },
   {
     "id": "02197582-5e63-402f-b470-f79940fe5d53",
@@ -7084,8 +7084,8 @@ const RESTAURANTS = [
     "cached_menu_info": "https://spiceknoxville.com/menu.html",
     "menu_cached_at": null,
     "parking_info": "Strip mall parking available at Kingston Pike location",
-    "created_at": "2025-10-21T17:41:03.236797Z",
-    "updated_at": "2025-10-21T17:41:03.236797Z"
+    "created_at": "2025-10-21T17:57:53.786087Z",
+    "updated_at": "2025-10-21T17:57:53.786087Z"
   },
   {
     "id": "835e2d64-4366-49f6-9140-1f0bbd89a23e",
@@ -7124,8 +7124,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking available in North Knoxville commercial district, outdoor patio shared with neighboring brewery",
-    "created_at": "2025-10-21T17:41:03.236800Z",
-    "updated_at": "2025-10-21T17:41:03.236801Z"
+    "created_at": "2025-10-21T17:57:53.786089Z",
+    "updated_at": "2025-10-21T17:57:53.786089Z"
   },
   {
     "id": "69b4bace-977c-424b-a682-f11754cb16b5",
@@ -7165,7 +7165,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Strip mall parking lot with limited spaces available",
     "created_at": "2025-09-30T22:55:28.753767Z",
-    "updated_at": "2025-10-21T17:41:03.236806Z"
+    "updated_at": "2025-10-21T17:57:53.786091Z"
   },
   {
     "id": "d48befa6-01f6-4906-9710-87188f8c0d36",
@@ -7205,7 +7205,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Market Square Garage directly behind restaurant at 406 Walnut (cheapest option). Free parking weeknights after 6pm and all day Sunday, $3 flat rate Saturdays. Alternative garages: Langley (407 Walnut), Promenade (401 State), State Street (520 State).",
     "created_at": "2025-09-30T22:55:28.753689Z",
-    "updated_at": "2025-10-21T17:41:03.236812Z"
+    "updated_at": "2025-10-21T17:57:53.786093Z"
   },
   {
     "id": "f710ab7f-3c8f-4ba3-a62d-c8171607d01b",
@@ -7243,8 +7243,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Strip mall parking lot available",
-    "created_at": "2025-10-21T17:41:03.236815Z",
-    "updated_at": "2025-10-21T17:41:03.236816Z"
+    "created_at": "2025-10-21T17:57:53.786094Z",
+    "updated_at": "2025-10-21T17:57:53.786095Z"
   },
   {
     "id": "50c4d074-335c-4cc2-93a4-8df8ba63cc41",
@@ -7284,8 +7284,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking available in Rocky Hill Shopping Center lot",
-    "created_at": "2025-10-21T17:41:03.236819Z",
-    "updated_at": "2025-10-21T17:41:03.236819Z"
+    "created_at": "2025-10-21T17:57:53.786096Z",
+    "updated_at": "2025-10-21T17:57:53.786096Z"
   },
   {
     "id": "d1fa9f2c-a998-4b10-b6aa-60108512a015",
@@ -7325,8 +7325,51 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"menu_url\": \"https://www.sunspotrestaurant.com/small-plates.html\", \"note\": \"Full menu available with small plates, entrees, tacos, and brunch options\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on Cumberland Avenue and surrounding UT campus area",
-    "created_at": "2025-10-21T17:41:03.236826Z",
-    "updated_at": "2025-10-21T17:41:03.236826Z"
+    "created_at": "2025-10-21T17:57:53.786099Z",
+    "updated_at": "2025-10-21T17:57:53.786099Z"
+  },
+  {
+    "id": "8158c5f9-2a73-4493-8eaf-2a1ccb5d3d55",
+    "name": "T. Ralph's Burgers & Fries - Covenant Health Park",
+    "address": "Beauford Delaney Building, Covenant Health Park, Knoxville, TN 37915",
+    "cuisine_type": "Burgers, American",
+    "price_range": "$$",
+    "date_night_score": 5.0,
+    "atmosphere_score": null,
+    "phone": "",
+    "website": "",
+    "reservation_url": null,
+    "hours": null,
+    "description": "Locally-sourced burger concept expanded from Kern's Food Hall to Covenant Health Park's Beauford Delaney Building, bringing Mitchell Farm beef burgers to baseball and soccer fans year-round. Shares space with Disco Chicken and Donuts in a 3,238 square foot dual-concept restaurant with full-service bar.",
+    "atmosphere": "Modern sports venue restaurant in Old City baseball stadium building. Casual dining with views of downtown Knoxville and stadium activity. Shares lively bar atmosphere with Disco Chicken next door. Perfect for pre-game meals or casual downtown dining year-round. Local pride evident in Mitchell Farm beef sourcing.",
+    "special_features": "Opened October 2025 at Covenant Health Park (baseball/soccer stadium). Second T. Ralph's location (first in Kern's Food Hall). Features locally sourced beef from Mitchell Farm. Shares 3,238 sq ft Beauford Delaney Building with Disco Chicken and Donuts. Full-service bar shared between concepts. Open year-round, seven days a week (not just game days). Located at south end of stadium building in Old City. Owned by Dustin Cochran. Casual dining with stadium energy and downtown views.",
+    "opening_date": "2025-10-01T00:00:00Z",
+    "last_visited": null,
+    "visit_count": 0,
+    "average_rating": null,
+    "tags": [
+      "burgers",
+      "local_ingredients",
+      "stadium_dining",
+      "old_city",
+      "new_2025",
+      "mitchell_farm_beef",
+      "full_bar"
+    ],
+    "status": "Active",
+    "discovery_source": "manual",
+    "verification_status": "Verified",
+    "social_media": null,
+    "instagram_url": null,
+    "facebook_url": null,
+    "yelp_url": null,
+    "twitter_url": null,
+    "notes": null,
+    "cached_menu_info": null,
+    "menu_cached_at": null,
+    "parking_info": null,
+    "created_at": "2025-10-21T17:57:53.786101Z",
+    "updated_at": "2025-10-21T17:57:53.786101Z"
   },
   {
     "id": "06fb24f0-e550-48d3-97f8-09bdbba82da2",
@@ -7365,8 +7408,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking in Turkey Creek shopping center lot",
-    "created_at": "2025-10-21T17:41:03.236830Z",
-    "updated_at": "2025-10-21T17:41:03.236830Z"
+    "created_at": "2025-10-21T17:57:53.786103Z",
+    "updated_at": "2025-10-21T17:57:53.786103Z"
   },
   {
     "id": "a685d2ff-e6cc-482d-b07a-d05dcd4649ab",
@@ -7404,8 +7447,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking available in strip center lot with quick and easy access",
-    "created_at": "2025-10-21T17:41:03.236833Z",
-    "updated_at": "2025-10-21T17:41:03.236833Z"
+    "created_at": "2025-10-21T17:57:53.786105Z",
+    "updated_at": "2025-10-21T17:57:53.786105Z"
   },
   {
     "id": "a87272c8-8f60-4292-9d0e-4b855fca8a0c",
@@ -7444,7 +7487,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Parking available at the shopping center at 900 E Hill Ave",
     "created_at": "2025-09-30T22:55:28.753776Z",
-    "updated_at": "2025-10-21T17:41:03.236838Z"
+    "updated_at": "2025-10-21T17:57:53.786107Z"
   },
   {
     "id": "2967eef4-1848-4e17-97e6-4288b31e108d",
@@ -7482,8 +7525,8 @@ const RESTAURANTS = [
     "cached_menu_info": "https://www.makerexchangeknox.com/dinner/",
     "menu_cached_at": null,
     "parking_info": "Free valet parking for diners, Marriott Hotel Garage, World's Fair North Lot, Langley Garage, and Locust Street Garage nearby",
-    "created_at": "2025-10-21T17:41:03.236843Z",
-    "updated_at": "2025-10-21T17:41:03.236843Z"
+    "created_at": "2025-10-21T17:57:53.786109Z",
+    "updated_at": "2025-10-21T17:57:53.786109Z"
   },
   {
     "id": "7b0d5a19-1c8b-4f06-a7b5-02f9f7f2fa54",
@@ -7523,8 +7566,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ternclub.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Gay St (metered, $1.50/hr, 2hr max). State Street Garage 2 blocks away (434 spaces, $1/hr weekdays, free after 7pm and weekends). Market Square Garage nearby (253 spaces, same rates). W. Jackson Ave Lot near 100 block of South Gay Street (free nights & weekends).",
-    "created_at": "2025-10-21T17:41:03.236848Z",
-    "updated_at": "2025-10-21T17:41:03.236848Z"
+    "created_at": "2025-10-21T17:57:53.786112Z",
+    "updated_at": "2025-10-21T17:57:53.786112Z"
   },
   {
     "id": "45743d40-f939-4300-9c23-f9d03c84ec15",
@@ -7562,8 +7605,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.tesorogelato.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on N Central St and W Jackson Ave (metered). Jackson Ave Lot at 401 W Jackson Ave ($1/hr, $7 daily max, free weeknights after 6pm and weekends). Old City Lot North offers free 24/7 parking (101 spaces). Recommended: under James White Parkway overpass.",
-    "created_at": "2025-10-21T17:41:03.236853Z",
-    "updated_at": "2025-10-21T17:41:03.236853Z"
+    "created_at": "2025-10-21T17:57:53.786114Z",
+    "updated_at": "2025-10-21T17:57:53.786114Z"
   },
   {
     "id": "c550bab9-6db9-4994-9238-3e9e2b8048e2",
@@ -7603,8 +7646,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://theappalachianrestaurant.com/sevierville-historic-downtown-sevierville-the-appalachian-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free public parking available in downtown Sevierville municipal lots. 26-space city lot accessible from Parkway, additional parking near Main Street. Sevier County Courthouse parking lot open to public. Short walk to restaurant entrance on Bruce Street.",
-    "created_at": "2025-10-21T17:41:03.236857Z",
-    "updated_at": "2025-10-21T17:41:03.236857Z"
+    "created_at": "2025-10-21T17:57:53.786117Z",
+    "updated_at": "2025-10-21T17:57:53.786117Z"
   },
   {
     "id": "90dbf385-b9dd-45a8-a94b-f6eeef469ee2",
@@ -7642,8 +7685,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.blackberryfarm.com/wine-food/restaurants/the-barn\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"notes\": \"Prix fixe menu $160 plus 9.75% tax and 20% service charge\"}",
     "menu_cached_at": null,
     "parking_info": "Complimentary on-site parking and valet service available at Blackberry Farm resort (4,200-acre estate). The Barn is located in the center of the Farmstead with convenient access from main parking areas.",
-    "created_at": "2025-10-21T17:41:03.236861Z",
-    "updated_at": "2025-10-21T17:41:03.236861Z"
+    "created_at": "2025-10-21T17:57:53.786119Z",
+    "updated_at": "2025-10-21T17:57:53.786119Z"
   },
   {
     "id": "317f1460-c731-4224-b72f-00e17626f908",
@@ -7682,7 +7725,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Market Square Garage at 406 Walnut St (677 spaces, $1/hr, $7 day max, free after 6pm weeknights, $3 flat rate Saturdays, free Sundays). Street parking on Market Square (metered, $1.50/hr, 2hr max). Locust Street Garage nearby (free after 6pm and all weekend).",
     "created_at": "2025-09-30T22:55:28.753697Z",
-    "updated_at": "2025-10-21T17:41:03.236865Z"
+    "updated_at": "2025-10-21T17:57:53.786122Z"
   },
   {
     "id": "5ee990aa-b420-41be-9ee2-b58ee5e19344",
@@ -7720,8 +7763,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Shopping center parking available at Kingston Pike location.",
-    "created_at": "2025-10-21T17:41:03.236868Z",
-    "updated_at": "2025-10-21T17:41:03.236868Z"
+    "created_at": "2025-10-21T17:57:53.786124Z",
+    "updated_at": "2025-10-21T17:57:53.786124Z"
   },
   {
     "id": "5446c6ba-eda6-459b-80a0-28416a38493a",
@@ -7761,8 +7804,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.thechophouse.com/menus.html\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot available at restaurant location. This is a suburban commercial area with ample on-site parking for guests.",
-    "created_at": "2025-10-21T17:41:03.236872Z",
-    "updated_at": "2025-10-21T17:41:03.236872Z"
+    "created_at": "2025-10-21T17:57:53.786127Z",
+    "updated_at": "2025-10-21T17:57:53.786127Z"
   },
   {
     "id": "f4c86de7-9a6b-4fd3-b207-83548bb3fc64",
@@ -7803,8 +7846,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.thechophouse.com/menus.html\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Franklin Square shopping center lot (over 700 spaces). The Chop House is located in this mixed-use retail center on Kingston Pike, 10 miles west of downtown Knoxville. Ample surface parking available directly at the restaurant with convenient curbside service.",
-    "created_at": "2025-10-21T17:41:03.236876Z",
-    "updated_at": "2025-10-21T17:41:03.236876Z"
+    "created_at": "2025-10-21T17:57:53.786129Z",
+    "updated_at": "2025-10-21T17:57:53.786129Z"
   },
   {
     "id": "fc86b42b-8037-43fb-9c67-9583a8740c79",
@@ -7847,8 +7890,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.cornerloungeknox.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free street parking available on N Central St and surrounding Happy Holler streets. Additional free parking at nearby church next door on weekends.",
-    "created_at": "2025-10-21T17:41:03.236882Z",
-    "updated_at": "2025-10-21T17:41:03.236882Z"
+    "created_at": "2025-10-21T17:57:53.786131Z",
+    "updated_at": "2025-10-21T17:57:53.786131Z"
   },
   {
     "id": "ce5f2dbc-ac31-4cc2-9c03-9d34f3849cd0",
@@ -7888,8 +7931,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.opentable.com/r/the-drawing-room-the-tennessean-knoxville\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Municipal parking garages nearby with $1/hour rates on weekdays. Free parking after 6pm weekdays and all day weekends at Market Square Garage (1-2 blocks away). On-street metered parking $1.50/hour with 2-hour limit. The Tennessean Hotel may offer valet service for guests.",
-    "created_at": "2025-10-21T17:41:03.236886Z",
-    "updated_at": "2025-10-21T17:41:03.236886Z"
+    "created_at": "2025-10-21T17:57:53.786134Z",
+    "updated_at": "2025-10-21T17:57:53.786134Z"
   },
   {
     "id": "37a2cbd8-897c-426f-a4bd-715f797cb159",
@@ -7927,8 +7970,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Office park parking lot at Executive Park Dr location.",
-    "created_at": "2025-10-21T17:41:03.236889Z",
-    "updated_at": "2025-10-21T17:41:03.236890Z"
+    "created_at": "2025-10-21T17:57:53.786136Z",
+    "updated_at": "2025-10-21T17:57:53.786136Z"
   },
   {
     "id": "835a90d1-e0e1-41dd-8ce9-fbe355cfb0c5",
@@ -7968,8 +8011,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"http://www.thefrenchmarketknoxville.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Clinch Ave (metered). Locust Street Garage 185 steps away (4 min walk, closest option). Market Square Garage 275 steps away (6 min walk, free evenings after 6pm, free Sundays, $3 flat rate Saturdays). Limited street parking, garages recommended.",
-    "created_at": "2025-10-21T17:41:03.236893Z",
-    "updated_at": "2025-10-21T17:41:03.236894Z"
+    "created_at": "2025-10-21T17:57:53.786138Z",
+    "updated_at": "2025-10-21T17:57:53.786138Z"
   },
   {
     "id": "8b29f749-0abc-46bf-8d95-09c871ada7ba",
@@ -8008,8 +8051,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.zmenu.com/the-golden-roast-knoxville-online-menu/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at Cherokee Mills complex (2220 Sutherland Ave) shared with other tenants. Abundant parking spaces including disability parking. Note: Navigation within business complex may require attention to signage.",
-    "created_at": "2025-10-21T17:41:03.236897Z",
-    "updated_at": "2025-10-21T17:41:03.236897Z"
+    "created_at": "2025-10-21T17:57:53.786140Z",
+    "updated_at": "2025-10-21T17:57:53.786140Z"
   },
   {
     "id": "0053778d-1e6b-4b97-adc3-c8864a77341d",
@@ -8049,8 +8092,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://greenbrierrestaurant.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available. Restaurant located up steep hill at 370 Newman Rd, requiring careful navigation on winding road to hilltop location.",
-    "created_at": "2025-10-21T17:41:03.236901Z",
-    "updated_at": "2025-10-21T17:41:03.236901Z"
+    "created_at": "2025-10-21T17:57:53.786143Z",
+    "updated_at": "2025-10-21T17:57:53.786143Z"
   },
   {
     "id": "2b2d047e-d842-4d3a-93f0-e40a36d6677a",
@@ -8090,8 +8133,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://thehillknox.com/menu.html\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free street parking available on Forest Ave and surrounding Fort Sanders neighborhood streets. On-site parking lot may be available (call to confirm). Limited availability during University of Tennessee home games and events.",
-    "created_at": "2025-10-21T17:41:03.236905Z",
-    "updated_at": "2025-10-21T17:41:03.236905Z"
+    "created_at": "2025-10-21T17:57:53.786145Z",
+    "updated_at": "2025-10-21T17:57:53.786145Z"
   },
   {
     "id": "413b6d30-4420-427a-87e4-c6fe9e9fe72b",
@@ -8130,7 +8173,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "State Street Garage recommended (free after 7pm weeknights, free weekends). Market Square Garage nearby ($3 flat rate Saturdays, free Sundays after 6pm). Street parking on Gay St ($1.50/hr, 2hr limit). Municipal garages $1/hr weekdays, free after 6pm and weekends.",
     "created_at": "2025-09-30T22:55:28.753449Z",
-    "updated_at": "2025-10-21T17:41:03.236909Z"
+    "updated_at": "2025-10-21T17:57:53.786147Z"
   },
   {
     "id": "4a2f575d-0497-46bf-abb7-19f1a58b0e3d",
@@ -8169,7 +8212,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking available on N Central St. Additional parking at nearby church next door. Happy Holler area offers free parking at downtown garages on weeknights and weekends.",
     "created_at": "2025-09-30T22:55:28.753805Z",
-    "updated_at": "2025-10-21T17:41:03.236914Z"
+    "updated_at": "2025-10-21T17:57:53.786150Z"
   },
   {
     "id": "faf66dd1-5c1c-4b61-9819-d5930bdadd5b",
@@ -8210,8 +8253,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.abridgedoakroom.com/food\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on W Anderson Ave and surrounding Happy Holler streets (free, no meters). Downtown Knoxville parking garages 1-2 miles south offer free parking on weeknights and weekends.",
-    "created_at": "2025-10-21T17:41:03.236918Z",
-    "updated_at": "2025-10-21T17:41:03.236918Z"
+    "created_at": "2025-10-21T17:57:53.786152Z",
+    "updated_at": "2025-10-21T17:57:53.786152Z"
   },
   {
     "id": "1c18caa8-e954-483b-9451-fa976d8478c3",
@@ -8250,8 +8293,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://the-original-freezo.res-menu.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on N Central St. Happy Holler neighborhood has accessible street parking with typical downtown Knoxville restrictions. Nearby church parking may be available.",
-    "created_at": "2025-10-21T17:41:03.236921Z",
-    "updated_at": "2025-10-21T17:41:03.236922Z"
+    "created_at": "2025-10-21T17:57:53.786154Z",
+    "updated_at": "2025-10-21T17:57:53.786154Z"
   },
   {
     "id": "aa9fa3b2-febc-428a-93f0-a58e14f1ac4b",
@@ -8289,8 +8332,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.thephoenixknoxville.com/menu-2\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage 2 blocks away (free after 7pm weeknights, free weekends). State Street Garage nearby ($1/hour weekdays, free nights/weekends). On-street metered parking on Gay St ($1.50/hour, 2hr max). W. Jackson Ave Lot near 100 block S Gay St (free nights/weekends).",
-    "created_at": "2025-10-21T17:41:03.236925Z",
-    "updated_at": "2025-10-21T17:41:03.236925Z"
+    "created_at": "2025-10-21T17:57:53.786156Z",
+    "updated_at": "2025-10-21T17:57:53.786156Z"
   },
   {
     "id": "6673a31d-eb27-472d-98fc-9edf09408fe8",
@@ -8329,7 +8372,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available at Sequoyah Hills Office Plaza (1200-1210 Kenesaw Ave). Free street parking on Kenesaw Ave. Restaurant located in residential Sequoyah Hills neighborhood with ample parking.",
     "created_at": "2025-09-30T22:55:28.753630Z",
-    "updated_at": "2025-10-21T17:41:03.236929Z"
+    "updated_at": "2025-10-21T17:57:53.786158Z"
   },
   {
     "id": "ee6a4d6a-75ed-4533-823d-17b92eef40bd",
@@ -8369,8 +8412,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.shrimpdock.com/alcoa-menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot on-site at 321 S Calderwood St. Additional street parking available on S Calderwood St.",
-    "created_at": "2025-10-21T17:41:03.236934Z",
-    "updated_at": "2025-10-21T17:41:03.236935Z"
+    "created_at": "2025-10-21T17:57:53.786161Z",
+    "updated_at": "2025-10-21T17:57:53.786161Z"
   },
   {
     "id": "52ba18fd-1007-4c08-b18b-f40715d70ad1",
@@ -8410,8 +8453,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.shrimpdock.com/bearden-menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot at restaurant. Additional parking available at nearby Kroger (4918 Kingston Pike, short walk). Street parking on Kingston Pike with standard metered restrictions.",
-    "created_at": "2025-10-21T17:41:03.236938Z",
-    "updated_at": "2025-10-21T17:41:03.236938Z"
+    "created_at": "2025-10-21T17:57:53.786163Z",
+    "updated_at": "2025-10-21T17:57:53.786163Z"
   },
   {
     "id": "b809ca29-b7c6-40e5-8754-5bb54bdae1d8",
@@ -8451,8 +8494,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/store/the-shrimp-dock-in-farragut-kingston-pike/9wOCzBSfWJSgh8zEAIhyjA\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in shared shopping center lot at 11124 Kingston Pike. The Shrimp Dock is located in a retail complex with ample customer parking directly in front of the restaurant and market.",
-    "created_at": "2025-10-21T17:41:03.236942Z",
-    "updated_at": "2025-10-21T17:41:03.236942Z"
+    "created_at": "2025-10-21T17:57:53.786165Z",
+    "updated_at": "2025-10-21T17:57:53.786165Z"
   },
   {
     "id": "77f9a9d4-2042-465a-be7b-6ec38f8ba77c",
@@ -8490,8 +8533,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.thesugarqueencreamery.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"prices_verified\": true, \"sample_prices\": \"Mini (1 scoop): $3.89, Small (2 scoops): $4.89, Large (3 scoops): $5.89, Flight (4 mini scoops): $6.39\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot available (limited spaces, can be challenging during busy times). Handicap accessible parking spaces available. Patience recommended during peak hours due to popularity.",
-    "created_at": "2025-10-21T17:41:03.236946Z",
-    "updated_at": "2025-10-21T17:41:03.236946Z"
+    "created_at": "2025-10-21T17:57:53.786167Z",
+    "updated_at": "2025-10-21T17:57:53.786167Z"
   },
   {
     "id": "f6e37f6f-dd6e-4fa4-b21d-c3b40030f31f",
@@ -8527,8 +8570,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.thevaultknoxville.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Gay St (metered, $1.50/hr, 2hr max). State Street Garage nearby ($1/hr weekdays, free after 6pm and all weekend). Locust Street Garage 2 blocks away (649 spaces, $1/hr, $7 max/day). W. Jackson Ave Lot near 100 block S Gay St (free nights and weekends).",
-    "created_at": "2025-10-21T17:41:03.236949Z",
-    "updated_at": "2025-10-21T17:41:03.236950Z"
+    "created_at": "2025-10-21T17:57:53.786169Z",
+    "updated_at": "2025-10-21T17:57:53.786169Z"
   },
   {
     "id": "c1485af4-4cf5-4dde-adb8-0f3e2c78ad67",
@@ -8569,7 +8612,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking available on High Street in downtown Maryville (metered, limited availability). Free parking in city garages on weekends. Parking can be challenging during peak dinner hours but worth the effort for the dining experience.",
     "created_at": "2025-09-30T22:55:28.753571Z",
-    "updated_at": "2025-10-21T17:41:03.236954Z"
+    "updated_at": "2025-10-21T17:57:53.786171Z"
   },
   {
     "id": "5fe3c989-5dc6-4e2f-9c71-bcfb09fcd300",
@@ -8610,8 +8653,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.threeriversmarket.coop/inside-the-store/deli/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"notes\": \"Daily-changing hot bar and salad bar, priced by weight. Menu varies daily.\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot on-site (enter from N. Central St. after Baxter Ave intersection). Additional street parking available on south side of Baxter Ave (across from store). KAT bus routes #13, #20, #21, #24 stop nearby (every 30 minutes).",
-    "created_at": "2025-10-21T17:41:03.236957Z",
-    "updated_at": "2025-10-21T17:41:03.236957Z"
+    "created_at": "2025-10-21T17:57:53.786174Z",
+    "updated_at": "2025-10-21T17:57:53.786174Z"
   },
   {
     "id": "4607958d-e7a9-4837-a690-1dec445f4baa",
@@ -8649,8 +8692,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://tiastacostn.com/knoxville-turkey-creek-tia-s-tacos-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at Turkey Creek shopping center. Ample parking spaces directly in front of restaurant at 11071 Parkside Drive. Additional overflow parking throughout Turkey Creek complex within short walking distance.",
-    "created_at": "2025-10-21T17:41:03.236962Z",
-    "updated_at": "2025-10-21T17:41:03.236963Z"
+    "created_at": "2025-10-21T17:57:53.786176Z",
+    "updated_at": "2025-10-21T17:57:53.786176Z"
   },
   {
     "id": "1571cb54-db4d-462b-bf00-e0c7ae7286c3",
@@ -8689,7 +8732,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Market Square Garage at 406 Walnut St (1 block away, 677 spaces, $1/hr with $7/day max, free after 6pm weeknights and all day Sunday, $3 flat rate Saturday). Street parking on Market Square (metered, $1.50/hr, 2hr max). Locust Street Garage nearby (649 spaces, same rates as Market Square).",
     "created_at": "2025-09-30T22:55:28.753681Z",
-    "updated_at": "2025-10-21T17:41:03.236966Z"
+    "updated_at": "2025-10-21T17:57:53.786178Z"
   },
   {
     "id": "ecf4c6d2-bf24-4678-a69b-472544b5c86b",
@@ -8727,8 +8770,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://townsendabbey.com/townsend-the-abbey-at-the-heartland-chapel-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free off-street parking lot on-site with ample spaces. Private lot parking available directly at restaurant.",
-    "created_at": "2025-10-21T17:41:03.236970Z",
-    "updated_at": "2025-10-21T17:41:03.236970Z"
+    "created_at": "2025-10-21T17:57:53.786180Z",
+    "updated_at": "2025-10-21T17:57:53.786180Z"
   },
   {
     "id": "e32b2337-19fe-4ef3-9694-b8925737f9dc",
@@ -8767,8 +8810,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.facebook.com/trailheadbeermarket/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot on-site at 1317 Island Home Ave. Street parking available on Island Home Ave (unrestricted). Located 1 block from Tennessee River greenway access.",
-    "created_at": "2025-10-21T17:41:03.236973Z",
-    "updated_at": "2025-10-21T17:41:03.236973Z"
+    "created_at": "2025-10-21T17:57:53.786182Z",
+    "updated_at": "2025-10-21T17:57:53.786182Z"
   },
   {
     "id": "e1b374a5-ab75-4351-bf22-d354e72e99b5",
@@ -8806,8 +8849,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free street parking available on Kenesaw Ave and surrounding residential streets in Sequoyah Hills neighborhood. Located in Sequoyah Hills Office Plaza (1200-1210 Kenesaw Ave).",
-    "created_at": "2025-10-21T17:41:03.236977Z",
-    "updated_at": "2025-10-21T17:41:03.236977Z"
+    "created_at": "2025-10-21T17:57:53.786184Z",
+    "updated_at": "2025-10-21T17:57:53.786184Z"
   },
   {
     "id": "ba541ed4-65d7-44f0-bffa-63d927e35431",
@@ -8846,8 +8889,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking on Carr St in Old City. Nearby Old City parking lots and garages available (free weeknights after 6pm, free weekends at many city garages).",
-    "created_at": "2025-10-21T17:41:03.236980Z",
-    "updated_at": "2025-10-21T17:41:03.236980Z"
+    "created_at": "2025-10-21T17:57:53.786186Z",
+    "updated_at": "2025-10-21T17:57:53.786186Z"
   },
   {
     "id": "878f6b5c-3586-4055-a8ea-a806e9e1896e",
@@ -8881,8 +8924,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking on N Central St (metered, $1.50/hr, 2hr limit weekdays; free after 6pm and weekends). Multiple municipal garages within 2-3 blocks including State Street Garage and Market Square Garage ($1/hr weekdays; free after 6pm weekdays and all day weekends). Use Parkopedia app for real-time garage availability.",
-    "created_at": "2025-10-21T17:41:03.236983Z",
-    "updated_at": "2025-10-21T17:41:03.236983Z"
+    "created_at": "2025-10-21T17:57:53.786187Z",
+    "updated_at": "2025-10-21T17:57:53.786188Z"
   },
   {
     "id": "92cf7bc9-6476-4817-8221-a89b3968cd5a",
@@ -8920,8 +8963,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking lot available at location on Clinton Hwy. Additional street parking on Clinton Hwy.",
-    "created_at": "2025-10-21T17:41:03.236986Z",
-    "updated_at": "2025-10-21T17:41:03.236987Z"
+    "created_at": "2025-10-21T17:57:53.786189Z",
+    "updated_at": "2025-10-21T17:57:53.786189Z"
   },
   {
     "id": "53ae973b-57a3-4fea-855c-fefb51d83a79",
@@ -8961,8 +9004,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.victorsts.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on Cumberland Ave (metered, time restrictions apply). Premium Parking garage at 1831 Cumberland Ave, 3 blocks west. 11th Street Parking Garage at 1101 Cumberland Ave (UT campus visitor parking). Additional hourly mobile pay spaces available throughout UT campus area.",
-    "created_at": "2025-10-21T17:41:03.236990Z",
-    "updated_at": "2025-10-21T17:41:03.236990Z"
+    "created_at": "2025-10-21T17:57:53.786192Z",
+    "updated_at": "2025-10-21T17:57:53.786193Z"
   },
   {
     "id": "5488b816-bcc7-493f-b118-dc9c33f31bb6",
@@ -9002,7 +9045,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": null,
     "created_at": "2025-09-30T22:55:28.753499Z",
-    "updated_at": "2025-10-21T17:41:03.236995Z"
+    "updated_at": "2025-10-21T17:57:53.786196Z"
   },
   {
     "id": "f481f860-64d7-4a0c-86fa-a58b6ed53146",
@@ -9042,8 +9085,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking available on Central St (metered, $1.50/hr, 2hr max weekdays, free after 6pm and weekends). Locust Street Garage 3 blocks away (649 spaces, $1/hr, $7 max). State Street Garage nearby. Most downtown municipal garages free after 6pm weekdays and all weekend.",
-    "created_at": "2025-10-21T17:41:03.236999Z",
-    "updated_at": "2025-10-21T17:41:03.236999Z"
+    "created_at": "2025-10-21T17:57:53.786200Z",
+    "updated_at": "2025-10-21T17:57:53.786200Z"
   },
   {
     "id": "870eaf99-00fc-42de-aefe-fac2d9b06261",
@@ -9082,8 +9125,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.opentable.com/r/wasabi-japanese-steakhouse-and-sushi-bar-knoxville-bearden-knoxville\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available at restaurant. Located in Bearden shopping area with ample parking.",
-    "created_at": "2025-10-21T17:41:03.237002Z",
-    "updated_at": "2025-10-21T17:41:03.237003Z"
+    "created_at": "2025-10-21T17:57:53.786203Z",
+    "updated_at": "2025-10-21T17:57:53.786203Z"
   },
   {
     "id": "a5d89f37-6904-40b9-a0a6-54ef1b4f9b3b",
@@ -9117,8 +9160,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://waterintowineknoxville.com/knoxville-farragut-water-into-wine-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Walgreens Shopping Center strip mall lot. Parking can be crowded during peak hours and weekends, may need to circle for a spot. Located off Campbell Station Rd with easy I-40 access.",
-    "created_at": "2025-10-21T17:41:03.237006Z",
-    "updated_at": "2025-10-21T17:41:03.237006Z"
+    "created_at": "2025-10-21T17:57:53.786206Z",
+    "updated_at": "2025-10-21T17:57:53.786207Z"
   },
   {
     "id": "19188471-87b8-4e05-8b18-f6f9c552e15f",
@@ -9159,8 +9202,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-21T17:41:03.237010Z",
-    "updated_at": "2025-10-21T17:41:03.237010Z"
+    "created_at": "2025-10-21T17:57:53.786210Z",
+    "updated_at": "2025-10-21T17:57:53.786211Z"
   },
   {
     "id": "d5ca69ca-0291-479f-a284-e382f3f9664f",
@@ -9198,8 +9241,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking on N Central St in North Knoxville neighborhood.",
-    "created_at": "2025-10-21T17:41:03.237013Z",
-    "updated_at": "2025-10-21T17:41:03.237013Z"
+    "created_at": "2025-10-21T17:57:53.786214Z",
+    "updated_at": "2025-10-21T17:57:53.786214Z"
   },
   {
     "id": "cf7b1ebb-38a7-4bf6-bca0-259a52e59f20",
@@ -9238,7 +9281,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available. Park in front of the Watchhouse where guest services agents will guide visitors to Wilder restaurant.",
     "created_at": "2025-09-30T22:55:28.753510Z",
-    "updated_at": "2025-10-21T17:41:03.237017Z"
+    "updated_at": "2025-10-21T17:57:53.786218Z"
   },
   {
     "id": "44293b49-c51d-4fc9-b265-eba0f5e3de58",
@@ -9276,8 +9319,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://wings-xpress.com/wings-xpress-menu.html\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot with ample spaces directly in front of restaurant. Easy access from Clinton Highway with convenient drive-thru lane for takeout orders.",
-    "created_at": "2025-10-21T17:41:03.237020Z",
-    "updated_at": "2025-10-21T17:41:03.237020Z"
+    "created_at": "2025-10-21T17:57:53.786221Z",
+    "updated_at": "2025-10-21T17:57:53.786221Z"
   },
   {
     "id": "07e043ed-8526-469b-8f47-d21d368dbff3",
@@ -9316,8 +9359,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://wokchow.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot on-site. Additional parking available in surrounding area along Kingston Pike and adjacent shopping center lots.",
-    "created_at": "2025-10-21T17:41:03.237024Z",
-    "updated_at": "2025-10-21T17:41:03.237024Z"
+    "created_at": "2025-10-21T17:57:53.786224Z",
+    "updated_at": "2025-10-21T17:57:53.786225Z"
   },
   {
     "id": "35f1d1c4-1775-4c27-be4d-86a820ce2e1f",
@@ -9357,8 +9400,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://shop.xulbeer.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"note\": \"Taproom menu - specific pint prices not listed online\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on E 5th Ave (metered, $1/hr weekdays, free after 6pm and weekends). State Street Garage 3 blocks west at 500 State St (434 spaces, $1/hr weekdays, free evenings/weekends). Locust Street Garage 4 blocks away at 540 Locust St (649 spaces, same rates).",
-    "created_at": "2025-10-21T17:41:03.237028Z",
-    "updated_at": "2025-10-21T17:41:03.237028Z"
+    "created_at": "2025-10-21T17:57:53.786228Z",
+    "updated_at": "2025-10-21T17:57:53.786228Z"
   },
   {
     "id": "0dc037df-cf8c-4d57-8050-52f978e8a3f3",
@@ -9397,8 +9440,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://shop.xulbeer.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot shared with neighboring businesses (Don Gallo, Double Dogs) in Hardin Valley shopping center. Ample surface parking directly in front of taproom entrance.",
-    "created_at": "2025-10-21T17:41:03.237032Z",
-    "updated_at": "2025-10-21T17:41:03.237032Z"
+    "created_at": "2025-10-21T17:57:53.786232Z",
+    "updated_at": "2025-10-21T17:57:53.786232Z"
   },
   {
     "id": "58e35545-2aa5-46c3-9d97-7c9bfad46940",
@@ -9436,8 +9479,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/store/yamato-ramen-house/imwthBC0Vfu8lkzTdyo0eg\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Turkey Creek shopping center lot directly adjacent to restaurant at 11527 Parkside Dr. Additional parking available at nearby Pinnacle Parking (11361 Parkside Dr) and throughout Turkey Creek development lots.",
-    "created_at": "2025-10-21T17:41:03.237035Z",
-    "updated_at": "2025-10-21T17:41:03.237035Z"
+    "created_at": "2025-10-21T17:57:53.786236Z",
+    "updated_at": "2025-10-21T17:57:53.786236Z"
   },
   {
     "id": "ec2b862d-d4eb-4698-89e4-792cb8b6e665",
@@ -9476,7 +9519,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Locust Street Garage with entrances on both Locust St and Walnut St (649 spaces, $1/hr, $7 max/day). Free parking weeknights after 6pm and all weekend. Downtown offers over 5,000 free parking spaces in municipal garages after 6pm weekdays and all day weekends. EV charging available at Locust Street Garage.",
     "created_at": "2025-09-30T22:55:28.753758Z",
-    "updated_at": "2025-10-21T17:41:03.237039Z"
+    "updated_at": "2025-10-21T17:57:53.786239Z"
   },
   {
     "id": "eb7f8cec-6994-4fc6-9b75-3f32ddada90c",
@@ -9516,8 +9559,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.yeoldesteakhouse.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site private parking lot (note: hillside location creates challenging navigation, parking built into slope with confusing layout - pay attention to parking lines).",
-    "created_at": "2025-10-21T17:41:03.237044Z",
-    "updated_at": "2025-10-21T17:41:03.237044Z"
+    "created_at": "2025-10-21T17:57:53.786243Z",
+    "updated_at": "2025-10-21T17:57:53.786243Z"
   },
   {
     "id": "c01eba7c-7276-4497-b9e4-0b03149a93db",
@@ -9558,8 +9601,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-21T17:41:03.237047Z",
-    "updated_at": "2025-10-21T17:41:03.237047Z"
+    "created_at": "2025-10-21T17:57:53.786246Z",
+    "updated_at": "2025-10-21T17:57:53.786247Z"
   },
   {
     "id": "5d61992e-1a28-40c8-b137-2aea063e2145",
@@ -9597,7 +9640,7 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.zerozeroknox.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-street parking available on N Central St in Happy Holler neighborhood. Rear parking lot accessible behind building. Additional street parking throughout Happy Holler area, approximately 1 mile north of downtown Knoxville.",
-    "created_at": "2025-10-21T17:41:03.237051Z",
-    "updated_at": "2025-10-21T17:41:03.237051Z"
+    "created_at": "2025-10-21T17:57:53.786250Z",
+    "updated_at": "2025-10-21T17:57:53.786250Z"
   }
 ];
