@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knoxville Restaurants</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg: #ffffff;
+            --surface: #fafaf9;
+            --border: #e7e5e4;
+            --text-primary: #1c1917;
+            --text-secondary: #57534e;
+            --text-tertiary: #a8a29e;
+            --accent: #b45309;
+            --accent-hover: #92400e;
+            --shadow: rgba(0, 0, 0, 0.1);
+        }
+
+        [data-theme="dark"] {
+            --bg: #0c0a09;
+            --surface: #1c1917;
+            --border: #292524;
+            --text-primary: #fafaf9;
+            --text-secondary: #a8a29e;
+            --text-tertiary: #78716c;
+            --accent: #fb923c;
+            --accent-hover: #fdba74;
+            --shadow: rgba(0, 0, 0, 0.3);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        header {
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .theme-toggle {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            color: var(--text-primary);
+        }
+
+        .controls {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            background: var(--bg);
+            color: var(--text-primary);
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .filters {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        select {
+            padding: 0.75rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            background: var(--bg);
+            color: var(--text-primary);
+            font-size: 0.875rem;
+        }
+
+        .quick-filters {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .quick-filter {
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--border);
+            border-radius: 2rem;
+            background: var(--bg);
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: all 0.2s;
+        }
+
+        .quick-filter.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        .stats {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-bottom: 1rem;
+        }
+
+        .restaurant-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .restaurant-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .restaurant-card:hover {
+            border-color: var(--accent);
+            box-shadow: 0 4px 12px var(--shadow);
+        }
+
+        .restaurant-name {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.125rem 0.5rem;
+            border-radius: 0.25rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .badge-new {
+            background: #fed7aa;
+            color: #9a3412;
+        }
+
+        .restaurant-meta {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .restaurant-highlights {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-bottom: 1rem;
+        }
+
+        .restaurant-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tag {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            overflow-y: auto;
+            padding: 2rem;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: var(--bg);
+            border-radius: 1rem;
+            max-width: 800px;
+            width: 100%;
+            margin: 2rem auto;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            padding: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .modal-body {
+            padding: 2rem;
+        }
+
+        .modal-close {
+            float: right;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--text-secondary);
+        }
+
+        .info-grid {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .info-section h3 {
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        .info-section p {
+            color: var(--text-primary);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: var(--accent-hover);
+        }
+
+        @media (max-width: 768px) {
+            .restaurant-grid {
+                grid-template-columns: 1fr;
+            }
+            .filters {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>Knoxville Restaurants</h1>
+                <p class="stats" id="stats">Loading...</p>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">Toggle Dark Mode</button>
+        </header>
+
+        <div class="controls">
+            <input type="text" class="search-box" id="search" placeholder="Search restaurants, cuisines, descriptions...">
+
+            <div class="filters">
+                <select id="cuisine-filter">
+                    <option value="">All Cuisines</option>
+                </select>
+                <select id="price-filter">
+                    <option value="">All Prices</option>
+                    <option value="$">$ (Under $15)</option>
+                    <option value="$$">$$ ($15-25)</option>
+                    <option value="$$$">$$$ ($25-40)</option>
+                    <option value="$$$$">$$$$ ($40+)</option>
+                </select>
+                <select id="neighborhood-filter">
+                    <option value="">All Areas</option>
+                </select>
+            </div>
+
+            <div class="quick-filters">
+                <button class="quick-filter" id="new-filter">✨ New</button>
+                <button class="quick-filter" id="coffee-filter">☕ Coffee</button>
+                <button class="quick-filter" id="clear-filters">Clear All</button>
+            </div>
+        </div>
+
+        <div class="restaurant-grid" id="restaurants"></div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="modal-close" onclick="closeModal()">&times;</span>
+                <h2 id="modal-name"></h2>
+                <p id="modal-meta" class="restaurant-meta"></p>
+            </div>
+            <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="restaurants-data.js"></script>
+    <script>
+        let allRestaurants = [];
+        let filteredRestaurants = [];
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            allRestaurants = RESTAURANTS || [];
+            populateFilters();
+            filterRestaurants();
+
+            // Event listeners
+            document.getElementById('search').addEventListener('input', filterRestaurants);
+            document.getElementById('cuisine-filter').addEventListener('change', filterRestaurants);
+            document.getElementById('price-filter').addEventListener('change', filterRestaurants);
+            document.getElementById('neighborhood-filter').addEventListener('change', filterRestaurants);
+            document.getElementById('new-filter').addEventListener('click', () => toggleQuickFilter('new'));
+            document.getElementById('coffee-filter').addEventListener('click', () => toggleQuickFilter('coffee'));
+            document.getElementById('clear-filters').addEventListener('click', clearAllFilters);
+
+            // Load theme
+            if (localStorage.getItem('theme') === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        });
+
+        function populateFilters() {
+            const cuisines = [...new Set(allRestaurants.map(r => r.cuisine_type))].sort();
+            const neighborhoods = [...new Set(
+                allRestaurants.flatMap(r => (r.tags || []).filter(t => t.includes('_') && !t.includes('group_') && !t.includes('chef_')))
+            )].sort();
+
+            const cuisineFilter = document.getElementById('cuisine-filter');
+            cuisines.forEach(c => {
+                const opt = document.createElement('option');
+                opt.value = c;
+                opt.textContent = c;
+                cuisineFilter.appendChild(opt);
+            });
+
+            const neighborhoodFilter = document.getElementById('neighborhood-filter');
+            neighborhoods.forEach(n => {
+                const opt = document.createElement('option');
+                opt.value = n;
+                opt.textContent = n.replace(/_/g, ' ');
+                neighborhoodFilter.appendChild(opt);
+            });
+        }
+
+        function toggleQuickFilter(type) {
+            const btn = document.getElementById(type + '-filter');
+            btn.classList.toggle('active');
+            filterRestaurants();
+        }
+
+        function clearAllFilters() {
+            document.getElementById('search').value = '';
+            document.getElementById('cuisine-filter').value = '';
+            document.getElementById('price-filter').value = '';
+            document.getElementById('neighborhood-filter').value = '';
+            document.getElementById('new-filter').classList.remove('active');
+            document.getElementById('coffee-filter').classList.remove('active');
+            filterRestaurants();
+        }
+
+        function filterRestaurants() {
+            const search = document.getElementById('search').value.toLowerCase();
+            const cuisine = document.getElementById('cuisine-filter').value;
+            const price = document.getElementById('price-filter').value;
+            const neighborhood = document.getElementById('neighborhood-filter').value;
+            const showNew = document.getElementById('new-filter').classList.contains('active');
+            const showCoffee = document.getElementById('coffee-filter').classList.contains('active');
+
+            filteredRestaurants = allRestaurants.filter(r => {
+                if (search && !matchesSearch(r, search)) return false;
+                if (cuisine && r.cuisine_type !== cuisine) return false;
+                if (price && r.price_range !== price) return false;
+                if (neighborhood && !(r.tags || []).includes(neighborhood)) return false;
+                if (showNew && !isNewRestaurant(r)) return false;
+                if (showCoffee && !r.cuisine_type.toLowerCase().includes('coffee') && !r.cuisine_type.toLowerCase().includes('cafe')) return false;
+                return true;
+            });
+
+            renderRestaurants();
+        }
+
+        function matchesSearch(restaurant, search) {
+            return restaurant.name.toLowerCase().includes(search) ||
+                   restaurant.cuisine_type.toLowerCase().includes(search) ||
+                   (restaurant.description || '').toLowerCase().includes(search) ||
+                   (restaurant.highlights || '').toLowerCase().includes(search) ||
+                   (restaurant.tags || []).some(t => t.toLowerCase().includes(search));
+        }
+
+        function isNewRestaurant(restaurant) {
+            if (!restaurant.opening_date) return false;
+            const openingDate = new Date(restaurant.opening_date);
+            const threeMonthsAgo = new Date();
+            threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+            return openingDate > threeMonthsAgo;
+        }
+
+        function renderRestaurants() {
+            const container = document.getElementById('restaurants');
+            const stats = document.getElementById('stats');
+
+            stats.textContent = `${filteredRestaurants.length} restaurant${filteredRestaurants.length !== 1 ? 's' : ''}`;
+
+            container.innerHTML = filteredRestaurants.map(r => `
+                <div class="restaurant-card" onclick='showRestaurant(${JSON.stringify(r)})'>
+                    <div class="restaurant-name">
+                        ${r.name}
+                        ${isNewRestaurant(r) ? '<span class="badge badge-new">New</span>' : ''}
+                    </div>
+                    <div class="restaurant-meta">
+                        ${r.cuisine_type} · ${r.price_range}
+                        ${r.average_rating ? ` · ${r.average_rating}/10` : ''}
+                    </div>
+                    ${r.highlights ? `<div class="restaurant-highlights">${r.highlights}</div>` : ''}
+                    ${(r.tags || []).length > 0 ? `
+                        <div class="restaurant-tags">
+                            ${(r.tags || []).slice(0, 3).map(t => `<span class="tag">${t.replace(/_/g, ' ')}</span>`).join('')}
+                        </div>
+                    ` : ''}
+                </div>
+            `).join('');
+        }
+
+        function showRestaurant(restaurant) {
+            document.getElementById('modal-name').textContent = restaurant.name;
+            document.getElementById('modal-meta').textContent = `${restaurant.cuisine_type} · ${restaurant.price_range}`;
+
+            document.getElementById('modal-body').innerHTML = `
+                <div class="info-grid">
+                    <div class="info-section">
+                        <h3>Address</h3>
+                        <p>${restaurant.address}</p>
+                        ${restaurant.phone ? `<p><a href="tel:${restaurant.phone}">${restaurant.phone}</a></p>` : ''}
+                        ${restaurant.website ? `<p><a href="${restaurant.website}" target="_blank">Website →</a></p>` : ''}
+                    </div>
+                    ${restaurant.description ? `
+                        <div class="info-section">
+                            <h3>Description</h3>
+                            <p>${restaurant.description}</p>
+                        </div>
+                    ` : ''}
+                    ${restaurant.atmosphere ? `
+                        <div class="info-section">
+                            <h3>Atmosphere</h3>
+                            <p>${restaurant.atmosphere}</p>
+                        </div>
+                    ` : ''}
+                    ${restaurant.special_features ? `
+                        <div class="info-section">
+                            <h3>Special Features</h3>
+                            <p>${restaurant.special_features}</p>
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+
+            document.getElementById('modal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+        }
+
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
+
+        // Close modal on background click
+        document.getElementById('modal').addEventListener('click', (e) => {
+            if (e.target.id === 'modal') closeModal();
+        });
+    </script>
+</body>
+</html>
