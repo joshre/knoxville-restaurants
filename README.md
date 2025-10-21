@@ -2,7 +2,7 @@
 
 Static restaurant directory for Knoxville, TN.
 
-**Last Updated**: 2025-10-21 19:12:20 UTC
+**Last Updated**: 2025-10-21 20:33:17 UTC
 **Total Restaurants**: 244
 
 ## Usage

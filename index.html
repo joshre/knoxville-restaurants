@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knoxville Restaurants</title>
+    <script>
+        // Prevent dark mode flash of unstyled content (FOUC)
+        (function() {
+            if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.body.classList.add('dark');
+            }
+        })();
+    </script>
     <style>
         /* Preload critical fonts - copied from Cortex */
         @font-face {
@@ -79,7 +87,7 @@
         .stats { font-size: 0.875rem; color: var(--stone-500); }
         body.dark .stats { color: var(--stone-400); }
 
-        .theme-btn {
+        .theme-btn, .export-btn {
             padding: 0.5rem 1rem;
             font-size: 0.875rem;
             background: white;
@@ -89,9 +97,14 @@
             transition: background 0.2s;
             color: var(--stone-700);
         }
-        .theme-btn:hover { background: var(--stone-50); }
-        body.dark .theme-btn { background: var(--stone-900); border-color: var(--stone-700); color: var(--stone-300); }
-        body.dark .theme-btn:hover { background: var(--stone-800); }
+        .theme-btn:hover, .export-btn:hover { background: var(--stone-50); }
+        body.dark .theme-btn, body.dark .export-btn { background: var(--stone-900); border-color: var(--stone-700); color: var(--stone-300); }
+        body.dark .theme-btn:hover, body.dark .export-btn:hover { background: var(--stone-800); }
+
+        .header-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
 
         /* Filters */
         .filters-wrapper { display: flex; flex-direction: column; gap: 1rem; }
@@ -182,6 +195,66 @@
         body.dark .clear-btn { color: var(--stone-400); }
         body.dark .clear-btn:hover { color: var(--stone-100); }
         .clear-btn.hidden { display: none; }
+
+        /* Search Highlighting */
+        mark {
+            background: var(--amber-200);
+            color: var(--stone-900);
+            padding: 0.125rem 0.25rem;
+            border-radius: 0.25rem;
+            font-weight: 500;
+        }
+        body.dark mark {
+            background: var(--amber-700);
+            color: white;
+        }
+
+        /* Filter Chips */
+        .filter-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+        }
+        .filter-chips.hidden { display: none; }
+
+        .filter-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.375rem 0.75rem;
+            font-size: 0.8125rem;
+            background: var(--stone-100);
+            border: 1px solid var(--stone-300);
+            border-radius: 9999px;
+            color: var(--stone-700);
+        }
+        body.dark .filter-chip {
+            background: var(--stone-800);
+            border-color: var(--stone-700);
+            color: var(--stone-300);
+        }
+
+        .filter-chip-remove {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.25rem;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 0;
+            color: var(--stone-500);
+            transition: color 0.15s;
+        }
+        .filter-chip-remove:hover {
+            color: var(--stone-900);
+        }
+        body.dark .filter-chip-remove:hover {
+            color: var(--stone-100);
+        }
 
         /* Main Content */
         .main { flex: 1; overflow-y: auto; padding: 1.5rem; background: white; min-height: 0; }
@@ -322,7 +395,13 @@
             inset: 0;
             z-index: 1000;
         }
-        .modal.active { display: block; }
+        .modal.active {
+            display: block;
+            animation: fadeIn 100ms ease-out;
+        }
+        .modal.active .modal-content {
+            animation: slideUp 100ms ease-out;
+        }
 
         /* Fade-in animation for modal */
         @keyframes fadeIn {
@@ -538,6 +617,76 @@
             select { flex: 1; min-width: 0; }
             table { min-width: 900px; }
         }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white !important;
+                color: black !important;
+            }
+
+            .header {
+                background: white !important;
+                box-shadow: none !important;
+                border-bottom: 2px solid #000;
+                padding-bottom: 1rem;
+            }
+
+            .theme-btn, .export-btn, .filters-wrapper, .filter-chips, .modal-overlay, .modal {
+                display: none !important;
+            }
+
+            .main {
+                padding: 0 !important;
+                background: white !important;
+            }
+
+            table {
+                page-break-inside: avoid;
+            }
+
+            thead {
+                display: table-header-group;
+            }
+
+            tr {
+                page-break-inside: avoid;
+            }
+
+            td, th {
+                border: 1px solid #ddd !important;
+                padding: 0.5rem !important;
+            }
+
+            th {
+                background: #f5f5f4 !important;
+                color: #000 !important;
+            }
+
+            tbody tr:nth-child(even) {
+                background: #fafaf9 !important;
+            }
+
+            a {
+                text-decoration: underline;
+                color: #000 !important;
+            }
+
+            a[href]:after {
+                content: " (" attr(href) ")";
+                font-size: 0.8em;
+            }
+
+            .stats {
+                color: #000 !important;
+                margin-top: 0.5rem;
+            }
+
+            h1 {
+                color: #000 !important;
+                font-size: 1.5rem !important;
+            }
+        }
     </style>
 </head>
 <body>
@@ -548,67 +697,72 @@
                     <h1>Knoxville Restaurants</h1>
                     <p class="stats" id="stats">Loading...</p>
                 </div>
-                <button class="theme-btn" onclick="toggleTheme()">Toggle Theme</button>
+                <div class="header-actions">
+                    <button class="export-btn" onclick="exportToCSV()">Export CSV</button>
+                    <button class="theme-btn" onclick="toggleTheme()">Toggle Theme</button>
+                </div>
             </div>
 
             <div class="filters-wrapper">
                 <div class="search-wrapper">
-                    <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                     </svg>
-                    <input type="text" id="search" class="search-input" placeholder="Search restaurants...">
+                    <input type="text" id="search" class="search-input" placeholder="Search restaurants..." aria-label="Search restaurants" role="searchbox">
                 </div>
 
                 <div class="filter-row">
-                    <div class="select-group">
-                        <select id="cuisine-filter">
+                    <div class="select-group" role="group" aria-label="Restaurant filters">
+                        <select id="cuisine-filter" aria-label="Filter by cuisine type">
                             <option value="">All Cuisines</option>
                         </select>
-                        <select id="price-filter">
+                        <select id="price-filter" aria-label="Filter by price range">
                             <option value="">All Prices</option>
                             <option value="$">$ (Under $15)</option>
                             <option value="$$">$$ ($15-25)</option>
                             <option value="$$$">$$$ ($25-40)</option>
                             <option value="$$$$">$$$$ ($40+)</option>
                         </select>
-                        <select id="neighborhood-filter">
+                        <select id="neighborhood-filter" aria-label="Filter by neighborhood">
                             <option value="">All Areas</option>
                         </select>
-                        <select id="group-filter">
+                        <select id="group-filter" aria-label="Filter by special group">
                             <option value="">All Groups</option>
                         </select>
                     </div>
 
-                    <div class="quick-filters">
-                        <button id="new-filter" class="quick-filter" onclick="toggleFilter('new')">
-                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    <div class="quick-filters" role="group" aria-label="Quick filter toggles">
+                        <button id="new-filter" class="quick-filter" onclick="toggleFilter('new')" aria-label="Toggle new restaurants filter" aria-pressed="false">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
                             New
                         </button>
-                        <button id="coffee-filter" class="quick-filter" onclick="toggleFilter('coffee')">
-                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z"/></svg>
+                        <button id="coffee-filter" class="quick-filter" onclick="toggleFilter('coffee')" aria-label="Toggle coffee shops filter" aria-pressed="false">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z"/></svg>
                         </button>
-                        <button id="clear-filters" class="clear-btn hidden" onclick="clearFilters()">Clear</button>
+                        <button id="clear-filters" class="clear-btn hidden" onclick="clearFilters()" aria-label="Clear all filters">Clear</button>
                     </div>
                 </div>
+
+                <div id="filter-chips" class="filter-chips hidden"></div>
             </div>
         </div>
 
-        <div class="main">
-            <div id="loading" class="loading">
+        <div class="main" role="main">
+            <div id="loading" class="loading" role="status" aria-live="polite" aria-label="Loading restaurants">
                 <div class="spinner"></div>
             </div>
 
-            <table id="restaurants-table" class="hidden">
+            <table id="restaurants-table" class="hidden" role="table" aria-label="Restaurant directory">
                 <thead>
                     <tr>
-                        <th><button onclick="sortBy('name')">Restaurant <span id="sort-name"></span></button></th>
-                        <th><button onclick="sortBy('cuisine_type')">Cuisine <span id="sort-cuisine_type"></span></button></th>
+                        <th><button onclick="sortBy('name')" aria-label="Sort by restaurant name">Restaurant <span id="sort-name" aria-hidden="true"></span></button></th>
+                        <th><button onclick="sortBy('cuisine_type')" aria-label="Sort by cuisine type">Cuisine <span id="sort-cuisine_type" aria-hidden="true"></span></button></th>
                         <th>Location</th>
-                        <th><button onclick="sortBy('price_range')">Price <span id="sort-price_range"></span></button></th>
-                        <th><button onclick="sortBy('average_rating')">Rating <span id="sort-average_rating"></span></button></th>
-                        <th><button onclick="sortBy('date_night_score')">Date Night <span id="sort-date_night_score"></span></button></th>
-                        <th><button onclick="sortBy('atmosphere_score')">Atmosphere <span id="sort-atmosphere_score"></span></button></th>
-                        <th><button onclick="sortBy('opening_date')">Opened <span id="sort-opening_date"></span></button></th>
+                        <th><button onclick="sortBy('price_range')" aria-label="Sort by price range">Price <span id="sort-price_range" aria-hidden="true"></span></button></th>
+                        <th><button onclick="sortBy('average_rating')" aria-label="Sort by rating">Rating <span id="sort-average_rating" aria-hidden="true"></span></button></th>
+                        <th><button onclick="sortBy('date_night_score')" aria-label="Sort by date night score">Date Night <span id="sort-date_night_score" aria-hidden="true"></span></button></th>
+                        <th><button onclick="sortBy('atmosphere_score')" aria-label="Sort by atmosphere score">Atmosphere <span id="sort-atmosphere_score" aria-hidden="true"></span></button></th>
+                        <th><button onclick="sortBy('opening_date')" aria-label="Sort by opening date">Opened <span id="sort-opening_date" aria-hidden="true"></span></button></th>
                         <th>Tags</th>
                     </tr>
                 </thead>
@@ -617,7 +771,7 @@
         </div>
     </div>
 
-    <div id="modal" class="modal">
+    <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-name">
         <div class="modal-wrapper">
             <div class="modal-grid">
                 <div class="modal-content">
@@ -626,7 +780,7 @@
                             <h2 class="modal-title" id="modal-name"></h2>
                             <p class="modal-meta" id="modal-meta"></p>
                         </div>
-                        <button class="modal-close" onclick="closeModal()">&times;</button>
+                        <button class="modal-close" onclick="closeModal()" aria-label="Close restaurant details">&times;</button>
                     </div>
                     <div class="modal-body" id="modal-body"></div>
                     <div class="modal-actions">
@@ -646,7 +800,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             allRestaurants = RESTAURANTS || [];
             populateFilters();
-            filterRestaurants();
+            loadStateFromURL();
             setupEventListeners();
 
             if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -661,6 +815,56 @@
             document.getElementById('neighborhood-filter').addEventListener('change', filterRestaurants);
             document.getElementById('group-filter').addEventListener('change', filterRestaurants);
             document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+            window.addEventListener('popstate', loadStateFromURL);
+        }
+
+        function loadStateFromURL() {
+            const params = new URLSearchParams(window.location.search);
+
+            if (params.has('q')) document.getElementById('search').value = params.get('q');
+            if (params.has('cuisine')) document.getElementById('cuisine-filter').value = params.get('cuisine');
+            if (params.has('price')) document.getElementById('price-filter').value = params.get('price');
+            if (params.has('neighborhood')) document.getElementById('neighborhood-filter').value = params.get('neighborhood');
+            if (params.has('group')) document.getElementById('group-filter').value = params.get('group');
+            if (params.has('new')) {
+                const btn = document.getElementById('new-filter');
+                btn.dataset.active = 'true';
+                btn.classList.add('active-new');
+            }
+            if (params.has('coffee')) {
+                const btn = document.getElementById('coffee-filter');
+                btn.dataset.active = 'true';
+                btn.classList.add('active-coffee');
+            }
+            if (params.has('sort')) currentSort.column = params.get('sort');
+            if (params.has('order')) currentSort.order = params.get('order');
+
+            filterRestaurants();
+            renderSortIndicators();
+        }
+
+        function saveStateToURL() {
+            const params = new URLSearchParams();
+            const search = document.getElementById('search').value;
+            const cuisine = document.getElementById('cuisine-filter').value;
+            const price = document.getElementById('price-filter').value;
+            const neighborhood = document.getElementById('neighborhood-filter').value;
+            const group = document.getElementById('group-filter').value;
+            const showNew = document.getElementById('new-filter').dataset.active === 'true';
+            const showCoffee = document.getElementById('coffee-filter').dataset.active === 'true';
+
+            if (search) params.set('q', search);
+            if (cuisine) params.set('cuisine', cuisine);
+            if (price) params.set('price', price);
+            if (neighborhood) params.set('neighborhood', neighborhood);
+            if (group) params.set('group', group);
+            if (showNew) params.set('new', '1');
+            if (showCoffee) params.set('coffee', '1');
+            if (currentSort.column !== 'name') params.set('sort', currentSort.column);
+            if (currentSort.order !== 'asc') params.set('order', currentSort.order);
+
+            const newURL = params.toString() ? '?' + params.toString() : window.location.pathname;
+            window.history.replaceState({}, '', newURL);
         }
 
         function populateFilters() {
@@ -703,6 +907,7 @@
             const btn = document.getElementById(type + '-filter');
             const isActive = btn.dataset.active === 'true';
             btn.dataset.active = !isActive;
+            btn.setAttribute('aria-pressed', !isActive);
 
             if (type === 'new') {
                 btn.classList.toggle('active-new');
@@ -711,6 +916,48 @@
             }
 
             filterRestaurants();
+        }
+
+        function exportToCSV() {
+            const headers = ['Name', 'Cuisine', 'Price', 'Address', 'Phone', 'Website', 'Rating', 'Date Night', 'Opening Date'];
+            const csvRows = [headers.join(',')];
+
+            filteredRestaurants.forEach(r => {
+                const row = [
+                    escapeCSV(r.name),
+                    escapeCSV(r.cuisine_type),
+                    escapeCSV(r.price_range),
+                    escapeCSV(r.address),
+                    escapeCSV(r.phone || ''),
+                    escapeCSV(r.website || ''),
+                    r.average_rating ? r.average_rating.toFixed(1) : '',
+                    r.date_night_score ? r.date_night_score.toFixed(1) : '',
+                    r.opening_date || ''
+                ];
+                csvRows.push(row.join(','));
+            });
+
+            const csvContent = csvRows.join('\n');
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            const url = URL.createObjectURL(blob);
+
+            link.setAttribute('href', url);
+            link.setAttribute('download', 'knoxville-restaurants-' + new Date().toISOString().split('T')[0] + '.csv');
+            link.style.display = 'none';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        }
+
+        function escapeCSV(str) {
+            if (!str) return '';
+            str = String(str);
+            if (str.includes(',') || str.includes('"') || str.includes('\n')) {
+                return '"' + str.replace(/"/g, '""') + '"';
+            }
+            return str;
         }
 
         function clearFilters() {
@@ -754,14 +1001,125 @@
 
             const hasFilters = search || cuisine || price || neighborhood || group || showNew || showCoffee;
             document.getElementById('clear-filters').classList.toggle('hidden', !hasFilters);
+
+            renderFilterChips(search, cuisine, price, neighborhood, group, showNew, showCoffee);
+            saveStateToURL();
+        }
+
+        function renderFilterChips(search, cuisine, price, neighborhood, group, showNew, showCoffee) {
+            const container = document.getElementById('filter-chips');
+            const chips = [];
+
+            if (search) {
+                chips.push({ label: `Search: "${search}"`, type: 'search' });
+            }
+            if (cuisine) {
+                chips.push({ label: `Cuisine: ${cuisine}`, type: 'cuisine' });
+            }
+            if (price) {
+                chips.push({ label: `Price: ${price}`, type: 'price' });
+            }
+            if (neighborhood) {
+                chips.push({ label: `Area: ${neighborhood.replace(/_/g, ' ')}`, type: 'neighborhood' });
+            }
+            if (group) {
+                chips.push({ label: formatGroupName(group), type: 'group' });
+            }
+            if (showNew) {
+                chips.push({ label: 'New Restaurants', type: 'new' });
+            }
+            if (showCoffee) {
+                chips.push({ label: 'Coffee Shops', type: 'coffee' });
+            }
+
+            if (chips.length === 0) {
+                container.classList.add('hidden');
+                return;
+            }
+
+            container.classList.remove('hidden');
+            container.innerHTML = chips.map(chip => `
+                <span class="filter-chip">
+                    ${chip.label}
+                    <button class="filter-chip-remove" onclick="removeFilterChip('${chip.type}')" aria-label="Remove filter">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </span>
+            `).join('');
+        }
+
+        function removeFilterChip(type) {
+            if (type === 'search') {
+                document.getElementById('search').value = '';
+            } else if (type === 'cuisine') {
+                document.getElementById('cuisine-filter').value = '';
+            } else if (type === 'price') {
+                document.getElementById('price-filter').value = '';
+            } else if (type === 'neighborhood') {
+                document.getElementById('neighborhood-filter').value = '';
+            } else if (type === 'group') {
+                document.getElementById('group-filter').value = '';
+            } else if (type === 'new') {
+                const btn = document.getElementById('new-filter');
+                btn.dataset.active = 'false';
+                btn.classList.remove('active-new');
+            } else if (type === 'coffee') {
+                const btn = document.getElementById('coffee-filter');
+                btn.dataset.active = 'false';
+                btn.classList.remove('active-coffee');
+            }
+            filterRestaurants();
+        }
+
+        function normalizeText(text) {
+            return text.toLowerCase().replace(/[^\w\s]/g, '');
         }
 
         function matchesSearch(r, search) {
-            return r.name.toLowerCase().includes(search) ||
-                   r.cuisine_type.toLowerCase().includes(search) ||
-                   (r.description || '').toLowerCase().includes(search) ||
-                   (r.highlights || '').toLowerCase().includes(search) ||
-                   (r.tags || []).some(t => t.toLowerCase().includes(search));
+            const normalizedSearch = normalizeText(search);
+            return normalizeText(r.name).includes(normalizedSearch) ||
+                   normalizeText(r.cuisine_type).includes(normalizedSearch) ||
+                   normalizeText(r.description || '').includes(normalizedSearch) ||
+                   normalizeText(r.highlights || '').includes(normalizedSearch) ||
+                   (r.tags || []).some(t => normalizeText(t).includes(normalizedSearch));
+        }
+
+        function highlightText(text, search) {
+            if (!search || !text) return text;
+
+            const normalizedSearch = normalizeText(search);
+            const normalizedText = normalizeText(text);
+            const normalizedIndex = normalizedText.indexOf(normalizedSearch);
+
+            if (normalizedIndex === -1) return text;
+
+            // Find the actual start position in original text by counting characters
+            let originalIndex = 0;
+            let normalizedCount = 0;
+            while (normalizedCount < normalizedIndex && originalIndex < text.length) {
+                if (/[\w\s]/.test(text[originalIndex])) {
+                    normalizedCount++;
+                }
+                originalIndex++;
+            }
+
+            // Find the actual end position by matching normalized characters
+            let endIndex = originalIndex;
+            let matchedNormalized = 0;
+            while (matchedNormalized < normalizedSearch.length && endIndex < text.length) {
+                if (/[\w\s]/.test(text[endIndex])) {
+                    matchedNormalized++;
+                }
+                endIndex++;
+            }
+
+            const before = text.substring(0, originalIndex);
+            const match = text.substring(originalIndex, endIndex);
+            const after = text.substring(endIndex);
+
+            return before + '<mark>' + match + '</mark>' + highlightText(after, search);
         }
 
         function isNewRestaurant(r) {
@@ -781,6 +1139,22 @@
             }
             applySorting();
             renderRestaurants();
+            renderSortIndicators();
+            saveStateToURL();
+        }
+
+        function renderSortIndicators() {
+            // Clear all indicators
+            ['name', 'cuisine_type', 'price_range', 'average_rating', 'date_night_score', 'atmosphere_score', 'opening_date'].forEach(col => {
+                const span = document.getElementById('sort-' + col);
+                if (span) span.textContent = '';
+            });
+
+            // Set current indicator
+            const span = document.getElementById('sort-' + currentSort.column);
+            if (span) {
+                span.textContent = currentSort.order === 'asc' ? ' ↑' : ' ↓';
+            }
         }
 
         function applySorting() {
@@ -845,6 +1219,7 @@
             const loading = document.getElementById('loading');
             const table = document.getElementById('restaurants-table');
             const tbody = document.getElementById('restaurants-tbody');
+            const searchTerm = document.getElementById('search').value;
 
             loading.classList.add('hidden');
 
@@ -862,12 +1237,12 @@
                 return '<tr>' +
                     '<td>' +
                         '<div class="restaurant-name" onclick="showRestaurantByIndex(' + index + ')">' +
-                            r.name +
+                            highlightText(r.name, searchTerm) +
                             (isNewRestaurant(r) ? ' <span class="badge badge-new">New</span>' : '') +
                         '</div>' +
-                        (r.highlights ? '<div class="highlights">' + r.highlights + '</div>' : '') +
+                        (r.highlights ? '<div class="highlights">' + highlightText(r.highlights, searchTerm) + '</div>' : '') +
                     '</td>' +
-                    '<td>' + r.cuisine_type + '</td>' +
+                    '<td>' + highlightText(r.cuisine_type, searchTerm) + '</td>' +
                     '<td>' + addressParts + '</td>' +
                     '<td><span class="badge ' + getPriceBadgeClass(r.price_range) + '">' + r.price_range + '</span></td>' +
                     '<td><span class="score">' + formatScore(r.average_rating) + '</span></td>' +
