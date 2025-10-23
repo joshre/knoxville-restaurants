@@ -3,7 +3,7 @@ const RESTAURANTS = [
     "id": "035ae63f-a003-4e2c-b360-d9d1a603f38b",
     "name": "71 South",
     "address": "3726 Sevier Heights Road, Suite 200, Knoxville, TN 37920",
-    "cuisine_type": "Contemporary American",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 7.0,
     "atmosphere_score": 8.3,
@@ -18,18 +18,17 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "brunch",
-      "fresh american",
-      "urban wilderness",
-      "historic church",
-      "vegan options",
-      "vegetarian",
-      "gluten-free",
-      "craft cocktails",
-      "local beer",
-      "trail access",
-      "conservation"
+      "urban_wilderness",
+      "historic_church",
+      "vegan_options",
+      "vegetarian_options",
+      "gluten_free",
+      "craft_cocktails",
+      "local_beer",
+      "trail_access"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -44,13 +43,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free parking lot on-site at Baker Creek Preserve. Additional parking available along Sevier Heights Road.",
     "created_at": "2025-09-30T22:55:28.753796Z",
-    "updated_at": "2025-10-22T12:24:54.322520Z"
+    "updated_at": "2025-10-23T15:49:01.865812Z"
   },
   {
     "id": "40a05aa9-7ec0-4c4e-b389-3d7dd8177f1b",
     "name": "A Dopo Sourdough Pizza",
     "address": "516 Williams St, Knoxville, TN 37917",
-    "cuisine_type": "Neapolitan Sourdough Pizza",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 8.0,
     "atmosphere_score": 9.4,
@@ -65,10 +64,8 @@ const RESTAURANTS = [
     "last_visited": "2024-01-26T12:00:00Z",
     "visit_count": 4,
     "average_rating": 9.0,
+    "area": "Downtown",
     "tags": [
-      "pizza",
-      "italian",
-      "downtown",
       "new_city",
       "date_night",
       "award_winning",
@@ -88,13 +85,13 @@ const RESTAURANTS = [
     "menu_cached_at": "2025-10-03T15:44:41Z",
     "parking_info": "Street parking on Williams St (metered during business hours, free evenings and weekends). Nearby downtown parking garages: Locust Street Garage and State Street Garage (free nights and weekends).",
     "created_at": "2025-09-30T22:55:28.753519Z",
-    "updated_at": "2025-10-22T12:24:54.322561Z"
+    "updated_at": "2025-10-23T15:49:01.865827Z"
   },
   {
     "id": "f6025477-f89d-47c1-bb1b-3edddb4b3537",
     "name": "Abridged - Bearden",
     "address": "100 Lockett Rd, Knoxville, TN 37919",
-    "cuisine_type": "Brewpub, Southern-American",
+    "cuisine_type": "Southern",
     "price_range": "$$",
     "date_night_score": 6.2,
     "atmosphere_score": 7.9,
@@ -109,17 +106,16 @@ const RESTAURANTS = [
     "last_visited": "2025-07-25T12:00:00Z",
     "visit_count": 54,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "brewpub",
-      "burgers",
-      "craft beer",
-      "dog-friendly",
-      "family-friendly",
-      "outdoor seating",
-      "local favorite",
-      "neighborhood spot",
-      "industrial atmosphere",
-      "on-site brewing"
+      "craft_beer",
+      "dog_friendly",
+      "family_friendly",
+      "outdoor_seating",
+      "neighborhood_spot",
+      "industrial_atmosphere",
+      "on_site_brewing"
     ],
     "status": "Active",
     "discovery_source": "web_search_bearden_breweries",
@@ -133,14 +129,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.toasttab.com/local/order/abridged-brewpub/r-bbcb9b1c-215c-422a-ab62-27bbcfe498df\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:49:58Z",
     "parking_info": "Free parking lot on-site. Additional parking available at adjacent church lot (watch for restriction signs). Street parking on Lockett Rd.",
-    "created_at": "2025-10-22T12:24:54.322576Z",
-    "updated_at": "2025-10-22T12:24:54.322577Z"
+    "created_at": "2025-10-23T15:49:01.865831Z",
+    "updated_at": "2025-10-23T15:49:01.865831Z"
   },
   {
     "id": "5b5262e1-b38a-4ddb-8e96-a04a007320aa",
     "name": "Abridged - Cedar Bluff HQ",
     "address": "320 N Peters Rd, Knoxville, TN 37922",
-    "cuisine_type": "American Gastropub",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 6.3,
     "atmosphere_score": 7.8,
@@ -155,18 +151,17 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "brewpub",
-      "craft beer",
-      "burgers",
-      "sports bar",
-      "patio dining",
-      "dog friendly",
-      "family friendly",
-      "gastropub",
-      "local brewery",
-      "oak-fired pizza",
-      "craft cocktails"
+      "craft_beer",
+      "sports_bar",
+      "patio_dining",
+      "dog_friendly",
+      "family_friendly",
+      "local_brewery",
+      "oak_fired_pizza",
+      "craft_cocktails"
     ],
     "status": "Active",
     "discovery_source": "web_search_cedar_bluff_breweries",
@@ -180,14 +175,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.abridgedbeer.com/hqfood\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-01T20:38:26Z",
     "parking_info": "Free parking lot on-site in Cedar Bluff retail complex at 320 N Peters Rd.",
-    "created_at": "2025-10-22T12:24:54.322589Z",
-    "updated_at": "2025-10-22T12:24:54.322591Z"
+    "created_at": "2025-10-23T15:49:01.865834Z",
+    "updated_at": "2025-10-23T15:49:01.865834Z"
   },
   {
     "id": "68c0d8cb-54f0-4ccb-befc-2f581f854a75",
     "name": "Acapulco Mexican Restaurant",
     "address": "4550 Chapman Hwy, Knoxville, TN 37920",
-    "cuisine_type": "Authentic Mexican",
+    "cuisine_type": "Mexican",
     "price_range": "$",
     "date_night_score": 5.2,
     "atmosphere_score": 7.3,
@@ -202,11 +197,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
-    "tags": [
-      "mexican",
-      "authentic",
-      "traditional"
-    ],
+    "area": null,
+    "tags": [],
     "status": "Active",
     "discovery_source": "web_search_mexican_authentic",
     "verification_status": "Verified",
@@ -219,14 +211,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://acapulcorestaurantknoxville.com/knoxville-acapulco-mexican-restaurant-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-01T20:26:22Z",
     "parking_info": "Free parking lot on-site along Chapman Highway retail corridor.",
-    "created_at": "2025-10-22T12:24:54.322602Z",
-    "updated_at": "2025-10-22T12:24:54.322603Z"
+    "created_at": "2025-10-23T15:49:01.865837Z",
+    "updated_at": "2025-10-23T15:49:01.865837Z"
   },
   {
     "id": "8964c8ed-9bd0-4931-8874-afc7852ecd56",
     "name": "Admiral Pub",
     "address": "143 Brooklawn St, Farragut, TN 37934",
-    "cuisine_type": "American Pub",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 6.3,
     "atmosphere_score": 7.4,
@@ -241,10 +233,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Farragut",
     "tags": [
-      "pizza",
       "pub",
-      "farragut",
       "wood_fired"
     ],
     "status": "Active",
@@ -259,14 +250,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://theadmiralpubfarragut.com/drinks-and-food-menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-01T22:46:40Z",
     "parking_info": "Free parking lot on-site at Brooklawn St location in Farragut Town Center. Additional parking available in surrounding retail center.",
-    "created_at": "2025-10-22T12:24:54.322636Z",
-    "updated_at": "2025-10-22T12:24:54.322637Z"
+    "created_at": "2025-10-23T15:49:01.865840Z",
+    "updated_at": "2025-10-23T15:49:01.865840Z"
   },
   {
     "id": "80a61cfb-c253-48bf-bdee-86a06fe17d2d",
     "name": "Aladdin Grill & Pizza",
     "address": "1723 Cumberland Ave, Knoxville, TN 37916",
-    "cuisine_type": "Mediterranean, Greek, Middle Eastern, Pizza",
+    "cuisine_type": "Mediterranean",
     "price_range": "$",
     "date_night_score": 5.3,
     "atmosphere_score": 7.3,
@@ -281,10 +272,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "mediterranean",
-      "greek",
-      "pizza",
       "casual_dining"
     ],
     "status": "Active",
@@ -299,14 +288,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.aladdingrill.com/av2r4s90/aladdin-grill-and-pizza-knoxville-37916/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Cumberland Ave ($1.50/hr metered, enforced 8am-6pm Mon-Sat). Nearby UT garages: Vol Hall Garage at 1545 White Ave and White Avenue Garage (G12). Over 1,000 hourly mobile pay spaces available across campus.",
-    "created_at": "2025-10-22T12:24:54.322646Z",
-    "updated_at": "2025-10-22T12:24:54.322647Z"
+    "created_at": "2025-10-23T15:49:01.865843Z",
+    "updated_at": "2025-10-23T15:49:01.865843Z"
   },
   {
     "id": "d58a88b7-30a9-4764-bf3a-be622a0c8303",
     "name": "Ale' Rae's Gastro Pub",
     "address": "937 N Broadway, Knoxville, TN 37917",
-    "cuisine_type": "Gastropub",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 7.8,
     "atmosphere_score": 9.0,
@@ -321,19 +310,18 @@ const RESTAURANTS = [
     "last_visited": "2025-09-27T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
-      "gastropub",
-      "live music",
+      "live_music",
       "comedy",
       "trivia",
       "brunch",
-      "coffee bar",
-      "craft beer",
+      "coffee_bar",
+      "craft_beer",
       "cocktails",
-      "food truck heritage",
-      "Fourth and Gill",
-      "pet-friendly",
-      "outdoor seating"
+      "food_truck_heritage",
+      "dog_friendly",
+      "outdoor_seating"
     ],
     "status": "Active",
     "discovery_source": "web_search_north_broadway_gastropub",
@@ -347,14 +335,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"hasMenu\":true,\"menuLocation\":\"Found 4 menus via common patterns\",\"navigationPath\":[\"Menu: https://www.aleraes.live/menu\",\"Menu: https://www.aleraes.live/cocktails\",\"Menu: https://www.aleraes.live/#menu\",\"Menu: https://www.aleraes.live/#menus\"],\"menuTypes\":[\"Menu\"],\"alternativeAccess\":\"Direct URLs: https://www.aleraes.live/menu, https://www.aleraes.live/cocktails, https://www.aleraes.live/#menu, https://www.aleraes.live/#menus\",\"confidence\":\"medium\"}",
     "menu_cached_at": "2025-10-03T15:58:56Z",
     "parking_info": "Street parking on N Broadway and surrounding neighborhood streets. Free on-street parking available in Fourth and Gill historic district.",
-    "created_at": "2025-10-22T12:24:54.322663Z",
-    "updated_at": "2025-10-22T12:24:54.322664Z"
+    "created_at": "2025-10-23T15:49:01.865847Z",
+    "updated_at": "2025-10-23T15:49:01.865847Z"
   },
   {
     "id": "a4135188-092c-4d80-8d1c-29f7784046ed",
     "name": "Alice in Appalachia",
     "address": "18 Market Square, Knoxville, TN 37902",
-    "cuisine_type": "Alice in Wonderland-Themed Cocktail Bar & Boutique",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 7.5,
     "atmosphere_score": 8.5,
@@ -369,8 +357,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
-      "market_square",
       "cocktails",
       "brunch",
       "whimsical",
@@ -388,14 +376,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://scruffycity.com/alice-in-appalachia-menu-page/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"Cocktails approximately $12, brunch $30-50 per person. Price range verified as $$.\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage adjacent to venue (free weeknights after 6pm, free Sundays, $3 flat rate Saturdays). All city garages (Market Square, State Street, Locust Street) offer $1/hour weekdays 7am-7pm ($7 max/day), free weeknights after 6pm, free all weekend. Street parking available on Market Square (metered).",
-    "created_at": "2025-10-22T12:24:54.322673Z",
-    "updated_at": "2025-10-22T12:24:54.322674Z"
+    "created_at": "2025-10-23T15:49:01.865852Z",
+    "updated_at": "2025-10-23T15:49:01.865852Z"
   },
   {
     "id": "fd6a2a41-df2d-4cf1-82d8-aa002171973b",
     "name": "Alliance Brewing Company",
     "address": "1130 Sevier Ave, Knoxville, TN 37920",
-    "cuisine_type": "Craft Brewery & Taproom",
+    "cuisine_type": "Brewery",
     "price_range": "$",
     "date_night_score": 5.2,
     "atmosphere_score": 7.3,
@@ -410,19 +398,18 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "brewery",
-      "craft beer",
-      "outdoor culture",
-      "bike-friendly",
-      "dog-friendly",
-      "food trucks",
-      "event space",
-      "community-focused",
-      "Urban Wilderness",
-      "South Knoxville",
+      "craft_beer",
+      "outdoor_culture",
+      "bike_friendly",
+      "dog_friendly",
+      "food_trucks",
+      "community_focused",
+      "urban_wilderness",
+      "south_knoxville",
       "patio",
-      "experimental beers"
+      "experimental_beers"
     ],
     "status": "Active",
     "discovery_source": "web_search_sevier_avenue_breweries",
@@ -436,8 +423,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://alliancebrewing.com/on-tap/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"Taproom with rotating beer list, 10 taps typically available, pint prices not published online but typical craft brewery range $6-8\"}",
     "menu_cached_at": null,
     "parking_info": "Free street parking available along Sevier Ave. Small on-site parking lot at brewery. Additional parking available under James White Parkway (gravel lot 1 block away). Parking generally not an issue in South Knoxville area.",
-    "created_at": "2025-10-22T12:24:54.322686Z",
-    "updated_at": "2025-10-22T12:24:54.322687Z"
+    "created_at": "2025-10-23T15:49:01.865856Z",
+    "updated_at": "2025-10-23T15:49:01.865856Z"
   },
   {
     "id": "1aac31bb-26ae-4bb7-adf1-e01b37314cae",
@@ -458,11 +445,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "West Knoxville",
     "tags": [
-      "west_knox",
-      "italian",
       "family_owned",
-      "traditional",
       "intimate"
     ],
     "status": "Active",
@@ -477,14 +462,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.322696Z",
-    "updated_at": "2025-10-22T12:24:54.322697Z"
+    "created_at": "2025-10-23T15:49:01.865858Z",
+    "updated_at": "2025-10-23T15:49:01.865858Z"
   },
   {
     "id": "dfc7af43-dbc8-4400-a9f7-76f9e63627a6",
     "name": "Amici Maryville",
     "address": "1420 E Broadway Ave, Maryville, TN 37804",
-    "cuisine_type": "Italian, Alpine Appalachian",
+    "cuisine_type": "Italian",
     "price_range": "$$",
     "date_night_score": 8.3,
     "atmosphere_score": 9.5,
@@ -499,12 +484,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Maryville",
     "tags": [
-      "italian",
       "alpine",
-      "maryville",
-      "unique",
-      "pizza",
       "pasta"
     ],
     "status": "Active",
@@ -519,14 +501,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://order.toasttab.com/online/amici-1420-e-broadway-ave-maryville-tn-37804\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\", \"sample_prices\": {\"pizzas\": \"$14-17\", \"pastas\": \"$16-18\", \"appetizers\": \"$5-12\"}}",
     "menu_cached_at": null,
     "parking_info": "On-site parking available at restaurant. Additional street parking on E Broadway Ave (limited). Broadway Avenue Municipal Parking Garage available nearby in downtown Maryville. Located at Five Points roundabout with easy access.",
-    "created_at": "2025-10-22T12:24:54.322712Z",
-    "updated_at": "2025-10-22T12:24:54.322713Z"
+    "created_at": "2025-10-23T15:49:01.865862Z",
+    "updated_at": "2025-10-23T15:49:01.865862Z"
   },
   {
     "id": "5c8a4fd5-efc7-49d0-8f8b-21f3e39e0dce",
     "name": "Anaba Japanese Cuisine",
     "address": "9405 S Northshore Dr, Knoxville, TN 37922",
-    "cuisine_type": "Japanese, Sushi, Izakaya",
+    "cuisine_type": "Japanese",
     "price_range": "$$",
     "date_night_score": 9.9,
     "atmosphere_score": 10.0,
@@ -541,13 +523,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
-    "tags": [
-      "sushi",
-      "japanese",
-      "ramen",
-      "hibachi",
-      "west_knoxville"
-    ],
+    "area": "West Knoxville",
+    "tags": [],
     "status": "Active",
     "discovery_source": "web_search_sushi_japanese",
     "verification_status": "Verified",
@@ -560,14 +537,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.anabajapanese.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"sample_prices\": {\"ramen\": \"$8-17\", \"sushi_rolls\": \"$12-20\", \"sashimi_9pc\": \"$25\", \"sashimi_15pc\": \"$37\", \"nigiri_combos\": \"$23-35\", \"chicken_bowl\": \"$12\", \"udon\": \"$8-11\"}}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at Northshore Town Center shopping plaza. Restaurant located in strip mall at 9405 S Northshore Dr with ample parking directly in front. Adjacent to other retail shops in the development. Street parking also available on S Northshore Dr.",
-    "created_at": "2025-10-22T12:24:54.322722Z",
-    "updated_at": "2025-10-22T12:24:54.322723Z"
+    "created_at": "2025-10-23T15:49:01.865864Z",
+    "updated_at": "2025-10-23T15:49:01.865864Z"
   },
   {
     "id": "d418064d-f623-4604-b55c-8ea50116be7e",
     "name": "Ancient Lore Village",
     "address": "7107 Sevierville Pike, Knoxville, TN 37920",
-    "cuisine_type": "Event Venue, Brunch",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 7.3,
     "atmosphere_score": 8.5,
@@ -582,11 +559,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "brunch",
       "sunday",
-      "outdoor",
-      "unique",
+      "outdoor_seating",
       "upscale"
     ],
     "status": "Active",
@@ -601,14 +578,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ancientlorevillage.com/events/sunday-brunch/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site private parking available in resort lot. Easy vehicle access approximately 15 minutes southeast of downtown Knoxville on Sevierville Pike.",
-    "created_at": "2025-10-22T12:24:54.322732Z",
-    "updated_at": "2025-10-22T12:24:54.322733Z"
+    "created_at": "2025-10-23T15:49:01.865866Z",
+    "updated_at": "2025-10-23T15:49:01.865866Z"
   },
   {
     "id": "2751b70b-6ac9-4fe4-b45c-080a3748536b",
     "name": "Angry Dumplings Tea",
     "address": "1119 Sevier Ave Suite A, Knoxville, TN 37920",
-    "cuisine_type": "Asian Fusion, Dumplings, Boba Tea",
+    "cuisine_type": "Asian Fusion",
     "price_range": "$$",
     "date_night_score": 6.5,
     "atmosphere_score": 7.9,
@@ -623,8 +600,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "asian",
       "dumplings",
       "tea"
     ],
@@ -640,8 +617,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://order.toasttab.com/online/angry-dumpling-and-sweet-tea-1119-sevier-avenue-suite-a\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking available in front of building at 1119 Sevier Ave. Additional street parking on Sevier Avenue (metered).",
-    "created_at": "2025-10-22T12:24:54.322741Z",
-    "updated_at": "2025-10-22T12:24:54.322742Z"
+    "created_at": "2025-10-23T15:49:01.865869Z",
+    "updated_at": "2025-10-23T15:49:01.865869Z"
   },
   {
     "id": "0cf6eb37-4edf-494f-b6a5-6cb869ee89d6",
@@ -662,8 +639,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "indian",
       "curry",
       "home_style"
     ],
@@ -679,14 +656,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.apnakitchenrestaurant.com/pdf/menu.pdf\", \"type\": \"pdf\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at commercial retail property (3,072 sq ft building built 1972). On-site parking available directly in front of restaurant.",
-    "created_at": "2025-10-22T12:24:54.322750Z",
-    "updated_at": "2025-10-22T12:24:54.322751Z"
+    "created_at": "2025-10-23T15:49:01.865872Z",
+    "updated_at": "2025-10-23T15:49:01.865872Z"
   },
   {
     "id": "6f7ffbd6-8672-4fa6-ba90-bd4f8b8e0c26",
     "name": "Apple Cake Tea Room",
     "address": "11312 Station W Dr, Ste A, Knoxville, TN 37934",
-    "cuisine_type": "Tea Room, American",
+    "cuisine_type": "American",
     "price_range": "$",
     "date_night_score": 5.6,
     "atmosphere_score": 7.0,
@@ -701,10 +678,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Farragut",
     "tags": [
       "tea_room",
-      "sandwiches",
-      "farragut",
       "lunch"
     ],
     "status": "Active",
@@ -719,8 +695,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"type\": \"reviews\", \"verified_date\": \"2025-10-01\", \"notes\": \"Menu prices found in reviews: Tea Room Medley $9.15, sandwiches $9-12 range, entrees under $15\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot on-site at Station West Drive shopping center. Additional parking available at Park & Ride-Farragut (224 meters away).",
-    "created_at": "2025-10-22T12:24:54.322759Z",
-    "updated_at": "2025-10-22T12:24:54.322760Z"
+    "created_at": "2025-10-23T15:49:01.865874Z",
+    "updated_at": "2025-10-23T15:49:01.865874Z"
   },
   {
     "id": "133868d8-b611-464f-ba2c-44157aa0cdf7",
@@ -741,8 +717,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "indian",
       "curry",
       "vegetarian_options"
     ],
@@ -758,14 +734,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://aroma-indian-kitchen.res-menu.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot with wheelchair accessible spaces available at restaurant location on N Cedar Bluff Rd.",
-    "created_at": "2025-10-22T12:24:54.322770Z",
-    "updated_at": "2025-10-22T12:24:54.322771Z"
+    "created_at": "2025-10-23T15:49:01.865877Z",
+    "updated_at": "2025-10-23T15:49:01.865877Z"
   },
   {
     "id": "b0d25c1a-eaa8-4002-9307-5546ba80cfc6",
     "name": "Artisan Cakery of Knoxville",
     "address": "5803 Kingston Pike, Knoxville, TN 37919",
-    "cuisine_type": "European Bakery & Café",
+    "cuisine_type": "Bakery",
     "price_range": "$$",
     "date_night_score": 8.6,
     "atmosphere_score": 9.6,
@@ -780,11 +756,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Kingston Pike",
     "tags": [
-      "bakery",
-      "desserts",
-      "bearden",
-      "kingston_pike",
       "french",
       "pastries"
     ],
@@ -800,14 +773,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking available on Kingston Pike. Located near Bearden Shopping Center at 5941 Kingston Pike with additional parking options. Bearden Banquet Hall parking nearby at 5806 Kingston Pike.",
-    "created_at": "2025-10-22T12:24:54.322780Z",
-    "updated_at": "2025-10-22T12:24:54.322781Z"
+    "created_at": "2025-10-23T15:49:01.865879Z",
+    "updated_at": "2025-10-23T15:49:01.865879Z"
   },
   {
     "id": "f685a1a9-a749-4c6c-9a75-516caa5681d0",
     "name": "Asia Kitchen",
     "address": "8511 Kingston Pike, Knoxville, TN 37919",
-    "cuisine_type": "Sichuan, Cantonese, Chinese, Vietnamese, Thai, Japanese, Asian Fusion",
+    "cuisine_type": "Chinese",
     "price_range": "$$",
     "date_night_score": 5.6,
     "atmosphere_score": 7.4,
@@ -822,15 +795,13 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "Authentic Chinese",
-      "Sichuan",
-      "Clay Pot",
-      "Vietnamese Pho",
-      "Featured on TV",
-      "BYOB",
-      "Casual Dining",
-      "Asian Fusion"
+      "sichuan",
+      "clay_pot",
+      "vietnamese_pho",
+      "byob",
+      "casual_dining"
     ],
     "status": "Active",
     "discovery_source": "web_search_asian_restaurants",
@@ -844,14 +815,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.myasiakitchentn.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot in strip mall location with easy access",
-    "created_at": "2025-10-22T12:24:54.322791Z",
-    "updated_at": "2025-10-22T12:24:54.322792Z"
+    "created_at": "2025-10-23T15:49:01.865881Z",
+    "updated_at": "2025-10-23T15:49:01.865881Z"
   },
   {
     "id": "1abb8019-0367-4a6d-8152-0503bc0567de",
     "name": "Aubrey's - Papermill",
     "address": "6005 Brookvale Ln, Knoxville, TN 37919",
-    "cuisine_type": "American, Southern Comfort Food",
+    "cuisine_type": "Southern",
     "price_range": "$$",
     "date_night_score": 6.3,
     "atmosphere_score": 7.6,
@@ -866,20 +837,18 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
-      "American",
-      "Southern",
-      "Comfort Food",
-      "Steaks",
-      "Seafood",
-      "Family-Friendly",
-      "Date Night",
-      "Gluten-Free Options",
-      "Outdoor Seating",
-      "Full Bar",
-      "Live Entertainment",
-      "Local Chain",
-      "Daily Specials"
+      "comfort_food",
+      "steaks",
+      "family_friendly",
+      "date_night",
+      "gluten_free",
+      "outdoor_seating",
+      "full_bar",
+      "live_music",
+      "local_chain",
+      "daily_specials"
     ],
     "status": "Active",
     "discovery_source": "web_search_bearden",
@@ -893,14 +862,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://aubreysrestaurants.com/papermill/food/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:03:09Z",
     "parking_info": "On-site parking lot available at restaurant. Additional parking at Brookview Parking Garage located 0.14 miles away.",
-    "created_at": "2025-10-22T12:24:54.322807Z",
-    "updated_at": "2025-10-22T12:24:54.322808Z"
+    "created_at": "2025-10-23T15:49:01.865884Z",
+    "updated_at": "2025-10-23T15:49:01.865884Z"
   },
   {
     "id": "baad2c82-4f58-4cd1-ab7e-77cc325d7560",
     "name": "Awaken Coffee",
     "address": "125 W Jackson Ave, Knoxville, TN 37902",
-    "cuisine_type": "Coffee, Cafe, Craft Beer, Wine Bar, Organic",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 5.3,
     "atmosphere_score": 8.2,
@@ -915,19 +884,17 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "specialty coffee",
-      "live music",
-      "event venue",
-      "craft beer",
-      "wine bar",
+      "specialty_coffee",
+      "live_music",
+      "craft_beer",
+      "wine_bar",
       "organic",
       "church",
-      "community space",
-      "Old City",
-      "historic building",
-      "study space",
-      "outdoor seating"
+      "historic_building",
+      "study_space",
+      "outdoor_seating"
     ],
     "status": "Active",
     "discovery_source": "web_search_coffee_new_2024",
@@ -941,14 +908,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/store/awaken-coffee-w-jackson-ave/zPMfDgIoVNSBs0bJZN3CiA\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking at lot beside Barley's on East Jackson; City of Knoxville lot at end of depot (free nights/weekends, GPS: 410 W. Jackson Ave); Jackson Ave Lot, I-40 Lot West, I-40 Lot East (all free nights/weekends)",
-    "created_at": "2025-10-22T12:24:54.322818Z",
-    "updated_at": "2025-10-22T12:24:54.322819Z"
+    "created_at": "2025-10-23T15:49:01.865889Z",
+    "updated_at": "2025-10-23T15:49:01.865889Z"
   },
   {
     "id": "d7e639f8-cdd5-460b-9e75-b12065a08376",
     "name": "Balter Beerworks",
     "address": "100 Broadway SW, Knoxville, TN 37902",
-    "cuisine_type": "New American Brewpub",
+    "cuisine_type": "Brewery",
     "price_range": "$$",
     "date_night_score": 7.3,
     "atmosphere_score": 8.1,
@@ -963,10 +930,10 @@ const RESTAURANTS = [
     "last_visited": "2023-08-21T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "casual",
-      "neighborhood",
-      "beer garden"
+      "beer_garden"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -981,13 +948,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot available. Nearby options: Jackson Ave Lot (8 min walk), Langley Garage (9 min walk), Market Square Garage (10 min walk, $3 Saturdays, free Sundays). Downtown garages free weeknights after 6pm and all weekend.",
     "created_at": "2025-09-30T22:55:28.753664Z",
-    "updated_at": "2025-10-22T12:24:54.322830Z"
+    "updated_at": "2025-10-23T15:49:01.865891Z"
   },
   {
     "id": "467fa96d-1286-42b4-8423-8369f5d0585a",
     "name": "Barley's Taproom & Pizzeria",
     "address": "200 East Jackson Avenue, Knoxville, TN 37915",
-    "cuisine_type": "Wood-Fired Pizza, Craft Beer Gastropub",
+    "cuisine_type": "Pizza",
     "price_range": "$$",
     "date_night_score": 5.2,
     "atmosphere_score": 7.7,
@@ -1002,13 +969,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
-      "pizza",
-      "gastropub",
       "beer",
-      "live_music",
-      "old_city",
-      "jackson_avenue"
+      "live_music"
     ],
     "status": "Active",
     "discovery_source": "web_search_old_city_jackson",
@@ -1022,14 +986,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://barleysknoxville.com/food/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"Menu available as PDF on website. Appetizers $5-8, entrees estimated $10-18 based on reviews indicating moderate pricing ($$).\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Jackson Avenue (metered, $1.50/hr, 2hr max). Jackson Avenue Lot adjacent to restaurant. Municipal garages downtown $1/hr weekdays. Free parking weeknights after 6pm and all weekend in city garages. Multiple free 24/7 lots within walking distance in Old City area.",
-    "created_at": "2025-10-22T12:24:54.322838Z",
-    "updated_at": "2025-10-22T12:24:54.322839Z"
+    "created_at": "2025-10-23T15:49:01.865893Z",
+    "updated_at": "2025-10-23T15:49:01.865893Z"
   },
   {
     "id": "fa736695-1deb-458a-a5c6-c610f29f3c03",
     "name": "Bella - Downtown Maryville",
     "address": "121 W Broadway Ave, Maryville, TN 37801",
-    "cuisine_type": "Modern Italian, Tuscan, Cocktail Bar",
+    "cuisine_type": "Italian",
     "price_range": "$$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 10.0,
@@ -1044,17 +1008,16 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
-      "Italian",
-      "Fine Dining",
-      "Romantic",
-      "Cocktails",
-      "Tuscan",
-      "Date Night",
-      "Sunday Brunch",
-      "Private Events",
-      "Downtown",
-      "Tableside Service"
+      "fine_dining",
+      "romantic",
+      "cocktails",
+      "tuscan",
+      "date_night",
+      "brunch",
+      "private_events",
+      "tableside_service"
     ],
     "status": "Active",
     "discovery_source": "web_search_maryville_italian",
@@ -1068,14 +1031,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://bellamaryville.com/maryville-downtown-maryville-bella-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:08:51Z",
     "parking_info": "Broadway Avenue Municipal Parking Garage adjacent to restaurant (3 levels, entrances from Church Ave and Broadway Ave). Downtown Maryville has 1,000+ city-owned parking spaces. Street parking on Broadway Ave (no meters, free). Restaurant located at high point of Broadway with easy walking access.",
-    "created_at": "2025-10-22T12:24:54.322852Z",
-    "updated_at": "2025-10-22T12:24:54.322853Z"
+    "created_at": "2025-10-23T15:49:01.865896Z",
+    "updated_at": "2025-10-23T15:49:01.865896Z"
   },
   {
     "id": "b0f6f714-35cf-4d6d-9496-53ea1707ce8e",
     "name": "Bernadette's Crystal Gardens",
     "address": "26 Market Square, Knoxville, TN 37902",
-    "cuisine_type": "Botanical Cocktail Lounge & Vegetarian",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 6.5,
     "atmosphere_score": 8.4,
@@ -1090,16 +1053,16 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "cocktail bar",
-      "vegetarian",
+      "cocktail_bar",
+      "vegetarian_options",
       "botanical",
       "crystals",
       "rooftop",
-      "smoke-free",
-      "market square",
-      "upscale casual",
-      "date night"
+      "smoke_free",
+      "upscale_casual",
+      "date_night"
     ],
     "status": "Active",
     "discovery_source": "enrichment",
@@ -1113,8 +1076,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://scruffycity.com/bernadettes-menu-page/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"Cocktails ~$12, food menu limited availability online\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage (closest - 151 steps/3.4 min walk), Langley Garage (254 steps/5.8 min walk), State Street Garage (335 steps/7.6 min walk)",
-    "created_at": "2025-10-22T12:24:54.322862Z",
-    "updated_at": "2025-10-22T12:24:54.322863Z"
+    "created_at": "2025-10-23T15:49:01.865898Z",
+    "updated_at": "2025-10-23T15:49:01.865898Z"
   },
   {
     "id": "b9d67442-fe39-4bb6-99c8-e68a56efd553",
@@ -1135,10 +1098,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "West Knoxville",
     "tags": [
-      "vietnamese",
-      "pho",
-      "west_knoxville",
       "casual_dining"
     ],
     "status": "Active",
@@ -1153,14 +1114,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.zmenu.com/bida-saigon-knoxville-2-online-menu/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at The Plaza shopping center (8078 Kingston Pike). Ample shared parking for all tenants in the retail plaza. Easy access from Kingston Pike with high visibility location. No metered parking or garages required.",
-    "created_at": "2025-10-22T12:24:54.322871Z",
-    "updated_at": "2025-10-22T12:24:54.322872Z"
+    "created_at": "2025-10-23T15:49:01.865901Z",
+    "updated_at": "2025-10-23T15:49:01.865901Z"
   },
   {
     "id": "b9649329-3ced-45b3-a96d-0449efcdaf79",
     "name": "Bistro at the Bijou",
     "address": "807 S Gay St, Knoxville, TN 37902",
-    "cuisine_type": "French-American",
+    "cuisine_type": "French",
     "price_range": "$$",
     "date_night_score": 9.5,
     "atmosphere_score": 9.7,
@@ -1175,10 +1136,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
       "farm_to_table",
-      "downtown",
-      "gay_street",
       "local",
       "theatre",
       "hidden_gem"
@@ -1195,14 +1155,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.thebistroatthebijou.com/bistro-menu.pdf\", \"type\": \"pdf\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage at 406 Walnut St 3 blocks away ($1/hr weekdays, $7 max; $3 flat Sat; free Sun). Paid parking around Bijou Theatre and public spaces on Gay St. Free parking at James White Fort and downtown garages after 6pm weeknights. Street parking metered with time restrictions.",
-    "created_at": "2025-10-22T12:24:54.322881Z",
-    "updated_at": "2025-10-22T12:24:54.322883Z"
+    "created_at": "2025-10-23T15:49:01.865903Z",
+    "updated_at": "2025-10-23T15:49:01.865903Z"
   },
   {
     "id": "89c9075d-0156-40df-9154-c2517edc6f7a",
     "name": "Bistro by the Tracks",
     "address": "5448 Homberg Dr, Knoxville, TN 37919",
-    "cuisine_type": "Modern Southern",
+    "cuisine_type": "Southern",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 9.9,
@@ -1217,11 +1177,11 @@ const RESTAURANTS = [
     "last_visited": "2025-02-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "elegant",
       "romantic",
-      "sophisticated",
-      "group_burleson_brands"
+      "sophisticated"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -1236,13 +1196,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "On-site parking available at restaurant location. Additional street parking on Homberg Drive in Bearden neighborhood.",
     "created_at": "2025-09-30T22:55:28.753639Z",
-    "updated_at": "2025-10-22T12:24:54.322893Z"
+    "updated_at": "2025-10-23T15:49:01.865906Z"
   },
   {
     "id": "f70c2cd0-39a3-4cee-8226-89f732dd0e78",
     "name": "Boyd's Jig & Reel",
     "address": "101 S Central St, Knoxville, TN 37902",
-    "cuisine_type": "Scottish Pub",
+    "cuisine_type": "British/Irish",
     "price_range": "$$",
     "date_night_score": 7.7,
     "atmosphere_score": 9.3,
@@ -1257,16 +1217,16 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "scottish",
       "whisky",
-      "live-music",
+      "live_music",
       "historic",
-      "old-city",
       "pub",
-      "date-night",
-      "music-venue",
-      "whiskey-bar"
+      "date_night",
+      "music_venue",
+      "whiskey_bar"
     ],
     "status": "Active",
     "discovery_source": "enrichment",
@@ -1280,14 +1240,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://order.toasttab.com/online/boyd-s-jig-and-reel-101-s-central-st\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:19:29Z",
     "parking_info": "Free covered parking available under I-40 on Magnolia (between Central Ave. and Gay St.) and at Jackson Ave Lot under James White (between Barley's and the stadium). Old City Lot South is a 303-step walk (6.8 minutes); Old City Lot North is a 375-step walk (8.5 minutes). Note: Stadium events affect parking availability and nearby lots may charge +.",
-    "created_at": "2025-10-22T12:24:54.322904Z",
-    "updated_at": "2025-10-22T12:24:54.322905Z"
+    "created_at": "2025-10-23T15:49:01.865909Z",
+    "updated_at": "2025-10-23T15:49:01.865909Z"
   },
   {
     "id": "a012b4d1-465b-411e-9bd3-ee0a53ad3f16",
     "name": "Brother Wolf",
     "address": "108 W Jackson Ave, Knoxville, TN 37902",
-    "cuisine_type": "Italian Aperitivo Bar",
+    "cuisine_type": "Italian",
     "price_range": "$$",
     "date_night_score": 8.8,
     "atmosphere_score": 8.8,
@@ -1302,11 +1262,9 @@ const RESTAURANTS = [
     "last_visited": "2023-01-27T12:00:00Z",
     "visit_count": 4,
     "average_rating": 9.0,
+    "area": "Downtown",
     "tags": [
       "cocktail_bar",
-      "italian",
-      "old_city",
-      "downtown",
       "date_night",
       "award_winning",
       "late_night",
@@ -1325,13 +1283,13 @@ const RESTAURANTS = [
     "menu_cached_at": "2025-10-03T15:59:38Z",
     "parking_info": "Old City Garage at 216 W Jackson Ave (same block, $1/hour, $9 daily max). Jackson Avenue Garage at 131 W Jackson Ave (half block east, $1/hour, $9 daily max). Street parking available on Jackson Ave and nearby Old City streets (metered, check signs for restrictions). Many downtown garages offer free parking weeknights after 6pm and all weekend.",
     "created_at": "2025-09-30T22:55:28.753490Z",
-    "updated_at": "2025-10-22T12:24:54.322919Z"
+    "updated_at": "2025-10-23T15:49:01.865912Z"
   },
   {
     "id": "7be5868e-152a-40ea-8624-842ca6de6699",
     "name": "Buttermilk Pie Sky Shop",
     "address": "5400 Kingston Pike, Knoxville, TN 37919",
-    "cuisine_type": "Southern Bakery",
+    "cuisine_type": "Southern",
     "price_range": "$$",
     "date_night_score": 6.5,
     "atmosphere_score": 7.9,
@@ -1346,12 +1304,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Farragut",
     "tags": [
-      "bakery",
-      "pie",
-      "southern",
-      "farragut",
-      "desserts"
+      "pie"
     ],
     "status": "Active",
     "discovery_source": "web_search_farragut_bakery",
@@ -1365,14 +1320,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://buttermilkskypie.com/pies/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Strip center parking lot with ample free parking at 5400 Kingston Pike. Street parking available on Kingston Pike (no meters in Bearden area). Convenient West Knoxville location with easy access.",
-    "created_at": "2025-10-22T12:24:54.322928Z",
-    "updated_at": "2025-10-22T12:24:54.322929Z"
+    "created_at": "2025-10-23T15:49:01.865914Z",
+    "updated_at": "2025-10-23T15:49:01.865914Z"
   },
   {
     "id": "ddc0bbc9-6c40-4e45-913f-9f46f98940be",
     "name": "Calhoun's - Turkey Creek",
     "address": "625 Turkey Cove Lane, Knoxville, TN 37934",
-    "cuisine_type": "Tennessee BBQ, American",
+    "cuisine_type": "BBQ",
     "price_range": "$$",
     "date_night_score": 5.9,
     "atmosphere_score": 7.2,
@@ -1387,12 +1342,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Turkey Creek",
     "tags": [
-      "bbq",
       "ribs",
-      "turkey_creek",
-      "award_winning",
-      "group_copper_cellar"
+      "award_winning"
     ],
     "status": "Active",
     "discovery_source": "web_search_turkey_creek",
@@ -1406,14 +1359,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.menuwithprice.com/menu/calhouns/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Turkey Creek shopping center surface lots. Ample parking throughout the development, located near the Pinnacle Shopping Center across from Regal Cinemas' Pinnacle 18. Stores spread out allowing close parking to restaurant entrance.",
-    "created_at": "2025-10-22T12:24:54.322937Z",
-    "updated_at": "2025-10-22T12:24:54.322938Z"
+    "created_at": "2025-10-23T15:49:01.865916Z",
+    "updated_at": "2025-10-23T15:49:01.865916Z"
   },
   {
     "id": "59d54eaf-0390-430d-8838-5b127f210a5f",
     "name": "Calhoun's - Volunteer Landing",
     "address": "400 Neyland Drive, Knoxville, TN 37902",
-    "cuisine_type": "BBQ, American",
+    "cuisine_type": "BBQ",
     "price_range": "$$",
     "date_night_score": 7.4,
     "atmosphere_score": 8.5,
@@ -1428,13 +1381,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
-      "bbq",
       "ribs",
-      "downtown",
       "riverfront",
-      "award_winning",
-      "group_copper_cellar"
+      "award_winning"
     ],
     "status": "Active",
     "discovery_source": "web_search_bbq_downtown",
@@ -1448,14 +1399,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://calhouns.com/menus/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking available for restaurant patrons. Shared parking access with Volunteer Landing Park. Additional parking available at nearby downtown garages: City-County Building Garage (3-minute walk), Main Street Garage (8-minute walk), Dwight Kessel Garage (9-minute walk).",
-    "created_at": "2025-10-22T12:24:54.322949Z",
-    "updated_at": "2025-10-22T12:24:54.322950Z"
+    "created_at": "2025-10-23T15:49:01.865920Z",
+    "updated_at": "2025-10-23T15:49:01.865920Z"
   },
   {
     "id": "f09368a1-d7c0-4968-9caf-ffac9eb49e31",
     "name": "Camp Honey Coffee & Provisions",
     "address": "5819 Lyons View Pike, Knoxville, TN 37919",
-    "cuisine_type": "Coffee Shop & Market",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 5.3,
     "atmosphere_score": 7.8,
@@ -1470,11 +1421,12 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "coffeehouse",
       "pastries",
-      "local makers",
-      "daytime date"
+      "local_makers",
+      "daytime_date"
     ],
     "status": "Active",
     "discovery_source": "Inside of Knoxville (Sep 22, 2025)",
@@ -1488,8 +1440,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "On-site parking lot with 20+ paved spaces. Lot can be busy during operating hours, with customers often using outdoor picnic tables for meetings and gatherings.",
-    "created_at": "2025-10-22T12:24:54.322958Z",
-    "updated_at": "2025-10-22T12:24:54.322959Z"
+    "created_at": "2025-10-23T15:49:01.865922Z",
+    "updated_at": "2025-10-23T15:49:01.865922Z"
   },
   {
     "id": "094db6c1-41f1-4e6c-8c3a-e63dad7b6a0d",
@@ -1510,18 +1462,15 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "Italian",
-      "Sicilian",
-      "Modern Rustic Italian",
-      "Date Night",
-      "Special Occasion",
-      "Fresh Pasta",
-      "Local Ingredients",
-      "Copper Cellar Family",
-      "Chef-Driven",
-      "Wine Bar",
-      "Romantic"
+      "sicilian",
+      "modern_rustic_italian",
+      "date_night",
+      "special_occasion",
+      "local_ingredients",
+      "wine_bar",
+      "romantic"
     ],
     "status": "Active",
     "discovery_source": "enrichment",
@@ -1535,14 +1484,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://cappuccinos-italian.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:23:00Z",
     "parking_info": "Private parking lot shared with Copper Cellar West at 7316 Kingston Pike. Free on-site parking available.",
-    "created_at": "2025-10-22T12:24:54.322970Z",
-    "updated_at": "2025-10-22T12:24:54.322972Z"
+    "created_at": "2025-10-23T15:49:01.865926Z",
+    "updated_at": "2025-10-23T15:49:01.865926Z"
   },
   {
     "id": "60199068-e0ad-4f8d-aa30-0e80b9e6f4c7",
     "name": "Capybara Coffee",
     "address": "2457 University Commons Way, Knoxville, TN 37919",
-    "cuisine_type": "Brazilian Specialty Coffee",
+    "cuisine_type": "Brazilian",
     "price_range": "$",
     "date_night_score": 4.5,
     "atmosphere_score": 7.0,
@@ -1557,9 +1506,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "espresso",
-      "grab-and-go"
+      "grab_and_go"
     ],
     "status": "Active",
     "discovery_source": "Yelp + brand site",
@@ -1573,8 +1523,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "University Commons shopping center parking lot (Publix/Walmart plaza). Street parking available.",
-    "created_at": "2025-10-22T12:24:54.322979Z",
-    "updated_at": "2025-10-22T12:24:54.322980Z"
+    "created_at": "2025-10-23T15:49:01.865928Z",
+    "updated_at": "2025-10-23T15:49:01.865928Z"
   },
   {
     "id": "6baee259-f56a-439e-a075-a1b9c93392fb",
@@ -1595,16 +1545,13 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "mexican",
       "molcajete",
-      "family-friendly",
-      "authentic",
-      "tacos",
+      "family_friendly",
       "fajitas",
       "carnitas",
-      "traditional",
-      "west-knoxville"
+      "west_knoxville"
     ],
     "status": "Active",
     "discovery_source": "web_search_mexican",
@@ -1618,14 +1565,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.casadongallomex.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:22:57Z",
     "parking_info": "Free parking available in retail shopping center lot at 7741 S Northshore Dr. On-site parking shared with other tenants including hair salon, nail salon, and Papa Murphy's. Additional parking available in surrounding Rocky Hill/Turkey Creek shopping area.",
-    "created_at": "2025-10-22T12:24:54.322991Z",
-    "updated_at": "2025-10-22T12:24:54.322993Z"
+    "created_at": "2025-10-23T15:49:01.865931Z",
+    "updated_at": "2025-10-23T15:49:01.865931Z"
   },
   {
     "id": "b998c036-714d-42b4-aabc-72ed070c49e6",
     "name": "Cazzy's Corner Grill",
     "address": "215 Brookview Centre Way #109, Knoxville, TN 37919",
-    "cuisine_type": "Scratch-Made American",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 8.0,
     "atmosphere_score": 8.5,
@@ -1640,9 +1587,8 @@ const RESTAURANTS = [
     "last_visited": "2022-10-23T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": "Bearden",
     "tags": [
-      "american",
-      "bearden",
       "casual_dining"
     ],
     "status": "Active",
@@ -1657,14 +1603,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.cazzys.com/menu/dinner/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Brookview Town Centre shared lot with 811 total spaces (4.27 spaces per 1,000 SF). Parking readily available directly in front of restaurant. Shopping center features reciprocal parking easement throughout development, including access to 4-level parking garage. Eight Tesla supercharger stations available in parking lot. Easy access from I-40/75 Papermill exit.",
-    "created_at": "2025-10-22T12:24:54.323003Z",
-    "updated_at": "2025-10-22T12:24:54.323004Z"
+    "created_at": "2025-10-23T15:49:01.865933Z",
+    "updated_at": "2025-10-23T15:49:01.865933Z"
   },
   {
     "id": "9cff3d08-beb1-42af-b82e-f772894e036d",
     "name": "Celestina Mexican Crafted",
     "address": "1411 Bexhill Dr, Knoxville, TN 37922",
-    "cuisine_type": "Modern Mexican",
+    "cuisine_type": "Mexican",
     "price_range": "$$",
     "date_night_score": 8.7,
     "atmosphere_score": 9.4,
@@ -1679,9 +1625,10 @@ const RESTAURANTS = [
     "last_visited": "2024-04-06T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
-      "casual romantic",
-      "outdoor dining"
+      "casual_romantic",
+      "outdoor_dining"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -1696,13 +1643,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free parking available in The Shops at Bexhill shopping center lot (80 spaces total). The retail center is located at the corner of Bexhill Drive and Ebenezer Drive in West Knoxville with sidewalks and crosswalks providing easy pedestrian access.",
     "created_at": "2025-09-30T22:55:28.753597Z",
-    "updated_at": "2025-10-22T12:24:54.323014Z"
+    "updated_at": "2025-10-23T15:49:01.865935Z"
   },
   {
     "id": "a9ec2e84-227e-484a-9f2f-e86f4318d0f7",
     "name": "Central Flats & Taps",
     "address": "1204 N Central St, Knoxville, TN 37917",
-    "cuisine_type": "New American, Craft Beer, Gastropub",
+    "cuisine_type": "Brewery",
     "price_range": "$",
     "date_night_score": 6.0,
     "atmosphere_score": 8.3,
@@ -1717,11 +1664,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "pizza",
       "flatbread",
       "bar",
-      "happy_holler",
       "beer"
     ],
     "status": "Active",
@@ -1736,14 +1682,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://flatsandtaps.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on N Central St (free or metered depending on time). Parking lot located directly behind restaurant accessible from rear entrance. Additional street parking in surrounding Happy Holler neighborhood within 1-2 blocks. Downtown Knoxville garages available within 10-minute walk if needed.",
-    "created_at": "2025-10-22T12:24:54.323022Z",
-    "updated_at": "2025-10-22T12:24:54.323023Z"
+    "created_at": "2025-10-23T15:49:01.865937Z",
+    "updated_at": "2025-10-23T15:49:01.865937Z"
   },
   {
     "id": "f79d80d7-adef-4eb7-a167-623d6442be25",
     "name": "Chesapeake's - West Knoxville",
     "address": "9630 Parkside Dr, Knoxville, TN 37922",
-    "cuisine_type": "Fresh Seafood & Steaks",
+    "cuisine_type": "Steakhouse",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 10.0,
@@ -1758,12 +1704,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "West Knoxville",
     "tags": [
-      "seafood",
-      "west_knoxville",
       "crab_cakes",
-      "raw_bar",
-      "group_copper_cellar"
+      "raw_bar"
     ],
     "status": "Active",
     "discovery_source": "web_search_seafood_west",
@@ -1777,8 +1721,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://chesapeakes.com/locations/west-knoxville/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"OpenTable indicates $31-50 price range confirmed\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot available at restaurant. Located off Parkside Drive near Cedar Bluff in West Knoxville business district with ample parking. Courtesy shuttle service available for guests staying at local hotels.",
-    "created_at": "2025-10-22T12:24:54.323031Z",
-    "updated_at": "2025-10-22T12:24:54.323033Z"
+    "created_at": "2025-10-23T15:49:01.865939Z",
+    "updated_at": "2025-10-23T15:49:01.865940Z"
   },
   {
     "id": "1b4b2245-d797-48bd-b40a-37543c5734cb",
@@ -1799,23 +1743,21 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
-      "seafood",
-      "raw bar",
+      "raw_bar",
       "oysters",
-      "crab cakes",
+      "crab_cakes",
       "lobster",
-      "date night",
-      "casual elegant",
-      "outdoor patio",
-      "live entertainment",
-      "private dining",
-      "Sunday brunch",
-      "happy hour",
-      "downtown",
-      "historic building",
-      "Maryland style",
-      "Copper Cellar family"
+      "date_night",
+      "casual_elegant",
+      "outdoor_seating",
+      "live_music",
+      "private_dining",
+      "brunch",
+      "happy_hour",
+      "historic_building",
+      "maryland_style"
     ],
     "status": "Active",
     "discovery_source": "compass_dining_guide_2025",
@@ -1829,14 +1771,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.opentable.com/r/chesapeakes-downtown-knoxville\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:23:21Z",
     "parking_info": "Free onsite parking available. Locust Street Garage located 3-minute walk ($1/hr, $7 max/day, free evenings after 6pm and all weekend). Additional parking at nearby Langley Garage.",
-    "created_at": "2025-10-22T12:24:54.323045Z",
-    "updated_at": "2025-10-22T12:24:54.323046Z"
+    "created_at": "2025-10-23T15:49:01.865943Z",
+    "updated_at": "2025-10-23T15:49:01.865943Z"
   },
   {
     "id": "c7d51cf3-5b24-4b42-b1e4-a69ef2170624",
     "name": "Chismoso Cocktails & Comida",
     "address": "131 S Gay St, Knoxville, TN 37902",
-    "cuisine_type": "Modern Mexican",
+    "cuisine_type": "Mexican",
     "price_range": "$$",
     "date_night_score": 5.9,
     "atmosphere_score": 7.1,
@@ -1851,22 +1793,21 @@ const RESTAURANTS = [
     "last_visited": "2025-02-22T12:00:00Z",
     "visit_count": 2,
     "average_rating": 9.0,
+    "area": "Downtown",
     "tags": [
-      "Mexican-American",
-      "Modern Mexican",
-      "Cocktail Bar",
-      "Additive-Free Tequila",
-      "Mezcal",
-      "Handmade Tortillas",
-      "Local Ingredients",
-      "Farm-to-Table",
-      "Downtown Knoxville",
-      "Gay Street",
-      "Date Night",
-      "Small Plates",
-      "Craft Cocktails",
-      "No TVs",
-      "Social Dining"
+      "mexican_american",
+      "modern_mexican",
+      "cocktail_bar",
+      "additive_free_tequila",
+      "mezcal",
+      "handmade_tortillas",
+      "local_ingredients",
+      "farm_to_table",
+      "date_night",
+      "small_plates",
+      "craft_cocktails",
+      "no_tvs",
+      "social_dining"
     ],
     "status": "Active",
     "discovery_source": "date night recommendations + Yelp",
@@ -1880,14 +1821,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://chismosoknox.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"Menu available on website, reviews indicate 3 tacos cost $27, positioned as upscale for Knoxville area\"}",
     "menu_cached_at": null,
     "parking_info": "State Street Garage near Gay St (free after 7pm weeknights, free weekends). W. Jackson Ave Lot near 100 block S Gay St (free nights & weekends). Market Square Garage (free weeknights after 6pm, $3 Saturdays, free Sundays). First Horizon Plaza Garage ($5/1hr, $10/2hrs, $12 max weekdays).",
-    "created_at": "2025-10-22T12:24:54.323057Z",
-    "updated_at": "2025-10-22T12:24:54.323059Z"
+    "created_at": "2025-10-23T15:49:01.865945Z",
+    "updated_at": "2025-10-23T15:49:01.865945Z"
   },
   {
     "id": "ad285260-836b-4d54-9609-befc2f7939b4",
     "name": "Chivo Taqueria",
     "address": "314 South Gay St, Knoxville, TN 37902",
-    "cuisine_type": "Mexican, Tacos, Tequila Bar",
+    "cuisine_type": "Mexican",
     "price_range": "$$",
     "date_night_score": 8.4,
     "atmosphere_score": 8.2,
@@ -1902,17 +1843,15 @@ const RESTAURANTS = [
     "last_visited": "2022-10-02T12:00:00Z",
     "visit_count": 3,
     "average_rating": 9.0,
+    "area": "Downtown",
     "tags": [
-      "tacos",
       "tequila",
       "margaritas",
-      "mexican",
-      "downtown",
-      "pet-friendly",
-      "outdoor-seating",
-      "tequila-bar",
-      "craft-cocktails",
-      "local-ingredients"
+      "dog_friendly",
+      "outdoor_seating",
+      "tequila_bar",
+      "craft_cocktails",
+      "local_ingredients"
     ],
     "status": "Active",
     "discovery_source": "web_search_mexican_downtown_patio",
@@ -1926,14 +1865,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://chivotaqueria.com/wp-content/uploads/2025/04/FOOD-Chivo-Menu-Redesign-3.31.25.pdf\", \"type\": \"pdf\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:28:19Z",
     "parking_info": "Street parking on Gay St (metered, $1.50/hr, 2hr max). Market Square Garage at 406 Walnut St ($1/hr, $7/day max, free nights/weekends except Sat 8am-6pm $3 flat fee, 3 blocks). State Street Garage at 500 State St ($1/hr, $7/day max, free after 6pm weekdays and all day weekends, 4 blocks).",
-    "created_at": "2025-10-22T12:24:54.323071Z",
-    "updated_at": "2025-10-22T12:24:54.323072Z"
+    "created_at": "2025-10-23T15:49:01.865948Z",
+    "updated_at": "2025-10-23T15:49:01.865948Z"
   },
   {
     "id": "e3a850e6-f814-44eb-bd26-7e2880199ef7",
     "name": "Coffee & Chocolate Market Square",
     "address": "327 Union Ave, Knoxville, TN 37902",
-    "cuisine_type": "Coffee House & Chocolatier",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 5.6,
     "atmosphere_score": 8.5,
@@ -1948,10 +1887,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "dessert",
-      "late hours",
-      "house-roasted"
+      "late_hours",
+      "house_roasted"
     ],
     "status": "Active",
     "discovery_source": "Downtown Knoxville listing",
@@ -1965,14 +1905,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Market Square Garage adjacent ($3 flat rate Saturdays, free Sundays, free weeknights after 6pm). Street parking on Union Ave (metered).",
-    "created_at": "2025-10-22T12:24:54.323079Z",
-    "updated_at": "2025-10-22T12:24:54.323081Z"
+    "created_at": "2025-10-23T15:49:01.865950Z",
+    "updated_at": "2025-10-23T15:49:01.865950Z"
   },
   {
     "id": "a03bc01f-8897-4f8d-b05c-d98859d402d7",
     "name": "Coffee & Chocolate West Hills",
     "address": "7240 Kingston Pike, Ste 124, Knoxville, TN 37919",
-    "cuisine_type": "Coffee House & Chocolatier",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 5.2,
     "atmosphere_score": 7.3,
@@ -1987,10 +1927,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "dessert",
-      "new 2025",
-      "open kitchen view"
+      "open_kitchen_view"
     ],
     "status": "Active",
     "discovery_source": "Architect/project page + Visit Knoxville",
@@ -2004,14 +1944,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Shopping center parking lot at Kingston Pike location.",
-    "created_at": "2025-10-22T12:24:54.323088Z",
-    "updated_at": "2025-10-22T12:24:54.323089Z"
+    "created_at": "2025-10-23T15:49:01.865953Z",
+    "updated_at": "2025-10-23T15:49:01.865953Z"
   },
   {
     "id": "856052df-d3f3-46fb-89c3-f0cfa0e3018d",
     "name": "Colonel's Cafe",
     "address": "4809 Newcom Ave, Knoxville, TN 37919",
-    "cuisine_type": "American, Mediterranean, Greek",
+    "cuisine_type": "Mediterranean",
     "price_range": "$",
     "date_night_score": 5.2,
     "atmosphere_score": 7.7,
@@ -2026,22 +1966,18 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Bearden",
     "tags": [
-      "breakfast all day",
-      "family-owned",
-      "Greek food",
-      "Mediterranean",
+      "breakfast",
+      "family_owned",
+      "greek_food",
       "gyros",
       "omelettes",
       "homemade",
-      "local favorite",
-      "Bearden",
-      "student-friendly",
+      "student_friendly",
       "affordable",
-      "cozy atmosphere",
-      "fresh ingredients",
-      "authentic",
-      "mom and pop"
+      "cozy_atmosphere",
+      "mom_and_pop"
     ],
     "status": "Active",
     "discovery_source": "web_search_bearden",
@@ -2055,14 +1991,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/store/colonels-cafe-4809-newcom-ave/DLTpr9YeRS-iOHtzwmBOcw\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:28:26Z",
     "parking_info": "Small shared parking lot with adjacent businesses on Newcom Ave. Street parking available on Newcom Ave and surrounding Bearden neighborhood streets. No metered parking, free street parking.",
-    "created_at": "2025-10-22T12:24:54.323101Z",
-    "updated_at": "2025-10-22T12:24:54.323102Z"
+    "created_at": "2025-10-23T15:49:01.865956Z",
+    "updated_at": "2025-10-23T15:49:01.865957Z"
   },
   {
     "id": "567c112e-6fc8-42a1-a573-4aadd0a6f03e",
     "name": "Condado Tacos",
     "address": "11383 Parkside Dr, Knoxville, TN",
-    "cuisine_type": "Build-Your-Own Tacos, Mexican-Inspired",
+    "cuisine_type": "Mexican",
     "price_range": "$$",
     "date_night_score": 6.7,
     "atmosphere_score": 8.3,
@@ -2077,6 +2013,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [],
     "status": "Active",
     "discovery_source": "manual",
@@ -2090,14 +2027,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://condadotacos.com/menu-food/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free dedicated parking lot on-site at 11383 Parkside Dr. Additional parking available throughout Turkey Creek shopping district including Pinnacle Parking at 11361 Parkside Dr (adjacent, 1-minute walk) and The Pinnacle at Turkey Creek mall parking at 11251 Parkside Dr (2-minute walk). All parking is free with ample spaces available in this retail/dining complex.",
-    "created_at": "2025-10-22T12:24:54.323110Z",
-    "updated_at": "2025-10-22T12:24:54.323113Z"
+    "created_at": "2025-10-23T15:49:01.865958Z",
+    "updated_at": "2025-10-23T15:49:01.865958Z"
   },
   {
     "id": "c3cbbd9f-73f2-42f1-a56c-79168efcaa80",
     "name": "Connors Steak & Seafood",
     "address": "10915 Turkey Dr, Knoxville, TN 37934",
-    "cuisine_type": "Steakhouse, Seafood, Wood-Fired American",
+    "cuisine_type": "Steakhouse",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 9.9,
@@ -2112,17 +2049,18 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "Wood-fired grill",
-      "Wine bar",
-      "Raw oyster bar",
-      "Happy hour",
-      "Private dining",
-      "AAA Four Diamond",
-      "TripAdvisor #1",
-      "Yelp Top 25",
-      "Upscale casual",
-      "Turkey Creek"
+      "wood_fired_grill",
+      "wine_bar",
+      "raw_oyster_bar",
+      "happy_hour",
+      "private_dining",
+      "aaa_four_diamond",
+      "tripadvisor_#1",
+      "yelp_top_25",
+      "upscale_casual",
+      "turkey_creek"
     ],
     "status": "Active",
     "discovery_source": "web_search_steakhouse_turkey_creek",
@@ -2136,14 +2074,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.connorsrestaurant.com/pdf/knoxville-menu.pdf\", \"type\": \"pdf\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Turkey Creek shopping center lot. Ample parking available under normal conditions, though spots may be limited during peak dining hours (Fri-Sat evenings) and holiday shopping periods. Restaurant entrance accessible from main parking area.",
-    "created_at": "2025-10-22T12:24:54.323122Z",
-    "updated_at": "2025-10-22T12:24:54.323123Z"
+    "created_at": "2025-10-23T15:49:01.865961Z",
+    "updated_at": "2025-10-23T15:49:01.865961Z"
   },
   {
     "id": "7cb50240-200b-4256-9315-6958aa47278b",
     "name": "Copper Cellar",
     "address": "7316 Kingston Pike, Knoxville, TN 37919",
-    "cuisine_type": "American Steakhouse",
+    "cuisine_type": "Steakhouse",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 9.9,
@@ -2158,17 +2096,15 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "steakhouse",
-      "fine dining",
-      "sunday brunch",
-      "seafood",
-      "award-winning",
-      "special occasions",
-      "private dining",
-      "wine selection",
-      "established 1977",
-      "travelers choice award"
+      "fine_dining",
+      "brunch",
+      "award_winning",
+      "special_occasions",
+      "private_dining",
+      "wine_selection",
+      "travelers_choice_award"
     ],
     "status": "Active",
     "discovery_source": "web_search_brunch_sunday",
@@ -2182,14 +2118,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.allmenus.com/tn/knoxville/210351-copper-cellar-west/menu/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:28:14Z",
     "parking_info": "On-site parking lot available at the restaurant. Street parking available on Kingston Pike. Restaurant is wheelchair accessible.",
-    "created_at": "2025-10-22T12:24:54.323134Z",
-    "updated_at": "2025-10-22T12:24:54.323136Z"
+    "created_at": "2025-10-23T15:49:01.865963Z",
+    "updated_at": "2025-10-23T15:49:01.865963Z"
   },
   {
     "id": "937b1e3c-a65c-4d50-8237-1a1d9bc6f1b6",
     "name": "Crafty Bastard Brewery - Downtown",
     "address": "6 Emory Pl, Knoxville, TN 37917",
-    "cuisine_type": "Experimental Craft Brewery",
+    "cuisine_type": "Brewery",
     "price_range": "$$",
     "date_night_score": 5.9,
     "atmosphere_score": 8.1,
@@ -2204,16 +2140,16 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "craft beer",
-      "experimental brewing",
-      "dog-friendly",
-      "live music",
-      "food trucks",
-      "outdoor seating",
-      "local ingredients",
-      "barrel-aged",
-      "Fourth & Gill"
+      "craft_beer",
+      "experimental_brewing",
+      "dog_friendly",
+      "live_music",
+      "food_trucks",
+      "outdoor_seating",
+      "local_ingredients",
+      "barrel_aged"
     ],
     "status": "Active",
     "discovery_source": "web_search_brewery_downtown",
@@ -2227,14 +2163,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"type\": \"beer_pricing\", \"verified_date\": \"2025-10-01\", \"notes\": \"16oz drafts $7, 8oz drafts $4, Mug Club offers 20oz pours at standard pint price\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on Emory Place (much of the historic wide avenue has been converted to parking). Additional on-street parking in Fourth and Gill neighborhood. Downtown municipal garages nearby offer $1/hour weekday rates, free after 6pm weekdays and all day weekends.",
-    "created_at": "2025-10-22T12:24:54.323145Z",
-    "updated_at": "2025-10-22T12:24:54.323146Z"
+    "created_at": "2025-10-23T15:49:01.865967Z",
+    "updated_at": "2025-10-23T15:49:01.865967Z"
   },
   {
     "id": "9fdac0e7-a85b-4a52-917f-40b0e203aab1",
     "name": "Craven Wings - Choto",
     "address": "12350 S Northshore Dr, Knoxville, TN 37922",
-    "cuisine_type": "Wings, Sports Bar, American",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 5.1,
     "atmosphere_score": 7.2,
@@ -2249,17 +2185,16 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "sports bar",
-      "wings",
-      "family-owned",
-      "game watching",
-      "outdoor seating",
-      "full bar",
-      "kid-friendly",
-      "UT football",
-      "chicken wings",
-      "burgers"
+      "sports_bar",
+      "family_owned",
+      "game_watching",
+      "outdoor_seating",
+      "full_bar",
+      "kid_friendly",
+      "ut_football",
+      "chicken_wings"
     ],
     "status": "Active",
     "discovery_source": "web_search_wings_farragut",
@@ -2273,14 +2208,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://cravenwings.com/food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": "2025-10-02T02:28:14Z",
     "parking_info": "Free parking in Markets at Choto shopping center lot with ample spaces. Wheelchair accessible parking available near entrance.",
-    "created_at": "2025-10-22T12:24:54.323157Z",
-    "updated_at": "2025-10-22T12:24:54.323158Z"
+    "created_at": "2025-10-23T15:49:01.865969Z",
+    "updated_at": "2025-10-23T15:49:01.865969Z"
   },
   {
     "id": "c303422e-1da5-4aa1-8d29-2bba9481cea0",
     "name": "Cruze Farm",
     "address": "445 S Gay St, Ste 103, Knoxville, TN 37902",
-    "cuisine_type": "Ice Cream, Dessert",
+    "cuisine_type": "Desserts",
     "price_range": "$",
     "date_night_score": 4.7,
     "atmosphere_score": 7.3,
@@ -2295,18 +2230,18 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": "Downtown",
     "tags": [
-      "ice cream",
+      "ice_cream",
       "dessert",
-      "farm-to-table",
+      "farm_to_table",
       "local",
       "sustainable",
-      "family-owned",
+      "family_owned",
       "dairy",
-      "soft serve",
-      "downtown",
+      "soft_serve",
       "walkable",
-      "award-winning"
+      "award_winning"
     ],
     "status": "Active",
     "discovery_source": "Southern Living",
@@ -2320,14 +2255,14 @@ const RESTAURANTS = [
     "cached_menu_info": "Fresh-churned soft serve ice cream, specialty cone dips (peanut butter, chocolate, cherry, toasted coconut), signature churns (Rocky Top Road, S'mores, Cookies & Cream, Peanut Butter Cup), creative shakes (Nutella, Cookies & Cream, Peanut Butter), classic floats, affogato, sundaes with hot fudge, dairy-free sorbet options, ice cream pints for takeout",
     "menu_cached_at": null,
     "parking_info": "Street parking on Gay Street (metered). State Street Garage 2 blocks away (free evenings after 7pm and weekends). Market Square Garage nearby ($3 flat rate Saturdays, free Sundays, free weeknights after 6pm). First Horizon Plaza Garage ($5 weekends/evenings). Highly walkable downtown area.",
-    "created_at": "2025-10-22T12:24:54.323169Z",
-    "updated_at": "2025-10-22T12:24:54.323171Z"
+    "created_at": "2025-10-23T15:49:01.865972Z",
+    "updated_at": "2025-10-23T15:49:01.865972Z"
   },
   {
     "id": "6575fa02-6fa9-4c31-b41e-f9d54aa13a14",
     "name": "Cultivate Coffee + Flowers",
     "address": "5221 N Broadway, Knoxville, TN 37918",
-    "cuisine_type": "Coffeehouse & Flowers",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 5.4,
     "atmosphere_score": 8.0,
@@ -2342,8 +2277,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Fountain City",
     "tags": [
-      "fountain_city",
       "flowers",
       "drive_thru"
     ],
@@ -2359,14 +2294,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://cultivate-coffee-and-flowers.square.site/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available. Entrance can be difficult during high traffic times depending on direction of approach. Drive-thru lane available for quick pickup. Located at 5221 N Broadway with street parking also available on Broadway.",
-    "created_at": "2025-10-22T12:24:54.323178Z",
-    "updated_at": "2025-10-22T12:24:54.323179Z"
+    "created_at": "2025-10-23T15:49:01.865974Z",
+    "updated_at": "2025-10-23T15:49:01.865974Z"
   },
   {
     "id": "d7a83c5f-2e55-48a1-8381-3ad5d022f9c7",
     "name": "Curious Dog",
     "address": "200 W Jackson Ave, Knoxville, TN 37902",
-    "cuisine_type": "Gourmet Hot Dogs, Sandwiches",
+    "cuisine_type": "Sandwiches/Deli",
     "price_range": "$",
     "date_night_score": 5.4,
     "atmosphere_score": 8.2,
@@ -2381,10 +2316,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
       "hot_dogs",
-      "sandwiches",
-      "old_city",
       "craft_beer",
       "historic"
     ],
@@ -2400,8 +2334,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://curiousdogknoxville.com/knoxville-curious-dog-hotdogs-and-sandwiches-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Jackson Ave Lot nearby offers free parking weeknights after 6pm and free all weekend. Street parking available with metered spots. Check City of Knoxville parking website for specific lot locations and rates.",
-    "created_at": "2025-10-22T12:24:54.323187Z",
-    "updated_at": "2025-10-22T12:24:54.323188Z"
+    "created_at": "2025-10-23T15:49:01.865976Z",
+    "updated_at": "2025-10-23T15:49:01.865976Z"
   },
   {
     "id": "acae45e6-5b6e-43c9-b6f3-e3e859c6138a",
@@ -2422,9 +2356,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "indian",
-      "authentic",
       "curry"
     ],
     "status": "Active",
@@ -2439,14 +2372,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.doordash.com/store/curry-pot-express-ooltewah-989098/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking available in Apison Crossing shopping center lot. Located in retail strip center at 9408 Apison Pike with shared parking for multiple businesses.",
-    "created_at": "2025-10-22T12:24:54.323196Z",
-    "updated_at": "2025-10-22T12:24:54.323197Z"
+    "created_at": "2025-10-23T15:49:01.865977Z",
+    "updated_at": "2025-10-23T15:49:01.865977Z"
   },
   {
     "id": "2d0a1c20-9c69-4a28-9d6a-77a3d8d6c88d",
     "name": "Dancing Bear Appalachian Bistro",
     "address": "7140 E Lamar Alexander Pkwy, Townsend, TN 37882",
-    "cuisine_type": "Modern Appalachian",
+    "cuisine_type": "Southern",
     "price_range": "$$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 10.0,
@@ -2461,12 +2394,11 @@ const RESTAURANTS = [
     "last_visited": "2022-04-29T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
-      "townsend",
       "fine_dining",
       "romantic_getaway",
-      "smokies",
-      "destination"
+      "smokies"
     ],
     "status": "Active",
     "discovery_source": "regional awards + OpenTable",
@@ -2480,14 +2412,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.opentable.com/dancing-bear-appalachian-bistro\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"sample_prices\": {\"Filet Mignon\": \"$57\", \"Sweet Tea Brined Pork Chop\": \"$42\", \"Plum Glazed Duck Breast\": \"$42\", \"Local Wagyu Bistro Burger\": \"$28\"}}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking directly at restaurant entrance. During special events (concerts, weddings), overflow parking available off Highway 321 at Dancing Bear entrance next to Apple Valley Country Store with complimentary shuttle service to restaurant and lodge.",
-    "created_at": "2025-10-22T12:24:54.323208Z",
-    "updated_at": "2025-10-22T12:24:54.323210Z"
+    "created_at": "2025-10-23T15:49:01.865980Z",
+    "updated_at": "2025-10-23T15:49:01.865980Z"
   },
   {
     "id": "6f976ef6-c1cd-4929-b8e5-efb5a6256974",
     "name": "Dead End BBQ",
     "address": "3621 Sutherland Ave, Knoxville, TN 37919",
-    "cuisine_type": "Competition BBQ",
+    "cuisine_type": "BBQ",
     "price_range": "$$",
     "date_night_score": 7.7,
     "atmosphere_score": 8.8,
@@ -2502,9 +2434,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "bbq",
-      "local_favorite",
       "casual_dining"
     ],
     "status": "Active",
@@ -2519,14 +2450,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.deadendbbq.com/food-menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Ample on-site parking lot with wheelchair-accessible spaces. Full wheelchair accessibility throughout including entrance, parking, restrooms, and seating.",
-    "created_at": "2025-10-22T12:24:54.323218Z",
-    "updated_at": "2025-10-22T12:24:54.323219Z"
+    "created_at": "2025-10-23T15:49:01.865982Z",
+    "updated_at": "2025-10-23T15:49:01.865982Z"
   },
   {
     "id": "0703ed3f-bf2f-41cd-ad77-0388702420ae",
     "name": "Disco Chicken",
     "address": "Beauford Delaney Building, Covenant Health Park, Knoxville, TN 37915",
-    "cuisine_type": "Chicken, Donuts, American",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 6.0,
     "atmosphere_score": null,
@@ -2541,12 +2472,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
       "chicken",
       "donuts",
       "stadium_dining",
-      "old_city",
-      "new_2025",
       "full_bar",
       "year_round"
     ],
@@ -2562,14 +2492,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.323226Z",
-    "updated_at": "2025-10-22T12:24:54.323228Z"
+    "created_at": "2025-10-23T15:49:01.865984Z",
+    "updated_at": "2025-10-23T15:49:01.865984Z"
   },
   {
     "id": "7efde406-5d78-4fee-acd4-914ca4c259fc",
     "name": "Downtown Grill & Brewery",
     "address": "424 South Gay Street, Knoxville, TN 37902",
-    "cuisine_type": "Brewpub, American, Mesquite Grill",
+    "cuisine_type": "Brewery",
     "price_range": "$$$",
     "date_night_score": 7.4,
     "atmosphere_score": 8.7,
@@ -2584,12 +2514,12 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
-      "craft beer",
-      "on-site brewery",
-      "historic building",
-      "downtown",
-      "mesquite grill"
+      "craft_beer",
+      "on_site_brewery",
+      "historic_building",
+      "mesquite_grill"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -2604,7 +2534,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "State Street Garage (closest, 193 steps/4.4 min walk) offers free parking weeknights after 6pm and all weekend. Market Square Garage (283 steps/6.4 min walk) has free parking weeknights after 6pm, Sundays free, Saturdays $3 flat rate. Locust Street Garage provides free parking after 7pm and all weekend. Street parking is also available on Gay Street and surrounding blocks. The Promenade Garage off State Street provides pedestrian walkway access to Gay Street but charges for parking.",
     "created_at": "2025-09-30T22:55:28.753740Z",
-    "updated_at": "2025-10-22T12:24:54.323239Z"
+    "updated_at": "2025-10-23T15:49:01.865986Z"
   },
   {
     "id": "0029ac25-7370-4d04-b638-93891f54cdcb",
@@ -2625,8 +2555,8 @@ const RESTAURANTS = [
     "last_visited": "2025-05-24T12:00:00Z",
     "visit_count": 3,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
-      "charming",
       "romantic",
       "intimate",
       "chef_matt_gallaher"
@@ -2644,13 +2574,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free parking available at Market Square Garage (152 steps/3.4 min walk) after 6 PM on weeknights and all day Sunday. Saturday flat rate $3. Langley Garage also nearby (253 steps/5.7 min walk). Downtown offers 5,000+ free parking spaces in municipal garages weekdays after 6 PM and all weekends. Normal weekday rates $1/hour in garages, street metered parking $1.50/hour with 2-hour limit.",
     "created_at": "2025-09-30T22:55:28.753472Z",
-    "updated_at": "2025-10-22T12:24:54.323249Z"
+    "updated_at": "2025-10-23T15:49:01.865989Z"
   },
   {
     "id": "05541c84-b0e9-4beb-a099-a595b4cba7d2",
     "name": "Fable Hollow Coffee & Bookshoppe",
     "address": "2910 Tazewell Pike, Ste A, Knoxville, TN 37918",
-    "cuisine_type": "Coffee Shop & Bookstore",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.7,
     "atmosphere_score": 8.0,
@@ -2665,8 +2595,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "bookstore café",
+      "bookstore_café",
       "themed",
       "events"
     ],
@@ -2682,14 +2613,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Strip mall parking lot at Tazewell Pike, Fountain City location.",
-    "created_at": "2025-10-22T12:24:54.323267Z",
-    "updated_at": "2025-10-22T12:24:54.323268Z"
+    "created_at": "2025-10-23T15:49:01.865991Z",
+    "updated_at": "2025-10-23T15:49:01.865991Z"
   },
   {
     "id": "3f786b5f-a038-4743-8eb8-36b5c2ddc143",
     "name": "Fin-Two Japanese Ale House",
     "address": "122 S Central Ave, Knoxville, TN",
-    "cuisine_type": "Japanese, Izakaya",
+    "cuisine_type": "Japanese",
     "price_range": "$$",
     "date_night_score": 7.4,
     "atmosphere_score": 8.7,
@@ -2704,17 +2635,13 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
       "izakaya",
-      "japanese",
-      "old_city",
       "yakitori",
-      "ramen",
-      "sushi",
       "sake",
       "robata_grill",
-      "craft_beer",
-      "downtown"
+      "craft_beer"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -2729,13 +2656,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking available on S Central Ave and nearby streets (metered, $2/hr). State Street Garage 2 blocks away. Multiple Old City public garages offer free parking weeknights after 6pm and all weekend.",
     "created_at": "2025-09-30T22:55:28.753672Z",
-    "updated_at": "2025-10-22T12:24:54.323280Z"
+    "updated_at": "2025-10-23T15:49:01.865993Z"
   },
   {
     "id": "05856226-c591-46d2-b235-760477ccf937",
     "name": "Finn's Restaurant & Tavern",
     "address": "9000 Kingston Pike, Knoxville, TN 37923",
-    "cuisine_type": "Irish, American, Fine Dining",
+    "cuisine_type": "British/Irish",
     "price_range": "$$",
     "date_night_score": 8.5,
     "atmosphere_score": 9.0,
@@ -2750,6 +2677,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [],
     "status": "Active",
     "discovery_source": "compass_dining_guide_2025",
@@ -2763,14 +2691,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.finnstavern.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available (wheelchair accessible). Parking can be challenging to find spaces during peak times. Enter on first floor near oil change business, follow signs to front door.",
-    "created_at": "2025-10-22T12:24:54.323288Z",
-    "updated_at": "2025-10-22T12:24:54.323289Z"
+    "created_at": "2025-10-23T15:49:01.865995Z",
+    "updated_at": "2025-10-23T15:49:01.865995Z"
   },
   {
     "id": "6051a00f-d23b-44be-b6b3-7152a311d26c",
     "name": "Fire + Smoke",
     "address": "9405 S Northshore Dr Suite 103, Knoxville, TN 37922",
-    "cuisine_type": "Fine Dining Steakhouse",
+    "cuisine_type": "Steakhouse",
     "price_range": "$$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 10.0,
@@ -2785,12 +2713,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "West Knoxville",
     "tags": [
-      "west_knoxville",
       "northshore",
-      "fine_dining",
-      "steakhouse",
-      "anniversary"
+      "fine_dining"
     ],
     "status": "Active",
     "discovery_source": "official website + recommendations",
@@ -2804,14 +2730,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://fire-smoke.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Located in Turkey Creek shopping center with ample free parking. Surface lot parking directly in front of restaurant. Additional parking available throughout Turkey Creek complex on Parkside Dr and S Northshore Dr.",
-    "created_at": "2025-10-22T12:24:54.323297Z",
-    "updated_at": "2025-10-22T12:24:54.323298Z"
+    "created_at": "2025-10-23T15:49:01.865997Z",
+    "updated_at": "2025-10-23T15:49:01.865997Z"
   },
   {
     "id": "be7197fa-081c-492d-ae69-28e6b0ba7c06",
     "name": "Fly by Night",
     "address": "906 Sevier Ave, Knoxville, TN 37920",
-    "cuisine_type": "1970s-Themed Cocktail Bar",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 6.8,
     "atmosphere_score": 7.6,
@@ -2826,11 +2752,12 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "south_knox",
       "cocktails",
       "vintage",
-      "entertainment",
+      "live_music",
       "tern_club_team"
     ],
     "status": "Active",
@@ -2845,14 +2772,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.flybynightknox.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on Sevier Avenue. South Knoxville area offers free street parking with no meters.",
-    "created_at": "2025-10-22T12:24:54.323306Z",
-    "updated_at": "2025-10-22T12:24:54.323307Z"
+    "created_at": "2025-10-23T15:49:01.865999Z",
+    "updated_at": "2025-10-23T15:49:01.865999Z"
   },
   {
     "id": "b04f8f08-f89a-4634-b3e4-024f8888d273",
     "name": "Foothills Milling Company",
     "address": "315 S Washington Street, Maryville, TN 37803",
-    "cuisine_type": "Modern American",
+    "cuisine_type": "American",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 9.9,
@@ -2867,6 +2794,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "intimate",
       "elegant",
@@ -2885,7 +2813,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking available on Washington Street. Broadway Avenue Municipal Parking Garage in downtown Maryville (253 spaces, entrances from Church Avenue and Broadway, located beside Barley's). Downtown Maryville has over 1,000 public parking spaces within walking distance.",
     "created_at": "2025-09-30T22:55:28.753562Z",
-    "updated_at": "2025-10-22T12:24:54.323316Z"
+    "updated_at": "2025-10-23T15:49:01.866001Z"
   },
   {
     "id": "5eb2f4e6-1d5d-4d4b-93db-d449f9cdd497",
@@ -2906,6 +2834,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "cozy",
       "cultural",
@@ -2924,13 +2853,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Ample parking available in private shopping center lot at Montvue Center. Free parking with easy access from Kingston Pike.",
     "created_at": "2025-09-30T22:55:28.753613Z",
-    "updated_at": "2025-10-22T12:24:54.323325Z"
+    "updated_at": "2025-10-23T15:49:01.866004Z"
   },
   {
     "id": "7caa1896-3e8c-47df-993a-1329cfec0768",
     "name": "Good Golly Tamale",
     "address": "112 S Central Street, Knoxville, TN 37902",
-    "cuisine_type": "Mexican, Tamales",
+    "cuisine_type": "Mexican",
     "price_range": "$",
     "date_night_score": 4.8,
     "atmosphere_score": 7.3,
@@ -2945,10 +2874,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "casual",
-      "communal",
-      "budget-friendly"
+      "budget_friendly"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -2963,7 +2892,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking on Willow Ave and Jackson Ave. Free parking under James White Parkway (when no game). Old City South Lot available ($3 max). Central Street has 15-minute quick pickup parking.",
     "created_at": "2025-09-30T22:55:28.753715Z",
-    "updated_at": "2025-10-22T12:24:54.323334Z"
+    "updated_at": "2025-10-23T15:49:01.866006Z"
   },
   {
     "id": "f4e59c2a-fa54-4b25-a332-82b036b89ddc",
@@ -2984,6 +2913,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [],
     "status": "Active",
     "discovery_source": "compass_dining_guide_2025",
@@ -2997,14 +2927,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.vegginoutandabout.com/2016/04/gosh-ethiopian-restaurant-healthy-plant-based-dining-in-knoxville-tennessee/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available at restaurant location on Sutherland Ave. Additional street parking on Sutherland Ave in West Knoxville area.",
-    "created_at": "2025-10-22T12:24:54.323341Z",
-    "updated_at": "2025-10-22T12:24:54.323342Z"
+    "created_at": "2025-10-23T15:49:01.866008Z",
+    "updated_at": "2025-10-23T15:49:01.866008Z"
   },
   {
     "id": "0b16060f-6b69-4676-9ba8-cda74167d08f",
     "name": "Gourmets Market & Café",
     "address": "5107 Kingston Pike, Knoxville, TN 37919",
-    "cuisine_type": "Breakfast & Lunch Cafe, Southern",
+    "cuisine_type": "Southern",
     "price_range": "$$",
     "date_night_score": 5.1,
     "atmosphere_score": 7.3,
@@ -3019,11 +2949,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Bearden",
     "tags": [
-      "market",
-      "cafe",
-      "bearden",
-      "gourmet"
+      "market"
     ],
     "status": "Active",
     "discovery_source": "web_search_bearden",
@@ -3037,14 +2965,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://gourmetsmarketandcafe.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Ample on-site parking lot available at restaurant location on Kingston Pike.",
-    "created_at": "2025-10-22T12:24:54.323349Z",
-    "updated_at": "2025-10-22T12:24:54.323351Z"
+    "created_at": "2025-10-23T15:49:01.866010Z",
+    "updated_at": "2025-10-23T15:49:01.866010Z"
   },
   {
     "id": "f249d44d-f2c0-4e6d-b019-69257d86602d",
     "name": "Gus's Good Times Deli",
     "address": "815 Melrose Pl, Knoxville, TN 37916",
-    "cuisine_type": "Deli",
+    "cuisine_type": "Sandwiches/Deli",
     "price_range": "$",
     "date_night_score": 5.1,
     "atmosphere_score": 6.4,
@@ -3059,9 +2987,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "deli",
-      "sandwiches",
       "lunch"
     ],
     "status": "Active",
@@ -3076,14 +3003,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.yelp.com/menu/guss-good-times-deli-knoxville\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Melrose Place with metered spots ($2/hr, enforcement by City of Knoxville). White Avenue Garage (G12) nearby on campus. Fort Sanders Hospital lot at 19th & White available after 6pm weeknights and weekends. UT visitor parking available at various campus locations ($1-2/hr).",
-    "created_at": "2025-10-22T12:24:54.323358Z",
-    "updated_at": "2025-10-22T12:24:54.323359Z"
+    "created_at": "2025-10-23T15:49:01.866012Z",
+    "updated_at": "2025-10-23T15:49:01.866012Z"
   },
   {
     "id": "a7182547-7bc6-4a28-86ad-be0804ad1d65",
     "name": "Ham'n Goodys",
     "address": "507 S Gay St, Knoxville, TN 37902",
-    "cuisine_type": "Desserts, Sweets",
+    "cuisine_type": "Desserts",
     "price_range": "$",
     "date_night_score": 4.4,
     "atmosphere_score": 6.4,
@@ -3098,11 +3025,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
-      "desserts",
-      "sweets",
-      "downtown",
-      "gay_street"
+      "sweets"
     ],
     "status": "Active",
     "discovery_source": "web_search_gay_street",
@@ -3116,14 +3041,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://order.toasttab.com/online/ham-goodys-downtown-knoxville-507-s-gay-street\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Gay Street (metered, $1.50/hr, 2hr max). State Street Garage nearby (free after 7pm weeknights and weekends, $1/hr weekdays). W. Jackson Ave Lot near 100 block of S Gay Street (free nights & weekends).",
-    "created_at": "2025-10-22T12:24:54.323367Z",
-    "updated_at": "2025-10-22T12:24:54.323368Z"
+    "created_at": "2025-10-23T15:49:01.866014Z",
+    "updated_at": "2025-10-23T15:49:01.866014Z"
   },
   {
     "id": "e3132527-d375-470a-aec2-6baf6347f91b",
     "name": "Hanna's",
     "address": "102 S Central St, Knoxville, TN 37902",
-    "cuisine_type": "Dance Club / Bar",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 6.1,
     "atmosphere_score": 7.4,
@@ -3138,11 +3063,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
       "nightclub",
-      "nightlife",
-      "old_city",
-      "central_avenue"
+      "nightlife"
     ],
     "status": "Active",
     "discovery_source": "web_search_old_city_nightlife",
@@ -3156,14 +3080,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"type\": \"nightclub\", \"verified_date\": \"2025-10-02\", \"notes\": \"Ladies free entry, $5 cover for men, drink specials available\"}",
     "menu_cached_at": null,
     "parking_info": "Old City Lot North offers free parking 24/7 (101 spaces, excluding special events). Free street parking after 8pm and all day Sunday. Free covered parking under I-40 on Magnolia. Additional paid lots on Jackson Ave, Central Ave, and surrounding streets.",
-    "created_at": "2025-10-22T12:24:54.323376Z",
-    "updated_at": "2025-10-22T12:24:54.323377Z"
+    "created_at": "2025-10-23T15:49:01.866017Z",
+    "updated_at": "2025-10-23T15:49:01.866017Z"
   },
   {
     "id": "57681049-6a3d-49a8-bdeb-9847553189d6",
     "name": "Harvest",
     "address": "5200 Kingston Pike, Knoxville, TN 37919",
-    "cuisine_type": "Farm-to-Table American",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 8.7,
     "atmosphere_score": 9.3,
@@ -3178,6 +3102,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "elegant",
       "seasonal",
@@ -3196,13 +3121,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Public parking lot available on-site at 5200 Kingston Pike, located at corner of Kingston Pike and Mohican Street.",
     "created_at": "2025-09-30T22:55:28.753622Z",
-    "updated_at": "2025-10-22T12:24:54.323386Z"
+    "updated_at": "2025-10-23T15:49:01.866018Z"
   },
   {
     "id": "f422ed24-09cc-4158-91ad-3f595d51f5f9",
     "name": "Hi-Wire Brewing",
     "address": "2020 Barber Street, Knoxville, TN 37920",
-    "cuisine_type": "Brewery, Craft Beer, American",
+    "cuisine_type": "Brewery",
     "price_range": "$$",
     "date_night_score": 5.9,
     "atmosphere_score": 7.8,
@@ -3217,10 +3142,11 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "casual",
       "rooftop",
-      "family-friendly"
+      "family_friendly"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -3235,13 +3161,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "On-site parking available at building. Street parking on Barber St. See brewery website for detailed parking map. Located in South Knoxville across Tennessee River from downtown.",
     "created_at": "2025-09-30T22:55:28.753731Z",
-    "updated_at": "2025-10-22T12:24:54.323396Z"
+    "updated_at": "2025-10-23T15:49:01.866021Z"
   },
   {
     "id": "7b10fcad-2e37-4183-bd0d-d40251b8101e",
     "name": "Holy Land Market",
     "address": "3601 Sutherland Ave, Knoxville, TN 37919",
-    "cuisine_type": "Mediterranean, Middle Eastern, Deli",
+    "cuisine_type": "Mediterranean",
     "price_range": "$",
     "date_night_score": 5.0,
     "atmosphere_score": 7.0,
@@ -3256,18 +3182,15 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "Mediterranean",
-      "Middle Eastern",
-      "Deli",
-      "Market",
-      "Grocery",
-      "Family-Owned",
-      "Vegetarian-Friendly",
-      "Vegan-Options",
-      "Takeout",
-      "Catering",
-      "Award-Winner"
+      "middle_eastern",
+      "market",
+      "grocery",
+      "family_owned",
+      "vegetarian_options",
+      "vegan_options",
+      "award_winner"
     ],
     "status": "Active",
     "discovery_source": "web_search_mediterranean_deli",
@@ -3281,14 +3204,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://holylandknoxville.com/knoxville-holy-land-market-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot available for customers.",
-    "created_at": "2025-10-22T12:24:54.323404Z",
-    "updated_at": "2025-10-22T12:24:54.323406Z"
+    "created_at": "2025-10-23T15:49:01.866023Z",
+    "updated_at": "2025-10-23T15:49:01.866023Z"
   },
   {
     "id": "955b8625-85bd-4487-aedc-098efa3d6506",
     "name": "Honeybee Coffee",
     "address": "700 Sevier Ave, Suite 2, Knoxville, TN 37920",
-    "cuisine_type": "Roaster & Cafe",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.1,
     "atmosphere_score": 6.8,
@@ -3303,16 +3226,15 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "South Knoxville",
     "tags": [
       "coffee_roaster",
       "specialty_coffee",
       "sevier_avenue",
-      "south_knoxville",
       "single_origin",
       "subscription",
       "multiple_locations",
-      "espresso",
-      "cafe"
+      "espresso"
     ],
     "status": "Active",
     "discovery_source": "manual",
@@ -3326,14 +3248,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.323414Z",
-    "updated_at": "2025-10-22T12:24:54.323415Z"
+    "created_at": "2025-10-23T15:49:01.866025Z",
+    "updated_at": "2025-10-23T15:49:01.866025Z"
   },
   {
     "id": "3a5e430a-fa37-4773-957c-40bf13fd0b90",
     "name": "Hot Rods 50's Diner",
     "address": "373 Hannum St, Alcoa, TN 37701",
-    "cuisine_type": "American, Diner, Burgers",
+    "cuisine_type": "Burgers",
     "price_range": "$",
     "date_night_score": 6.4,
     "atmosphere_score": 8.1,
@@ -3348,13 +3270,12 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "1950s theme",
-      "burgers",
-      "family-friendly",
+      "family_friendly",
       "retro",
-      "pinball machines",
-      "Tennessee Crossroads featured"
+      "pinball_machines",
+      "tennessee_crossroads_featured"
     ],
     "status": "Active",
     "discovery_source": "web_search_alcoa_diner",
@@ -3368,14 +3289,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"http://places.singleplatform.com/hot-rods-50s-diner/menu\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot on site. Additional parking available at Blount County Library (accessible via stairs from restaurant) or across Hannum Street.",
-    "created_at": "2025-10-22T12:24:54.323424Z",
-    "updated_at": "2025-10-22T12:24:54.323426Z"
+    "created_at": "2025-10-23T15:49:01.866027Z",
+    "updated_at": "2025-10-23T15:49:01.866028Z"
   },
   {
     "id": "20ffd78c-40c7-40b7-bd79-3da31ebfdcc2",
     "name": "Humble Hog",
     "address": "312 S Gay Street, Knoxville, TN 37902",
-    "cuisine_type": "Creative BBQ, Southern Fusion",
+    "cuisine_type": "BBQ",
     "price_range": "$$",
     "date_night_score": 8.8,
     "atmosphere_score": 8.9,
@@ -3390,10 +3311,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "casual",
       "creative",
-      "local character"
+      "local_character"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -3408,13 +3330,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking on S Gay St (metered, 2hr max). State Street Garage nearby (free after 7pm weeknights and weekends). First Horizon Plaza Garage 2 blocks away ($5-12 weekdays, $5 evenings/weekends).",
     "created_at": "2025-09-30T22:55:28.753588Z",
-    "updated_at": "2025-10-22T12:24:54.323435Z"
+    "updated_at": "2025-10-23T15:49:01.866029Z"
   },
   {
     "id": "8099cec7-7eda-41d1-90c3-17c032f4fc95",
     "name": "Inskip Grill",
     "address": "4877 N Broadway St, Knoxville, TN 37918",
-    "cuisine_type": "American, Burgers",
+    "cuisine_type": "Burgers",
     "price_range": "$$",
     "date_night_score": 6.9,
     "atmosphere_score": 8.5,
@@ -3429,16 +3351,15 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "Burgers",
-      "Craft Beer",
-      "Comfort Food",
-      "Local Favorite",
-      "Family Friendly",
-      "Entertainment",
-      "Arcade",
-      "Axe Throwing",
-      "Milkshakes"
+      "craft_beer",
+      "comfort_food",
+      "family_friendly",
+      "live_music",
+      "arcade",
+      "axe_throwing",
+      "milkshakes"
     ],
     "status": "Active",
     "discovery_source": "compass_dining_guide_2025",
@@ -3452,14 +3373,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://inskipgrill.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available. Additional street parking on N Broadway (US-441). Located in Fountain City shopping area with shared parking access.",
-    "created_at": "2025-10-22T12:24:54.323443Z",
-    "updated_at": "2025-10-22T12:24:54.323444Z"
+    "created_at": "2025-10-23T15:49:01.866031Z",
+    "updated_at": "2025-10-23T15:49:01.866032Z"
   },
   {
     "id": "9b7f13ff-154d-4906-8750-81b46f5064b9",
     "name": "Intrepid Nitro Coffee & Tea Bar Bearden",
     "address": "5201 Kingston Pike, Ste 6, Knoxville, TN 37919",
-    "cuisine_type": "Nitro Coffee & Tea Bar",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.8,
     "atmosphere_score": 7.7,
@@ -3474,6 +3395,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "nitro",
       "tap",
@@ -3491,14 +3413,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Shopping center parking at Kingston Pike, Bearden location.",
-    "created_at": "2025-10-22T12:24:54.323451Z",
-    "updated_at": "2025-10-22T12:24:54.323453Z"
+    "created_at": "2025-10-23T15:49:01.866033Z",
+    "updated_at": "2025-10-23T15:49:01.866033Z"
   },
   {
     "id": "de85a2a6-b5ce-4927-a3d5-bcf2393fc68c",
     "name": "J.C. Holdway",
     "address": "501 Union Avenue, Knoxville, TN 37902",
-    "cuisine_type": "Wood-Fired American",
+    "cuisine_type": "American",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 10.0,
@@ -3513,11 +3435,10 @@ const RESTAURANTS = [
     "last_visited": "2025-04-11T12:00:00Z",
     "visit_count": 9,
     "average_rating": 9.0,
+    "area": "Downtown",
     "tags": [
       "fine_dining",
-      "southern",
       "appalachian",
-      "downtown",
       "union_avenue",
       "date_night",
       "award_winning",
@@ -3537,7 +3458,7 @@ const RESTAURANTS = [
     "menu_cached_at": "2025-10-03T16:02:10Z",
     "parking_info": "Convenient parking at Market Square Garage (96 steps, 2.2 min walk), Locust Street Garage (122 steps, 2.8 min walk), and Langley Garage (91 steps, 2.1 min walk). Several downtown garages free on weeknights and weekends.",
     "created_at": "2025-09-30T22:55:28.753353Z",
-    "updated_at": "2025-10-22T12:24:54.323467Z"
+    "updated_at": "2025-10-23T15:49:01.866036Z"
   },
   {
     "id": "54933448-0a9a-4936-912e-a208d9b85ef4",
@@ -3558,10 +3479,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Kingston Pike",
     "tags": [
-      "pizza",
-      "wood_fired",
-      "kingston_pike"
+      "wood_fired"
     ],
     "status": "Active",
     "discovery_source": "web_search_pizza_wood_fired",
@@ -3575,14 +3495,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.doordash.com/store/jabonis-pizzeria-25388435/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at restaurant location on Kingston Pike. Additional parking available at nearby West Town Mall (7600 Kingston Pike), approximately 200 yards away, with large parking lot and parking garage.",
-    "created_at": "2025-10-22T12:24:54.323475Z",
-    "updated_at": "2025-10-22T12:24:54.323476Z"
+    "created_at": "2025-10-23T15:49:01.866038Z",
+    "updated_at": "2025-10-23T15:49:01.866038Z"
   },
   {
     "id": "9c2a2351-a17d-4c7b-b6f0-562fc731b1f0",
     "name": "Jackie's Dream",
     "address": "1008 East Woodland Avenue, Fountain City, TN",
-    "cuisine_type": "Soul Food",
+    "cuisine_type": "Southern",
     "price_range": "$$",
     "date_night_score": 6.2,
     "atmosphere_score": 7.3,
@@ -3597,6 +3517,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [],
     "status": "Active",
     "discovery_source": "compass_dining_guide_2025",
@@ -3610,14 +3531,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/store/jackies-dream-1008-e-woodland-ave/hdzJLlEmS_qc8D3eLjKfFQ\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot with ample spaces. Lot fills quickly during peak lunch hours (11am-2pm). Additional street parking available on E. Woodland Ave.",
-    "created_at": "2025-10-22T12:24:54.323482Z",
-    "updated_at": "2025-10-22T12:24:54.323484Z"
+    "created_at": "2025-10-23T15:49:01.866039Z",
+    "updated_at": "2025-10-23T15:49:01.866039Z"
   },
   {
     "id": "0651499e-29de-4c05-a3d6-01767bb3289b",
     "name": "Jacks Coffee & Plants - Downtown",
     "address": "133 S Gay St, Knoxville, TN 37902",
-    "cuisine_type": "Coffee Shop & Local Goods",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 5.6,
     "atmosphere_score": 8.5,
@@ -3632,9 +3553,9 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "plants",
-      "designy",
       "daytime"
     ],
     "status": "Active",
@@ -3649,14 +3570,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking on S Gay St downtown. Nearby public garages including State Street Garage (free weeknights after 6pm, free weekends).",
-    "created_at": "2025-10-22T12:24:54.323492Z",
-    "updated_at": "2025-10-22T12:24:54.323493Z"
+    "created_at": "2025-10-23T15:49:01.866041Z",
+    "updated_at": "2025-10-23T15:49:01.866041Z"
   },
   {
     "id": "878fcc1e-9ba1-462f-a605-f838a8a8607e",
     "name": "Jacks Coffee & Plants - Happy Holler",
     "address": "854 N Central St, Knoxville, TN 37917",
-    "cuisine_type": "Coffee Shop & Plant Shop",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.4,
     "atmosphere_score": 7.5,
@@ -3671,6 +3592,7 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "plants",
       "local"
@@ -3687,14 +3609,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking on N Central St in Happy Holler neighborhood.",
-    "created_at": "2025-10-22T12:24:54.323503Z",
-    "updated_at": "2025-10-22T12:24:54.323505Z"
+    "created_at": "2025-10-23T15:49:01.866043Z",
+    "updated_at": "2025-10-23T15:49:01.866043Z"
   },
   {
     "id": "39243707-694a-4018-80d9-d0671620e6ca",
     "name": "K Brew Coffee & Bagels",
     "address": "507 S Gay St, Knoxville, TN 37902",
-    "cuisine_type": "Specialty Coffee + Bagels",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 5.1,
     "atmosphere_score": 8.2,
@@ -3709,17 +3631,13 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
-      "coffee",
       "bagels",
-      "downtown",
-      "gay_street",
       "locally_roasted",
       "nyc_style",
       "organic",
-      "power_hour",
-      "embassy_suites",
-      "brothers"
+      "power_hour"
     ],
     "status": "Active",
     "discovery_source": "manual",
@@ -3733,14 +3651,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.323513Z",
-    "updated_at": "2025-10-22T12:24:54.323514Z"
+    "created_at": "2025-10-23T15:49:01.866045Z",
+    "updated_at": "2025-10-23T15:49:01.866045Z"
   },
   {
     "id": "db734990-9ee4-4d97-8eb8-10b432defc0f",
     "name": "Kabuki Sushi Bar",
     "address": "19 Market Square, Knoxville, TN 37902",
-    "cuisine_type": "Japanese, Sushi, Hibachi",
+    "cuisine_type": "Japanese",
     "price_range": "$$",
     "date_night_score": 7.2,
     "atmosphere_score": 7.6,
@@ -3755,10 +3673,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "sushi",
-      "japanese",
-      "hibachi",
       "specials",
       "happy_hour"
     ],
@@ -3774,14 +3690,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.restaurantkabuki.com/downtownmenu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage adjacent to restaurant (53 steps, 1-minute walk, free evenings after 6pm and all day Sunday, $3 Saturdays, $1/hour weekdays). Langley Garage 156 steps away (3.5-minute walk). Locust Street Garage 252 steps (5.7-minute walk). Street parking on Market Square with meters ($1.50/hour, 2-hour limit).",
-    "created_at": "2025-10-22T12:24:54.323522Z",
-    "updated_at": "2025-10-22T12:24:54.323523Z"
+    "created_at": "2025-10-23T15:49:01.866047Z",
+    "updated_at": "2025-10-23T15:49:01.866047Z"
   },
   {
     "id": "88b6d509-0b03-4d51-9eeb-d70e3952b068",
     "name": "Kaizen",
     "address": "127 S Central Ave, Knoxville, TN 37902",
-    "cuisine_type": "Japanese Izakaya, Pan-Asian Fusion",
+    "cuisine_type": "Japanese",
     "price_range": "$$",
     "date_night_score": 6.0,
     "atmosphere_score": 8.2,
@@ -3796,10 +3712,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "casual",
-      "old city",
-      "asian tavern",
+      "asian_tavern",
       "chef_matt_gallaher"
     ],
     "status": "Active",
@@ -3815,13 +3731,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Old City Lot North free parking 24/7 (2 blocks). Street parking on Central Ave (metered). State Street Garage offers free parking weeknights after 6pm and all weekend.",
     "created_at": "2025-09-30T22:55:28.753784Z",
-    "updated_at": "2025-10-22T12:24:54.323533Z"
+    "updated_at": "2025-10-23T15:49:01.866049Z"
   },
   {
     "id": "679235e6-91f6-4f42-bb6e-2bbf468baa4c",
     "name": "Kefi",
     "address": "120 E Jackson Ave, Knoxville, TN 37915",
-    "cuisine_type": "Mediterranean, Greek",
+    "cuisine_type": "Mediterranean",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 9.9,
@@ -3836,14 +3752,11 @@ const RESTAURANTS = [
     "last_visited": "2022-07-30T12:00:00Z",
     "visit_count": 2,
     "average_rating": 9.0,
+    "area": "Old City",
     "tags": [
-      "mediterranean",
-      "greek",
-      "old_city",
       "romantic",
       "date_night",
-      "cocktails",
-      "group_spaces_in_the_city"
+      "cocktails"
     ],
     "status": "Active",
     "discovery_source": "web_search_mediterranean_romantic",
@@ -3857,14 +3770,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://kefiknox.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Old City Lot North at 305 E Jackson Ave (1 block east, free 24/7 except special events, 101 spaces). Jackson Ave Lot at 401 W Jackson Ave (3 blocks west, $1/hr, $7 max daily, free after 6pm weeknights and all weekend, 190 spaces). Street parking on Jackson Ave (metered during business hours).",
-    "created_at": "2025-10-22T12:24:54.323543Z",
-    "updated_at": "2025-10-22T12:24:54.323545Z"
+    "created_at": "2025-10-23T15:49:01.866051Z",
+    "updated_at": "2025-10-23T15:49:01.866051Z"
   },
   {
     "id": "4aabb709-f1f3-4ba1-9297-befc75304701",
     "name": "Kern's Food Hall",
     "address": "2201 Kerns Rising Way, Knoxville, TN 37920",
-    "cuisine_type": "Food Hall, American, International",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 8.1,
     "atmosphere_score": 8.9,
@@ -3879,10 +3792,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "historic",
-      "food hall",
-      "multiple venues"
+      "food_hall",
+      "multiple_venues"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -3897,7 +3811,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot (paid parking system removed in early 2025). Convenient parking near entrance, accessible for all visitors.",
     "created_at": "2025-09-30T22:55:28.753822Z",
-    "updated_at": "2025-10-22T12:24:54.323555Z"
+    "updated_at": "2025-10-23T15:49:01.866053Z"
   },
   {
     "id": "685580a6-fa17-435d-899e-5ced8ac42a9c",
@@ -3918,8 +3832,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "mediterranean",
       "gyros",
       "kebabs",
       "casual_dining"
@@ -3936,14 +3850,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.restaurantji.com/tn/knoxville/king-gyros-mediterranean-restaurant-/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\", \"notes\": \"Based on similar King Gyros locations, sandwiches range $8-9, platters $10-11, confirming $$ price range\"}",
     "menu_cached_at": null,
     "parking_info": "Excellent parking access at West Town Mall including a six-level parking garage on the southwest side of the mall by Belk Men, Home & Kids. Handicapped parking is available at each entrance, and select spaces are reserved for military and veterans. The mall is conveniently located just off Interstate 40/75 at exit 380, with straightforward access via Montvue Road. Multiple parking options ensure easy access to the food court location.",
-    "created_at": "2025-10-22T12:24:54.323562Z",
-    "updated_at": "2025-10-22T12:24:54.323563Z"
+    "created_at": "2025-10-23T15:49:01.866055Z",
+    "updated_at": "2025-10-23T15:49:01.866055Z"
   },
   {
     "id": "1f7c53f7-03bb-4760-af19-3c612923f76b",
     "name": "Knox Dough",
     "address": "10605 Kingston Pike, Knoxville, TN 37922",
-    "cuisine_type": "Desserts, Ice Cream",
+    "cuisine_type": "Desserts",
     "price_range": "$",
     "date_night_score": 5.6,
     "atmosphere_score": 8.4,
@@ -3958,11 +3872,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "desserts",
       "ice_cream",
-      "cookie_dough",
-      "unique"
+      "cookie_dough"
     ],
     "status": "Active",
     "discovery_source": "web_search_desserts_unique",
@@ -3976,14 +3889,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "On-site parking lot at Kingston Pike shopping center location. Free parking available directly at the business.",
-    "created_at": "2025-10-22T12:24:54.323571Z",
-    "updated_at": "2025-10-22T12:24:54.323572Z"
+    "created_at": "2025-10-23T15:49:01.866057Z",
+    "updated_at": "2025-10-23T15:49:01.866057Z"
   },
   {
     "id": "93117bb5-1666-45ad-934b-11b6324ffea1",
     "name": "Knox Whiskey Works",
     "address": "516 W Jackson Ave, Knoxville, TN 37902",
-    "cuisine_type": "Craft Distillery & Tasting Room",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$",
     "date_night_score": 6.9,
     "atmosphere_score": 8.4,
@@ -3998,11 +3911,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
       "distillery",
       "whiskey",
-      "old_city",
-      "jackson_avenue",
       "tennessee_whiskey_trail"
     ],
     "status": "Active",
@@ -4017,14 +3929,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.knoxwhiskeyworks.com/tours\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"notes\": \"Tasting flight $10 (13 spirits), cocktail flight $8 (4 mini cocktails), tours $15\"}",
     "menu_cached_at": null,
     "parking_info": "Jackson Avenue Lot (401 W Jackson Ave) closest option - free nights and weekends. Free 24/7 parking in two large lots under James White Parkway on East Jackson Ave in Old City. City garages (State Street, Locust Street, Market Square) free all day Saturday-Sunday, $1/hour weekdays 7am-7pm ($7 max). Street parking available on Jackson Ave and Old City streets.",
-    "created_at": "2025-10-22T12:24:54.323580Z",
-    "updated_at": "2025-10-22T12:24:54.323582Z"
+    "created_at": "2025-10-23T15:49:01.866059Z",
+    "updated_at": "2025-10-23T15:49:01.866059Z"
   },
   {
     "id": "fb6bbb14-3d75-40e8-a315-d0e900782230",
     "name": "Knoxville Birria Boss",
     "address": "Mobile Food Truck, Various Locations, Knoxville, TN",
-    "cuisine_type": "Mexican, Birria, Food Truck",
+    "cuisine_type": "Mexican",
     "price_range": "$",
     "date_night_score": 5.0,
     "atmosphere_score": null,
@@ -4039,16 +3951,14 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "food_truck",
       "birria",
-      "mexican",
       "mobile",
       "local_independent",
       "street_food",
       "innovative",
-      "tacos",
-      "ramen",
       "knoxville"
     ],
     "status": "Active",
@@ -4063,14 +3973,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.323589Z",
-    "updated_at": "2025-10-22T12:24:54.323591Z"
+    "created_at": "2025-10-23T15:49:01.866061Z",
+    "updated_at": "2025-10-23T15:49:01.866061Z"
   },
   {
     "id": "970e3ba4-69ea-49ca-b59a-6ec2f4199011",
     "name": "Knoxville Coffee Company",
     "address": "2815 Sutherland Ave, Knoxville, TN 37909",
-    "cuisine_type": "Coffee, Roaster",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.3,
     "atmosphere_score": 7.4,
@@ -4085,18 +3995,19 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "Coffee Roaster",
-      "Specialty Coffee",
-      "Wholesale",
-      "Direct Trade",
-      "Ethical Sourcing",
-      "Small Batch",
-      "Rainforest Alliance Certified",
-      "Family-Owned",
-      "Community-Focused",
-      "Educational",
-      "Fundraising Support"
+      "coffee_roaster",
+      "specialty_coffee",
+      "wholesale",
+      "direct_trade",
+      "ethical_sourcing",
+      "small_batch",
+      "rainforest_alliance_certified",
+      "family_owned",
+      "community_focused",
+      "educational",
+      "fundraising_support"
     ],
     "status": "Active",
     "discovery_source": "web_search_coffee_roasters",
@@ -4110,14 +4021,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"type\": \"wholesale_roaster\", \"note\": \"Primarily wholesale operation - retail coffee bags sold online and via on-site pickup\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking available at roastery/warehouse location on Sutherland Ave.",
-    "created_at": "2025-10-22T12:24:54.323604Z",
-    "updated_at": "2025-10-22T12:24:54.323605Z"
+    "created_at": "2025-10-23T15:49:01.866064Z",
+    "updated_at": "2025-10-23T15:49:01.866064Z"
   },
   {
     "id": "208d1b31-6edf-4037-bc47-198e2f3b2125",
     "name": "KoPita Mediterranean",
     "address": "507 S Gay St, Knoxville, TN 37902",
-    "cuisine_type": "Mediterranean, Israeli, Moroccan",
+    "cuisine_type": "Mediterranean",
     "price_range": "$$",
     "date_night_score": 6.8,
     "atmosphere_score": 7.9,
@@ -4132,10 +4043,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
-      "mediterranean",
-      "downtown",
-      "gay_street",
       "vegan_options",
       "patio"
     ],
@@ -4151,14 +4060,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://kopitarestaurants.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Embassy Suites valet parking $35/day. Nearby public garages: State Street Garage (500 State St, 1 block east, 0.2 miles, $7/day), Market Square Garage (5-min walk, 233 steps), Locust Street Garage (3 blocks, 7-min walk, $7/day). Public garages free on weekends.",
-    "created_at": "2025-10-22T12:24:54.323613Z",
-    "updated_at": "2025-10-22T12:24:54.323614Z"
+    "created_at": "2025-10-23T15:49:01.866065Z",
+    "updated_at": "2025-10-23T15:49:01.866066Z"
   },
   {
     "id": "0f0da795-3777-4e6e-9e96-50d1d4394fd2",
     "name": "Kokoro Ramen",
     "address": "5695 Victoria Drive, Vancouver, BC V5P 3W2, Canada",
-    "cuisine_type": "Japanese Ramen",
+    "cuisine_type": "Japanese",
     "price_range": "$$",
     "date_night_score": 6.2,
     "atmosphere_score": 7.3,
@@ -4173,9 +4082,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "sokno",
-      "ramen",
       "casual_date"
     ],
     "status": "Active",
@@ -4190,14 +4099,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/ca/store/kokoro-ramen/KEDU7wJDSQSbqawV787NRw\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on Victoria Drive (metered). Public transit access directly at doorstep (bus routes on Victoria Drive). London Drugs parking lot adjacent to restaurant.",
-    "created_at": "2025-10-22T12:24:54.323623Z",
-    "updated_at": "2025-10-22T12:24:54.323624Z"
+    "created_at": "2025-10-23T15:49:01.866067Z",
+    "updated_at": "2025-10-23T15:49:01.866067Z"
   },
   {
     "id": "8653616d-ab5e-452a-b9b4-1129081b03ba",
     "name": "La Herradura",
     "address": "2625 N Broadway, Knoxville, TN 37917",
-    "cuisine_type": "Authentic Mexican",
+    "cuisine_type": "Mexican",
     "price_range": "$",
     "date_night_score": 5.5,
     "atmosphere_score": 7.3,
@@ -4212,11 +4121,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "mexican",
-      "authentic",
-      "tacos",
-      "broadway",
       "food_truck"
     ],
     "status": "Active",
@@ -4231,14 +4137,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.doordash.com/store/taqueria-la-herradura-knoxville-22990480/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available at 2625 N Broadway. Wheelchair accessible with ample parking spaces for customers.",
-    "created_at": "2025-10-22T12:24:54.323632Z",
-    "updated_at": "2025-10-22T12:24:54.323634Z"
+    "created_at": "2025-10-23T15:49:01.866069Z",
+    "updated_at": "2025-10-23T15:49:01.866069Z"
   },
   {
     "id": "fdbc47d8-53a1-46d8-814a-87052e3b42b5",
     "name": "Lakeside Tavern",
     "address": "10911 Concord Park Dr, Knoxville, TN 37922",
-    "cuisine_type": "Steakhouse & Seafood",
+    "cuisine_type": "Steakhouse",
     "price_range": "$$",
     "date_night_score": 8.1,
     "atmosphere_score": 8.2,
@@ -4253,10 +4159,10 @@ const RESTAURANTS = [
     "last_visited": "2023-05-30T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "farm_to_table",
-      "american",
-      "vegetarian_friendly",
+      "vegetarian_options",
       "lakeside"
     ],
     "status": "Active",
@@ -4271,14 +4177,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://lakeside-tavern.bartgrocerybbq.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking available for restaurant and marina customers at Concord Marina.",
-    "created_at": "2025-10-22T12:24:54.323643Z",
-    "updated_at": "2025-10-22T12:24:54.323644Z"
+    "created_at": "2025-10-23T15:49:01.866071Z",
+    "updated_at": "2025-10-23T15:49:01.866071Z"
   },
   {
     "id": "cd342a6c-9497-4f66-a701-df7acc653423",
     "name": "Likewise Coffee",
     "address": "1209 E Magnolia Ave, Knoxville, TN 37917",
-    "cuisine_type": "Coffee Roastery",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 5.2,
     "atmosphere_score": 8.2,
@@ -4293,10 +4199,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "east_knox",
-      "community",
-      "coffee"
+      "community"
     ],
     "status": "Active",
     "discovery_source": "manual",
@@ -4310,14 +4215,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.yelp.com/menu/likewise-coffee-knoxville\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Behind Likewise: 5 spots (30-minute limit). Gibbons St: 2-hour street parking. Gibbons Corner Lot at Magnolia Ave & Gibbons St (1-minute walk). YMCA parking lot 2 blocks away for extended stays.",
-    "created_at": "2025-10-22T12:24:54.323652Z",
-    "updated_at": "2025-10-22T12:24:54.323653Z"
+    "created_at": "2025-10-23T15:49:01.866074Z",
+    "updated_at": "2025-10-23T15:49:01.866074Z"
   },
   {
     "id": "651912ac-1ad2-46d0-b882-152d30cccc20",
     "name": "Lilou French Brasserie",
     "address": "428 S Gay St, Knoxville, TN 37902",
-    "cuisine_type": "French Brasserie",
+    "cuisine_type": "French",
     "price_range": "$$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 10.0,
@@ -4332,11 +4237,11 @@ const RESTAURANTS = [
     "last_visited": "2025-08-23T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "romantic",
       "elegant",
-      "Parisian",
-      "group_thompson_king"
+      "parisian"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -4351,7 +4256,7 @@ const RESTAURANTS = [
     "menu_cached_at": "2025-10-03T15:55:24Z",
     "parking_info": "Street parking on Gay St (metered during business hours). State Street Garage 2 blocks north (free after 7pm weeknights, free weekends). Market Square Garage nearby. W. Jackson Ave Lot near 100 block of S Gay St (free nights and weekends). Downtown Knoxville parking app available via Parkopedia for real-time garage availability.",
     "created_at": "2025-09-30T22:55:28.753431Z",
-    "updated_at": "2025-10-22T12:24:54.323665Z"
+    "updated_at": "2025-10-23T15:49:01.866076Z"
   },
   {
     "id": "e15e89e4-81bd-4a46-83a7-f46a44a385bf",
@@ -4372,8 +4277,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "asian_fusion",
       "pan_asian",
       "multiple_locations",
       "extensive_menu"
@@ -4390,8 +4295,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://asiacafe.org/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Ample on-site parking available with wheelchair accessible spaces near front entrance.",
-    "created_at": "2025-10-22T12:24:54.323673Z",
-    "updated_at": "2025-10-22T12:24:54.323674Z"
+    "created_at": "2025-10-23T15:49:01.866078Z",
+    "updated_at": "2025-10-23T15:49:01.866078Z"
   },
   {
     "id": "a2f45a5b-3121-41ab-b218-0010989032e1",
@@ -4412,11 +4317,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "mexican",
       "rooftop",
       "bar",
-      "outdoor"
+      "outdoor_seating"
     ],
     "status": "Active",
     "discovery_source": "web_search_mexican_rooftop",
@@ -4430,14 +4335,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free mall parking in West Town Mall garage and surface lots. Regal Cinemas parking garage available at 7600 Kingston Pike. East entrance parking lot provides direct access. MyPark app available for express curbside pickup parking near main entrances.",
-    "created_at": "2025-10-22T12:24:54.323683Z",
-    "updated_at": "2025-10-22T12:24:54.323684Z"
+    "created_at": "2025-10-23T15:49:01.866080Z",
+    "updated_at": "2025-10-23T15:49:01.866080Z"
   },
   {
     "id": "6b6ade51-4e56-480d-9bc6-01a24b2ff1f8",
     "name": "Lonesome Dove Western Bistro",
     "address": "100 N. Central St., Knoxville, TN 37902",
-    "cuisine_type": "Western American, Game",
+    "cuisine_type": "American",
     "price_range": "$$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 10.0,
@@ -4452,16 +4357,15 @@ const RESTAURANTS = [
     "last_visited": "2022-04-04T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
-      "wild game",
-      "wood-fired",
+      "wild_game",
+      "wood_fired",
       "romantic",
-      "special occasion",
+      "special_occasion",
       "upscale",
-      "Old City",
-      "Chef Tim Love",
-      "date night",
-      "adventurous menu"
+      "date_night",
+      "adventurous_menu"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -4476,7 +4380,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Valet available. Street parking on Central St (free after 8pm and all day Sunday). Old City Lot North at 300 N Central St (paid). Free covered parking under I-40 on Magnolia Ave (nights/weekends). State Street Garage nearby (free weeknights after 6pm, free all weekend).",
     "created_at": "2025-09-30T22:55:28.753706Z",
-    "updated_at": "2025-10-22T12:24:54.323697Z"
+    "updated_at": "2025-10-23T15:49:01.866085Z"
   },
   {
     "id": "2a630866-8b02-434a-9c9c-b1918b3f7ea5",
@@ -4497,8 +4401,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "bbq",
       "competition_style",
       "award_winning"
     ],
@@ -4514,14 +4418,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.allmenus.com/tn/knoxville/680602-love-that-bbq/menu/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot at the converted gas station location on Maryville Pike. Free parking available where fuel pumps were previously located.",
-    "created_at": "2025-10-22T12:24:54.323704Z",
-    "updated_at": "2025-10-22T12:24:54.323705Z"
+    "created_at": "2025-10-23T15:49:01.866087Z",
+    "updated_at": "2025-10-23T15:49:01.866087Z"
   },
   {
     "id": "0b9321c7-20bb-4c49-b3f1-29927a13325e",
     "name": "Magpies Bakery",
     "address": "846 N Central St, Knoxville, TN 37917",
-    "cuisine_type": "Bakery, Desserts, Wedding Cakes",
+    "cuisine_type": "Bakery",
     "price_range": "$",
     "date_night_score": 4.8,
     "atmosphere_score": 6.7,
@@ -4536,11 +4440,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "bakery",
-      "desserts",
-      "custom_cakes",
-      "local_favorite"
+      "custom_cakes"
     ],
     "status": "Active",
     "discovery_source": "web_search_bakery",
@@ -4554,14 +4456,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://magpies-bakery.square.site/s/order\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"sample_prices\": \"Regular cupcakes $4.00, Mini 6-pack $10.50, Mini dozen $20.00\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking available in lots under I-40 next to W. Magnolia Ave between Williams St and N Central St (very close to bakery). Street parking on N Central St (metered, $1.50/hr, 2hr max). Downtown municipal garages nearby ($1/hr weekdays, free after 6pm and weekends).",
-    "created_at": "2025-10-22T12:24:54.323713Z",
-    "updated_at": "2025-10-22T12:24:54.323714Z"
+    "created_at": "2025-10-23T15:49:01.866089Z",
+    "updated_at": "2025-10-23T15:49:01.866089Z"
   },
   {
     "id": "6b2ca186-b9bc-4bd1-8169-d013bb1ba7b1",
     "name": "Mahalo Coffee Roasters Downtown",
     "address": "513 Union Ave, Knoxville, TN 37902",
-    "cuisine_type": "Specialty Coffee, Third Wave Coffee, Cafe",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$$",
     "date_night_score": 5.2,
     "atmosphere_score": 7.3,
@@ -4576,12 +4478,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
-      "coffee",
       "roaster",
-      "downtown",
-      "local",
-      "group_mahalo"
+      "local"
     ],
     "status": "Active",
     "discovery_source": "web_search_coffee_downtown",
@@ -4595,14 +4495,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.yelp.com/biz/mahalo-coffee-roasters-knoxville-4\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\", \"notes\": \"Iced vanilla latte with oat milk $7, black coffee 12oz $4\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Union Ave (metered). Locust Street Garage 2-3 blocks away at 540 Locust St ($1/hr, $7 max/day, free weeknights after 6pm and all weekend). State Street Garage and Market Square Garage at 406 Walnut St ($1/hr, free weeknights after 6pm, $3 flat rate Saturday, free Sunday).",
-    "created_at": "2025-10-22T12:24:54.323723Z",
-    "updated_at": "2025-10-22T12:24:54.323725Z"
+    "created_at": "2025-10-23T15:49:01.866091Z",
+    "updated_at": "2025-10-23T15:49:01.866091Z"
   },
   {
     "id": "9dde8454-6b8c-4517-9fdd-6b8f3ed5421d",
     "name": "Mahalo Coffee Roasters Powell",
     "address": "1317 East Emory Rd, Knoxville, TN 37918",
-    "cuisine_type": "Coffee Roaster, Third Wave Coffee",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$$",
     "date_night_score": 4.0,
     "atmosphere_score": 7.0,
@@ -4617,16 +4517,16 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "Specialty Coffee",
-      "Third Wave Coffee",
-      "Coffee Roaster",
-      "Cafe",
-      "Breakfast",
-      "Pastries",
-      "Hawaiian-inspired",
-      "Surf-themed",
-      "Locally Roasted"
+      "specialty_coffee",
+      "third_wave_coffee",
+      "coffee_roaster",
+      "breakfast",
+      "pastries",
+      "hawaiian_inspired",
+      "surf_themed",
+      "locally_roasted"
     ],
     "status": "Active",
     "discovery_source": "web_search_coffee_roasters",
@@ -4640,14 +4540,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.mahalocoffeeroasters.com/pages/in-store-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"note\": \"Menu available on website but specific prices not listed online\"}",
     "menu_cached_at": null,
     "parking_info": "Ample parking available in front and back parking lots at the Powell location on E Emory Rd.",
-    "created_at": "2025-10-22T12:24:54.323735Z",
-    "updated_at": "2025-10-22T12:24:54.323736Z"
+    "created_at": "2025-10-23T15:49:01.866093Z",
+    "updated_at": "2025-10-23T15:49:01.866093Z"
   },
   {
     "id": "22508b82-8de5-402e-ae52-2286c21169dc",
     "name": "Marble City Sweets",
     "address": "9307 Kingston Pike, Ste B, Knoxville, TN 37922",
-    "cuisine_type": "Bakery, Desserts",
+    "cuisine_type": "Bakery",
     "price_range": "$$",
     "date_night_score": 5.4,
     "atmosphere_score": 7.2,
@@ -4662,10 +4562,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "West Knoxville",
     "tags": [
-      "bakery",
-      "desserts",
-      "west_knoxville",
       "custom_cakes"
     ],
     "status": "Active",
@@ -4680,14 +4578,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.marblecitysweets.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Market Place Shopping Center lot (shared with Home Depot, Planet Fitness). Easy access off Kingston Pike with central parking throughout the shopping center.",
-    "created_at": "2025-10-22T12:24:54.323746Z",
-    "updated_at": "2025-10-22T12:24:54.323747Z"
+    "created_at": "2025-10-23T15:49:01.866095Z",
+    "updated_at": "2025-10-23T15:49:01.866095Z"
   },
   {
     "id": "33f27ad7-2e73-47d9-93f5-2072668c7138",
     "name": "Masala - IndoPak Grill",
     "address": "1811 West Broadway, Maryville, TN 37801",
-    "cuisine_type": "Pakistani, Indian",
+    "cuisine_type": "Indian",
     "price_range": "$",
     "date_night_score": 6.4,
     "atmosphere_score": 8.0,
@@ -4702,8 +4600,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "indian",
       "pakistani",
       "grill"
     ],
@@ -4719,14 +4617,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://masalaindopak.com/our-menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking available in private lot at location. Broadway Avenue Municipal Parking Garage available nearby with public parking on all three levels.",
-    "created_at": "2025-10-22T12:24:54.323754Z",
-    "updated_at": "2025-10-22T12:24:54.323755Z"
+    "created_at": "2025-10-23T15:49:01.866098Z",
+    "updated_at": "2025-10-23T15:49:01.866098Z"
   },
   {
     "id": "7a7210e0-8709-4466-ae83-fbd76925b537",
     "name": "Matt Robbs Biscuits",
     "address": "800 Market St, Knoxville, TN 37902",
-    "cuisine_type": "Biscuits, Coffee, Breakfast",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 6.6,
     "atmosphere_score": 8.6,
@@ -4741,12 +4639,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
       "biscuits",
-      "breakfast",
-      "downtown",
-      "market square",
-      "coffee"
+      "breakfast"
     ],
     "status": "Active",
     "discovery_source": "Downtown Knoxville + Yelp",
@@ -4760,14 +4656,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/store/matt-robbs-biscuits/9dtxnD6FQ96r1Kg-TB5VlQ\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage directly adjacent at Market Square (free after 6pm weekdays, $3 flat rate Saturdays, free Sundays). Street parking on Market St (metered, $1.50/hr, 2hr max). State Street Garage 2 blocks away with $1/hr rates.",
-    "created_at": "2025-10-22T12:24:54.323763Z",
-    "updated_at": "2025-10-22T12:24:54.323765Z"
+    "created_at": "2025-10-23T15:49:01.866100Z",
+    "updated_at": "2025-10-23T15:49:01.866100Z"
   },
   {
     "id": "8ff63e0b-4ff1-48f5-b08e-1098dff9e22e",
     "name": "Midland Restaurant",
     "address": "155 N Calderwood St, Alcoa, TN 37701",
-    "cuisine_type": "American, Southern, Breakfast",
+    "cuisine_type": "Southern",
     "price_range": "$",
     "date_night_score": 4.7,
     "atmosphere_score": 7.4,
@@ -4782,9 +4678,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Alcoa",
     "tags": [
-      "american",
-      "alcoa",
       "family_friendly",
       "breakfast",
       "lunch",
@@ -4802,14 +4697,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.midland-restaurant.com/lunch-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free off-street parking lot available at New Midland Plaza with ample space. Wheelchair-accessible parking spaces available. Parking lot regularly fills during breakfast and lunch hours.",
-    "created_at": "2025-10-22T12:24:54.323772Z",
-    "updated_at": "2025-10-22T12:24:54.323774Z"
+    "created_at": "2025-10-23T15:49:01.866102Z",
+    "updated_at": "2025-10-23T15:49:01.866102Z"
   },
   {
     "id": "b1380d59-7671-4d4c-990b-fc269999e62c",
     "name": "Mirage",
     "address": "415 S Gay St, Knoxville, TN 37902",
-    "cuisine_type": "Lebanese, Mediterranean",
+    "cuisine_type": "Mediterranean",
     "price_range": "$$",
     "date_night_score": 6.6,
     "atmosphere_score": 8.2,
@@ -4824,9 +4719,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "lebanese",
-      "mediterranean",
       "middle_eastern"
     ],
     "status": "Active",
@@ -4841,14 +4736,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://mirageknoxville.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "State Street Garage 3 blocks away (free after 7pm weeknights and all weekend, $1/hr weekdays). Market Square Garage nearby. Multiple city parking garages within 2-3 blocks offer free parking weekdays after 6pm and all day weekends.",
-    "created_at": "2025-10-22T12:24:54.323781Z",
-    "updated_at": "2025-10-22T12:24:54.323782Z"
+    "created_at": "2025-10-23T15:49:01.866104Z",
+    "updated_at": "2025-10-23T15:49:01.866104Z"
   },
   {
     "id": "4a2efb1f-cea3-4b39-8e6a-e13f7d9840c7",
     "name": "Monday Night Brewing",
     "address": "2201 Kerns Rising Way, Knoxville, TN 37920",
-    "cuisine_type": "Brewery, Craft Beer, Cocktails",
+    "cuisine_type": "Brewery",
     "price_range": "$$",
     "date_night_score": 9.1,
     "atmosphere_score": 9.0,
@@ -4863,17 +4758,18 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "craft beer",
-      "barrel-aged beer",
+      "craft_beer",
+      "barrel_aged_beer",
       "cocktails",
-      "wine bar",
-      "late night",
-      "beer garden",
+      "wine_bar",
+      "late_night",
+      "beer_garden",
       "taproom",
       "brewpub",
-      "private events",
-      "food hall"
+      "private_events",
+      "food_hall"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -4888,13 +4784,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free parking at Kern's Food Hall lot with validation system. First 2 hours free without validation. After 2 hours: scan QR code from vendor with any purchase for free all-day parking. Non-validated parking $5 (up to 4 hours) or $10 (up to 12 hours).",
     "created_at": "2025-09-30T22:55:28.753749Z",
-    "updated_at": "2025-10-22T12:24:54.323793Z"
+    "updated_at": "2025-10-23T15:49:01.866107Z"
   },
   {
     "id": "6f282b1e-eb0e-4a50-8bd6-b9576a316cc8",
     "name": "Moonshine Mountain Cookie Company",
     "address": "7343 Kingston Pike, Knoxville, TN 37919",
-    "cuisine_type": "Desserts, Ice Cream, Bakery",
+    "cuisine_type": "Bakery",
     "price_range": "$",
     "date_night_score": 4.7,
     "atmosphere_score": 6.7,
@@ -4909,11 +4805,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "moonshine",
       "cookies",
-      "ice cream",
-      "bakery",
+      "ice_cream",
       "local",
       "handcrafted"
     ],
@@ -4929,14 +4825,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://moonshinemountaincookies.com/pages/in-store-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot. Additional parking available at nearby West Town Mall (directly west of location).",
-    "created_at": "2025-10-22T12:24:54.323801Z",
-    "updated_at": "2025-10-22T12:24:54.323802Z"
+    "created_at": "2025-10-23T15:49:01.866108Z",
+    "updated_at": "2025-10-23T15:49:01.866109Z"
   },
   {
     "id": "c7bee645-48db-4a28-a5a4-a0efbaf7e89e",
     "name": "Nixon's Deli",
     "address": "508 Merchant Drive, Knoxville, TN 37912",
-    "cuisine_type": "Deli, Steamed Sandwiches",
+    "cuisine_type": "Sandwiches/Deli",
     "price_range": "$",
     "date_night_score": 4.0,
     "atmosphere_score": 6.4,
@@ -4951,9 +4847,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "deli",
-      "sandwiches",
       "lunch"
     ],
     "status": "Active",
@@ -4968,14 +4863,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.nixonsdeli.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at Merchants Village Shopping Center directly adjacent to restaurant.",
-    "created_at": "2025-10-22T12:24:54.323809Z",
-    "updated_at": "2025-10-22T12:24:54.323810Z"
+    "created_at": "2025-10-23T15:49:01.866110Z",
+    "updated_at": "2025-10-23T15:49:01.866110Z"
   },
   {
     "id": "6d18f990-8fb6-42d9-8715-57d6ee6d97ae",
     "name": "Northshore Brasserie",
     "address": "9430 S Northshore Dr, Knoxville, TN 37922",
-    "cuisine_type": "French-Belgian",
+    "cuisine_type": "French",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 10.0,
@@ -4990,6 +4885,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "intimate",
       "romantic",
@@ -5008,13 +4904,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free parking lot available on-site with convenient connecting lot access. Reviewers consistently note plenty of parking available.",
     "created_at": "2025-09-30T22:55:28.753545Z",
-    "updated_at": "2025-10-22T12:24:54.323819Z"
+    "updated_at": "2025-10-23T15:49:01.866112Z"
   },
   {
     "id": "65563d7c-6bf3-4bd2-98a4-d8153f6e0437",
     "name": "Not Watson's kitchen + Bar",
     "address": "15 Market Sq, Knoxville, TN 37902",
-    "cuisine_type": "Modern American",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 6.5,
     "atmosphere_score": 8.2,
@@ -5029,11 +4925,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
-      "farm_to_table",
-      "american",
-      "downtown",
-      "gay_street"
+      "farm_to_table"
     ],
     "status": "Active",
     "discovery_source": "web_search_gay_street_farm_to_table",
@@ -5047,14 +4941,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://notwatsons.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage at 406 Walnut St ($1/hr weekdays, $3 flat rate Saturdays, free after 6pm weeknights and all day Sundays). Street parking available on Market Square (metered). Multiple city garages within 2 blocks offer free parking after 6pm and weekends.",
-    "created_at": "2025-10-22T12:24:54.323827Z",
-    "updated_at": "2025-10-22T12:24:54.323828Z"
+    "created_at": "2025-10-23T15:49:01.866114Z",
+    "updated_at": "2025-10-23T15:49:01.866114Z"
   },
   {
     "id": "0ebbdc62-0088-46c3-806f-37636d264c13",
     "name": "Old City Java",
     "address": "109 S Central St, Knoxville, TN 37902",
-    "cuisine_type": "Historic Coffee House",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.6,
     "atmosphere_score": 8.2,
@@ -5069,9 +4963,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
-      "old_city",
-      "classic",
       "landmark"
     ],
     "status": "Active",
@@ -5086,14 +4979,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://oldcityjava.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on S Central St in Old City. Nearby Old City parking lots and garages (free weeknights after 6pm, free weekends).",
-    "created_at": "2025-10-22T12:24:54.323835Z",
-    "updated_at": "2025-10-22T12:24:54.323836Z"
+    "created_at": "2025-10-23T15:49:01.866115Z",
+    "updated_at": "2025-10-23T15:49:01.866116Z"
   },
   {
     "id": "3b1f5f2c-d93c-4fd5-8eb8-5a7067b26690",
     "name": "Oliver Royale",
     "address": "5 Market Square, Knoxville, TN 37902",
-    "cuisine_type": "New American",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 8.6,
     "atmosphere_score": 9.3,
@@ -5108,11 +5001,10 @@ const RESTAURANTS = [
     "last_visited": "2022-12-23T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "historic",
-      "elegant",
-      "market square",
-      "group_oliver_hotel"
+      "elegant"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -5127,13 +5019,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Market Square Garage at 406 Walnut St (1 block away): free parking weeknights after 6pm and all day Sunday, $3 flat rate Saturday. Locust Street Garage: free after 6pm weeknights and all weekend, $1/hour weekdays ($7 max). Street metered parking on Market Square ($1.50/hr, 2hr max).",
     "created_at": "2025-09-30T22:55:28.753528Z",
-    "updated_at": "2025-10-22T12:24:54.323846Z"
+    "updated_at": "2025-10-23T15:49:01.866118Z"
   },
   {
     "id": "4f0c97aa-024e-419f-b0b5-1c483eaffe95",
     "name": "Ooh LALA Indian Kitchen",
     "address": "2201 Kerns Rising Way, Unit 126, Knoxville, TN 37920",
-    "cuisine_type": "Modern Indian",
+    "cuisine_type": "Indian",
     "price_range": "$$",
     "date_night_score": 4.8,
     "atmosphere_score": 6.8,
@@ -5148,8 +5040,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "indian",
       "curry"
     ],
     "status": "Active",
@@ -5164,14 +5056,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.oohlalaindiankitchen.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking for first 2 hours at Kern's Food Hall lot. Scan vendor QR code for extended free parking with any food purchase. Accessible parking available near entrance.",
-    "created_at": "2025-10-22T12:24:54.323853Z",
-    "updated_at": "2025-10-22T12:24:54.323855Z"
+    "created_at": "2025-10-23T15:49:01.866120Z",
+    "updated_at": "2025-10-23T15:49:01.866120Z"
   },
   {
     "id": "2f5ee202-be26-480f-b0be-85a52b9c1b70",
     "name": "Orange Hat Brewing Co. Kitchen",
     "address": "10246 Hardin Valley Rd, Knoxville, TN 37932",
-    "cuisine_type": "Brewery, American, Pub Food",
+    "cuisine_type": "Brewery",
     "price_range": "$$",
     "date_night_score": 6.0,
     "atmosphere_score": null,
@@ -5186,16 +5078,13 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "West Knoxville",
     "tags": [
-      "brewery",
       "hardin_valley",
-      "adding_kitchen",
       "craft_beer",
       "kombucha",
       "family_friendly",
-      "dog_friendly",
-      "west_knoxville",
-      "neighborhood"
+      "dog_friendly"
     ],
     "status": "Active",
     "discovery_source": "manual",
@@ -5209,14 +5098,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.323863Z",
-    "updated_at": "2025-10-22T12:24:54.323865Z"
+    "created_at": "2025-10-23T15:49:01.866123Z",
+    "updated_at": "2025-10-23T15:49:01.866123Z"
   },
   {
     "id": "779bc6c8-42d0-4dd9-a3e2-dbaf7e73c7ec",
     "name": "Osteria Stella",
     "address": "108 W Jackson Ave, Knoxville, TN 37902",
-    "cuisine_type": "Northern Italian",
+    "cuisine_type": "Italian",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 9.9,
@@ -5231,11 +5120,10 @@ const RESTAURANTS = [
     "last_visited": "2022-03-23T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "romantic",
-      "authentic",
-      "elegant",
-      "group_thompson_king"
+      "elegant"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -5250,13 +5138,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Jackson Avenue Lot at 401 W Jackson Ave (free nights/weekends). Market Square Garage, State Street Garage (900 State St), and Locust Street Garage nearby (all free weeknights after 6pm and all weekend, $1/hr daytime, $7 max).",
     "created_at": "2025-09-30T22:55:28.753481Z",
-    "updated_at": "2025-10-22T12:24:54.323875Z"
+    "updated_at": "2025-10-23T15:49:01.866125Z"
   },
   {
     "id": "7c786210-c82e-4269-b3ca-90e974bb94b2",
     "name": "Otsu",
     "address": "235 W Depot Ave, Knoxville, TN 37917",
-    "cuisine_type": "Asian, Dumplings, Small Plates",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 8.0,
     "atmosphere_score": null,
@@ -5271,11 +5159,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "dumplings",
-      "asian",
       "craft_cocktails",
-      "new_2024",
       "mill_and_mine",
       "intimate",
       "small_plates"
@@ -5292,14 +5179,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.323882Z",
-    "updated_at": "2025-10-22T12:24:54.323883Z"
+    "created_at": "2025-10-23T15:49:01.866126Z",
+    "updated_at": "2025-10-23T15:49:01.866127Z"
   },
   {
     "id": "41020f15-4566-43c7-a819-83688ece88fe",
     "name": "Otsu Dumpling",
     "address": "235 W Depot Ave, Knoxville, TN 37917",
-    "cuisine_type": "Asian Fusion Dumplings",
+    "cuisine_type": "Asian Fusion",
     "price_range": "$",
     "date_night_score": 9.3,
     "atmosphere_score": 9.9,
@@ -5314,6 +5201,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "cozy",
       "casual",
@@ -5332,13 +5220,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking on W Depot Ave (metered during weekdays). Free parking available in downtown municipal garages after 6pm weekdays and all day weekends ($1/hour during business hours). Market Square Garage nearby offers Sunday free parking and $3 flat rate on Saturdays. Old City area has multiple surface lots and on-street metered parking.",
     "created_at": "2025-09-30T22:55:28.753605Z",
-    "updated_at": "2025-10-22T12:24:54.323892Z"
+    "updated_at": "2025-10-23T15:49:01.866129Z"
   },
   {
     "id": "616c6fa5-aa57-4d57-bdd0-2318ef7daed4",
     "name": "PHO-KING",
     "address": "10901 Parkside Drive, Knoxville, TN 37934",
-    "cuisine_type": "Vietnamese, Pho",
+    "cuisine_type": "Vietnamese",
     "price_range": "$",
     "date_night_score": 4.3,
     "atmosphere_score": 6.4,
@@ -5353,11 +5241,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
-    "tags": [
-      "vietnamese",
-      "pho",
-      "turkey_creek"
-    ],
+    "area": "Turkey Creek",
+    "tags": [],
     "status": "Active",
     "discovery_source": "web_search_pho_turkey_creek",
     "verification_status": "Verified",
@@ -5370,14 +5255,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.pigeonforgejapanese.com/pho/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking available in Earthfare Shops at Turkey Creek center lot. Additional parking in adjacent Turkey Creek shopping complex lots along Parkside Drive. Located across from Walmart with easy access from I-40.",
-    "created_at": "2025-10-22T12:24:54.323899Z",
-    "updated_at": "2025-10-22T12:24:54.323901Z"
+    "created_at": "2025-10-23T15:49:01.866131Z",
+    "updated_at": "2025-10-23T15:49:01.866131Z"
   },
   {
     "id": "0d75dae7-15c6-4bf6-823f-aeb28659fb22",
     "name": "Partial Coffee & Wine",
     "address": "828 N Broadway #201, Knoxville, TN 37917",
-    "cuisine_type": "Coffee & Wine Bar",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 5.6,
     "atmosphere_score": 8.3,
@@ -5392,11 +5277,9 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": "Downtown",
     "tags": [
-      "downtown_north",
-      "4th_and_gill",
-      "wine_bar",
-      "coffee"
+      "wine_bar"
     ],
     "status": "Active",
     "discovery_source": "manual",
@@ -5410,14 +5293,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.partialcafe.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"notes\": \"Menu pricing not publicly listed online. Coffee drinks typical cafe range.\"}",
     "menu_cached_at": null,
     "parking_info": "Parking lot across street on N Broadway. Street parking available in Fourth & Gill neighborhood.",
-    "created_at": "2025-10-22T12:24:54.323909Z",
-    "updated_at": "2025-10-22T12:24:54.323911Z"
+    "created_at": "2025-10-23T15:49:01.866133Z",
+    "updated_at": "2025-10-23T15:49:01.866133Z"
   },
   {
     "id": "4ce9eab4-dd76-4da5-9dbc-b7c97f4dd065",
     "name": "Pastelito's Cuban Bakery",
     "address": "402 N Cedar Bluff Rd, Ste 8, Knoxville, TN 37923",
-    "cuisine_type": "Cuban, Bakery",
+    "cuisine_type": "Cuban",
     "price_range": "$",
     "date_night_score": 4.8,
     "atmosphere_score": 7.0,
@@ -5432,10 +5315,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "cuban",
-      "bakery",
-      "sandwiches",
       "latin"
     ],
     "status": "Active",
@@ -5450,14 +5331,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://pastelitoscubanbakery.com/index.html\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in shared shopping center lot at 402 N Cedar Bluff Rd. Parking lot serves multiple businesses in the complex.",
-    "created_at": "2025-10-22T12:24:54.323918Z",
-    "updated_at": "2025-10-22T12:24:54.323920Z"
+    "created_at": "2025-10-23T15:49:01.866135Z",
+    "updated_at": "2025-10-23T15:49:01.866135Z"
   },
   {
     "id": "262dd13e-c05d-414d-9a87-90841af561d5",
     "name": "Patches BBQ & More",
     "address": "5200 Rutledge Pike, Knoxville, TN 37924",
-    "cuisine_type": "BBQ, Southern",
+    "cuisine_type": "BBQ",
     "price_range": "$",
     "date_night_score": 4.8,
     "atmosphere_score": 7.0,
@@ -5472,12 +5353,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
-    "tags": [
-      "bbq",
-      "southern",
-      "new_2024",
-      "east_knoxville"
-    ],
+    "area": "East Knoxville",
+    "tags": [],
     "status": "Active",
     "discovery_source": "web_search_new_2024_bbq",
     "verification_status": "Verified",
@@ -5490,14 +5367,14 @@ const RESTAURANTS = [
     "cached_menu_info": "https://www.doordash.com/en/store/patches-bbq-&-more-knoxville-33988659/",
     "menu_cached_at": null,
     "parking_info": "Accessible parking available at Rutledge Pike location",
-    "created_at": "2025-10-22T12:24:54.323927Z",
-    "updated_at": "2025-10-22T12:24:54.323929Z"
+    "created_at": "2025-10-23T15:49:01.866137Z",
+    "updated_at": "2025-10-23T15:49:01.866137Z"
   },
   {
     "id": "d103e3de-d50b-4a84-9807-36bb13a89b0b",
     "name": "Peaceful Side Social",
     "address": "7967 E Lamar Alexander Pkwy, Townsend, TN 37882",
-    "cuisine_type": "Brewpub, Taco Bar, American",
+    "cuisine_type": "Brewery",
     "price_range": "$$",
     "date_night_score": 6.2,
     "atmosphere_score": 8.2,
@@ -5512,8 +5389,8 @@ const RESTAURANTS = [
     "last_visited": "2025-05-08T12:00:00Z",
     "visit_count": 7,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
-      "townsend",
       "patio",
       "casual_date"
     ],
@@ -5529,8 +5406,8 @@ const RESTAURANTS = [
     "cached_menu_info": "https://order.peacefulsidesocial.com",
     "menu_cached_at": null,
     "parking_info": "On-site parking available at Townsend Town Square location",
-    "created_at": "2025-10-22T12:24:54.323939Z",
-    "updated_at": "2025-10-22T12:24:54.323941Z"
+    "created_at": "2025-10-23T15:49:01.866138Z",
+    "updated_at": "2025-10-23T15:49:01.866139Z"
   },
   {
     "id": "c50bc6cf-45fb-4256-a724-d6e2848f5445",
@@ -5551,8 +5428,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "mexican",
       "grill",
       "casual_dining"
     ],
@@ -5568,14 +5445,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available",
-    "created_at": "2025-10-22T12:24:54.323950Z",
-    "updated_at": "2025-10-22T12:24:54.323951Z"
+    "created_at": "2025-10-23T15:49:01.866140Z",
+    "updated_at": "2025-10-23T15:49:01.866140Z"
   },
   {
     "id": "bbdf7ef0-c3ff-4ccb-b71d-9b1f24cdf936",
     "name": "Perk City Coffee House",
     "address": "3229 E Magnolia Ave, Knoxville, TN 37914",
-    "cuisine_type": "Neighborhood Coffee House",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 5.6,
     "atmosphere_score": 8.5,
@@ -5590,8 +5467,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "east knox",
       "morning",
       "pastries"
     ],
@@ -5607,14 +5484,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Parking lot at E Magnolia Ave location.",
-    "created_at": "2025-10-22T12:24:54.323958Z",
-    "updated_at": "2025-10-22T12:24:54.323959Z"
+    "created_at": "2025-10-23T15:49:01.866142Z",
+    "updated_at": "2025-10-23T15:49:01.866142Z"
   },
   {
     "id": "671752d2-018a-4240-92be-c1cd65a434e0",
     "name": "Pete's Restaurant & Coffee Shop",
     "address": "540 Union Ave, Knoxville, TN 37902",
-    "cuisine_type": "American, Breakfast, Brunch",
+    "cuisine_type": "American",
     "price_range": "$",
     "date_night_score": 5.5,
     "atmosphere_score": 7.3,
@@ -5629,12 +5506,12 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
       "breakfast",
       "brunch",
       "diner",
-      "family-owned",
-      "downtown"
+      "family_owned"
     ],
     "status": "Active",
     "discovery_source": "Yelp + official site",
@@ -5648,14 +5525,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://petescoffeeshop.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free street parking on Union Ave. Nearby Market Square Garage (2 blocks) offers $1/hr weekday parking, free after 6pm and all day weekends. Locust Street Garage (3 blocks) offers similar rates with 649 spaces.",
-    "created_at": "2025-10-22T12:24:54.323967Z",
-    "updated_at": "2025-10-22T12:24:54.323968Z"
+    "created_at": "2025-10-23T15:49:01.866144Z",
+    "updated_at": "2025-10-23T15:49:01.866144Z"
   },
   {
     "id": "60c59d41-d4eb-4d1d-9155-a009efe05681",
     "name": "Peter Kern Library",
     "address": "Oliver Hotel, Knoxville, TN 37902",
-    "cuisine_type": "Cocktail Bar, Speakeasy",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 10.0,
@@ -5670,9 +5547,8 @@ const RESTAURANTS = [
     "last_visited": "2022-03-11T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
-    "tags": [
-      "group_oliver_hotel"
-    ],
+    "area": null,
+    "tags": [],
     "status": "Active",
     "discovery_source": "compass_dining_guide_2025",
     "verification_status": "Verified",
@@ -5685,14 +5561,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Parking garage and valet parking available at The Oliver Hotel",
-    "created_at": "2025-10-22T12:24:54.323976Z",
-    "updated_at": "2025-10-22T12:24:54.323977Z"
+    "created_at": "2025-10-23T15:49:01.866145Z",
+    "updated_at": "2025-10-23T15:49:01.866146Z"
   },
   {
     "id": "9ad982f4-75c2-4bed-9edb-e42626b4c661",
     "name": "Petty Coffee",
     "address": "215 Brookview Centre Way, Ste 107, Knoxville, TN 37919",
-    "cuisine_type": "Specialty Coffee & Roaster",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.1,
     "atmosphere_score": 6.5,
@@ -5707,10 +5583,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "espresso",
       "breakfast",
-      "counter culture"
+      "counter_culture"
     ],
     "status": "Active",
     "discovery_source": "Inside of Knoxville",
@@ -5724,14 +5601,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Shopping center parking lot available at Brookview Centre.",
-    "created_at": "2025-10-22T12:24:54.323984Z",
-    "updated_at": "2025-10-22T12:24:54.323986Z"
+    "created_at": "2025-10-23T15:49:01.866147Z",
+    "updated_at": "2025-10-23T15:49:01.866147Z"
   },
   {
     "id": "678367bc-fb7b-4642-b0f6-5246a69908e6",
     "name": "Pho 99",
     "address": "9117 Executive Park Dr, Knoxville, TN 37923",
-    "cuisine_type": "Vietnamese, Pho",
+    "cuisine_type": "Vietnamese",
     "price_range": "$",
     "date_night_score": 4.8,
     "atmosphere_score": 6.9,
@@ -5746,10 +5623,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "vietnamese",
-      "pho",
-      "asian",
       "noodles"
     ],
     "status": "Active",
@@ -5764,8 +5639,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking in shared shopping center lot on Executive Park Drive",
-    "created_at": "2025-10-22T12:24:54.323993Z",
-    "updated_at": "2025-10-22T12:24:54.323995Z"
+    "created_at": "2025-10-23T15:49:01.866149Z",
+    "updated_at": "2025-10-23T15:49:01.866149Z"
   },
   {
     "id": "3c62b959-772e-43ff-857f-7e7b54b85dc2",
@@ -5786,10 +5661,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
-    "tags": [
-      "pizza",
-      "happy_holler"
-    ],
+    "area": null,
+    "tags": [],
     "status": "Active",
     "discovery_source": "web_search_happy_holler_pizza",
     "verification_status": "Verified",
@@ -5802,14 +5675,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Parking available on-site",
-    "created_at": "2025-10-22T12:24:54.324002Z",
-    "updated_at": "2025-10-22T12:24:54.324003Z"
+    "created_at": "2025-10-23T15:49:01.866151Z",
+    "updated_at": "2025-10-23T15:49:01.866151Z"
   },
   {
     "id": "521b39e0-9a03-4148-8c1c-4224706142e6",
     "name": "Point B",
     "address": "1020 Ebenezer Rd, Knoxville, TN 37922",
-    "cuisine_type": "New American, Boards & Brunch",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 7.5,
     "atmosphere_score": 8.0,
@@ -5824,8 +5697,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "West Knoxville",
     "tags": [
-      "west_knoxville",
       "brunch",
       "boards",
       "new_american",
@@ -5846,14 +5719,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking lot with ample spaces",
-    "created_at": "2025-10-22T12:24:54.324013Z",
-    "updated_at": "2025-10-22T12:24:54.324014Z"
+    "created_at": "2025-10-23T15:49:01.866153Z",
+    "updated_at": "2025-10-23T15:49:01.866153Z"
   },
   {
     "id": "0f14b334-cd47-41fd-a7e2-0479e12c6518",
     "name": "PostModern Spirits",
     "address": "205 W Jackson Ave, Ste 205, Knoxville, TN 37902",
-    "cuisine_type": "Distillery",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 8.3,
     "atmosphere_score": 9.3,
@@ -5868,11 +5741,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
       "distillery",
       "whiskey",
-      "old_city",
-      "jackson_avenue",
       "tennessee_whiskey_trail"
     ],
     "status": "Active",
@@ -5887,14 +5759,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Parking lot available adjacent to the distillery on West Jackson Avenue",
-    "created_at": "2025-10-22T12:24:54.324022Z",
-    "updated_at": "2025-10-22T12:24:54.324023Z"
+    "created_at": "2025-10-23T15:49:01.866155Z",
+    "updated_at": "2025-10-23T15:49:01.866155Z"
   },
   {
     "id": "0baa5998-9c8a-4c96-9d1b-6f7b07f45bee",
     "name": "Potchke Bagel - Cedar Bluff",
     "address": "432 N Cedar Bluff Rd, Knoxville, TN 37923",
-    "cuisine_type": "Bagels, Deli",
+    "cuisine_type": "Sandwiches/Deli",
     "price_range": "$$",
     "date_night_score": 6.7,
     "atmosphere_score": 7.7,
@@ -5909,13 +5781,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Cedar Bluff",
     "tags": [
       "bagels",
-      "deli",
-      "cedar_bluff",
       "award_winning",
-      "new",
-      "group_potchke"
+      "new"
     ],
     "status": "Active",
     "discovery_source": "web_search_new_2024_bagels",
@@ -5929,14 +5799,14 @@ const RESTAURANTS = [
     "cached_menu_info": "https://www.potchkedeli.com/bagel-menu",
     "menu_cached_at": null,
     "parking_info": "Dedicated parking lot available; can fill quickly during peak morning hours (before 8 AM)",
-    "created_at": "2025-10-22T12:24:54.324039Z",
-    "updated_at": "2025-10-22T12:24:54.324041Z"
+    "created_at": "2025-10-23T15:49:01.866157Z",
+    "updated_at": "2025-10-23T15:49:01.866157Z"
   },
   {
     "id": "036609c9-4e81-4ae0-84c2-a7395d8a739f",
     "name": "Pour Taproom",
     "address": "207 W Jackson Ave, Knoxville, TN",
-    "cuisine_type": "Taproom",
+    "cuisine_type": "Brewery",
     "price_range": "$$",
     "date_night_score": 8.7,
     "atmosphere_score": 9.3,
@@ -5951,13 +5821,12 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
       "taproom",
       "self_pour",
       "craft_beer",
-      "old_city",
-      "jackson_avenue",
-      "pet_friendly",
+      "dog_friendly",
       "wine",
       "cider",
       "interactive",
@@ -5975,14 +5844,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Paid street parking and public lots nearby. Closest options: Jackson Ave Lot (6 min walk), I-40 Lot West (8 min walk)",
-    "created_at": "2025-10-22T12:24:54.324049Z",
-    "updated_at": "2025-10-22T12:24:54.324051Z"
+    "created_at": "2025-10-23T15:49:01.866159Z",
+    "updated_at": "2025-10-23T15:49:01.866159Z"
   },
   {
     "id": "04bd46f1-a8e1-4286-aa6f-18ad9e3660f1",
     "name": "Preservation Pub",
     "address": "Market Square, Knoxville, TN",
-    "cuisine_type": "Pub, Live Music",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 5.7,
     "atmosphere_score": 7.9,
@@ -5997,10 +5866,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
       "live_music",
       "pub",
-      "market_square",
       "rooftop_bar",
       "scruffy_city",
       "late_night",
@@ -6021,14 +5890,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"menu_url\": \"https://scruffycity.com/preservation-pub-menu-page/\", \"items\": [\"pizzas\", \"sandwiches\", \"quesadillas\", \"chips\"], \"price_range\": \"$10-20 per person\", \"happy_hour\": \"3pm-8pm daily\"}",
     "menu_cached_at": "2025-10-02T14:59:28Z",
     "parking_info": "Market Square Garage (153 steps, 3.5 min walk), Langley Garage (256 steps, 5.8 min walk), State Street Garage (339 steps, 7.7 min walk)",
-    "created_at": "2025-10-22T12:24:54.324062Z",
-    "updated_at": "2025-10-22T12:24:54.324063Z"
+    "created_at": "2025-10-23T15:49:01.866161Z",
+    "updated_at": "2025-10-23T15:49:01.866162Z"
   },
   {
     "id": "1093e539-c95d-4bb0-84a9-90bd20df1ad1",
     "name": "Pretentious Beer Co.",
     "address": "131 S Central St, Knoxville, TN 37902",
-    "cuisine_type": "Brewery, American",
+    "cuisine_type": "Brewery",
     "price_range": "$$",
     "date_night_score": 6.5,
     "atmosphere_score": 8.7,
@@ -6043,6 +5912,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [],
     "status": "Active",
     "discovery_source": "compass_dining_guide_2025",
@@ -6056,14 +5926,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking available on S Central St; nearby public lots include Old City Lot South, Jackson Ave Lot, and Old City Lot North within walking distance",
-    "created_at": "2025-10-22T12:24:54.324070Z",
-    "updated_at": "2025-10-22T12:24:54.324071Z"
+    "created_at": "2025-10-23T15:49:01.866165Z",
+    "updated_at": "2025-10-23T15:49:01.866165Z"
   },
   {
     "id": "d280debd-af5e-4e14-affd-87d7159ea9dd",
     "name": "Primo Passo Coffee Co.",
     "address": "2099 Thunderhead Rd, Ste 103, Knoxville, TN 37922",
-    "cuisine_type": "Specialty Coffee & Roaster",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.3,
     "atmosphere_score": 7.0,
@@ -6078,10 +5948,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "espresso",
       "pourover",
-      "local bakery collab"
+      "local_bakery_collab"
     ],
     "status": "Active",
     "discovery_source": "Visit Knoxville, PPCKnox menu",
@@ -6095,8 +5966,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Shopping center parking available at Northshore Town Center, Cornerstone Building.",
-    "created_at": "2025-10-22T12:24:54.324078Z",
-    "updated_at": "2025-10-22T12:24:54.324079Z"
+    "created_at": "2025-10-23T15:49:01.866167Z",
+    "updated_at": "2025-10-23T15:49:01.866167Z"
   },
   {
     "id": "4df19cd8-be20-42fb-a391-08c278b034a4",
@@ -6117,10 +5988,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "South Knoxville",
     "tags": [
-      "brewery",
-      "craft_beer",
-      "south_knoxville"
+      "craft_beer"
     ],
     "status": "Active",
     "discovery_source": "web_search_sevier_avenue_breweries",
@@ -6134,14 +6004,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Limited parking in main lot; two overflow lots available on the east side of neighboring Norco Metal Finishing",
-    "created_at": "2025-10-22T12:24:54.324087Z",
-    "updated_at": "2025-10-22T12:24:54.324088Z"
+    "created_at": "2025-10-23T15:49:01.866169Z",
+    "updated_at": "2025-10-23T15:49:01.866169Z"
   },
   {
     "id": "dfba31ad-91ba-4747-bb8f-b79bfb2deffc",
     "name": "Public House",
     "address": "212 W Magnolia Ave, Knoxville, TN 37917",
-    "cuisine_type": "Cocktail Bar",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 9.7,
     "atmosphere_score": 9.7,
@@ -6156,6 +6026,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "cocktails",
       "neighborhood_bar",
@@ -6163,9 +6034,8 @@ const RESTAURANTS = [
       "no_tvs",
       "craft_beer",
       "southern_food",
-      "outdoor_patio",
-      "local",
-      "conversation"
+      "outdoor_seating",
+      "local"
     ],
     "status": "Active",
     "discovery_source": "KNOXVILLE PUBLIC HOUSE website",
@@ -6179,14 +6049,14 @@ const RESTAURANTS = [
     "cached_menu_info": "Menu features craft cocktails, specialty hotdogs, regional charcuterie, beer cheese with pretzels, fancy popcorn. Full menus: Food, Cocktails (Winter 2024), Wine (Winter 2024), Beer and Spirits (Winter 2024). Available at: http://www.knoxpublichouse.com/menus",
     "menu_cached_at": null,
     "parking_info": "Parking lot on-site and additional street parking across Magnolia Avenue",
-    "created_at": "2025-10-22T12:24:54.324099Z",
-    "updated_at": "2025-10-22T12:24:54.324100Z"
+    "created_at": "2025-10-23T15:49:01.866171Z",
+    "updated_at": "2025-10-23T15:49:01.866171Z"
   },
   {
     "id": "9c03b6c0-8563-4363-9a96-c9655e6fd106",
     "name": "RT Lodge",
     "address": "1406 Wilkinson Pike, Maryville, TN 37803",
-    "cuisine_type": "Contemporary Southern",
+    "cuisine_type": "Southern",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 10.0,
@@ -6201,8 +6071,8 @@ const RESTAURANTS = [
     "last_visited": "2024-12-11T12:00:00Z",
     "visit_count": 1,
     "average_rating": 10.0,
+    "area": "Maryville",
     "tags": [
-      "maryville",
       "fine_dining",
       "farm_to_table",
       "romantic",
@@ -6220,14 +6090,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free on-site private parking lot available; shuttle service provided for large events when parking capacity is exceeded",
-    "created_at": "2025-10-22T12:24:54.324109Z",
-    "updated_at": "2025-10-22T12:24:54.324111Z"
+    "created_at": "2025-10-23T15:49:01.866173Z",
+    "updated_at": "2025-10-23T15:49:01.866173Z"
   },
   {
     "id": "8f99d629-de17-497d-a713-aae90077d5aa",
     "name": "Radius Roof Top Lounge",
     "address": "507 S Gay St, Knoxville, TN 37902",
-    "cuisine_type": "Lounge",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 9.9,
@@ -6242,10 +6112,10 @@ const RESTAURANTS = [
     "last_visited": "2022-07-30T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": "Downtown",
     "tags": [
       "rooftop",
       "lounge",
-      "downtown",
       "views",
       "fire_pit"
     ],
@@ -6261,14 +6131,14 @@ const RESTAURANTS = [
     "cached_menu_info": "https://www.radiusrooftopbar.com/menus/",
     "menu_cached_at": null,
     "parking_info": "State Street Garage with 3rd floor skywalk access (5.7 min walk), Market Square Garage (5.0 min walk), Langley Garage (7.0 min walk), street parking available",
-    "created_at": "2025-10-22T12:24:54.324119Z",
-    "updated_at": "2025-10-22T12:24:54.324121Z"
+    "created_at": "2025-10-23T15:49:01.866176Z",
+    "updated_at": "2025-10-23T15:49:01.866176Z"
   },
   {
     "id": "acdc494f-c809-446f-8f7c-ca63c739696c",
     "name": "Raising Cane's Chicken Fingers - Kingston Pike",
     "address": "7723 Kingston Pike, Knoxville, TN 37919",
-    "cuisine_type": "Chicken, Fast Casual",
+    "cuisine_type": "American",
     "price_range": "$",
     "date_night_score": 3.0,
     "atmosphere_score": null,
@@ -6283,13 +6153,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Kingston Pike",
     "tags": [
       "fast_casual",
       "chicken",
-      "drive_through",
-      "new_2025",
-      "west_knoxville",
-      "kingston_pike"
+      "drive_through"
     ],
     "status": "Active",
     "discovery_source": "manual",
@@ -6303,14 +6171,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.324128Z",
-    "updated_at": "2025-10-22T12:24:54.324129Z"
+    "created_at": "2025-10-23T15:49:01.866178Z",
+    "updated_at": "2025-10-23T15:49:01.866178Z"
   },
   {
     "id": "b2a268ef-61e8-401d-a0ad-febbb19199a6",
     "name": "Rami's Cafe",
     "address": "3553 N Broadway, Knoxville, TN 37917",
-    "cuisine_type": "Cafe",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.3,
     "atmosphere_score": 6.7,
@@ -6325,9 +6193,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "cafe",
-      "north_broadway",
       "casual_dining"
     ],
     "status": "Active",
@@ -6342,14 +6209,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"menu_url\": \"https://www.ramiscafe.com/menu\", \"description\": \"Breakfast and lunch menu featuring omelets, pancakes, sandwiches\"}",
     "menu_cached_at": null,
     "parking_info": "Small shared parking lot at N. Broadway and Raleigh Avenue intersection, across from Fisher Tire",
-    "created_at": "2025-10-22T12:24:54.324137Z",
-    "updated_at": "2025-10-22T12:24:54.324138Z"
+    "created_at": "2025-10-23T15:49:01.866180Z",
+    "updated_at": "2025-10-23T15:49:01.866181Z"
   },
   {
     "id": "34e145d4-d00f-4447-9801-f5a92de17b7a",
     "name": "Redbud Kitchen",
     "address": "906 Sevier Ave, Ste 110, Knoxville, TN 37920",
-    "cuisine_type": "Fresh American",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 7.8,
     "atmosphere_score": 8.7,
@@ -6364,9 +6231,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "casual",
-      "fresh",
       "local"
     ],
     "status": "Active",
@@ -6388,7 +6255,7 @@ const RESTAURANTS = [
     "id": "4949afef-8482-4d15-88de-a24978ef22a3",
     "name": "Remedy Coffee",
     "address": "800 Tyson St, Knoxville, TN 37917",
-    "cuisine_type": "Specialty Coffee",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 3.9,
     "atmosphere_score": 6.4,
@@ -6403,9 +6270,8 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": "Downtown",
     "tags": [
-      "downtown_north",
-      "classic",
       "study_spot"
     ],
     "status": "Active",
@@ -6420,14 +6286,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://remedycoffee.square.site/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-01\", \"sample_prices\": {\"espresso\": \"$3.50\", \"latte_regular\": \"$5.15\", \"latte_large\": \"$6.15\", \"americano_regular\": \"$4.35\", \"cappuccino\": \"$4.95\", \"drip_coffee_regular\": \"$3.35\"}}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Tyson St and surrounding Downtown North streets.",
-    "created_at": "2025-10-22T12:24:54.324155Z",
-    "updated_at": "2025-10-22T12:24:54.324157Z"
+    "created_at": "2025-10-23T15:49:01.866184Z",
+    "updated_at": "2025-10-23T15:49:01.866184Z"
   },
   {
     "id": "3e60d4ed-f913-4029-91a9-b1348cd42285",
     "name": "Rooster's Bar and Grill",
     "address": "7585 S Northshore Dr, Knoxville, TN 37919",
-    "cuisine_type": "Wings, Sports Bar",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 6.0,
     "atmosphere_score": 7.6,
@@ -6442,8 +6308,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "wings",
       "sports_bar",
       "multiple_bars"
     ],
@@ -6459,8 +6325,8 @@ const RESTAURANTS = [
     "cached_menu_info": "https://roostersknoxville.com/food",
     "menu_cached_at": null,
     "parking_info": "Parking lot available on-site",
-    "created_at": "2025-10-22T12:24:54.324164Z",
-    "updated_at": "2025-10-22T12:24:54.324165Z"
+    "created_at": "2025-10-23T15:49:01.866187Z",
+    "updated_at": "2025-10-23T15:49:01.866187Z"
   },
   {
     "id": "2515a3f6-614a-47a3-ba44-861e2d8efd72",
@@ -6481,9 +6347,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "african",
-      "authentic",
       "hidden_gem"
     ],
     "status": "Active",
@@ -6498,14 +6363,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Ample parking space available on-site",
-    "created_at": "2025-10-22T12:24:54.324173Z",
-    "updated_at": "2025-10-22T12:24:54.324174Z"
+    "created_at": "2025-10-23T15:49:01.866188Z",
+    "updated_at": "2025-10-23T15:49:01.866189Z"
   },
   {
     "id": "f4fc44d2-3b89-403a-b45f-b8c014f043c6",
     "name": "STIR Knoxville",
     "address": "217 Willow Ave, Knoxville, TN 37915",
-    "cuisine_type": "Seafood/Cocktails",
+    "cuisine_type": "Seafood",
     "price_range": "$$",
     "date_night_score": 8.9,
     "atmosphere_score": 9.1,
@@ -6520,11 +6385,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "elegant",
-      "open-air",
-      "romantic",
-      "group_stir"
+      "open_air",
+      "romantic"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -6539,13 +6404,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Paid parking lots available nearby including Old City Lot South (5-minute walk) and Old City Lot North (7-minute walk). Street parking also available with typical rates of $11-16 for 2-hour minimum.",
     "created_at": "2025-09-30T22:55:28.753461Z",
-    "updated_at": "2025-10-22T12:24:54.324183Z"
+    "updated_at": "2025-10-23T15:49:01.866190Z"
   },
   {
     "id": "d6be4521-1965-402d-83e0-e8ab6c19df40",
     "name": "Saint Lucille's Kitchen",
     "address": "8 Emory Place, Knoxville, TN 37917",
-    "cuisine_type": "Cajun & Creole",
+    "cuisine_type": "Southern",
     "price_range": "$$",
     "date_night_score": 5.7,
     "atmosphere_score": 8.1,
@@ -6560,12 +6425,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "knoxville",
-      "cajun",
-      "creole",
       "casual_date",
-      "new_2023",
       "emory_place"
     ],
     "status": "Active",
@@ -6581,7 +6444,7 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking available in Emory Place district; nearby parking reservable through SpotHero",
     "created_at": "2025-10-01T20:50:19.769617Z",
-    "updated_at": "2025-10-22T12:24:54.324193Z"
+    "updated_at": "2025-10-23T15:49:01.866192Z"
   },
   {
     "id": "d3cbd35b-836f-4a74-b7d8-9a7d819bfb9a",
@@ -6602,9 +6465,9 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "byob",
-      "classic",
       "romantic_casual",
       "family_owned"
     ],
@@ -6620,14 +6483,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Limited on-site parking available. Adjacent lot (Gus's Hot Chicken) is not available for restaurant use.",
-    "created_at": "2025-10-22T12:24:54.324202Z",
-    "updated_at": "2025-10-22T12:24:54.324203Z"
+    "created_at": "2025-10-23T15:49:01.866194Z",
+    "updated_at": "2025-10-23T15:49:01.866194Z"
   },
   {
     "id": "f2555f5a-816e-4baa-b378-0d52dc518a53",
     "name": "Schulz Bräu Brewing Company",
     "address": "126 Bernard Ave, Knoxville, TN 37917",
-    "cuisine_type": "German, Brewery",
+    "cuisine_type": "German",
     "price_range": "$",
     "date_night_score": 4.4,
     "atmosphere_score": 7.3,
@@ -6642,9 +6505,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
-    "tags": [
-      "group_schulz_brau"
-    ],
+    "area": null,
+    "tags": [],
     "status": "Active",
     "discovery_source": "compass_dining_guide_2025",
     "verification_status": "Verified",
@@ -6657,14 +6519,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.schulzbraubrewing.com/schulzes-schnitzel-food/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking available. Additional parking across the street in Health Department lot. Street parking on Bernard Ave, Tyson St, and Pruett Place. Located just off interstate with generally good parking availability.",
-    "created_at": "2025-10-22T12:24:54.324210Z",
-    "updated_at": "2025-10-22T12:24:54.324212Z"
+    "created_at": "2025-10-23T15:49:01.866196Z",
+    "updated_at": "2025-10-23T15:49:01.866196Z"
   },
   {
     "id": "1200a0c2-901b-417f-957d-b51ec940a524",
     "name": "Scrambled Jake's Breakfast Co.",
     "address": "7428 S Northshore Dr, Knoxville, TN 37919",
-    "cuisine_type": "Breakfast, Brunch",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 6.8,
     "atmosphere_score": 7.6,
@@ -6679,6 +6541,7 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "breakfast",
       "brunch",
@@ -6697,14 +6560,14 @@ const RESTAURANTS = [
     "cached_menu_info": "https://scrambledjakes.com/menus/",
     "menu_cached_at": null,
     "parking_info": "Free parking lot available on-site",
-    "created_at": "2025-10-22T12:24:54.324220Z",
-    "updated_at": "2025-10-22T12:24:54.324222Z"
+    "created_at": "2025-10-23T15:49:01.866198Z",
+    "updated_at": "2025-10-23T15:49:01.866198Z"
   },
   {
     "id": "567be1af-b526-4cb2-9211-521a418a103e",
     "name": "Scruffy City Hall",
     "address": "Market Square, Knoxville, TN",
-    "cuisine_type": "Bar, Live Music",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 7.9,
     "atmosphere_score": 8.8,
@@ -6719,8 +6582,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
-      "market_square",
       "bar",
       "rooftop",
       "live_music"
@@ -6737,14 +6600,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Public parking in Scruffy City Lot (86 spaces, $16/day, $80/month), Market Square Garage nearby, street parking on Market Square",
-    "created_at": "2025-10-22T12:24:54.324228Z",
-    "updated_at": "2025-10-22T12:24:54.324230Z"
+    "created_at": "2025-10-23T15:49:01.866200Z",
+    "updated_at": "2025-10-23T15:49:01.866200Z"
   },
   {
     "id": "85c7780d-ec7d-4cfa-99d5-ce22626f1acb",
     "name": "Seasons Innovative Bar & Grille",
     "address": "11605 Parkside Dr, Knoxville, TN 37934",
-    "cuisine_type": "Chef-Driven American",
+    "cuisine_type": "American",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 9.9,
@@ -6759,10 +6622,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "elegant",
       "seasonal",
-      "upscale casual"
+      "upscale_casual"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -6777,13 +6641,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Free parking available in Turkey Creek shopping center lot",
     "created_at": "2025-09-30T22:55:28.753647Z",
-    "updated_at": "2025-10-22T12:24:54.324238Z"
+    "updated_at": "2025-10-23T15:49:01.866202Z"
   },
   {
     "id": "088aad42-ec4e-4ffc-b248-3ea1f8a2ec40",
     "name": "Seed Coffee Co.",
     "address": "2558 Sutherland Ave, Knoxville, TN 37919",
-    "cuisine_type": "Specialty Coffee",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.2,
     "atmosphere_score": 6.7,
@@ -6798,10 +6662,10 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": "Bearden",
     "tags": [
-      "bearden",
-      "mission-driven",
-      "study-friendly"
+      "mission_driven",
+      "study_friendly"
     ],
     "status": "Active",
     "discovery_source": "official site + listings",
@@ -6815,14 +6679,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free street parking available on Sutherland Ave and surrounding residential streets in Fort Sanders neighborhood near UT Knoxville.",
-    "created_at": "2025-10-22T12:24:54.324246Z",
-    "updated_at": "2025-10-22T12:24:54.324248Z"
+    "created_at": "2025-10-23T15:49:01.866205Z",
+    "updated_at": "2025-10-23T15:49:01.866205Z"
   },
   {
     "id": "dc047892-8b4f-40f0-bece-d137c4335de2",
     "name": "Señor Taco Mexican Seafood Restaurant",
     "address": "3325 North Broadway St, Knoxville, TN 37917",
-    "cuisine_type": "Mexican, Seafood",
+    "cuisine_type": "Mexican",
     "price_range": "$$",
     "date_night_score": 5.7,
     "atmosphere_score": 7.0,
@@ -6837,12 +6701,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
-    "tags": [
-      "mexican",
-      "seafood",
-      "authentic",
-      "north_broadway"
-    ],
+    "area": null,
+    "tags": [],
     "status": "Active",
     "discovery_source": "web_search_mexican_authentic",
     "verification_status": "Verified",
@@ -6855,14 +6715,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street and lot parking available on North Broadway",
-    "created_at": "2025-10-22T12:24:54.324256Z",
-    "updated_at": "2025-10-22T12:24:54.324257Z"
+    "created_at": "2025-10-23T15:49:01.866206Z",
+    "updated_at": "2025-10-23T15:49:01.866207Z"
   },
   {
     "id": "bfe80e4e-d8e4-4f82-9fb3-c42d20ddd202",
     "name": "Side Hustle",
     "address": "100 N Central St (behind Lonesome Dove), Knoxville, TN 37902",
-    "cuisine_type": "BBQ, Backyard Barbecue",
+    "cuisine_type": "BBQ",
     "price_range": "$$",
     "date_night_score": 7.0,
     "atmosphere_score": null,
@@ -6877,11 +6737,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
-      "bbq",
-      "outdoor",
+      "outdoor_seating",
       "live_music",
-      "old_city",
       "casual",
       "backyard_vibe",
       "brisket"
@@ -6898,8 +6757,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.324264Z",
-    "updated_at": "2025-10-22T12:24:54.324266Z"
+    "created_at": "2025-10-23T15:49:01.866208Z",
+    "updated_at": "2025-10-23T15:49:01.866208Z"
   },
   {
     "id": "a2392684-973a-46aa-8c5a-3a239af54dbb",
@@ -6920,9 +6779,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "indian",
-      "authentic",
       "curry"
     ],
     "status": "Active",
@@ -6937,14 +6795,14 @@ const RESTAURANTS = [
     "cached_menu_info": "http://sitarknoxville.com/menu.aspx",
     "menu_cached_at": null,
     "parking_info": "Free parking available on-site",
-    "created_at": "2025-10-22T12:24:54.324273Z",
-    "updated_at": "2025-10-22T12:24:54.324274Z"
+    "created_at": "2025-10-23T15:49:01.866210Z",
+    "updated_at": "2025-10-23T15:49:01.866210Z"
   },
   {
     "id": "afcb1e40-e9a2-4986-a533-6efe968d38fe",
     "name": "Small Comforts Kitchen",
     "address": "3726 Sevier Heights Rd, Suite 102, Knoxville, TN 37920",
-    "cuisine_type": "Bakery, Gluten-Free Pies",
+    "cuisine_type": "Bakery",
     "price_range": "$$",
     "date_night_score": 6.0,
     "atmosphere_score": null,
@@ -6959,15 +6817,12 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "bakery",
       "gluten_free",
       "pies",
       "seasonal",
-      "woman_owned",
-      "local",
-      "celiac_friendly",
-      "new_2022"
+      "local"
     ],
     "status": "Active",
     "discovery_source": "manual",
@@ -6981,8 +6836,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.324282Z",
-    "updated_at": "2025-10-22T12:24:54.324283Z"
+    "created_at": "2025-10-23T15:49:01.866212Z",
+    "updated_at": "2025-10-23T15:49:01.866212Z"
   },
   {
     "id": "024fb2b3-ed27-4f7d-adf3-e3bf1e56ec44",
@@ -7003,9 +6858,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
-      "burgers",
-      "old_city",
       "casual_dining"
     ],
     "status": "Active",
@@ -7020,14 +6874,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Downtown location with nearby public parking at State Street Garage and Old City Lot South, both within 10-minute walk",
-    "created_at": "2025-10-22T12:24:54.324290Z",
-    "updated_at": "2025-10-22T12:24:54.324292Z"
+    "created_at": "2025-10-23T15:49:01.866213Z",
+    "updated_at": "2025-10-23T15:49:01.866213Z"
   },
   {
     "id": "8051c705-28d7-490f-90b3-09b9778c829d",
     "name": "Smoky Mountain Brewery",
     "address": "11308 Parkside Dr, Knoxville, TN 37934",
-    "cuisine_type": "Brewery, American",
+    "cuisine_type": "Brewery",
     "price_range": "$$",
     "date_night_score": 5.5,
     "atmosphere_score": 7.4,
@@ -7042,12 +6896,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
-    "tags": [
-      "brewery",
-      "american",
-      "turkey_creek",
-      "group_copper_cellar"
-    ],
+    "area": "Turkey Creek",
+    "tags": [],
     "status": "Active",
     "discovery_source": "web_search_turkey_creek_brewery",
     "verification_status": "Verified",
@@ -7060,14 +6910,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking available in Turkey Creek shopping center lot, located across from Regal Cinemas Pinnacle 18",
-    "created_at": "2025-10-22T12:24:54.324301Z",
-    "updated_at": "2025-10-22T12:24:54.324302Z"
+    "created_at": "2025-10-23T15:49:01.866215Z",
+    "updated_at": "2025-10-23T15:49:01.866215Z"
   },
   {
     "id": "feb69ce5-d787-47e6-a312-314c2d35440b",
     "name": "SoKno Taco Cantina",
     "address": "3701 Sevierville Pike, Knoxville, TN 37920",
-    "cuisine_type": "Mexican, SoCal-Style Tacos",
+    "cuisine_type": "Mexican",
     "price_range": "$$",
     "date_night_score": 6.7,
     "atmosphere_score": 8.3,
@@ -7082,11 +6932,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "casual",
-      "beer garden",
-      "outdoor-friendly",
-      "group_sokno_taco"
+      "beer_garden",
+      "outdoor_friendly"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -7101,13 +6951,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available",
     "created_at": "2025-09-30T22:55:28.753723Z",
-    "updated_at": "2025-10-22T12:24:54.324312Z"
+    "updated_at": "2025-10-23T15:49:01.866217Z"
   },
   {
     "id": "a438d476-a0b3-4f6f-9e16-b77e8b860992",
     "name": "Soccer Taco",
     "address": "9 Market Square Suite 101, Knoxville, TN 37902",
-    "cuisine_type": "Mexican, Sports Bar",
+    "cuisine_type": "Mexican",
     "price_range": "$$",
     "date_night_score": 5.7,
     "atmosphere_score": 7.3,
@@ -7122,10 +6972,9 @@ const RESTAURANTS = [
     "last_visited": "2022-08-28T12:00:00Z",
     "visit_count": 3,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
-      "mexican",
-      "sports_bar",
-      "tacos"
+      "sports_bar"
     ],
     "status": "Active",
     "discovery_source": "web_search_mexican_sports",
@@ -7139,14 +6988,14 @@ const RESTAURANTS = [
     "cached_menu_info": "https://soccertaco.com/menu/",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage (78 steps), Langley Garage (165 steps), and Locust Street Garage (218 steps) provide nearby parking options",
-    "created_at": "2025-10-22T12:24:54.324320Z",
-    "updated_at": "2025-10-22T12:24:54.324322Z"
+    "created_at": "2025-10-23T15:49:01.866218Z",
+    "updated_at": "2025-10-23T15:49:01.866219Z"
   },
   {
     "id": "d23f1b84-66da-4e9c-9073-b1b23b2399bf",
     "name": "SouthSide Garage",
     "address": "1014 Sevier Avenue, Knoxville, TN 37920",
-    "cuisine_type": "Food Truck Park",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 6.4,
     "atmosphere_score": 7.7,
@@ -7161,13 +7010,13 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "South Knoxville",
     "tags": [
       "bar",
       "craft_beer",
       "food_trucks",
       "patio",
-      "sevier_avenue",
-      "south_knoxville"
+      "sevier_avenue"
     ],
     "status": "Active",
     "discovery_source": "web_search_sevier_avenue_breweries",
@@ -7181,14 +7030,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "On-site parking available",
-    "created_at": "2025-10-22T12:24:54.324330Z",
-    "updated_at": "2025-10-22T12:24:54.324331Z"
+    "created_at": "2025-10-23T15:49:01.866220Z",
+    "updated_at": "2025-10-23T15:49:01.866220Z"
   },
   {
     "id": "6085f3b9-49e8-4c25-a48b-ccefdcb5bf3c",
     "name": "Southbound",
     "address": "106 S Central St, Knoxville, TN 37902",
-    "cuisine_type": "Nightclub",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 6.9,
     "atmosphere_score": 8.3,
@@ -7203,11 +7052,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
       "nightclub",
-      "nightlife",
-      "old_city",
-      "central_avenue"
+      "nightlife"
     ],
     "status": "Active",
     "discovery_source": "web_search_old_city_nightlife",
@@ -7221,14 +7069,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Old City Lot South (5.6 min walk, free weeknights/weekends, $3 max weekdays) and Old City Lot North (7.4 min walk) nearby",
-    "created_at": "2025-10-22T12:24:54.324338Z",
-    "updated_at": "2025-10-22T12:24:54.324340Z"
+    "created_at": "2025-10-23T15:49:01.866222Z",
+    "updated_at": "2025-10-23T15:49:01.866222Z"
   },
   {
     "id": "640321ce-9e5e-44b2-9f9d-cdcb605c97b5",
     "name": "Southern Grit",
     "address": "126 S Central St, Knoxville, TN 37902",
-    "cuisine_type": "Southern, Brunch",
+    "cuisine_type": "Southern",
     "price_range": "$$",
     "date_night_score": 6.4,
     "atmosphere_score": 8.4,
@@ -7243,10 +7091,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
-      "southern",
       "brunch",
-      "old_city",
       "biscuits",
       "mimosas"
     ],
@@ -7262,8 +7109,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking available on S Central St. Nearby parking at Old City Lot South, approximately 6-minute walk.",
-    "created_at": "2025-10-22T12:24:54.324347Z",
-    "updated_at": "2025-10-22T12:24:54.324348Z"
+    "created_at": "2025-10-23T15:49:01.866224Z",
+    "updated_at": "2025-10-23T15:49:01.866224Z"
   },
   {
     "id": "abac5471-6d97-43b6-bc05-1cb0a843ff6f",
@@ -7284,8 +7131,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "indian",
       "quick_service",
       "curry"
     ],
@@ -7301,8 +7148,8 @@ const RESTAURANTS = [
     "cached_menu_info": "https://spiceexpressindiankitchen.com/menu/",
     "menu_cached_at": null,
     "parking_info": "Free parking right outside",
-    "created_at": "2025-10-22T12:24:54.324357Z",
-    "updated_at": "2025-10-22T12:24:54.324358Z"
+    "created_at": "2025-10-23T15:49:01.866226Z",
+    "updated_at": "2025-10-23T15:49:01.866226Z"
   },
   {
     "id": "e355ffee-bba0-46b0-934b-4e46494adda1",
@@ -7323,8 +7170,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "indian",
       "curry"
     ],
     "status": "Active",
@@ -7339,8 +7186,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Ample free parking in shared lot at gas station location with easy access from I-75 and I-40",
-    "created_at": "2025-10-22T12:24:54.324365Z",
-    "updated_at": "2025-10-22T12:24:54.324366Z"
+    "created_at": "2025-10-23T15:49:01.866228Z",
+    "updated_at": "2025-10-23T15:49:01.866228Z"
   },
   {
     "id": "02197582-5e63-402f-b470-f79940fe5d53",
@@ -7361,11 +7208,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
-    "tags": [
-      "thai",
-      "asian",
-      "bearden"
-    ],
+    "area": "Bearden",
+    "tags": [],
     "status": "Active",
     "discovery_source": "web_search_bearden",
     "verification_status": "Verified",
@@ -7378,14 +7222,14 @@ const RESTAURANTS = [
     "cached_menu_info": "https://spiceknoxville.com/menu.html",
     "menu_cached_at": null,
     "parking_info": "Strip mall parking available at Kingston Pike location",
-    "created_at": "2025-10-22T12:24:54.324376Z",
-    "updated_at": "2025-10-22T12:24:54.324377Z"
+    "created_at": "2025-10-23T15:49:01.866230Z",
+    "updated_at": "2025-10-23T15:49:01.866230Z"
   },
   {
     "id": "835e2d64-4366-49f6-9140-1f0bbd89a23e",
     "name": "Steamboat Sandwiches",
     "address": "2423 N Central St, Knoxville, TN 37917",
-    "cuisine_type": "Sandwiches",
+    "cuisine_type": "Sandwiches/Deli",
     "price_range": "$$",
     "date_night_score": 6.2,
     "atmosphere_score": 8.4,
@@ -7400,10 +7244,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "sandwiches",
-      "happy_holler",
-      "central_avenue",
       "lunch"
     ],
     "status": "Active",
@@ -7418,14 +7260,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking available in North Knoxville commercial district, outdoor patio shared with neighboring brewery",
-    "created_at": "2025-10-22T12:24:54.324386Z",
-    "updated_at": "2025-10-22T12:24:54.324387Z"
+    "created_at": "2025-10-23T15:49:01.866232Z",
+    "updated_at": "2025-10-23T15:49:01.866232Z"
   },
   {
     "id": "69b4bace-977c-424b-a682-f11754cb16b5",
     "name": "Sticky Rice Café",
     "address": "120 Jack Dance St, Knoxville, TN 37919",
-    "cuisine_type": "Lao",
+    "cuisine_type": "Laotian",
     "price_range": "$",
     "date_night_score": 5.3,
     "atmosphere_score": 7.3,
@@ -7440,11 +7282,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "cultural",
-      "family-style",
-      "adventurous",
-      "group_sticky_rice"
+      "family_style",
+      "adventurous"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -7459,13 +7301,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Strip mall parking lot with limited spaces available",
     "created_at": "2025-09-30T22:55:28.753767Z",
-    "updated_at": "2025-10-22T12:24:54.324396Z"
+    "updated_at": "2025-10-23T15:49:01.866234Z"
   },
   {
     "id": "d48befa6-01f6-4906-9710-87188f8c0d36",
     "name": "Stock & Barrel",
     "address": "35 Market Sq, Knoxville, TN 37902",
-    "cuisine_type": "Gourmet Burgers, Bourbon Bar",
+    "cuisine_type": "Burgers",
     "price_range": "$$",
     "date_night_score": 7.7,
     "atmosphere_score": 8.8,
@@ -7480,11 +7322,10 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "casual",
-      "bourbon bar",
-      "market square",
-      "group_bbn_hospitality"
+      "bourbon_bar"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -7499,13 +7340,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Market Square Garage directly behind restaurant at 406 Walnut (cheapest option). Free parking weeknights after 6pm and all day Sunday, $3 flat rate Saturdays. Alternative garages: Langley (407 Walnut), Promenade (401 State), State Street (520 State).",
     "created_at": "2025-09-30T22:55:28.753689Z",
-    "updated_at": "2025-10-22T12:24:54.324407Z"
+    "updated_at": "2025-10-23T15:49:01.866235Z"
   },
   {
     "id": "f710ab7f-3c8f-4ba3-a62d-c8171607d01b",
     "name": "Storming Crab",
     "address": "8355 Kingston Pike, Knoxville, TN 37919",
-    "cuisine_type": "Seafood, Cajun",
+    "cuisine_type": "Seafood",
     "price_range": "$$",
     "date_night_score": 5.9,
     "atmosphere_score": 7.2,
@@ -7520,9 +7361,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "seafood",
-      "cajun",
       "casual_dining"
     ],
     "status": "Active",
@@ -7537,14 +7377,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Strip mall parking lot available",
-    "created_at": "2025-10-22T12:24:54.324414Z",
-    "updated_at": "2025-10-22T12:24:54.324416Z"
+    "created_at": "2025-10-23T15:49:01.866237Z",
+    "updated_at": "2025-10-23T15:49:01.866237Z"
   },
   {
     "id": "50c4d074-335c-4cc2-93a4-8df8ba63cc41",
     "name": "Sullivan's at Rocky Hill",
     "address": "Rocky Hill, Knoxville, TN 37923",
-    "cuisine_type": "American, Steakhouse, Seafood",
+    "cuisine_type": "Steakhouse",
     "price_range": "$$",
     "date_night_score": 8.9,
     "atmosphere_score": 9.6,
@@ -7559,10 +7399,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "West Knoxville",
     "tags": [
-      "west_knox",
-      "steakhouse",
-      "seafood",
       "scratch_cooking",
       "local"
     ],
@@ -7578,14 +7416,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking available in Rocky Hill Shopping Center lot",
-    "created_at": "2025-10-22T12:24:54.324423Z",
-    "updated_at": "2025-10-22T12:24:54.324424Z"
+    "created_at": "2025-10-23T15:49:01.866239Z",
+    "updated_at": "2025-10-23T15:49:01.866239Z"
   },
   {
     "id": "d1fa9f2c-a998-4b10-b6aa-60108512a015",
     "name": "Sunspot",
     "address": "2200 Cumberland Ave, Knoxville, TN 37916",
-    "cuisine_type": "Southwestern, Vegetarian",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 6.6,
     "atmosphere_score": 7.8,
@@ -7600,8 +7438,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "vegetarian_friendly",
+      "vegetarian_options",
       "southwestern",
       "rooftop",
       "the_strip",
@@ -7619,14 +7458,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"menu_url\": \"https://www.sunspotrestaurant.com/small-plates.html\", \"note\": \"Full menu available with small plates, entrees, tacos, and brunch options\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on Cumberland Avenue and surrounding UT campus area",
-    "created_at": "2025-10-22T12:24:54.324435Z",
-    "updated_at": "2025-10-22T12:24:54.324437Z"
+    "created_at": "2025-10-23T15:49:01.866241Z",
+    "updated_at": "2025-10-23T15:49:01.866241Z"
   },
   {
     "id": "8158c5f9-2a73-4493-8eaf-2a1ccb5d3d55",
     "name": "T. Ralph's Burgers & Fries - Covenant Health Park",
     "address": "Beauford Delaney Building, Covenant Health Park, Knoxville, TN 37915",
-    "cuisine_type": "Burgers, American",
+    "cuisine_type": "Burgers",
     "price_range": "$$",
     "date_night_score": 5.0,
     "atmosphere_score": null,
@@ -7641,12 +7480,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
-      "burgers",
       "local_ingredients",
       "stadium_dining",
-      "old_city",
-      "new_2025",
       "mitchell_farm_beef",
       "full_bar"
     ],
@@ -7662,8 +7499,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.324444Z",
-    "updated_at": "2025-10-22T12:24:54.324445Z"
+    "created_at": "2025-10-23T15:49:01.866243Z",
+    "updated_at": "2025-10-23T15:49:01.866243Z"
   },
   {
     "id": "06fb24f0-e550-48d3-97f8-09bdbba82da2",
@@ -7684,9 +7521,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Turkey Creek",
     "tags": [
-      "indian",
-      "turkey_creek",
       "curry",
       "vegetarian_options"
     ],
@@ -7702,14 +7538,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking in Turkey Creek shopping center lot",
-    "created_at": "2025-10-22T12:24:54.324453Z",
-    "updated_at": "2025-10-22T12:24:54.324454Z"
+    "created_at": "2025-10-23T15:49:01.866244Z",
+    "updated_at": "2025-10-23T15:49:01.866245Z"
   },
   {
     "id": "a685d2ff-e6cc-482d-b07a-d05dcd4649ab",
     "name": "Tangerine's Japanese Cuisine Sushi and Bar",
     "address": "5328 Millertown Pike, Knoxville, TN 37924",
-    "cuisine_type": "Japanese, Sushi",
+    "cuisine_type": "Japanese",
     "price_range": "$$",
     "date_night_score": 6.1,
     "atmosphere_score": 7.3,
@@ -7724,9 +7560,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "sushi",
-      "japanese",
       "casual_dining"
     ],
     "status": "Active",
@@ -7741,14 +7576,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking available in strip center lot with quick and easy access",
-    "created_at": "2025-10-22T12:24:54.324462Z",
-    "updated_at": "2025-10-22T12:24:54.324463Z"
+    "created_at": "2025-10-23T15:49:01.866246Z",
+    "updated_at": "2025-10-23T15:49:01.866246Z"
   },
   {
     "id": "a87272c8-8f60-4292-9d0e-4b855fca8a0c",
     "name": "Tarik's North African",
     "address": "900 E Hill Ave Suite 130, Knoxville, TN 37915",
-    "cuisine_type": "North African",
+    "cuisine_type": "African",
     "price_range": "$$",
     "date_night_score": 7.3,
     "atmosphere_score": 9.5,
@@ -7763,10 +7598,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "welcoming",
-      "cultural",
-      "authentic"
+      "cultural"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -7781,13 +7616,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Parking available at the shopping center at 900 E Hill Ave",
     "created_at": "2025-09-30T22:55:28.753776Z",
-    "updated_at": "2025-10-22T12:24:54.324471Z"
+    "updated_at": "2025-10-23T15:49:01.866248Z"
   },
   {
     "id": "2967eef4-1848-4e17-97e6-4288b31e108d",
     "name": "Tavern at Maker Exchange",
     "address": "World's Fair Park area, Knoxville, TN",
-    "cuisine_type": "Tavern, American",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 6.8,
     "atmosphere_score": 7.7,
@@ -7802,11 +7637,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
       "tavern",
-      "american",
       "worlds_fair_park",
-      "downtown",
       "maker_exchange",
       "live_music",
       "tennessee_ingredients",
@@ -7825,14 +7659,14 @@ const RESTAURANTS = [
     "cached_menu_info": "https://www.makerexchangeknox.com/dinner/",
     "menu_cached_at": null,
     "parking_info": "Free valet parking for diners, Marriott Hotel Garage, World's Fair North Lot, Langley Garage, and Locust Street Garage nearby",
-    "created_at": "2025-10-22T12:24:54.324482Z",
-    "updated_at": "2025-10-22T12:24:54.324484Z"
+    "created_at": "2025-10-23T15:49:01.866251Z",
+    "updated_at": "2025-10-23T15:49:01.866251Z"
   },
   {
     "id": "7b0d5a19-1c8b-4f06-a7b5-02f9f7f2fa54",
     "name": "Tern Club",
     "address": "135 S Gay St, Knoxville, TN 37902",
-    "cuisine_type": "Cocktail Bar (Tropical), Small Plates",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 8.6,
     "atmosphere_score": 8.8,
@@ -7847,9 +7681,9 @@ const RESTAURANTS = [
     "last_visited": "2022-03-24T12:00:00Z",
     "visit_count": 2,
     "average_rating": 9.0,
+    "area": "Downtown",
     "tags": [
       "cocktails",
-      "downtown",
       "tiki",
       "speakeasy_adjacent",
       "pre_post_dinner"
@@ -7866,14 +7700,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ternclub.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Gay St (metered, $1.50/hr, 2hr max). State Street Garage 2 blocks away (434 spaces, $1/hr weekdays, free after 7pm and weekends). Market Square Garage nearby (253 spaces, same rates). W. Jackson Ave Lot near 100 block of South Gay Street (free nights & weekends).",
-    "created_at": "2025-10-22T12:24:54.324493Z",
-    "updated_at": "2025-10-22T12:24:54.324494Z"
+    "created_at": "2025-10-23T15:49:01.866253Z",
+    "updated_at": "2025-10-23T15:49:01.866253Z"
   },
   {
     "id": "45743d40-f939-4300-9c23-f9d03c84ec15",
     "name": "Tesoro Gelato",
     "address": "120 W Jackson Ave, Knoxville, TN 37902",
-    "cuisine_type": "Gelato & Dessert",
+    "cuisine_type": "Desserts",
     "price_range": "$",
     "date_night_score": 5.5,
     "atmosphere_score": 7.3,
@@ -7888,8 +7722,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
-      "old_city",
       "dessert_date",
       "gelato"
     ],
@@ -7905,14 +7739,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.tesorogelato.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on N Central St and W Jackson Ave (metered). Jackson Ave Lot at 401 W Jackson Ave ($1/hr, $7 daily max, free weeknights after 6pm and weekends). Old City Lot North offers free 24/7 parking (101 spaces). Recommended: under James White Parkway overpass.",
-    "created_at": "2025-10-22T12:24:54.324502Z",
-    "updated_at": "2025-10-22T12:24:54.324503Z"
+    "created_at": "2025-10-23T15:49:01.866255Z",
+    "updated_at": "2025-10-23T15:49:01.866255Z"
   },
   {
     "id": "d532bc7c-d82f-419e-84d0-1feab612efcb",
     "name": "Tesoro Gelato",
     "address": "111 North Central St, Knoxville, TN 37917",
-    "cuisine_type": "Gelato, Italian Desserts",
+    "cuisine_type": "Italian",
     "price_range": "$",
     "date_night_score": 7.0,
     "atmosphere_score": null,
@@ -7927,13 +7761,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
       "gelato",
-      "italian",
       "dessert",
-      "old_city",
-      "authentic",
-      "new_2025",
       "locally_sourced"
     ],
     "status": "Active",
@@ -7948,14 +7779,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.324510Z",
-    "updated_at": "2025-10-22T12:24:54.324511Z"
+    "created_at": "2025-10-23T15:49:01.866257Z",
+    "updated_at": "2025-10-23T15:49:01.866257Z"
   },
   {
     "id": "c550bab9-6db9-4994-9238-3e9e2b8048e2",
     "name": "The Appalachian",
     "address": "133 Bruce St, Sevierville, TN 37862",
-    "cuisine_type": "Contemporary Appalachian",
+    "cuisine_type": "Southern",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 10.0,
@@ -7970,11 +7801,11 @@ const RESTAURANTS = [
     "last_visited": "2022-03-05T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "sevierville",
       "fine_dining",
       "farm_to_table",
-      "blackberry_farm_alum",
       "romantic"
     ],
     "status": "Active",
@@ -7989,14 +7820,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://theappalachianrestaurant.com/sevierville-historic-downtown-sevierville-the-appalachian-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free public parking available in downtown Sevierville municipal lots. 26-space city lot accessible from Parkway, additional parking near Main Street. Sevier County Courthouse parking lot open to public. Short walk to restaurant entrance on Bruce Street.",
-    "created_at": "2025-10-22T12:24:54.324520Z",
-    "updated_at": "2025-10-22T12:24:54.324522Z"
+    "created_at": "2025-10-23T15:49:01.866259Z",
+    "updated_at": "2025-10-23T15:49:01.866259Z"
   },
   {
     "id": "90dbf385-b9dd-45a8-a94b-f6eeef469ee2",
     "name": "The Barn at Blackberry Farm",
     "address": "1471 W Millers Cove Rd, Walland, TN 37886",
-    "cuisine_type": "Fine Dining, Appalachian Farm-to-Table",
+    "cuisine_type": "Southern",
     "price_range": "$$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 10.0,
@@ -8011,10 +7842,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "walland",
-      "tasting_menu",
-      "romantic_destination"
+      "tasting_menu"
     ],
     "status": "Active",
     "discovery_source": "official",
@@ -8028,14 +7859,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.blackberryfarm.com/wine-food/restaurants/the-barn\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"notes\": \"Prix fixe menu $160 plus 9.75% tax and 20% service charge\"}",
     "menu_cached_at": null,
     "parking_info": "Complimentary on-site parking and valet service available at Blackberry Farm resort (4,200-acre estate). The Barn is located in the center of the Farmstead with convenient access from main parking areas.",
-    "created_at": "2025-10-22T12:24:54.324530Z",
-    "updated_at": "2025-10-22T12:24:54.324531Z"
+    "created_at": "2025-10-23T15:49:01.866262Z",
+    "updated_at": "2025-10-23T15:49:01.866262Z"
   },
   {
     "id": "317f1460-c731-4224-b72f-00e17626f908",
     "name": "The Brass Pearl",
     "address": "24 Market Square, Knoxville, TN 37902",
-    "cuisine_type": "Seafood, Oyster Bar",
+    "cuisine_type": "Seafood",
     "price_range": "$$",
     "date_night_score": 6.5,
     "atmosphere_score": 7.7,
@@ -8050,10 +7881,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "upscale casual",
-      "market square",
-      "group_bbn_hospitality"
+      "upscale_casual"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -8068,13 +7898,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Market Square Garage at 406 Walnut St (677 spaces, $1/hr, $7 day max, free after 6pm weeknights, $3 flat rate Saturdays, free Sundays). Street parking on Market Square (metered, $1.50/hr, 2hr max). Locust Street Garage nearby (free after 6pm and all weekend).",
     "created_at": "2025-09-30T22:55:28.753697Z",
-    "updated_at": "2025-10-22T12:24:54.324541Z"
+    "updated_at": "2025-10-23T15:49:01.866264Z"
   },
   {
     "id": "5ee990aa-b420-41be-9ee2-b58ee5e19344",
     "name": "The Capricorn Coffee House",
     "address": "5508 Kingston Pike, Ste 140, Knoxville, TN 37919",
-    "cuisine_type": "Coffee House",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 6.7,
     "atmosphere_score": 9.4,
@@ -8089,9 +7919,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "espresso",
-      "desserts",
       "boutique"
     ],
     "status": "Active",
@@ -8106,8 +7936,8 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Shopping center parking available at Kingston Pike location.",
-    "created_at": "2025-10-22T12:24:54.324548Z",
-    "updated_at": "2025-10-22T12:24:54.324550Z"
+    "created_at": "2025-10-23T15:49:01.866266Z",
+    "updated_at": "2025-10-23T15:49:01.866266Z"
   },
   {
     "id": "5446c6ba-eda6-459b-80a0-28416a38493a",
@@ -8128,12 +7958,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Fountain City",
     "tags": [
-      "steakhouse",
-      "fine_dining",
-      "north_knoxville",
-      "fountain_city",
-      "group_connor_concepts"
+      "fine_dining"
     ],
     "status": "Active",
     "discovery_source": "web_search_steakhouse_north_broadway",
@@ -8147,8 +7974,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.thechophouse.com/menus.html\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot available at restaurant location. This is a suburban commercial area with ample on-site parking for guests.",
-    "created_at": "2025-10-22T12:24:54.324558Z",
-    "updated_at": "2025-10-22T12:24:54.324559Z"
+    "created_at": "2025-10-23T15:49:01.866268Z",
+    "updated_at": "2025-10-23T15:49:01.866268Z"
   },
   {
     "id": "f4c86de7-9a6b-4fd3-b207-83548bb3fc64",
@@ -8169,13 +7996,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "West Knoxville",
     "tags": [
-      "steakhouse",
       "fine_dining",
-      "west_knoxville",
       "wine",
-      "cocktails",
-      "group_connor_concepts"
+      "cocktails"
     ],
     "status": "Active",
     "discovery_source": "web_search_steakhouse_west",
@@ -8189,14 +8014,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.thechophouse.com/menus.html\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Franklin Square shopping center lot (over 700 spaces). The Chop House is located in this mixed-use retail center on Kingston Pike, 10 miles west of downtown Knoxville. Ample surface parking available directly at the restaurant with convenient curbside service.",
-    "created_at": "2025-10-22T12:24:54.324567Z",
-    "updated_at": "2025-10-22T12:24:54.324569Z"
+    "created_at": "2025-10-23T15:49:01.866270Z",
+    "updated_at": "2025-10-23T15:49:01.866270Z"
   },
   {
     "id": "fc86b42b-8037-43fb-9c67-9583a8740c79",
     "name": "The Corner Lounge",
     "address": "842 N Central St, Knoxville, TN 37917",
-    "cuisine_type": "Historic Neighborhood Bar & Lounge",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$",
     "date_night_score": 5.4,
     "atmosphere_score": 7.5,
@@ -8211,15 +8036,15 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "dive bar",
+      "dive_bar",
       "historic",
-      "live music",
-      "neighborhood bar",
-      "Happy Holler",
-      "literary landmark",
-      "weekend brunch",
-      "house-made food"
+      "live_music",
+      "neighborhood_bar",
+      "literary_landmark",
+      "weekend_brunch",
+      "house_made_food"
     ],
     "status": "Active",
     "discovery_source": "official site",
@@ -8233,14 +8058,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.cornerloungeknox.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free street parking available on N Central St and surrounding Happy Holler streets. Additional free parking at nearby church next door on weekends.",
-    "created_at": "2025-10-22T12:24:54.324577Z",
-    "updated_at": "2025-10-22T12:24:54.324578Z"
+    "created_at": "2025-10-23T15:49:01.866272Z",
+    "updated_at": "2025-10-23T15:49:01.866272Z"
   },
   {
     "id": "ce5f2dbc-ac31-4cc2-9c03-9d34f3849cd0",
     "name": "The Drawing Room",
     "address": "531 Henley St, Knoxville, TN 37902",
-    "cuisine_type": "Contemporary French/American",
+    "cuisine_type": "French",
     "price_range": "$$$",
     "date_night_score": 9.9,
     "atmosphere_score": 9.9,
@@ -8255,6 +8080,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "fine_dining",
       "farm_to_table",
@@ -8274,14 +8100,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.opentable.com/r/the-drawing-room-the-tennessean-knoxville\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Municipal parking garages nearby with $1/hour rates on weekdays. Free parking after 6pm weekdays and all day weekends at Market Square Garage (1-2 blocks away). On-street metered parking $1.50/hour with 2-hour limit. The Tennessean Hotel may offer valet service for guests.",
-    "created_at": "2025-10-22T12:24:54.324587Z",
-    "updated_at": "2025-10-22T12:24:54.324588Z"
+    "created_at": "2025-10-23T15:49:01.866274Z",
+    "updated_at": "2025-10-23T15:49:01.866274Z"
   },
   {
     "id": "37a2cbd8-897c-426f-a4bd-715f797cb159",
     "name": "The Empty Cup",
     "address": "9111 Executive Park Dr, Knoxville, TN 37923",
-    "cuisine_type": "Non-Profit Coffee House",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.0,
     "atmosphere_score": 6.9,
@@ -8296,9 +8122,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "nonprofit",
-      "family-friendly",
+      "family_friendly",
       "events"
     ],
     "status": "Active",
@@ -8313,14 +8140,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Office park parking lot at Executive Park Dr location.",
-    "created_at": "2025-10-22T12:24:54.324595Z",
-    "updated_at": "2025-10-22T12:24:54.324596Z"
+    "created_at": "2025-10-23T15:49:01.866276Z",
+    "updated_at": "2025-10-23T15:49:01.866276Z"
   },
   {
     "id": "835a90d1-e0e1-41dd-8ce9-fbe355cfb0c5",
     "name": "The French Market Creperie",
     "address": "412 Clinch Avenue, Knoxville, TN 37902",
-    "cuisine_type": "French Cafe",
+    "cuisine_type": "French",
     "price_range": "$$",
     "date_night_score": 5.6,
     "atmosphere_score": 7.9,
@@ -8335,10 +8162,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
       "french",
       "crepes",
-      "downtown",
       "casual",
       "brunch"
     ],
@@ -8354,14 +8181,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"http://www.thefrenchmarketknoxville.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Clinch Ave (metered). Locust Street Garage 185 steps away (4 min walk, closest option). Market Square Garage 275 steps away (6 min walk, free evenings after 6pm, free Sundays, $3 flat rate Saturdays). Limited street parking, garages recommended.",
-    "created_at": "2025-10-22T12:24:54.324604Z",
-    "updated_at": "2025-10-22T12:24:54.324606Z"
+    "created_at": "2025-10-23T15:49:01.866278Z",
+    "updated_at": "2025-10-23T15:49:01.866278Z"
   },
   {
     "id": "8b29f749-0abc-46bf-8d95-09c871ada7ba",
     "name": "The Golden Roast Coffee Roasters",
     "address": "2250 Sutherland Ave Ste 125, Knoxville, TN 37919",
-    "cuisine_type": "Coffee, Roaster",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.7,
     "atmosphere_score": 7.9,
@@ -8376,11 +8203,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "coffee",
       "roaster",
-      "sutherland",
-      "established"
+      "sutherland"
     ],
     "status": "Active",
     "discovery_source": "web_search_coffee_roasters",
@@ -8394,14 +8220,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.zmenu.com/the-golden-roast-knoxville-online-menu/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at Cherokee Mills complex (2220 Sutherland Ave) shared with other tenants. Abundant parking spaces including disability parking. Note: Navigation within business complex may require attention to signage.",
-    "created_at": "2025-10-22T12:24:54.324613Z",
-    "updated_at": "2025-10-22T12:24:54.324615Z"
+    "created_at": "2025-10-23T15:49:01.866281Z",
+    "updated_at": "2025-10-23T15:49:01.866281Z"
   },
   {
     "id": "0053778d-1e6b-4b97-adc3-c8864a77341d",
     "name": "The Greenbrier Restaurant",
     "address": "370 Newman Rd, Gatlinburg, TN 37738",
-    "cuisine_type": "Prime Dry-Aged Steakhouse",
+    "cuisine_type": "Steakhouse",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 10.0,
@@ -8416,9 +8242,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "gatlinburg",
-      "steakhouse",
       "dry_aged",
       "historic",
       "whiskey_society"
@@ -8435,14 +8260,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://greenbrierrestaurant.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available. Restaurant located up steep hill at 370 Newman Rd, requiring careful navigation on winding road to hilltop location.",
-    "created_at": "2025-10-22T12:24:54.324623Z",
-    "updated_at": "2025-10-22T12:24:54.324624Z"
+    "created_at": "2025-10-23T15:49:01.866284Z",
+    "updated_at": "2025-10-23T15:49:01.866284Z"
   },
   {
     "id": "2b2d047e-d842-4d3a-93f0-e40a36d6677a",
     "name": "The Hill Bar & Grill",
     "address": "1105 Forest Ave, Knoxville, TN 37916",
-    "cuisine_type": "Wings, Sports Bar",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$",
     "date_night_score": 4.8,
     "atmosphere_score": 7.0,
@@ -8457,10 +8282,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "wings",
       "sports_bar",
-      "ut_campus",
       "fort_sanders",
       "award_winning"
     ],
@@ -8476,14 +8300,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://thehillknox.com/menu.html\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free street parking available on Forest Ave and surrounding Fort Sanders neighborhood streets. On-site parking lot may be available (call to confirm). Limited availability during University of Tennessee home games and events.",
-    "created_at": "2025-10-22T12:24:54.324632Z",
-    "updated_at": "2025-10-22T12:24:54.324633Z"
+    "created_at": "2025-10-23T15:49:01.866286Z",
+    "updated_at": "2025-10-23T15:49:01.866286Z"
   },
   {
     "id": "413b6d30-4420-427a-87e4-c6fe9e9fe72b",
     "name": "The Kennedy",
     "address": "430 S Gay St, Knoxville, TN 37902",
-    "cuisine_type": "Chef-Driven Americana",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 8.5,
     "atmosphere_score": 8.9,
@@ -8498,10 +8322,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "romantic",
       "historic",
-      "live music"
+      "live_music"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -8516,13 +8341,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "State Street Garage recommended (free after 7pm weeknights, free weekends). Market Square Garage nearby ($3 flat rate Saturdays, free Sundays after 6pm). Street parking on Gay St ($1.50/hr, 2hr limit). Municipal garages $1/hr weekdays, free after 6pm and weekends.",
     "created_at": "2025-09-30T22:55:28.753449Z",
-    "updated_at": "2025-10-22T12:24:54.324642Z"
+    "updated_at": "2025-10-23T15:49:01.866287Z"
   },
   {
     "id": "4a2f575d-0497-46bf-abb7-19f1a58b0e3d",
     "name": "The Marlowe",
     "address": "1123 N Central Street, Knoxville, TN 37917",
-    "cuisine_type": "Contemporary Continental",
+    "cuisine_type": "American",
     "price_range": "$$",
     "date_night_score": 8.4,
     "atmosphere_score": 9.3,
@@ -8537,10 +8362,11 @@ const RESTAURANTS = [
     "last_visited": "2024-10-14T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "sophisticated",
-      "live jazz",
-      "neighborhood dining"
+      "live_jazz",
+      "neighborhood_dining"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -8555,13 +8381,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking available on N Central St. Additional parking at nearby church next door. Happy Holler area offers free parking at downtown garages on weeknights and weekends.",
     "created_at": "2025-09-30T22:55:28.753805Z",
-    "updated_at": "2025-10-22T12:24:54.324653Z"
+    "updated_at": "2025-10-23T15:49:01.866290Z"
   },
   {
     "id": "faf66dd1-5c1c-4b61-9819-d5930bdadd5b",
     "name": "The Oak Room by Abridged",
     "address": "109 W Anderson Ave, Knoxville, TN 37917",
-    "cuisine_type": "Sour Beer Bar & Modern American",
+    "cuisine_type": "Brewery",
     "price_range": "$",
     "date_night_score": 6.7,
     "atmosphere_score": 8.3,
@@ -8576,13 +8402,11 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
-      "brewery",
       "craft_beer",
-      "happy_holler",
       "barrel_aged",
-      "sours",
-      "group_abridged"
+      "sours"
     ],
     "status": "Active",
     "discovery_source": "web_search_happy_holler_brewery",
@@ -8596,14 +8420,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.abridgedoakroom.com/food\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on W Anderson Ave and surrounding Happy Holler streets (free, no meters). Downtown Knoxville parking garages 1-2 miles south offer free parking on weeknights and weekends.",
-    "created_at": "2025-10-22T12:24:54.324662Z",
-    "updated_at": "2025-10-22T12:24:54.324663Z"
+    "created_at": "2025-10-23T15:49:01.866292Z",
+    "updated_at": "2025-10-23T15:49:01.866292Z"
   },
   {
     "id": "1c18caa8-e954-483b-9451-fa976d8478c3",
     "name": "The Original Freezo",
     "address": "1305 N Central St, Knoxville, TN 37917",
-    "cuisine_type": "Ice Cream",
+    "cuisine_type": "Desserts",
     "price_range": "$",
     "date_night_score": 5.3,
     "atmosphere_score": 7.9,
@@ -8618,9 +8442,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "ice_cream",
-      "happy_holler",
       "retro",
       "historic"
     ],
@@ -8636,14 +8460,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://the-original-freezo.res-menu.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on N Central St. Happy Holler neighborhood has accessible street parking with typical downtown Knoxville restrictions. Nearby church parking may be available.",
-    "created_at": "2025-10-22T12:24:54.324671Z",
-    "updated_at": "2025-10-22T12:24:54.324672Z"
+    "created_at": "2025-10-23T15:49:01.866294Z",
+    "updated_at": "2025-10-23T15:49:01.866294Z"
   },
   {
     "id": "aa9fa3b2-febc-428a-93f0-a58e14f1ac4b",
     "name": "The Phoenix Pharmacy & Fountain",
     "address": "418 S Gay St, Ste 104, Knoxville, TN 37902",
-    "cuisine_type": "Dessert/Soda Fountain",
+    "cuisine_type": "Desserts",
     "price_range": "$",
     "date_night_score": 5.1,
     "atmosphere_score": 7.6,
@@ -8658,10 +8482,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
-      "dessert_date",
-      "downtown",
-      "classic"
+      "dessert_date"
     ],
     "status": "Active",
     "discovery_source": "official site + local coverage",
@@ -8675,14 +8498,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.thephoenixknoxville.com/menu-2\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Market Square Garage 2 blocks away (free after 7pm weeknights, free weekends). State Street Garage nearby ($1/hour weekdays, free nights/weekends). On-street metered parking on Gay St ($1.50/hour, 2hr max). W. Jackson Ave Lot near 100 block S Gay St (free nights/weekends).",
-    "created_at": "2025-10-22T12:24:54.324680Z",
-    "updated_at": "2025-10-22T12:24:54.324681Z"
+    "created_at": "2025-10-23T15:49:01.866296Z",
+    "updated_at": "2025-10-23T15:49:01.866296Z"
   },
   {
     "id": "6673a31d-eb27-472d-98fc-9edf09408fe8",
     "name": "The Plaid Apron",
     "address": "1210 Kenesaw Ave, Knoxville, TN 37919",
-    "cuisine_type": "Farm-to-Table Brunch",
+    "cuisine_type": "Farm-to-Table",
     "price_range": "$$",
     "date_night_score": 9.9,
     "atmosphere_score": 9.4,
@@ -8697,10 +8520,11 @@ const RESTAURANTS = [
     "last_visited": "2023-08-12T12:00:00Z",
     "visit_count": 3,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
-      "neighborhood gem",
-      "casual elegant",
-      "farm-focused"
+      "neighborhood_gem",
+      "casual_elegant",
+      "farm_focused"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -8715,13 +8539,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available at Sequoyah Hills Office Plaza (1200-1210 Kenesaw Ave). Free street parking on Kenesaw Ave. Restaurant located in residential Sequoyah Hills neighborhood with ample parking.",
     "created_at": "2025-09-30T22:55:28.753630Z",
-    "updated_at": "2025-10-22T12:24:54.324694Z"
+    "updated_at": "2025-10-23T15:49:01.866298Z"
   },
   {
     "id": "ee6a4d6a-75ed-4533-823d-17b92eef40bd",
     "name": "The Shrimp Dock - Alcoa",
     "address": "321 S Calderwood St, Alcoa, TN 37701",
-    "cuisine_type": "Seafood, Market",
+    "cuisine_type": "Seafood",
     "price_range": "$$",
     "date_night_score": 6.1,
     "atmosphere_score": 7.3,
@@ -8736,12 +8560,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Alcoa",
     "tags": [
-      "seafood",
-      "market",
-      "alcoa",
-      "fresh",
-      "group_burleson_brands"
+      "market"
     ],
     "status": "Active",
     "discovery_source": "web_search_seafood_alcoa",
@@ -8755,14 +8576,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.shrimpdock.com/alcoa-menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot on-site at 321 S Calderwood St. Additional street parking available on S Calderwood St.",
-    "created_at": "2025-10-22T12:24:54.324702Z",
-    "updated_at": "2025-10-22T12:24:54.324703Z"
+    "created_at": "2025-10-23T15:49:01.866300Z",
+    "updated_at": "2025-10-23T15:49:01.866300Z"
   },
   {
     "id": "52ba18fd-1007-4c08-b18b-f40715d70ad1",
     "name": "The Shrimp Dock - Bearden",
     "address": "5210 Kingston Pike, Knoxville, TN 37919",
-    "cuisine_type": "Seafood, Market",
+    "cuisine_type": "Seafood",
     "price_range": "$",
     "date_night_score": 4.4,
     "atmosphere_score": 6.7,
@@ -8777,12 +8598,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Bearden",
     "tags": [
-      "seafood",
-      "market",
-      "bearden",
-      "fresh",
-      "group_burleson_brands"
+      "market"
     ],
     "status": "Active",
     "discovery_source": "web_search_seafood_bearden",
@@ -8796,14 +8614,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.shrimpdock.com/bearden-menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot at restaurant. Additional parking available at nearby Kroger (4918 Kingston Pike, short walk). Street parking on Kingston Pike with standard metered restrictions.",
-    "created_at": "2025-10-22T12:24:54.324712Z",
-    "updated_at": "2025-10-22T12:24:54.324713Z"
+    "created_at": "2025-10-23T15:49:01.866302Z",
+    "updated_at": "2025-10-23T15:49:01.866302Z"
   },
   {
     "id": "b809ca29-b7c6-40e5-8754-5bb54bdae1d8",
     "name": "The Shrimp Dock - Farragut",
     "address": "11124 Kingston Pike, Suite 111, Knoxville, TN 37934",
-    "cuisine_type": "Seafood Market & Restaurant",
+    "cuisine_type": "Seafood",
     "price_range": "$$",
     "date_night_score": 5.8,
     "atmosphere_score": 7.0,
@@ -8818,12 +8636,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Farragut",
     "tags": [
-      "seafood",
-      "market",
-      "farragut",
-      "fresh",
-      "group_burleson_brands"
+      "market"
     ],
     "status": "Active",
     "discovery_source": "web_search_seafood_farragut",
@@ -8837,14 +8652,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/store/the-shrimp-dock-in-farragut-kingston-pike/9wOCzBSfWJSgh8zEAIhyjA\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in shared shopping center lot at 11124 Kingston Pike. The Shrimp Dock is located in a retail complex with ample customer parking directly in front of the restaurant and market.",
-    "created_at": "2025-10-22T12:24:54.324721Z",
-    "updated_at": "2025-10-22T12:24:54.324723Z"
+    "created_at": "2025-10-23T15:49:01.866304Z",
+    "updated_at": "2025-10-23T15:49:01.866304Z"
   },
   {
     "id": "77f9a9d4-2042-465a-be7b-6ec38f8ba77c",
     "name": "The Sugar Queen Creamery",
     "address": "106 E Young High Pike, Knoxville, TN 37920",
-    "cuisine_type": "Ice Cream, Bakery",
+    "cuisine_type": "Bakery",
     "price_range": "$",
     "date_night_score": 5.6,
     "atmosphere_score": 8.1,
@@ -8859,10 +8674,9 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "bakery",
-      "ice_cream",
-      "desserts"
+      "ice_cream"
     ],
     "status": "Active",
     "discovery_source": "web_search_bakery_ice_cream",
@@ -8876,14 +8690,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.thesugarqueencreamery.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"prices_verified\": true, \"sample_prices\": \"Mini (1 scoop): $3.89, Small (2 scoops): $4.89, Large (3 scoops): $5.89, Flight (4 mini scoops): $6.39\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot available (limited spaces, can be challenging during busy times). Handicap accessible parking spaces available. Patience recommended during peak hours due to popularity.",
-    "created_at": "2025-10-22T12:24:54.324730Z",
-    "updated_at": "2025-10-22T12:24:54.324731Z"
+    "created_at": "2025-10-23T15:49:01.866305Z",
+    "updated_at": "2025-10-23T15:49:01.866306Z"
   },
   {
     "id": "f6e37f6f-dd6e-4fa4-b21d-c3b40030f31f",
     "name": "The Vault",
     "address": "531 S Gay St, Knoxville, TN 37902",
-    "cuisine_type": "Cocktail Bar",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 9.9,
@@ -8898,9 +8712,8 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
-    "tags": [
-      "group_spaces_in_the_city"
-    ],
+    "area": null,
+    "tags": [],
     "status": "Active",
     "discovery_source": "compass_dining_guide_2025",
     "verification_status": "Verified",
@@ -8913,14 +8726,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.thevaultknoxville.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on Gay St (metered, $1.50/hr, 2hr max). State Street Garage nearby ($1/hr weekdays, free after 6pm and all weekend). Locust Street Garage 2 blocks away (649 spaces, $1/hr, $7 max/day). W. Jackson Ave Lot near 100 block S Gay St (free nights and weekends).",
-    "created_at": "2025-10-22T12:24:54.324741Z",
-    "updated_at": "2025-10-22T12:24:54.324742Z"
+    "created_at": "2025-10-23T15:49:01.866307Z",
+    "updated_at": "2025-10-23T15:49:01.866307Z"
   },
   {
     "id": "c1485af4-4cf5-4dde-adb8-0f3e2c78ad67",
     "name": "The Walnut Kitchen",
     "address": "606 High Street, Maryville, TN 37804",
-    "cuisine_type": "Modern Southern & Farm-to-Table",
+    "cuisine_type": "Southern",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 9.9,
@@ -8935,9 +8748,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Maryville",
     "tags": [
-      "maryville",
-      "steakhouse",
       "farm_to_table",
       "craft_cocktails",
       "rustic_charm"
@@ -8955,13 +8767,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Street parking available on High Street in downtown Maryville (metered, limited availability). Free parking in city garages on weekends. Parking can be challenging during peak dinner hours but worth the effort for the dining experience.",
     "created_at": "2025-09-30T22:55:28.753571Z",
-    "updated_at": "2025-10-22T12:24:54.324752Z"
+    "updated_at": "2025-10-23T15:49:01.866310Z"
   },
   {
     "id": "5fe3c989-5dc6-4e2f-9c71-bcfb09fcd300",
     "name": "Three Rivers Market",
     "address": "1100 N. Central St., Knoxville, TN 37917",
-    "cuisine_type": "Natural Foods Market, Deli",
+    "cuisine_type": "Sandwiches/Deli",
     "price_range": "$$",
     "date_night_score": 5.8,
     "atmosphere_score": 7.0,
@@ -8976,10 +8788,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "market",
-      "deli",
-      "vegetarian",
+      "vegetarian_options",
       "vegan",
       "healthy",
       "prepared_foods"
@@ -8996,14 +8808,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.threeriversmarket.coop/inside-the-store/deli/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"notes\": \"Daily-changing hot bar and salad bar, priced by weight. Menu varies daily.\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot on-site (enter from N. Central St. after Baxter Ave intersection). Additional street parking available on south side of Baxter Ave (across from store). KAT bus routes #13, #20, #21, #24 stop nearby (every 30 minutes).",
-    "created_at": "2025-10-22T12:24:54.324760Z",
-    "updated_at": "2025-10-22T12:24:54.324761Z"
+    "created_at": "2025-10-23T15:49:01.866313Z",
+    "updated_at": "2025-10-23T15:49:01.866313Z"
   },
   {
     "id": "4607958d-e7a9-4837-a690-1dec445f4baa",
     "name": "Tia's Tacos",
     "address": "11071 Parkside Drive, Knoxville, TN 37934",
-    "cuisine_type": "Mexican, Tacos",
+    "cuisine_type": "Mexican",
     "price_range": "$",
     "date_night_score": 5.2,
     "atmosphere_score": 7.1,
@@ -9018,11 +8830,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
-    "tags": [
-      "mexican",
-      "tacos",
-      "turkey_creek"
-    ],
+    "area": "Turkey Creek",
+    "tags": [],
     "status": "Active",
     "discovery_source": "web_search_turkey_creek_mexican",
     "verification_status": "Verified",
@@ -9035,14 +8844,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://tiastacostn.com/knoxville-turkey-creek-tia-s-tacos-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot at Turkey Creek shopping center. Ample parking spaces directly in front of restaurant at 11071 Parkside Drive. Additional overflow parking throughout Turkey Creek complex within short walking distance.",
-    "created_at": "2025-10-22T12:24:54.324769Z",
-    "updated_at": "2025-10-22T12:24:54.324770Z"
+    "created_at": "2025-10-23T15:49:01.866314Z",
+    "updated_at": "2025-10-23T15:49:01.866314Z"
   },
   {
     "id": "1571cb54-db4d-462b-bf00-e0c7ae7286c3",
     "name": "Tomato Head",
     "address": "12 Market Sq, Knoxville, TN 37902",
-    "cuisine_type": "Wood-Fired Pizza, Farm-to-Table",
+    "cuisine_type": "Pizza",
     "price_range": "$$",
     "date_night_score": 6.0,
     "atmosphere_score": 7.4,
@@ -9057,10 +8866,10 @@ const RESTAURANTS = [
     "last_visited": "2022-11-25T12:00:00Z",
     "visit_count": 2,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "casual",
-      "market square",
-      "family-friendly"
+      "family_friendly"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -9075,13 +8884,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Market Square Garage at 406 Walnut St (1 block away, 677 spaces, $1/hr with $7/day max, free after 6pm weeknights and all day Sunday, $3 flat rate Saturday). Street parking on Market Square (metered, $1.50/hr, 2hr max). Locust Street Garage nearby (649 spaces, same rates as Market Square).",
     "created_at": "2025-09-30T22:55:28.753681Z",
-    "updated_at": "2025-10-22T12:24:54.324780Z"
+    "updated_at": "2025-10-23T15:49:01.866318Z"
   },
   {
     "id": "ecf4c6d2-bf24-4678-a69b-472544b5c86b",
     "name": "Townsend Abbey",
     "address": "7765 River Rd, Townsend, TN 37882",
-    "cuisine_type": "Pub, Craft Beer, American",
+    "cuisine_type": "Brewery",
     "price_range": "$$",
     "date_night_score": 7.4,
     "atmosphere_score": 8.7,
@@ -9096,8 +8905,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "townsend",
       "patio",
       "riverfront"
     ],
@@ -9113,14 +8922,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://townsendabbey.com/townsend-the-abbey-at-the-heartland-chapel-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free off-street parking lot on-site with ample spaces. Private lot parking available directly at restaurant.",
-    "created_at": "2025-10-22T12:24:54.324787Z",
-    "updated_at": "2025-10-22T12:24:54.324789Z"
+    "created_at": "2025-10-23T15:49:01.866320Z",
+    "updated_at": "2025-10-23T15:49:01.866320Z"
   },
   {
     "id": "e32b2337-19fe-4ef3-9694-b8925737f9dc",
     "name": "Trailhead",
     "address": "1317 Island Home Ave, Knoxville, TN 37920",
-    "cuisine_type": "Beer Bar",
+    "cuisine_type": "Brewery",
     "price_range": "$",
     "date_night_score": 5.2,
     "atmosphere_score": 7.2,
@@ -9135,11 +8944,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "South Knoxville",
     "tags": [
       "bar",
       "beer",
-      "cider",
-      "south_knoxville"
+      "cider"
     ],
     "status": "Active",
     "discovery_source": "web_search_sevier_avenue",
@@ -9153,14 +8962,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.facebook.com/trailheadbeermarket/\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot on-site at 1317 Island Home Ave. Street parking available on Island Home Ave (unrestricted). Located 1 block from Tennessee River greenway access.",
-    "created_at": "2025-10-22T12:24:54.324796Z",
-    "updated_at": "2025-10-22T12:24:54.324798Z"
+    "created_at": "2025-10-23T15:49:01.866322Z",
+    "updated_at": "2025-10-23T15:49:01.866322Z"
   },
   {
     "id": "e1b374a5-ab75-4351-bf22-d354e72e99b5",
     "name": "Treetop Coffee Shop Sequoyah Hills",
     "address": "1206 Kenesaw Ave, Knoxville, TN 37919",
-    "cuisine_type": "Coffee & Pastries",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.3,
     "atmosphere_score": 7.3,
@@ -9175,10 +8984,10 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
       "sequoyah_hills",
-      "strollable",
-      "neighborhood"
+      "strollable"
     ],
     "status": "Active",
     "discovery_source": "official site + Visit Knoxville",
@@ -9192,14 +9001,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free street parking available on Kenesaw Ave and surrounding residential streets in Sequoyah Hills neighborhood. Located in Sequoyah Hills Office Plaza (1200-1210 Kenesaw Ave).",
-    "created_at": "2025-10-22T12:24:54.324807Z",
-    "updated_at": "2025-10-22T12:24:54.324808Z"
+    "created_at": "2025-10-23T15:49:01.866324Z",
+    "updated_at": "2025-10-23T15:49:01.866324Z"
   },
   {
     "id": "ba541ed4-65d7-44f0-bffa-63d927e35431",
     "name": "U Brew Coffee Lounge",
     "address": "114 Carr St, Knoxville, TN 37917",
-    "cuisine_type": "Coffee Lounge & Tasting Experience",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 7.1,
     "atmosphere_score": 9.0,
@@ -9214,11 +9023,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "single-origin",
-      "manual brew",
-      "classes/tastings",
-      "geeky"
+      "single_origin",
+      "manual_brew",
+      "classes/tastings"
     ],
     "status": "Active",
     "discovery_source": "Inside of Knoxville",
@@ -9232,14 +9041,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking on Carr St in Old City. Nearby Old City parking lots and garages available (free weeknights after 6pm, free weekends at many city garages).",
-    "created_at": "2025-10-22T12:24:54.324816Z",
-    "updated_at": "2025-10-22T12:24:54.324817Z"
+    "created_at": "2025-10-23T15:49:01.866325Z",
+    "updated_at": "2025-10-23T15:49:01.866325Z"
   },
   {
     "id": "878f6b5c-3586-4055-a8ea-a806e9e1896e",
     "name": "Urban Bar",
     "address": "Old City, Knoxville, TN 37902",
-    "cuisine_type": "American Bar & Pub",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$",
     "date_night_score": 5.3,
     "atmosphere_score": 7.4,
@@ -9254,6 +9063,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [],
     "status": "Active",
     "discovery_source": "compass_dining_guide_2025",
@@ -9267,14 +9077,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking on N Central St (metered, $1.50/hr, 2hr limit weekdays; free after 6pm and weekends). Multiple municipal garages within 2-3 blocks including State Street Garage and Market Square Garage ($1/hr weekdays; free after 6pm weekdays and all day weekends). Use Parkopedia app for real-time garage availability.",
-    "created_at": "2025-10-22T12:24:54.324823Z",
-    "updated_at": "2025-10-22T12:24:54.324825Z"
+    "created_at": "2025-10-23T15:49:01.866327Z",
+    "updated_at": "2025-10-23T15:49:01.866327Z"
   },
   {
     "id": "92cf7bc9-6476-4817-8221-a89b3968cd5a",
     "name": "Velocity Coffee & Roasters",
     "address": "7107 Clinton Hwy, Powell, TN 37849",
-    "cuisine_type": "Roaster & Drive-Thru Cafe",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 4.4,
     "atmosphere_score": 7.5,
@@ -9289,8 +9099,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Powell",
     "tags": [
-      "powell",
       "roastery",
       "drive_thru"
     ],
@@ -9306,14 +9116,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Free parking lot available at location on Clinton Hwy. Additional street parking on Clinton Hwy.",
-    "created_at": "2025-10-22T12:24:54.324832Z",
-    "updated_at": "2025-10-22T12:24:54.324833Z"
+    "created_at": "2025-10-23T15:49:01.866329Z",
+    "updated_at": "2025-10-23T15:49:01.866329Z"
   },
   {
     "id": "53ae973b-57a3-4fea-855c-fefb51d83a79",
     "name": "Victor's Taco Shop",
     "address": "2121 Cumberland Ave, Knoxville, TN 37916",
-    "cuisine_type": "Mexican, Tacos",
+    "cuisine_type": "Mexican",
     "price_range": "$",
     "date_night_score": 3.9,
     "atmosphere_score": 6.4,
@@ -9328,10 +9138,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "mexican",
-      "tacos",
-      "ut_campus",
       "the_strip",
       "student_favorite"
     ],
@@ -9347,14 +9155,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.victorsts.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking available on Cumberland Ave (metered, time restrictions apply). Premium Parking garage at 1831 Cumberland Ave, 3 blocks west. 11th Street Parking Garage at 1101 Cumberland Ave (UT campus visitor parking). Additional hourly mobile pay spaces available throughout UT campus area.",
-    "created_at": "2025-10-22T12:24:54.324841Z",
-    "updated_at": "2025-10-22T12:24:54.324842Z"
+    "created_at": "2025-10-23T15:49:01.866330Z",
+    "updated_at": "2025-10-23T15:49:01.866331Z"
   },
   {
     "id": "5488b816-bcc7-493f-b118-dc9c33f31bb6",
     "name": "Vida",
     "address": "531 S Gay St, Knoxville, TN 37902",
-    "cuisine_type": "Pan-Latin",
+    "cuisine_type": "American",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 9.9,
@@ -9369,11 +9177,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "romantic",
-      "sophisticated",
-      "beautiful setting",
-      "group_spaces_in_the_city"
+      "sophisticated"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -9388,13 +9195,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": null,
     "created_at": "2025-09-30T22:55:28.753499Z",
-    "updated_at": "2025-10-22T12:24:54.324853Z"
+    "updated_at": "2025-10-23T15:49:01.866333Z"
   },
   {
     "id": "f481f860-64d7-4a0c-86fa-a58b6ed53146",
     "name": "Wagon Wheel",
     "address": "115 S Central St, Knoxville, TN 37902",
-    "cuisine_type": "Country Bar",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$",
     "date_night_score": 5.8,
     "atmosphere_score": 7.6,
@@ -9409,12 +9216,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Old City",
     "tags": [
       "country",
       "bar",
-      "nightlife",
-      "old_city",
-      "central_avenue"
+      "nightlife"
     ],
     "status": "Active",
     "discovery_source": "web_search_old_city_nightlife",
@@ -9428,14 +9234,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking available on Central St (metered, $1.50/hr, 2hr max weekdays, free after 6pm and weekends). Locust Street Garage 3 blocks away (649 spaces, $1/hr, $7 max). State Street Garage nearby. Most downtown municipal garages free after 6pm weekdays and all weekend.",
-    "created_at": "2025-10-22T12:24:54.324860Z",
-    "updated_at": "2025-10-22T12:24:54.324862Z"
+    "created_at": "2025-10-23T15:49:01.866335Z",
+    "updated_at": "2025-10-23T15:49:01.866335Z"
   },
   {
     "id": "870eaf99-00fc-42de-aefe-fac2d9b06261",
     "name": "Wasabi Japanese Restaurant",
     "address": "118 Major Reynolds Pl, Knoxville, TN 37919",
-    "cuisine_type": "Japanese Hibachi, Sushi",
+    "cuisine_type": "Japanese",
     "price_range": "$$",
     "date_night_score": 6.9,
     "atmosphere_score": 8.1,
@@ -9450,11 +9256,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "japanese",
-      "hibachi",
       "teppanyaki",
-      "entertainment"
+      "live_music"
     ],
     "status": "Active",
     "discovery_source": "web_search_sushi_japanese",
@@ -9468,14 +9273,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.opentable.com/r/wasabi-japanese-steakhouse-and-sushi-bar-knoxville-bearden-knoxville\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available at restaurant. Located in Bearden shopping area with ample parking.",
-    "created_at": "2025-10-22T12:24:54.324870Z",
-    "updated_at": "2025-10-22T12:24:54.324871Z"
+    "created_at": "2025-10-23T15:49:01.866337Z",
+    "updated_at": "2025-10-23T15:49:01.866337Z"
   },
   {
     "id": "a5d89f37-6904-40b9-a0a6-54ef1b4f9b3b",
     "name": "Water Into Wine",
     "address": "607 N Campbell Station Rd, Knoxville, TN 37934",
-    "cuisine_type": "Wine Bar, American",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 8.5,
     "atmosphere_score": 9.4,
@@ -9490,6 +9295,7 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [],
     "status": "Active",
     "discovery_source": "compass_dining_guide_2025",
@@ -9503,14 +9309,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://waterintowineknoxville.com/knoxville-farragut-water-into-wine-food-menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Walgreens Shopping Center strip mall lot. Parking can be crowded during peak hours and weekends, may need to circle for a spot. Located off Campbell Station Rd with easy I-40 access.",
-    "created_at": "2025-10-22T12:24:54.324877Z",
-    "updated_at": "2025-10-22T12:24:54.324879Z"
+    "created_at": "2025-10-23T15:49:01.866338Z",
+    "updated_at": "2025-10-23T15:49:01.866338Z"
   },
   {
     "id": "19188471-87b8-4e05-8b18-f6f9c552e15f",
     "name": "Wholly Souled Soul Food",
     "address": "1323 Pembroke Avenue, Knoxville, TN 37917",
-    "cuisine_type": "Soul Food",
+    "cuisine_type": "Southern",
     "price_range": "$$",
     "date_night_score": 6.2,
     "atmosphere_score": 7.3,
@@ -9525,13 +9331,13 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "memphis-style barbecue",
-      "smoked mac and cheese",
-      "tender ribs",
-      "collard greens",
-      "family-owned",
-      "30+ years experience"
+      "memphis_style_barbecue",
+      "smoked_mac_and_cheese",
+      "tender_ribs",
+      "collard_greens",
+      "family_owned"
     ],
     "status": "Active",
     "discovery_source": "web_search_soul_food_food_truck",
@@ -9545,14 +9351,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.324886Z",
-    "updated_at": "2025-10-22T12:24:54.324888Z"
+    "created_at": "2025-10-23T15:49:01.866340Z",
+    "updated_at": "2025-10-23T15:49:01.866340Z"
   },
   {
     "id": "d5ca69ca-0291-479f-a284-e382f3f9664f",
     "name": "Wild Love Bakehouse",
     "address": "1625 N Central St, Knoxville, TN 37917",
-    "cuisine_type": "Bakehouse & Coffee",
+    "cuisine_type": "Coffee/Cafe",
     "price_range": "$",
     "date_night_score": 5.0,
     "atmosphere_score": 7.3,
@@ -9567,10 +9373,10 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": null,
     "tags": [
-      "bakery",
       "seasonal",
-      "daytime date"
+      "daytime_date"
     ],
     "status": "Active",
     "discovery_source": "Official site",
@@ -9584,14 +9390,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": "Street parking on N Central St in North Knoxville neighborhood.",
-    "created_at": "2025-10-22T12:24:54.324896Z",
-    "updated_at": "2025-10-22T12:24:54.324897Z"
+    "created_at": "2025-10-23T15:49:01.866342Z",
+    "updated_at": "2025-10-23T15:49:01.866342Z"
   },
   {
     "id": "cf7b1ebb-38a7-4bf6-bca0-259a52e59f20",
     "name": "Wilder at Windy Hill Farm",
     "address": "1180 Poplar Springs Blair Bend Road, Loudon, TN 37774",
-    "cuisine_type": "Farm-to-Table Southern",
+    "cuisine_type": "Southern",
     "price_range": "$$$",
     "date_night_score": 10.0,
     "atmosphere_score": 9.9,
@@ -9606,10 +9412,11 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "romantic",
       "elegant",
-      "farm setting"
+      "farm_setting"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -9624,13 +9431,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "On-site parking lot available. Park in front of the Watchhouse where guest services agents will guide visitors to Wilder restaurant.",
     "created_at": "2025-09-30T22:55:28.753510Z",
-    "updated_at": "2025-10-22T12:24:54.324906Z"
+    "updated_at": "2025-10-23T15:49:01.866344Z"
   },
   {
     "id": "44293b49-c51d-4fc9-b265-eba0f5e3de58",
     "name": "Wings Xpress",
     "address": "5227 Clinton Highway, Knoxville, TN 37912",
-    "cuisine_type": "Wings, Sports Bar",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$",
     "date_night_score": 5.0,
     "atmosphere_score": 7.0,
@@ -9645,8 +9452,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "wings",
       "sports_bar",
       "ut_games"
     ],
@@ -9662,8 +9469,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://wings-xpress.com/wings-xpress-menu.html\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free on-site parking lot with ample spaces directly in front of restaurant. Easy access from Clinton Highway with convenient drive-thru lane for takeout orders.",
-    "created_at": "2025-10-22T12:24:54.324914Z",
-    "updated_at": "2025-10-22T12:24:54.324915Z"
+    "created_at": "2025-10-23T15:49:01.866346Z",
+    "updated_at": "2025-10-23T15:49:01.866346Z"
   },
   {
     "id": "07e043ed-8526-469b-8f47-d21d368dbff3",
@@ -9684,10 +9491,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "chinese",
-      "asian",
-      "delivery",
       "casual_dining"
     ],
     "status": "Active",
@@ -9702,14 +9507,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://wokchow.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot on-site. Additional parking available in surrounding area along Kingston Pike and adjacent shopping center lots.",
-    "created_at": "2025-10-22T12:24:54.324922Z",
-    "updated_at": "2025-10-22T12:24:54.324924Z"
+    "created_at": "2025-10-23T15:49:01.866348Z",
+    "updated_at": "2025-10-23T15:49:01.866348Z"
   },
   {
     "id": "35f1d1c4-1775-4c27-be4d-86a820ce2e1f",
     "name": "Xül Beer Company - 5th Ave Taproom",
     "address": "213 E 5th Ave, Knoxville, TN 37917",
-    "cuisine_type": "Brewery, Craft Beer",
+    "cuisine_type": "Brewery",
     "price_range": "$$",
     "date_night_score": 6.0,
     "atmosphere_score": 7.6,
@@ -9724,12 +9529,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": "Downtown",
     "tags": [
-      "downtown",
       "emory_place",
-      "brewery",
-      "craft_beer",
-      "design_forward"
+      "craft_beer"
     ],
     "status": "Active",
     "discovery_source": "XUL Beer Company website",
@@ -9743,14 +9546,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://shop.xulbeer.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\", \"note\": \"Taproom menu - specific pint prices not listed online\"}",
     "menu_cached_at": null,
     "parking_info": "Street parking on E 5th Ave (metered, $1/hr weekdays, free after 6pm and weekends). State Street Garage 3 blocks west at 500 State St (434 spaces, $1/hr weekdays, free evenings/weekends). Locust Street Garage 4 blocks away at 540 Locust St (649 spaces, same rates).",
-    "created_at": "2025-10-22T12:24:54.324933Z",
-    "updated_at": "2025-10-22T12:24:54.324934Z"
+    "created_at": "2025-10-23T15:49:01.866350Z",
+    "updated_at": "2025-10-23T15:49:01.866350Z"
   },
   {
     "id": "0dc037df-cf8c-4d57-8050-52f978e8a3f3",
     "name": "Xül Beer Company - Hardin Valley",
     "address": "10677 Hardin Valley Rd, Knoxville, TN 37932",
-    "cuisine_type": "Craft Brewery",
+    "cuisine_type": "Brewery",
     "price_range": "$$",
     "date_night_score": 7.6,
     "atmosphere_score": 8.9,
@@ -9765,10 +9568,9 @@ const RESTAURANTS = [
     "last_visited": "2024-01-01T12:00:00Z",
     "visit_count": 1,
     "average_rating": 9.0,
+    "area": "West Knoxville",
     "tags": [
       "hardin_valley",
-      "west_knoxville",
-      "brewery",
       "craft_beer"
     ],
     "status": "Active",
@@ -9783,14 +9585,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://shop.xulbeer.com/menu/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking lot shared with neighboring businesses (Don Gallo, Double Dogs) in Hardin Valley shopping center. Ample surface parking directly in front of taproom entrance.",
-    "created_at": "2025-10-22T12:24:54.324942Z",
-    "updated_at": "2025-10-22T12:24:54.324944Z"
+    "created_at": "2025-10-23T15:49:01.866352Z",
+    "updated_at": "2025-10-23T15:49:01.866352Z"
   },
   {
     "id": "58e35545-2aa5-46c3-9d97-7c9bfad46940",
     "name": "Yamato Ramen House",
     "address": "11527 Parkside Dr, Knoxville, TN 37934",
-    "cuisine_type": "Japanese, Ramen",
+    "cuisine_type": "Japanese",
     "price_range": "$$",
     "date_night_score": 5.2,
     "atmosphere_score": 7.0,
@@ -9805,11 +9607,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
-    "tags": [
-      "ramen",
-      "japanese",
-      "authentic"
-    ],
+    "area": null,
+    "tags": [],
     "status": "Active",
     "discovery_source": "web_search_ramen",
     "verification_status": "Verified",
@@ -9822,14 +9621,14 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.ubereats.com/store/yamato-ramen-house/imwthBC0Vfu8lkzTdyo0eg\", \"type\": \"thirdparty\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "Free parking in Turkey Creek shopping center lot directly adjacent to restaurant at 11527 Parkside Dr. Additional parking available at nearby Pinnacle Parking (11361 Parkside Dr) and throughout Turkey Creek development lots.",
-    "created_at": "2025-10-22T12:24:54.324951Z",
-    "updated_at": "2025-10-22T12:24:54.324952Z"
+    "created_at": "2025-10-23T15:49:01.866353Z",
+    "updated_at": "2025-10-23T15:49:01.866353Z"
   },
   {
     "id": "ec2b862d-d4eb-4698-89e4-792cb8b6e665",
     "name": "Yassin's Falafel House",
     "address": "706 Walnut Street, Knoxville, TN",
-    "cuisine_type": "Mediterranean, Syrian",
+    "cuisine_type": "Mediterranean",
     "price_range": "$",
     "date_night_score": 4.1,
     "atmosphere_score": 7.0,
@@ -9844,10 +9643,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
       "welcoming",
-      "cultural",
-      "democratic"
+      "cultural"
     ],
     "status": "Active",
     "discovery_source": "comprehensive_research_2024",
@@ -9862,13 +9661,13 @@ const RESTAURANTS = [
     "menu_cached_at": null,
     "parking_info": "Locust Street Garage with entrances on both Locust St and Walnut St (649 spaces, $1/hr, $7 max/day). Free parking weeknights after 6pm and all weekend. Downtown offers over 5,000 free parking spaces in municipal garages after 6pm weekdays and all day weekends. EV charging available at Locust Street Garage.",
     "created_at": "2025-09-30T22:55:28.753758Z",
-    "updated_at": "2025-10-22T12:24:54.324961Z"
+    "updated_at": "2025-10-23T15:49:01.866356Z"
   },
   {
     "id": "eb7f8cec-6994-4fc6-9b75-3f32ddada90c",
     "name": "Ye Olde Steak House",
     "address": "6838 Chapman Hwy, Knoxville, TN 37920",
-    "cuisine_type": "Classic American Steakhouse",
+    "cuisine_type": "Steakhouse",
     "price_range": "$$$",
     "date_night_score": 8.5,
     "atmosphere_score": 9.1,
@@ -9883,12 +9682,10 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "steakhouse",
       "award_winning",
-      "prime_rib",
-      "classic",
-      "local_favorite"
+      "prime_rib"
     ],
     "status": "Active",
     "discovery_source": "web_search_steakhouse_classic",
@@ -9902,8 +9699,8 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.yeoldesteakhouse.com/\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-site private parking lot (note: hillside location creates challenging navigation, parking built into slope with confusing layout - pay attention to parking lines).",
-    "created_at": "2025-10-22T12:24:54.324971Z",
-    "updated_at": "2025-10-22T12:24:54.324972Z"
+    "created_at": "2025-10-23T15:49:01.866358Z",
+    "updated_at": "2025-10-23T15:49:01.866358Z"
   },
   {
     "id": "c01eba7c-7276-4497-b9e4-0b03149a93db",
@@ -9924,14 +9721,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
-    "tags": [
-      "asian_fusion",
-      "sushi",
-      "ramen",
-      "hibachi",
-      "new_2025",
-      "kingston_pike"
-    ],
+    "area": "Kingston Pike",
+    "tags": [],
     "status": "Active",
     "discovery_source": "web_search_new_2025",
     "verification_status": "Verified",
@@ -9944,14 +9735,14 @@ const RESTAURANTS = [
     "cached_menu_info": null,
     "menu_cached_at": null,
     "parking_info": null,
-    "created_at": "2025-10-22T12:24:54.324979Z",
-    "updated_at": "2025-10-22T12:24:54.324980Z"
+    "created_at": "2025-10-23T15:49:01.866359Z",
+    "updated_at": "2025-10-23T15:49:01.866359Z"
   },
   {
     "id": "5d61992e-1a28-40c8-b137-2aea063e2145",
     "name": "Zero/Zero",
     "address": "1211 N Central St, Knoxville, TN 37917",
-    "cuisine_type": "Natural Wine Bar + Snacks",
+    "cuisine_type": "Bar/Lounge",
     "price_range": "$$",
     "date_night_score": 7.0,
     "atmosphere_score": 7.3,
@@ -9966,8 +9757,8 @@ const RESTAURANTS = [
     "last_visited": null,
     "visit_count": 0,
     "average_rating": null,
+    "area": null,
     "tags": [
-      "happy_holler",
       "wine_bar",
       "pre_post_dinner"
     ],
@@ -9983,7 +9774,7 @@ const RESTAURANTS = [
     "cached_menu_info": "{\"url\": \"https://www.zerozeroknox.com/menu\", \"type\": \"webpage\", \"verified_date\": \"2025-10-02\"}",
     "menu_cached_at": null,
     "parking_info": "On-street parking available on N Central St in Happy Holler neighborhood. Rear parking lot accessible behind building. Additional street parking throughout Happy Holler area, approximately 1 mile north of downtown Knoxville.",
-    "created_at": "2025-10-22T12:24:54.324988Z",
-    "updated_at": "2025-10-22T12:24:54.324989Z"
+    "created_at": "2025-10-23T15:49:01.866361Z",
+    "updated_at": "2025-10-23T15:49:01.866361Z"
   }
 ];
