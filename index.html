@@ -87,6 +87,9 @@
 
         .stats { font-size: 0.875rem; color: var(--stone-500); }
         body.dark .stats { color: var(--stone-400); }
+        .site-note { font-size: 0.8125rem; color: var(--stone-500); margin-top: 0.25rem; }
+        body.dark .site-note { color: var(--stone-400); }
+        .site-note a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 
         .theme-btn, .export-btn {
             padding: 0.5rem 1rem;
@@ -781,6 +784,7 @@
                 <div>
                     <h1>Knoxville Restaurants</h1>
                     <p class="stats" id="stats">Loading...</p>
+                    <p class="site-note">A small project by <a href="https://joshre.com/">Josh Reeder-Esparza</a>.</p>
                 </div>
                 <div class="header-actions">
                     <button class="export-btn" onclick="exportToCSV()">Export CSV</button>
