@@ -15,7 +15,6 @@
         })();
     </script>
     <style>
-        /* Preload critical fonts - copied from Cortex */
         @font-face {
             font-family: 'Serrif VF';
             src: url('fonts/SerrifVF.woff2') format('woff2-variations'),
@@ -825,11 +824,11 @@
                         <button id="coffee-filter" class="quick-filter" onclick="toggleFilter('coffee')" aria-label="Toggle coffee shops filter" aria-pressed="false">
                             <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z"/></svg>
                         </button>
-                        <button id="clear-filters" class="clear-btn hidden" onclick="clearFilters()" aria-label="Clear all filters">Clear</button>
+                        <button id="clear-filters" class="hidden clear-btn" onclick="clearFilters()" aria-label="Clear all filters">Clear</button>
                     </div>
                 </div>
 
-                <div id="filter-chips" class="filter-chips hidden"></div>
+                <div id="filter-chips" class="hidden filter-chips"></div>
             </div>
         </div>
 
@@ -845,9 +844,6 @@
                         <th><button onclick="sortBy('cuisine_type')" aria-label="Sort by cuisine type">Cuisine <span id="sort-cuisine_type" aria-hidden="true"></span></button></th>
                         <th>Location</th>
                         <th><button onclick="sortBy('price_range')" aria-label="Sort by price range">Price <span id="sort-price_range" aria-hidden="true"></span></button></th>
-                        <th><button onclick="sortBy('average_rating')" aria-label="Sort by rating">Rating <span id="sort-average_rating" aria-hidden="true"></span></button></th>
-                        <th><button onclick="sortBy('date_night_score')" aria-label="Sort by date night score">Date Night <span id="sort-date_night_score" aria-hidden="true"></span></button></th>
-                        <th><button onclick="sortBy('atmosphere_score')" aria-label="Sort by atmosphere score">Atmosphere <span id="sort-atmosphere_score" aria-hidden="true"></span></button></th>
                         <th><button onclick="sortBy('opening_date')" aria-label="Sort by opening date">Opened <span id="sort-opening_date" aria-hidden="true"></span></button></th>
                         <th>Tags</th>
                     </tr>
@@ -881,6 +877,7 @@
     <script>
         let allRestaurants = [];
         let filteredRestaurants = [];
+        const SORT_COLUMNS = ['name', 'cuisine_type', 'price_range', 'opening_date'];
         let currentSort = { column: 'name', order: 'asc' };
 
         document.addEventListener('DOMContentLoaded', () => {
@@ -924,8 +921,10 @@
                 btn.classList.add('active-coffee');
                 btn.setAttribute('aria-pressed', 'true');
             }
-            if (params.has('sort')) currentSort.column = params.get('sort');
-            if (params.has('order')) currentSort.order = params.get('order');
+            const sort = params.get('sort');
+            const order = params.get('order');
+            if (SORT_COLUMNS.includes(sort)) currentSort.column = sort;
+            if (['asc', 'desc'].includes(order)) currentSort.order = order;
 
             filterRestaurants();
             renderSortIndicators();
@@ -957,7 +956,7 @@
 
         function populateFilters() {
             const cuisines = [...new Set(allRestaurants.map(r => r.cuisine_type))].sort();
-            const neighborhoods = [...new Set(allRestaurants.flatMap(r => (r.tags || []).filter(t => t.includes('_') && !t.startsWith('group_') && !t.startsWith('chef_') && !t.includes('dining') && !t.includes('night'))))].sort();
+            const neighborhoods = [...new Set(allRestaurants.map(r => r.area).filter(a => a))].sort();
             const groups = [...new Set(allRestaurants.flatMap(r => (r.tags || []).filter(t => t.startsWith('group_') || t.startsWith('chef_'))))].sort();
 
             const cuisineFilter = document.getElementById('cuisine-filter');
@@ -972,7 +971,7 @@
             neighborhoods.forEach(n => {
                 const opt = document.createElement('option');
                 opt.value = n;
-                opt.textContent = n.replace(/_/g, ' ');
+                opt.textContent = n;
                 neighborhoodFilter.appendChild(opt);
             });
 
@@ -1007,7 +1006,7 @@
         }
 
         function exportToCSV() {
-            const headers = ['Name', 'Cuisine', 'Price', 'Address', 'Phone', 'Website', 'Rating', 'Date Night', 'Opening Date'];
+            const headers = ['Name', 'Cuisine', 'Price', 'Address', 'Phone', 'Website', 'Opening Date'];
             const csvRows = [headers.join(',')];
 
             filteredRestaurants.forEach(r => {
@@ -1018,8 +1017,6 @@
                     escapeCSV(r.address),
                     escapeCSV(r.phone || ''),
                     escapeCSV(r.website || ''),
-                    r.average_rating ? r.average_rating.toFixed(1) : '',
-                    r.date_night_score ? r.date_night_score.toFixed(1) : '',
                     r.opening_date || ''
                 ];
                 csvRows.push(row.join(','));
@@ -1084,7 +1081,7 @@
                 if (search && !matchesSearch(r, search)) return false;
                 if (cuisine && r.cuisine_type !== cuisine) return false;
                 if (price && r.price_range !== price) return false;
-                if (neighborhood && !(r.tags || []).includes(neighborhood)) return false;
+                if (neighborhood && r.area !== neighborhood) return false;
                 if (group && !(r.tags || []).includes(group)) return false;
                 if (showNew && !isNewRestaurant(r)) return false;
                 if (showCoffee && !r.cuisine_type.toLowerCase().includes('coffee') && !r.cuisine_type.toLowerCase().includes('cafe')) return false;
@@ -1115,7 +1112,7 @@
                 chips.push({ label: `Price: ${price}`, type: 'price' });
             }
             if (neighborhood) {
-                chips.push({ label: `Area: ${neighborhood.replace(/_/g, ' ')}`, type: 'neighborhood' });
+                chips.push({ label: `Area: ${neighborhood}`, type: 'neighborhood' });
             }
             if (group) {
                 chips.push({ label: formatGroupName(group), type: 'group' });
@@ -1240,7 +1237,7 @@
 
         function renderSortIndicators() {
             // Clear all indicators
-            ['name', 'cuisine_type', 'price_range', 'average_rating', 'date_night_score', 'atmosphere_score', 'opening_date'].forEach(col => {
+            ['name', 'cuisine_type', 'price_range', 'opening_date'].forEach(col => {
                 const span = document.getElementById('sort-' + col);
                 if (span) span.textContent = '';
             });
@@ -1288,10 +1285,6 @@
             return 'badge-price-1';
         }
 
-        function formatScore(score) {
-            return score ? score.toFixed(1) : '-';
-        }
-
         function formatDate(dateStr) {
             if (!dateStr) return '-';
             const date = new Date(dateStr);
@@ -1330,9 +1323,6 @@
                     '<td>' + highlightText(r.cuisine_type, searchTerm) + '</td>' +
                     '<td>' + addressParts + '</td>' +
                     '<td><span class="badge ' + getPriceBadgeClass(r.price_range) + '">' + r.price_range + '</span></td>' +
-                    '<td><span class="score">' + formatScore(r.average_rating) + '</span></td>' +
-                    '<td><span class="score">' + formatScore(r.date_night_score) + '</span></td>' +
-                    '<td><span class="score">' + formatScore(r.atmosphere_score) + '</span></td>' +
                     '<td>' + formatDate(r.opening_date) + '</td>' +
                     '<td>' + displayTags.map(t => '<span class="tag">' + t.replace(/_/g, ' ') + '</span>').join(' ') + '</td>' +
                 '</tr>';
@@ -1345,12 +1335,7 @@
 
             document.getElementById('modal-name').textContent = r.name;
 
-            // Build metadata line with scores
-            let meta = r.cuisine_type + ' · ' + r.price_range;
-            if (r.average_rating) meta += ' · ' + r.average_rating.toFixed(1) + '/10 avg';
-            if (r.date_night_score) meta += ' · ' + r.date_night_score.toFixed(1) + ' date night';
-            if (r.atmosphere_score) meta += ' · ' + r.atmosphere_score.toFixed(1) + ' atmosphere';
-            document.getElementById('modal-meta').textContent = meta;
+            document.getElementById('modal-meta').textContent = r.cuisine_type + ' · ' + r.price_range;
 
             // Two-column layout
             let body = '<div class="modal-content-grid">';
