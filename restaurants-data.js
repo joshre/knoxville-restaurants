@@ -21,7 +21,9 @@ const RESTAURANTS = [
       "whiskey selection",
       "weekend brunch"
     ],
-    "parking_info": "Parking lot"
+    "parking_info": "Parking lot",
+    "latitude": 35.881734,
+    "longitude": -84.159626
   },
   {
     "name": "71 South",
@@ -47,7 +49,9 @@ const RESTAURANTS = [
       "vegan_options",
       "vegetarian_options"
     ],
-    "parking_info": "Free parking lot on-site at Baker Creek Preserve. Additional parking available along Sevier Heights Road."
+    "parking_info": "Free parking lot on-site at Baker Creek Preserve. Additional parking available along Sevier Heights Road.",
+    "latitude": 35.942355,
+    "longitude": -83.890111
   },
   {
     "name": "A Dopo Sourdough Pizza",
@@ -68,7 +72,9 @@ const RESTAURANTS = [
       "new_city",
       "sourdough"
     ],
-    "parking_info": "Street parking on Williams St (metered during business hours, free evenings and weekends). Nearby downtown parking garages: Locust Street Garage and State Street Garage (free nights and weekends)."
+    "parking_info": "Street parking on Williams St (metered during business hours, free evenings and weekends). Nearby downtown parking garages: Locust Street Garage and State Street Garage (free nights and weekends).",
+    "latitude": 35.9723177,
+    "longitude": -83.9218774
   },
   {
     "name": "Abridged Beer - World Headquarters",
@@ -90,7 +96,9 @@ const RESTAURANTS = [
       "craft_beer",
       "upscale"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.9153005,
+    "longitude": -84.0926431
   },
   {
     "name": "Abridged Beer Company - Bearden",
@@ -116,7 +124,9 @@ const RESTAURANTS = [
       "outdoor_seating",
       "southern"
     ],
-    "parking_info": "Free parking lot on-site. Additional parking available at adjacent church lot (watch for restriction signs). Street parking on Lockett Rd."
+    "parking_info": "Free parking lot on-site. Additional parking available at adjacent church lot (watch for restriction signs). Street parking on Lockett Rd.",
+    "latitude": 35.93168,
+    "longitude": -84.015615
   },
   {
     "name": "Acapulco Mexican Restaurant",
@@ -141,7 +151,9 @@ const RESTAURANTS = [
       "outdoor seating",
       "catering available"
     ],
-    "parking_info": "Free parking lot"
+    "parking_info": "Free parking lot",
+    "latitude": 36.0068131,
+    "longitude": -84.0205204
   },
   {
     "name": "Ale' Rae's Gastro Pub",
@@ -168,7 +180,9 @@ const RESTAURANTS = [
       "outdoor_seating",
       "trivia"
     ],
-    "parking_info": "Street parking on N Broadway and surrounding neighborhood streets. Free on-street parking available in Fourth and Gill historic district."
+    "parking_info": "Street parking on N Broadway and surrounding neighborhood streets. Free on-street parking available in Fourth and Gill historic district.",
+    "latitude": 35.9805782,
+    "longitude": -83.9234986
   },
   {
     "name": "Algo Delii",
@@ -184,7 +198,36 @@ const RESTAURANTS = [
     "opening_date": "2024-01-01T00:00:00Z",
     "area": "Downtown Knoxville",
     "tags": [],
-    "parking_info": "Street parking and nearby public lots"
+    "parking_info": "Street parking and nearby public lots",
+    "latitude": 35.97056,
+    "longitude": -83.92155
+  },
+  {
+    "name": "Alliance Brewing Company",
+    "address": "1130 Sevier Ave, Knoxville, TN 37920",
+    "cuisine_type": "Brewery",
+    "price_range": "$$",
+    "phone": "(865) 247-5355",
+    "website": "https://alliancebrewing.com/",
+    "hours": "{\"monday\": \"12:00-20:00\", \"tuesday\": \"12:00-22:00\", \"wednesday\": \"12:00-22:00\", \"thursday\": \"12:00-22:00\", \"friday\": \"12:00-22:00\", \"saturday\": \"12:00-22:00\", \"sunday\": \"12:00-20:00\"}",
+    "description": "South Knoxville's original neighborhood brewery, running a 10-barrel system on Sevier Ave since 2015 and building its whole identity around what it calls Active Beer Culture: trail runs, group rides, yoga and bike-based pub crawls that start and end at the taproom, which sits a short pedal from the Urban Wilderness trailheads and a block from Suttree Landing Park. The beer leans traditional and well-made rather than chase-the-trend. Alliance IPA is balanced on Citra and Mosaic with a bready malt base, the Czech pils is built on Saaz and Bohemian pilsner malt, the Kolsch is what regulars default to, and Cubano Coffee Brown gets turbinado sugar and Three Bears cold brew. No kitchen: food trucks park out front on a regular rotation, and South Coast Pizza and Sevier Ave Burger Co. are both close enough to walk or deliver. It is also the official supporters' club home for the Knoxville Spurs, so match days bring their own crowd.",
+    "atmosphere": "Two indoor rooms with board games and coloring books stacked where a lesser taproom would put merch, opening onto a large patio strung with lights and warmed by fire pits, picnic tables throughout. Dogs are welcome inside and out, which shapes who is here: neighborhood regulars, cyclists still in kit, families early, a steadier drinking crowd later. Noise stays conversational most nights and rises for matches and events. Nothing about the room is designed -- it is a working brewery taproom that got comfortable -- but the fire pits on a cool evening are the closest South Knoxville comes to a date-night beer garden.",
+    "special_features": "10-barrel production brewery on site, large patio with fire pits and string lights, dog-friendly indoors and out, board games and coloring books, rotating food trucks, Active Beer Culture events (trail runs, group rides, yoga, bike pub crawls), official Knoxville Spurs supporters' club, event space rental, walking distance to Suttree Landing Park and the Urban Wilderness",
+    "opening_date": null,
+    "area": "South Knoxville",
+    "tags": [
+      "brewery",
+      "taproom",
+      "dog_friendly",
+      "outdoor_seating",
+      "fire_pit",
+      "food_trucks",
+      "family_friendly",
+      "south_knoxville"
+    ],
+    "parking_info": "Free lot beside the taproom on Sevier Ave plus street parking through the Old Sevier District. Bike racks on site; Suttree Landing Park and the Urban Wilderness trailheads are both walkable.",
+    "latitude": 35.959404562826,
+    "longitude": -83.903968259726
   },
   {
     "name": "Altruda's Italian Restaurant",
@@ -202,7 +245,9 @@ const RESTAURANTS = [
     "tags": [
       "family_owned"
     ],
-    "parking_info": "Private parking lot adjacent to restaurant"
+    "parking_info": "Private parking lot adjacent to restaurant",
+    "latitude": 35.9134133,
+    "longitude": -84.0831892
   },
   {
     "name": "Amalfi Ristorante Italiano",
@@ -227,7 +272,9 @@ const RESTAURANTS = [
       "reservations recommended",
       "no kids menu"
     ],
-    "parking_info": "Kingston Pike shopping center location"
+    "parking_info": "Kingston Pike shopping center location",
+    "latitude": 35.9399184,
+    "longitude": -83.9871327
   },
   {
     "name": "Amici Maryville",
@@ -243,7 +290,9 @@ const RESTAURANTS = [
     "opening_date": "2019-06-01T00:00:00Z",
     "area": "Maryville",
     "tags": [],
-    "parking_info": "On-site parking available at restaurant. Additional street parking on E Broadway Ave (limited). Broadway Avenue Municipal Parking Garage available nearby in downtown Maryville. Located at Five Points roundabout with easy access."
+    "parking_info": "On-site parking available at restaurant. Additional street parking on E Broadway Ave (limited). Broadway Avenue Municipal Parking Garage available nearby in downtown Maryville. Located at Five Points roundabout with easy access.",
+    "latitude": 35.7687006,
+    "longitude": -83.9588431
   },
   {
     "name": "Anaba Japanese Cuisine",
@@ -259,7 +308,9 @@ const RESTAURANTS = [
     "opening_date": "2005-01-01T00:00:00Z",
     "area": "West Knoxville",
     "tags": [],
-    "parking_info": "Free parking lot at Northshore Town Center shopping plaza. Restaurant located in strip mall at 9405 S Northshore Dr with ample parking directly in front. Adjacent to other retail shops in the development. Street parking also available on S Northshore Dr."
+    "parking_info": "Free parking lot at Northshore Town Center shopping plaza. Restaurant located in strip mall at 9405 S Northshore Dr with ample parking directly in front. Adjacent to other retail shops in the development. Street parking also available on S Northshore Dr.",
+    "latitude": 35.8644732,
+    "longitude": -84.0643519
   },
   {
     "name": "Aretha Frankenstein's",
@@ -267,7 +318,7 @@ const RESTAURANTS = [
     "cuisine_type": "Coffee & Cafe",
     "price_range": "$$",
     "phone": "(865) 249-6507",
-    "website": "arethas.com",
+    "website": "https://arethas.com",
     "hours": "{\"monday\": \"7:30 AM - 2:00 PM\", \"tuesday\": \"7:30 AM - 2:00 PM\", \"wednesday\": \"7:30 AM - 2:00 PM\", \"thursday\": \"7:30 AM - 2:00 PM\", \"friday\": \"7:30 AM - 2:00 PM\", \"saturday\": \"7:30 AM - 3:00 PM\", \"sunday\": \"7:30 AM - 3:00 PM\", \"notes\": \"Weekday service until 2 PM, extended weekend hours until 3 PM\"}",
     "description": "Chattanooga breakfast legend that held out for 20 years before opening a second location—Knoxville got it in late 2023. The signature is pancakes that measure three-quarters of an inch thick, somewhere between American diner stack and actual cake. Crisp caramelized edges, impossibly fluffy interiors, served two to a \"Slim Stack\" that regularly defeats experienced breakfast eaters. The full three-pancake order borders on performance art. These aren't delicate or precious—they're architectural achievements that require commitment and possibly a shared plate. The Italian omelet runs $12.95 for three eggs stuffed with ricotta, Italian sausage, mushrooms, onions, red peppers, cayenne—Mediterranean flavors with enough heft to justify the weekend wait. Waffle of Insane Greatness earned Food Network attention: vanilla ice cream, pecans in syrup, cinnamon. House-made apple butter on every table. The place moved into a former Hardee's on Chapman Highway and kept the accessibility—this is South Knoxville breakfast done without pretense.",
     "atmosphere": "Retro monster-movie maximalism: vintage horror film posters, 70s-80s cereal boxes, different art pieces on every table. Teal exterior, compact seating, tables close enough you're part of your neighbor's conversation. Weekends draw 50-60 minute waits (join the Google Maps waitlist early or accept your fate). Multi-generational families, weekend brunch couples, college students reconstructing their Saturday mornings, locals who've made this their ritual. Staff moves fast, keeps coffee flowing. Noise runs moderate-to-high during peak hours—classic diner acoustics with dish clatter and overlapping conversations. The horror kitsch reads campy, not scary. Family-friendly chaos.",
@@ -285,7 +336,9 @@ const RESTAURANTS = [
       "long-waits",
       "family-friendly"
     ],
-    "parking_info": "Accessible parking near entrance"
+    "parking_info": "Accessible parking near entrance",
+    "latitude": 35.9437728,
+    "longitude": -83.9112131
   },
   {
     "name": "Aroma Indian Kitchen",
@@ -304,7 +357,9 @@ const RESTAURANTS = [
       "curry",
       "vegetarian_options"
     ],
-    "parking_info": "Free parking lot with wheelchair accessible spaces available at restaurant location on N Cedar Bluff Rd."
+    "parking_info": "Free parking lot with wheelchair accessible spaces available at restaurant location on N Cedar Bluff Rd.",
+    "latitude": 35.9131761,
+    "longitude": -84.0868808
   },
   {
     "name": "Artisan Cakery of Knoxville",
@@ -323,7 +378,9 @@ const RESTAURANTS = [
       "french",
       "pastries"
     ],
-    "parking_info": "Street parking available on Kingston Pike. Located near Bearden Shopping Center at 5941 Kingston Pike with additional parking options. Bearden Banquet Hall parking nearby at 5806 Kingston Pike."
+    "parking_info": "Street parking available on Kingston Pike. Located near Bearden Shopping Center at 5941 Kingston Pike with additional parking options. Bearden Banquet Hall parking nearby at 5806 Kingston Pike.",
+    "latitude": 35.9338514,
+    "longitude": -83.998647
   },
   {
     "name": "Asia Kitchen",
@@ -346,7 +403,36 @@ const RESTAURANTS = [
       "casual",
       "family-friendly"
     ],
-    "parking_info": "Strip mall parking lot"
+    "parking_info": "Strip mall parking lot",
+    "latitude": 35.9227484,
+    "longitude": -84.0639621
+  },
+  {
+    "name": "Au Bon Coin",
+    "address": "724 N Broadway, Knoxville, TN 37917",
+    "cuisine_type": "French",
+    "price_range": "$$$$",
+    "phone": "+1 865-454-9153",
+    "website": null,
+    "hours": "Thu-Sun 5:30pm-9pm",
+    "description": "Laurence Faber and Emily Williams of Potchke joined Brian and Jessica Strutz of A Dopo to put a four-course French dinner into a wedge of a building at the corner of Broadway and Lamar, in the space The Donut Shop vacated at the end of 2024. The two couples met in the University of Tennessee's French department and both studied abroad in France; the restaurant is an attempt to reproduce the warmth of the dinners they had been hosting at home. Williams directed the renovation herself. The name means \"at the good corner,\" which is also a literal description of the address.\n\nThe format is one four-course set menu at $75 per person, served 5:30 to 9 p.m. Thursday through Sunday to a room that seats forty. Dishes reported at opening run potato vareniki, mushroom vol au vent, steak au poivre, and chocolate souffle - bistro canon with the Eastern European inflection Potchke's deli work would predict. Faber's stated aim is that French food read as fun rather than pretentious.\n\nThe wine program is run by DL of Central Bottle, and that is the detail that separates this from a chef-driven restaurant that happens to pour wine: a neighborhood bottle shop buyer curating for forty seats and a fixed menu is a different animal from a printed list. The pedigree behind it is real - Potchke made USA TODAY's best-restaurants list in 2024 and drew a Michelin Guide nod, A Dopo made the same list in 2025, and Potchke started life as a pop-up inside A Dopo. Reservations through Resy only.",
+    "atmosphere": "A small wedge-shaped corner building on the North Broadway strip, forty seats, renovated by one of the owners rather than a firm. The stated design intent is the warmth of a dinner party at someone's house - hospitable and unfussy rather than formal - and the fixed menu and single nightly service mean the room turns as one group instead of churning. Dinner only, Thursday through Sunday.\n\nNot yet visited, and the room's specifics - lighting, noise, bar seating, whether the kitchen is open - are not documented in any source I could reach. Treat the above as intent and scale, not a first-hand read.",
+    "special_features": "Four-course prix fixe at $75 per person; 40-seat dining room; wine program run by DL of Central Bottle; dinner only Thursday-Sunday; Resy reservations only; from the Potchke and A Dopo owners",
+    "opening_date": "2026-08-06T00:00:00Z",
+    "area": "Happy Holler",
+    "tags": [
+      "french",
+      "bistro",
+      "prix-fixe",
+      "date-night",
+      "new-opening",
+      "central-bottle-recommendation",
+      "wine-program",
+      "resy"
+    ],
+    "parking_info": null,
+    "latitude": 35.977113,
+    "longitude": -83.923606
   },
   {
     "name": "Awaken Coffee",
@@ -372,7 +458,9 @@ const RESTAURANTS = [
       "study_space",
       "wine_bar"
     ],
-    "parking_info": "Free parking at lot beside Barley's on East Jackson; City of Knoxville lot at end of depot (free nights/weekends, GPS: 410 W. Jackson Ave); Jackson Ave Lot, I-40 Lot West, I-40 Lot East (all free nights/weekends)"
+    "parking_info": "Free parking at lot beside Barley's on East Jackson; City of Knoxville lot at end of depot (free nights/weekends, GPS: 410 W. Jackson Ave); Jackson Ave Lot, I-40 Lot West, I-40 Lot East (all free nights/weekends)",
+    "latitude": 35.97003,
+    "longitude": -83.9194796
   },
   {
     "name": "Back Door Tavern",
@@ -394,11 +482,13 @@ const RESTAURANTS = [
       "pool",
       "darts"
     ],
-    "parking_info": "Parking lot"
+    "parking_info": "Parking lot",
+    "latitude": 35.9402566,
+    "longitude": -83.9868838
   },
   {
     "name": "Baker Boy Pizza Co.",
-    "address": "7438 Maynardville Pike, Knoxville, TN",
+    "address": "7438 Maynardville Pike, Knoxville, TN 37938",
     "cuisine_type": "Pizza",
     "price_range": "$$",
     "phone": "(865) 377-3019",
@@ -408,7 +498,7 @@ const RESTAURANTS = [
     "atmosphere": "Bright, casual pizza shop with booths and counter service. Family crowd, soccer teams post-game, regulars who know the staff. Clean, modern space that feels like a neighborhood spot rather than a chain. Volume rises with the dinner rush but stays conversation-friendly.",
     "special_features": "Giant mozzarella sticks (Rolling Pins), craft sodas, online ordering, family-friendly",
     "opening_date": null,
-    "area": "Fountain City",
+    "area": "Halls",
     "tags": [
       "pizza",
       "family-friendly",
@@ -417,7 +507,9 @@ const RESTAURANTS = [
       "fountain-city",
       "counter-service"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 36.087898258175,
+    "longitude": -83.923574042241
   },
   {
     "name": "Balter Beerworks",
@@ -436,7 +528,9 @@ const RESTAURANTS = [
       "beer_garden",
       "casual"
     ],
-    "parking_info": "Free on-site parking lot available. Nearby options: Jackson Ave Lot (8 min walk), Langley Garage (9 min walk), Market Square Garage (10 min walk, $3 Saturdays, free Sundays). Downtown garages free weeknights after 6pm and all weekend."
+    "parking_info": "Free on-site parking lot available. Nearby options: Jackson Ave Lot (8 min walk), Langley Garage (9 min walk), Market Square Garage (10 min walk, $3 Saturdays, free Sundays). Downtown garages free weeknights after 6pm and all weekend.",
+    "latitude": 35.966453,
+    "longitude": -83.924046
   },
   {
     "name": "Barley's Taproom & Pizzeria",
@@ -455,7 +549,9 @@ const RESTAURANTS = [
       "beer",
       "live_music"
     ],
-    "parking_info": "Street parking on Jackson Avenue (metered, $1.50/hr, 2hr max). Jackson Avenue Lot adjacent to restaurant. Municipal garages downtown $1/hr weekdays. Free parking weeknights after 6pm and all weekend in city garages. Multiple free 24/7 lots within walking distance in Old City area."
+    "parking_info": "Street parking on Jackson Avenue (metered, $1.50/hr, 2hr max). Jackson Avenue Lot adjacent to restaurant. Municipal garages downtown $1/hr weekdays. Free parking weeknights after 6pm and all weekend in city garages. Multiple free 24/7 lots within walking distance in Old City area.",
+    "latitude": 35.9708391,
+    "longitude": -83.9173297
   },
   {
     "name": "Bearden Beer Market",
@@ -481,7 +577,9 @@ const RESTAURANTS = [
       "bottle shop",
       "food trucks"
     ],
-    "parking_info": "Dedicated parking lot"
+    "parking_info": "Dedicated parking lot",
+    "latitude": 35.9404394,
+    "longitude": -83.9794495
   },
   {
     "name": "Bearden Hill Fieldhouse",
@@ -507,7 +605,9 @@ const RESTAURANTS = [
       "Golden Tee",
       "poker nights"
     ],
-    "parking_info": "On-site parking lot"
+    "parking_info": "On-site parking lot",
+    "latitude": 35.9314048,
+    "longitude": -84.0123531
   },
   {
     "name": "Bella",
@@ -531,7 +631,9 @@ const RESTAURANTS = [
       "tableside_service",
       "tuscan"
     ],
-    "parking_info": "Parking available in lot across the street"
+    "parking_info": "Parking available in lot across the street",
+    "latitude": 35.7558002,
+    "longitude": -83.9719001
   },
   {
     "name": "Bistro at the Bijou",
@@ -556,7 +658,9 @@ const RESTAURANTS = [
       "vegetarian-friendly",
       "no-reservations"
     ],
-    "parking_info": "Street parking on Gay Street, nearby public garages"
+    "parking_info": "Street parking on Gay Street, nearby public garages",
+    "latitude": 35.9623885,
+    "longitude": -83.9167978
   },
   {
     "name": "Bistro by the Tracks",
@@ -580,7 +684,9 @@ const RESTAURANTS = [
       "special occasion",
       "patio seating"
     ],
-    "parking_info": "Private lot"
+    "parking_info": "Private lot",
+    "latitude": 35.9372811,
+    "longitude": -83.9877691
   },
   {
     "name": "Bit Burger Knox",
@@ -604,7 +710,9 @@ const RESTAURANTS = [
       "smash-burgers",
       "west-knoxville"
     ],
-    "parking_info": "Free on-site parking lot available. Wheelchair accessible parking and facilities provided."
+    "parking_info": "Free on-site parking lot available. Wheelchair accessible parking and facilities provided.",
+    "latitude": 35.9113507,
+    "longitude": -84.1003846
   },
   {
     "name": "Black Dog Brewhouse",
@@ -631,7 +739,9 @@ const RESTAURANTS = [
       "vinyl",
       "sports"
     ],
-    "parking_info": "No dedicated lot. Street parking on Central—easy to miss the entrance but easy to find a spot."
+    "parking_info": "No dedicated lot. Street parking on Central—easy to miss the entrance but easy to find a spot.",
+    "latitude": 35.990214,
+    "longitude": -83.9402822
   },
   {
     "name": "Boyd's Jig & Reel",
@@ -656,7 +766,9 @@ const RESTAURANTS = [
       "authentic",
       "participatory-music"
     ],
-    "parking_info": "Old City parking challenges—street parking scarce, nearby paid lots $12. Old City Lot South (6-7 min walk), Old City Lot North (8-9 min walk), I-40 Lot East (9-10 min walk)."
+    "parking_info": "Old City parking challenges—street parking scarce, nearby paid lots $12. Old City Lot South (6-7 min walk), Old City Lot North (8-9 min walk), I-40 Lot East (9-10 min walk).",
+    "latitude": 35.9702513,
+    "longitude": -83.9185347
   },
   {
     "name": "Brother Wolf",
@@ -682,7 +794,34 @@ const RESTAURANTS = [
       "craft cocktails",
       "wine bar"
     ],
-    "parking_info": "Old City public lots: South lot 7-minute walk, North lot 9-minute walk. Street parking limited."
+    "parking_info": "Old City public lots: South lot 7-minute walk, North lot 9-minute walk. Street parking limited.",
+    "latitude": 35.970324,
+    "longitude": -83.918684
+  },
+  {
+    "name": "Burger Boys",
+    "address": "3000 N Broadway, Knoxville, TN 37917",
+    "cuisine_type": "Burgers",
+    "price_range": "$",
+    "phone": "(865) 200-4766",
+    "website": "https://burgerboysknox.com/",
+    "hours": "{\"monday\": \"closed\", \"tuesday\": \"11:00-21:00\", \"wednesday\": \"11:00-21:00\", \"thursday\": \"11:00-21:00\", \"friday\": \"11:00-21:00\", \"saturday\": \"11:00-21:00\", \"sunday\": \"closed\"}",
+    "description": "Andre Bryant reopened Burger Boys at 3000 N Broadway on 6 July 2026, in a former Wendy's — the same floor plan he started on at fifteen years old in Columbus, Ohio, before working his way up to house trainer in New York. The half-pound burger uses fresh refrigerated beef, never frozen, and fries come free, a value play he built when potatoes were cheap and has kept ever since. The chicken livers have their own following, as do the collard greens and sweet potato pie.\n\nThe original Chapman Highway location was drive-thru only with one employee on at a time, and it thrived through the pandemic before Bryant gave up the site so Kern's Food Hall could build a new entrance. The Broadway rebuild adds what South Knoxville never had: a dining room, real parking, and a bigger drive-thru. There is a small cafe area with a television and fireplace meant for short meetings, plus regular tables and a high-top section. Bryant financed the build partly through the community, selling \\$25 gift cards redeemable for \\$50, and a contributors' board is going up on the wall.",
+    "atmosphere": "A freestanding former Wendy's on N Broadway at Claiborne Place, with its own lot and a drive-thru lane -- which is most of the appeal, since the Chapman Highway original had a drive-thru window and essentially nothing else. Inside there is a proper dining room now, plus a small cafe nook with a television and a fireplace meant for short meetings, and a high-top section. The signature wall is the \"Built by the Community\" board naming the people whose gift-card purchases funded the rebuild. Opening week drew lines into the road and thirty-minute waits; it runs as a counter-and-drive-thru burger joint the rest of the time.",
+    "special_features": "Half-pound fresh never-frozen burgers; free fries with every order; chicken livers, collard greens and sweet potato pie; drive-thru plus new dining room; cafe nook with fireplace and TV for short meetings; community gift-card funded build",
+    "opening_date": null,
+    "area": "North Knoxville",
+    "tags": [
+      "burgers",
+      "drive_thru",
+      "chicken_livers",
+      "soul_food",
+      "family_owned",
+      "value"
+    ],
+    "parking_info": "Dedicated freestanding lot at the former Wendy's building on N Broadway at Claiborne Place, plus a drive-thru lane. Confirmed by building type and coverage rather than a published statement.",
+    "latitude": 35.999418100747,
+    "longitude": -83.92501089995
   },
   {
     "name": "Buttermilk Sky Pie Shop",
@@ -703,7 +842,9 @@ const RESTAURANTS = [
       "takeout",
       "family-friendly"
     ],
-    "parking_info": "Strip mall parking lot (ample)"
+    "parking_info": "Strip mall parking lot (ample)",
+    "latitude": 35.936136,
+    "longitude": -83.991706
   },
   {
     "name": "Camp Honey Coffee & Provisions",
@@ -724,7 +865,9 @@ const RESTAURANTS = [
       "local_makers",
       "pastries"
     ],
-    "parking_info": "On-site parking lot (always full when open)"
+    "parking_info": "On-site parking lot (always full when open)",
+    "latitude": 35.9269988,
+    "longitude": -83.9922093
   },
   {
     "name": "Cappuccino's",
@@ -747,7 +890,9 @@ const RESTAURANTS = [
       "special_occasion",
       "wine_bar"
     ],
-    "parking_info": "Private parking lot shared with Copper Cellar West at 7316 Kingston Pike. Free on-site parking available."
+    "parking_info": "Private parking lot shared with Copper Cellar West at 7316 Kingston Pike. Free on-site parking available.",
+    "latitude": 35.9294035,
+    "longitude": -84.032007
   },
   {
     "name": "Captain Crab",
@@ -757,9 +902,9 @@ const RESTAURANTS = [
     "phone": "(865) 381-2881",
     "website": "https://www.captaincrabtn.com/",
     "hours": "Sun-Thu 11 AM-9:30 PM; Fri-Sat 11 AM-10:30 PM",
-    "description": "Cajun-style seafood boil house on North Broadway. Famous Low Country Boil with snow crab, shrimp, sausage, corn, and potato — choose your catch from 12 seafood options, boiled in secret spices and served in a bag. Casual, hands-on dining.",
-    "atmosphere": "Casual, fun, hands-on seafood boil",
-    "special_features": "Build-your-own seafood boil, secret seasoning blend, served in bag",
+    "description": "Cajun-style seafood boil house on North Broadway. Famous Low Country Boil with snow crab, shrimp, sausage, corn, and potato — choose your catch from 12 seafood options, boiled in secret spices and served in a bag. Casual, hands-on dining.\n\nOrdering is a build-your-own sequence: pick your catch by the half pound from a dozen options, choose a seasoning, then set the heat -- Original for mild, \"I Like Spicy\" for medium, \"My Mouth on Fire\" at the top end, or Dry with the seasoning served on the side. The blend runs garlic- and butter-forward with the pepper underneath it. Everything arrives sealed in a bag, and the table gets bibs, gloves, crackers and a bucket for shells. The Ultimate Captain Special is the order for a group that cannot decide: crab, shrimp, crawfish, clams and lobster in one bag with the corn, potato and sausage.",
+    "atmosphere": "Casual and hands-on by design -- bibs and gloves come out with the bag, there is a bucket on the table for shells, and nobody expects you to stay clean. Table service rather than counter, and the thoughtful bits (crackers, extra napkins, the shell bucket) tend to show up without being asked for. The room runs loud once it fills, which is most of dinner service. North Broadway means a Fountain City neighborhood crowd rather than a downtown one: families, groups, people who came specifically to work for their food. Wear something you do not mind getting garlic butter on.",
+    "special_features": "Build-your-own seafood boil, secret seasoning blend, served in bag, four heat levels (Original, I Like Spicy, My Mouth on Fire, or Dry with seasoning on the side), 12 seafood options by the half pound, Ultimate Captain Special combo, bibs, gloves and shell buckets provided",
     "opening_date": null,
     "area": "North Knoxville",
     "tags": [
@@ -769,7 +914,9 @@ const RESTAURANTS = [
       "casual",
       "north-knoxville"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 36.0267912,
+    "longitude": -83.9274184
   },
   {
     "name": "Casa Don Gallo",
@@ -794,7 +941,9 @@ const RESTAURANTS = [
       "full bar",
       "Mexican villa decor"
     ],
-    "parking_info": "Free parking lot"
+    "parking_info": "Free parking lot",
+    "latitude": 35.90228,
+    "longitude": -84.023055
   },
   {
     "name": "Cazzy's Corner Grill",
@@ -812,7 +961,9 @@ const RESTAURANTS = [
     "tags": [
       "casual"
     ],
-    "parking_info": "Free parking in Brookview Town Centre shared lot with 811 total spaces (4.27 spaces per 1,000 SF). Parking readily available directly in front of restaurant. Shopping center features reciprocal parking easement throughout development, including access to 4-level parking garage. Eight Tesla supercharger stations available in parking lot. Easy access from I-40/75 Papermill exit."
+    "parking_info": "Free parking in Brookview Town Centre shared lot with 811 total spaces (4.27 spaces per 1,000 SF). Parking readily available directly in front of restaurant. Shopping center features reciprocal parking easement throughout development, including access to 4-level parking garage. Eight Tesla supercharger stations available in parking lot. Easy access from I-40/75 Papermill exit.",
+    "latitude": 35.9349918,
+    "longitude": -84.0036925
   },
   {
     "name": "Celestina Mexican Crafted",
@@ -831,7 +982,9 @@ const RESTAURANTS = [
       "casual_romantic",
       "outdoor_dining"
     ],
-    "parking_info": "Free parking available in The Shops at Bexhill shopping center lot (80 spaces total). The retail center is located at the corner of Bexhill Drive and Ebenezer Drive in West Knoxville with sidewalks and crosswalks providing easy pedestrian access."
+    "parking_info": "Free parking available in The Shops at Bexhill shopping center lot (80 spaces total). The retail center is located at the corner of Bexhill Drive and Ebenezer Drive in West Knoxville with sidewalks and crosswalks providing easy pedestrian access.",
+    "latitude": 35.879985,
+    "longitude": -84.063801
   },
   {
     "name": "Central Flats & Taps",
@@ -858,7 +1011,9 @@ const RESTAURANTS = [
       "no freezer kitchen",
       "local pioneer"
     ],
-    "parking_info": "Street parking on N Central St and surrounding Happy Holler streets"
+    "parking_info": "Street parking on N Central St and surrounding Happy Holler streets",
+    "latitude": 35.9818049,
+    "longitude": -83.9294299
   },
   {
     "name": "Cheers at Choto",
@@ -885,7 +1040,9 @@ const RESTAURANTS = [
       "sports_bar",
       "tiki_bar"
     ],
-    "parking_info": "{\"availability\": \"On-site parking available\", \"terrain\": \"Inclined parking lot\", \"capacity\": \"Generally adequate, not typically crowded\", \"notes\": \"Parking on an incline; reviewers note unusual layout\"}"
+    "parking_info": "{\"availability\": \"On-site parking available\", \"terrain\": \"Inclined parking lot\", \"capacity\": \"Generally adequate, not typically crowded\", \"notes\": \"Parking on an incline; reviewers note unusual layout\"}",
+    "latitude": 35.80486,
+    "longitude": -84.14521
   },
   {
     "name": "Chesapeake's - West Knoxville",
@@ -910,7 +1067,9 @@ const RESTAURANTS = [
       "Sunday brunch",
       "happy hour"
     ],
-    "parking_info": "Free parking lot"
+    "parking_info": "Free parking lot",
+    "latitude": 35.9127279,
+    "longitude": -84.1069874
   },
   {
     "name": "Chesapeake's Downtown",
@@ -939,7 +1098,9 @@ const RESTAURANTS = [
       "private_dining",
       "raw_bar"
     ],
-    "parking_info": "Free onsite parking available. Locust Street Garage located 3-minute walk ($1/hr, $7 max/day, free evenings after 6pm and all weekend). Additional parking at nearby Langley Garage."
+    "parking_info": "Free onsite parking available. Locust Street Garage located 3-minute walk ($1/hr, $7 max/day, free evenings after 6pm and all weekend). Additional parking at nearby Langley Garage.",
+    "latitude": 35.964085,
+    "longitude": -83.921993
   },
   {
     "name": "Chismoso Cocktails & Comida",
@@ -965,7 +1126,9 @@ const RESTAURANTS = [
       "cocktail bar",
       "small plates"
     ],
-    "parking_info": "Downtown Knoxville parking: Jackson Ave Lot (3-4 min walk) or Market Square Garage (10 min walk). Street parking limited."
+    "parking_info": "Downtown Knoxville parking: Jackson Ave Lot (3-4 min walk) or Market Square Garage (10 min walk). Street parking limited.",
+    "latitude": 35.9681889,
+    "longitude": -83.920368
   },
   {
     "name": "Chivo Taqueria",
@@ -990,7 +1153,9 @@ const RESTAURANTS = [
       "inventive menu",
       "whiskey selection"
     ],
-    "parking_info": "Downtown Gay Street location with municipal garage and street parking nearby. Several free and cheap lots within walking distance."
+    "parking_info": "Downtown Gay Street location with municipal garage and street parking nearby. Several free and cheap lots within walking distance.",
+    "latitude": 35.9667456,
+    "longitude": -83.9190726
   },
   {
     "name": "Coffee & Chocolate",
@@ -1000,9 +1165,9 @@ const RESTAURANTS = [
     "phone": "(865) 418-8579",
     "website": "https://www.coffeeandchocolate.com/",
     "hours": "Mon-Fri 7 AM-9 PM",
-    "description": "Long-running Knoxville coffee shop specializing in hand-painted chocolates, fresh-baked pastries, and French macarons. Multiple locations across Knoxville including Downtown, Powell, and West Hills. Perfect health score.",
-    "atmosphere": "Cozy, artisan café",
-    "special_features": "Hand-painted chocolates, French macarons, artisan pastries, multiple locations",
+    "description": "Long-running Knoxville coffee shop specializing in hand-painted chocolates, fresh-baked pastries, and French macarons. Multiple locations across Knoxville including Downtown, Powell, and West Hills. Perfect health score.\n\nThe West Hills storefront is the one where the chocolate work happens on site, hand-painted bonbons and truffles made in view of the counter in flavors running from dark chocolate sea salt caramel and toffee ganache to strawberry basil, champagne ganache and blackberry cheesecake. French macarons and scratch pastries fill out the case, and the coffee is roasted locally. The drink board leans sweet -- white mocha, dirty chai, matcha latte. Staying open into the evening makes it one of the few West Knoxville coffee counters that works as an after-dinner dessert stop rather than strictly a morning one.",
+    "atmosphere": "Small and warm with an industrial edge, the case of hand-painted chocolates supplying most of the visual interest in the room. Seating is limited and the space reads intimate rather than sprawling -- a neighborhood gathering spot in the Gallery at West Hills rather than a laptop farm. Counter service, quiet enough to hold a conversation, and the chocolate work visible from the floor gives you something to watch. The evening crowd skews toward dessert-and-coffee pairs rather than the morning commuter rush.",
+    "special_features": "Hand-painted chocolates made on site at the West Hills location, French macarons, artisan pastries, locally roasted coffee, evening hours, three Knoxville locations (Market Square, Powell, West Hills)",
     "opening_date": null,
     "area": "West Knoxville",
     "tags": [
@@ -1013,7 +1178,9 @@ const RESTAURANTS = [
       "pastries",
       "west-knoxville"
     ],
-    "parking_info": null
+    "parking_info": "Shared free surface lot at the Gallery at West Hills shopping center on Kingston Pike.",
+    "latitude": 35.92906,
+    "longitude": -84.03015
   },
   {
     "name": "Colonel's Cafe",
@@ -1039,7 +1206,9 @@ const RESTAURANTS = [
       "omelettes",
       "student_friendly"
     ],
-    "parking_info": "Small shared parking lot with adjacent businesses on Newcom Ave. Street parking available on Newcom Ave and surrounding Bearden neighborhood streets. No metered parking, free street parking."
+    "parking_info": "Small shared parking lot with adjacent businesses on Newcom Ave. Street parking available on Newcom Ave and surrounding Bearden neighborhood streets. No metered parking, free street parking.",
+    "latitude": 35.9421454,
+    "longitude": -83.9838808
   },
   {
     "name": "Condado Tacos",
@@ -1055,7 +1224,9 @@ const RESTAURANTS = [
     "opening_date": "2023-04-06T00:00:00Z",
     "area": null,
     "tags": [],
-    "parking_info": "Free dedicated parking lot on-site at 11383 Parkside Dr. Additional parking available throughout Turkey Creek shopping district including Pinnacle Parking at 11361 Parkside Dr (adjacent, 1-minute walk) and The Pinnacle at Turkey Creek mall parking at 11251 Parkside Dr (2-minute walk). All parking is free with ample spaces available in this retail/dining complex."
+    "parking_info": "Free dedicated parking lot on-site at 11383 Parkside Dr. Additional parking available throughout Turkey Creek shopping district including Pinnacle Parking at 11361 Parkside Dr (adjacent, 1-minute walk) and The Pinnacle at Turkey Creek mall parking at 11251 Parkside Dr (2-minute walk). All parking is free with ample spaces available in this retail/dining complex.",
+    "latitude": 35.9006844,
+    "longitude": -84.1596422
   },
   {
     "name": "Connors Steak & Seafood",
@@ -1079,7 +1250,9 @@ const RESTAURANTS = [
       "AAA-three-diamond",
       "wine-bar"
     ],
-    "parking_info": "Turkey Creek Shopping Center - ample free parking"
+    "parking_info": "Turkey Creek Shopping Center - ample free parking",
+    "latitude": 35.9041144,
+    "longitude": -84.1477203
   },
   {
     "name": "Cool Beans",
@@ -1102,7 +1275,9 @@ const RESTAURANTS = [
       "pool",
       "darts"
     ],
-    "parking_info": "Street parking on Lake Ave and side streets"
+    "parking_info": "Street parking on Lake Ave and side streets",
+    "latitude": 35.9547645,
+    "longitude": -83.9351749
   },
   {
     "name": "Copper Cellar",
@@ -1126,7 +1301,9 @@ const RESTAURANTS = [
       "travelers_choice_award",
       "wine_selection"
     ],
-    "parking_info": "On-site parking lot available at the restaurant. Street parking available on Kingston Pike. Restaurant is wheelchair accessible."
+    "parking_info": "On-site parking lot available at the restaurant. Street parking available on Kingston Pike. Restaurant is wheelchair accessible.",
+    "latitude": 35.9294035,
+    "longitude": -84.032007
   },
   {
     "name": "Cowboy Cantina",
@@ -1150,7 +1327,9 @@ const RESTAURANTS = [
       "drink_specials",
       "old_city"
     ],
-    "parking_info": "Street parking available in Old City; public parking lots and garages nearby in downtown Knoxville Old City district"
+    "parking_info": "Street parking available in Old City; public parking lots and garages nearby in downtown Knoxville Old City district",
+    "latitude": 35.970135,
+    "longitude": -83.918141
   },
   {
     "name": "Crafty Bastard Brewery - Downtown",
@@ -1176,7 +1355,9 @@ const RESTAURANTS = [
       "rotating-taps",
       "food-trucks"
     ],
-    "parking_info": "Free parking at 298 E. Jackson Ave under interstate overpass. Street parking available in Emory Place district."
+    "parking_info": "Free parking at 298 E. Jackson Ave under interstate overpass. Street parking available in Emory Place district.",
+    "latitude": 35.9744013,
+    "longitude": -83.9224135
   },
   {
     "name": "Crafty Bastard Brewery - West",
@@ -1184,7 +1365,7 @@ const RESTAURANTS = [
     "cuisine_type": "Brewery",
     "price_range": "$",
     "phone": "(865) 770-8743",
-    "website": "craftybastardbrewery.com",
+    "website": "https://craftybastardbrewery.com",
     "hours": "{\"monday\": \"16:00-22:00\", \"tuesday\": \"16:00-22:00\", \"wednesday\": \"16:00-22:00\", \"thursday\": \"16:00-22:00\", \"friday\": \"12:00-22:00\", \"saturday\": \"12:00-22:00\", \"sunday\": \"12:00-19:00\"}",
     "description": "Crafty Bastard opened this West Knoxville production facility in July 2021, bringing the experimental brewing that made their 4th & Gill location a Knoxville favorite to a suburban strip mall location off Kingston Pike. What it lacks in historic architecture it gains in practicality: ample parking, a spacious industrial taproom, and an outdoor covered stage with a proper sound system. The three-barrel nanobrewery operation churns out the same boundary-pushing beers—flagship Hop Candy IPA and Tessellation, plus rotating specials like Mayan Chocolate Chili Porter and the polarizing Picklebier. In 2022, they partnered with Hole in the Wall Pizza, which literally operates through a pass-through window in the wall. The pizza menu complements the beer perfectly: 12-inch pies including Buffalo Chicken, Bacon Pickle, and Greek, plus build-your-own options starting at $11. The vibe is exactly what a brewery taproom should be: casual, dog-friendly, zero pretense. Weeknight hours skew late (4-10pm Mon-Thu), opening at noon on weekends. Live music and food trucks rotate through. This is the practical sibling to the downtown original—same quality beer, easier parking, room to breathe.",
     "atmosphere": "Industrial brewery taproom in a West Knox strip mall. Spacious indoor seating, covered outdoor stage, dog-friendly patio. Basketball hoop outside. The kind of place where showing up in work boots is perfectly normal. Not trying to be anything other than a solid neighborhood brewery.",
@@ -1199,7 +1380,9 @@ const RESTAURANTS = [
       "live-music",
       "west-knoxville"
     ],
-    "parking_info": "Ample free parking in strip mall lot"
+    "parking_info": "Ample free parking in strip mall lot",
+    "latitude": 35.9048886,
+    "longitude": -84.1143668
   },
   {
     "name": "Cruze Farm",
@@ -1209,7 +1392,7 @@ const RESTAURANTS = [
     "phone": "(865) 333-1265",
     "website": "https://www.cruzefarm.com/downtown-knoxville",
     "hours": "{\"monday\": \"12:00-21:00\", \"tuesday\": \"12:00-21:00\", \"wednesday\": \"12:00-21:00\", \"thursday\": \"12:00-21:00\", \"friday\": \"12:00-22:00\", \"saturday\": \"12:00-22:00\", \"sunday\": \"12:00-21:00\"}",
-    "description": "Third-generation Tennessee dairy farm that turned ice cream parlor, serving scoops made from their own Jersey cow herd that graze 365 days a year on pasture in the hills surrounding the French Broad River. Earl and Cheri started bottling milk with their name on it in 1980; daughter Colleen and her husband Manjit now run the downtown scoop shop. The milk isn't homogenized—cream rises to the top—and you can taste the difference in every cone. Flavors rotate daily based on what they're churning: iced lemon cookie, dole cherry whipped, pumpkin churro twist. Staff in red gingham dresses dish samples freely. Lines form by 7 PM on weekends, but they move. This isn't artisanal ice cream cosplay—it's a working dairy farm that happens to make ice cream, and the authenticity shows.",
+    "description": "Third-generation Tennessee dairy farm turned scoop shop, and the ice cream comes from their own Jersey herd grazing 365 days a year on pasture in the hills around the French Broad River. Earl and Cheri started bottling milk with their name on it in 1980; daughter Colleen and her husband Manjit run the downtown shop now. The milk isn't homogenized – cream rises to the top – and you can taste exactly that in every cone.\n\nFlavors rotate daily based on what they're churning: iced lemon cookie, dole cherry whipped, pumpkin churro twist. Staff in red gingham dresses dish out samples freely, which you'll want before committing. Lines form by 7 PM on weekends, but they move fast enough.\n\nThis isn't artisanal ice cream cosplay. It's a working dairy farm that happens to make ice cream, and that difference shines through in every bite.",
     "atmosphere": "Nostalgic soda fountain setup with vibrant red-and-white farm-themed decor. Staff in vintage-style uniforms, families with kids, UT students on dates, tourists who found the right spot. Friendly buzz, not precious. You're eating ice cream from cows that exist, on a farm you could visit.",
     "special_features": "Jersey cow milk from family farm, non-homogenized, grass-fed 365 days/year, daily rotating flavors, free samples, vegan soft serve available",
     "opening_date": "2018-08-10T00:00:00Z",
@@ -1224,7 +1407,9 @@ const RESTAURANTS = [
       "kid-friendly",
       "date-night-casual"
     ],
-    "parking_info": "Downtown Knoxville - street parking and nearby garages"
+    "parking_info": "Downtown Knoxville - street parking and nearby garages",
+    "latitude": 35.965296,
+    "longitude": -83.918655
   },
   {
     "name": "Cultivate Coffee + Flowers",
@@ -1251,7 +1436,9 @@ const RESTAURANTS = [
       "Likewise Coffee",
       "Flourish Flowers"
     ],
-    "parking_info": "Designated parking lot. Drive-thru available. Broadway traffic can make entry tricky during rush hour—approach from the right direction or circle back."
+    "parking_info": "Designated parking lot. Drive-thru available. Broadway traffic can make entry tricky during rush hour—approach from the right direction or circle back.",
+    "latitude": 36.033766,
+    "longitude": -83.93176
   },
   {
     "name": "Curious Dog",
@@ -1275,7 +1462,9 @@ const RESTAURANTS = [
       "old_city",
       "late_lunch"
     ],
-    "parking_info": "Jackson Ave Lot nearby offers free parking weeknights after 6pm and free all weekend. Street parking available with metered spots. Check City of Knoxville parking website for specific lot locations and rates."
+    "parking_info": "Jackson Ave Lot nearby offers free parking weeknights after 6pm and free all weekend. Street parking available with metered spots. Check City of Knoxville parking website for specific lot locations and rates.",
+    "latitude": 35.9694646,
+    "longitude": -83.9196602
   },
   {
     "name": "Curry Pot Taste of India",
@@ -1301,7 +1490,9 @@ const RESTAURANTS = [
       "naan",
       "vegetarian options\""
     ],
-    "parking_info": "Free parking available in Apison Crossing shopping center lot. Located in retail strip center at 9408 Apison Pike with shared parking for multiple businesses."
+    "parking_info": "Free parking available in Apison Crossing shopping center lot. Located in retail strip center at 9408 Apison Pike with shared parking for multiple businesses.",
+    "latitude": 35.0593394,
+    "longitude": -85.0685886
   },
   {
     "name": "DSB Provisions",
@@ -1311,9 +1502,9 @@ const RESTAURANTS = [
     "phone": "(865) 518-1611",
     "website": "https://dsbprovisions.com/",
     "hours": "Wed-Sun 5-9 PM dinner; Grab & Go available 11 AM",
-    "description": "Farm-to-table Italian from chef Dustin Busby, featuring handmade pasta crafted from scratch using local and imported ingredients — including eggs from the Busby family farm. Intimate dinner experience without pretense. Part of Maryville's Greenway Village development.",
-    "atmosphere": "Intimate, unpretentious, farm-driven Italian",
-    "special_features": "Handmade pasta, farm-sourced ingredients, family farm eggs, grab-and-go lunch option",
+    "description": "Farm-to-table Italian from chef Dustin Busby, featuring handmade pasta crafted from scratch using local and imported ingredients — including eggs from the Busby family farm. Intimate dinner experience without pretense. Part of Maryville's Greenway Village development.\n\nBusby raises the pastured chickens whose eggs go into the pasta and grows produce for the sauces and pestos, which is the sort of claim that usually means a herb pot by the back door and here does not. The menu is a la carte rather than a tasting: shareables in the 8 to 18 range (burrata and prosciutto at 14, arancini at 9), pasta from 18 to 24 with cacio e pepe at 19, roasted sweet corn agnolotti at 21 and campanelle with Gulf shrimp at 24, and entrees 28 to 32 -- roasted airline chicken, olive-baked Gulf snapper, lamb sausage over polenta with braised cabbage. Reservations run through Resy and weekends are genuinely hard to get. A separate grab-and-go window operates Wednesday through Sunday from 11 to 2, which is a different service entirely from the dinner room.",
+    "atmosphere": "An intimate room in Greenway Village, Maryville's new walkable town-square development, and unpretentious in a way that reads as deliberate rather than underdone -- the cooking is the formal element, not the setting. Full table service, dinner only, five nights a week. Worth knowing before you book it as a quiet anniversary dinner: at least one reviewer flags the interior as loud, and a small hard-surfaced dining room with a full house will do that. Dress is Maryville-casual; nobody is checking. The draw is a chef cooking his own ingredients at close range, and the room is built to keep your attention on the plate.",
+    "special_features": "Handmade pasta, farm-sourced ingredients, eggs from the chef's own pastured flock, produce grown for the sauces and pestos, a la carte dinner menu, separate grab-and-go lunch window Wed-Sun 11 AM-2 PM, Resy reservations, Greenway Village location",
     "opening_date": "2026-02-17T00:00:00Z",
     "area": "Downtown Maryville",
     "tags": [
@@ -1324,7 +1515,9 @@ const RESTAURANTS = [
       "handmade",
       "date-night"
     ],
-    "parking_info": null
+    "parking_info": "Lot and street parking throughout the Greenway Village development in downtown Maryville; the developer added on-site parking with the 2026 build-out.",
+    "latitude": 35.751731,
+    "longitude": -83.971992
   },
   {
     "name": "Dancing Bear Appalachian Bistro",
@@ -1351,7 +1544,33 @@ const RESTAURANTS = [
       "private-gardens",
       "local-sourcing"
     ],
-    "parking_info": "On-site parking at lodge property"
+    "parking_info": "On-site parking at lodge property",
+    "latitude": 35.678645,
+    "longitude": -83.782349
+  },
+  {
+    "name": "Dap's Pizza & Provisions",
+    "address": "9411 S Northshore Dr, Ste 102, Knoxville, TN 37922",
+    "cuisine_type": "Pizza",
+    "price_range": "$$",
+    "phone": "(865) 500-8929",
+    "website": "https://dapsknoxville.com",
+    "hours": "{\"sunday\": \"16:00-21:00\", \"monday\": \"16:00-21:00\", \"tuesday\": \"closed\", \"wednesday\": \"16:00-21:00\", \"thursday\": \"16:00-21:00\", \"friday\": \"16:00-22:00\", \"saturday\": \"16:00-22:00\"}",
+    "description": "Neighborhood pizzeria built around an imported Italian oven, opened July 2026 on the South Northshore side of West Knoxville. Hand-stretched dough baked hot and fast, classic and seasonal pies, plus boards, salads, snacks and pantry items to take home. Drinks run to local beer, natural wine, soft drinks and a short cocktail list. Retro room with booths and bar slices, built around good music and an open door — the format reads casual but the operation is more deliberate than an ordinary suburban pizza shop.",
+    "atmosphere": "A retro corner pizzeria done deliberately: booths as the primary seating, a bar counter for slices and a drink, and a vintage-inspired look the owners lead with in their own copy. Counter service, music up, family-friendly by design - the stated aim is a room where \"neighbors feel like regulars and first-timers feel like neighbors,\" and the pizza names (The Fist Bump, The Peace Sign, The Hang Ten) tell you how seriously it takes itself. Weekend brunch widens the crowd further.\n\nExpect kids, expect noise on a Friday, expect to order at the counter and find your own booth. It is a strip-retail suite on South Northshore rather than a destination room, and at six weeks old there is no accumulated review record to check any of this against - the booth-and-bar layout and the retro framing are verified from the restaurant's own site and Instagram; noise level, lighting and whether there is a patio are not.",
+    "special_features": "Imported Italian oven; natural wine and local beer; pantry/provisions retail; slices at the bar; whole pies to go",
+    "opening_date": null,
+    "area": "West Knoxville",
+    "tags": [
+      "pizza",
+      "natural_wine",
+      "local_beer",
+      "neighborhood",
+      "family_friendly"
+    ],
+    "parking_info": "Shared surface lot at the 9411 S Northshore Dr retail building (Suite 102); no named shopping center - small standalone strip retail. Lot type inferred from the property listing, not confirmed on site.",
+    "latitude": 35.863643926171,
+    "longitude": -84.063787762427
   },
   {
     "name": "DiCarlo's Pizza",
@@ -1375,7 +1594,9 @@ const RESTAURANTS = [
       "beer and wine",
       "outdoor seating"
     ],
-    "parking_info": "Downtown street parking and nearby public garages"
+    "parking_info": "Downtown street parking and nearby public garages",
+    "latitude": 35.9646143,
+    "longitude": -83.9177357
   },
   {
     "name": "Downtown Grill & Brewery",
@@ -1398,7 +1619,9 @@ const RESTAURANTS = [
       "mesquite-grill",
       "historic-building"
     ],
-    "parking_info": "Street parking and nearby garages: State Street Garage (4 min walk), Market Square Garage (6 min walk), Langley Garage (9 min walk)"
+    "parking_info": "Street parking and nearby garages: State Street Garage (4 min walk), Market Square Garage (6 min walk), Langley Garage (9 min walk)",
+    "latitude": 35.9656885,
+    "longitude": -83.9181388
   },
   {
     "name": "Drake's",
@@ -1414,7 +1637,9 @@ const RESTAURANTS = [
     "opening_date": "2016-01-01T00:00:00Z",
     "area": "Bearden",
     "tags": [],
-    "parking_info": "Free parking lot at Centre at Deane Hill shopping center"
+    "parking_info": "Free parking lot at Centre at Deane Hill shopping center",
+    "latitude": 35.9251172,
+    "longitude": -84.0339365
   },
   {
     "name": "Dullahan's",
@@ -1441,7 +1666,9 @@ const RESTAURANTS = [
       "fish-and-chips",
       "bangers-and-mash"
     ],
-    "parking_info": "Located in Renaissance Farragut shopping center, a 29-acre campus-style development with ample parking. Renaissance Farragut features a park-like setting with beautiful landscaping and mature trees. Visitor parking available in shared lot."
+    "parking_info": "Located in Renaissance Farragut shopping center, a 29-acre campus-style development with ample parking. Renaissance Farragut features a park-like setting with beautiful landscaping and mature trees. Visitor parking available in shared lot.",
+    "latitude": 35.865967,
+    "longitude": -84.20937
   },
   {
     "name": "Earl's Knoxville",
@@ -1465,7 +1692,9 @@ const RESTAURANTS = [
       "neighborhood",
       "all-day"
     ],
-    "parking_info": "Free parking available in South Banks development lot on Waterfront Drive."
+    "parking_info": "Free parking available in South Banks development lot on Waterfront Drive.",
+    "latitude": 35.9615346,
+    "longitude": -83.903238
   },
   {
     "name": "Eggspectation",
@@ -1475,9 +1704,9 @@ const RESTAURANTS = [
     "phone": "(865) 265-1598",
     "website": "https://www.eggspectation.com/knoxville-tn",
     "hours": "Mon-Sat 7 AM-9 PM; Sun 7 AM-8 PM",
-    "description": "All-day brunch and dinner spot at Kern's Bakery Food Hall. Chef-inspired omelets, benedicts, burgers, seafood, steaks, and craft cocktails. Elevated comfort food classics in a cozy yet sophisticated setting.",
-    "atmosphere": "Cozy, sophisticated brunch atmosphere",
-    "special_features": "All-day brunch, craft cocktails, dinner service, Kern's Bakery location",
+    "description": "All-day brunch and dinner spot at Kern's Bakery Food Hall. Chef-inspired omelets, benedicts, burgers, seafood, steaks, and craft cocktails. Elevated comfort food classics in a cozy yet sophisticated setting.\n\nWorth knowing what it is: a Montreal chain founded in 1993, not a local independent, and one tenant among several inside the Kern's Bakery Food Hall rather than a standalone restaurant. That food-hall context is the real character of the place -- a National Trust-recognized adaptive reuse of the historic Kern's Bakery building, which gives the setting more interest than the brand would on its own. Breakfast runs all day and the kitchen keeps going through dinner with seafood, steaks, lamb chops and pasta. Reviewer favorites skew toward the things that sound least like a breakfast chain: duck confit poutine, sourdough-crust pizza, a roasted beet and citrus salad. Reservations through OpenTable, where the reviews split on consistency.",
+    "atmosphere": "Cozy-sophisticated by the chain's own description, and in practice that means a polished dining room borrowing atmosphere from the building around it -- brick, height and industrial bones from the old Kern's Bakery, shared with the rest of the food hall. The food-hall setting cuts both ways for a date: there is somewhere to go before and after without moving the car, but the ambient energy is a busy multi-vendor destination rather than a room that belongs to you. Full table service. Families and brunch crowds dominate the morning through early afternoon; evenings thin out and get considerably calmer, which is when the dinner menu is worth the trip.",
+    "special_features": "All-day brunch, dinner service with seafood, steaks and lamb chops, craft cocktails, OpenTable reservations, located inside the historic Kern's Bakery Food Hall, free on-site parking with Level 1 EV chargers, Montreal-founded chain (est. 1993)",
     "opening_date": null,
     "area": "South Knoxville",
     "tags": [
@@ -1488,7 +1717,9 @@ const RESTAURANTS = [
       "cocktails",
       "dinner"
     ],
-    "parking_info": null
+    "parking_info": "Free on-site lot at Kern's Bakery Food Hall with Level 1 EV chargers. The food hall dropped its paid-parking system in 2024 after customer pushback.",
+    "latitude": 35.953348,
+    "longitude": -83.91445
   },
   {
     "name": "El Charro",
@@ -1498,7 +1729,7 @@ const RESTAURANTS = [
     "phone": "(865) 584-9807",
     "website": "https://elcharroknoxville.com",
     "hours": "{\"monday\": \"11:00-21:00\", \"tuesday\": \"11:00-21:00\", \"wednesday\": \"11:00-21:00\", \"thursday\": \"11:00-21:00\", \"friday\": \"11:00-21:00\", \"saturday\": \"11:00-21:00\", \"sunday\": \"11:00-21:00\"}",
-    "description": "Family-owned Mexican spot that's been doing the work since the 80s—32+ years of consistency means something. The menu splits between Tex-Mex standards (enchiladas, chimichangas, combo plates) and the stuff that matters: menudo, pozole, birria, carnitas, tamales that show up on weekends when family recipes get deployed. Chicken soup gets flagged repeatedly by people who've been coming for decades. The move is knowing what you're walking into—this isn't haute Mexican or modern fusion, it's a neighborhood spot where portions are generous and the kitchen knows how to handle traditional preparations without apology.",
+    "description": "A family-owned Mexican place that's been open since the 80s – 32-plus years of consistency means something. The menu splits between your Tex-Mex standards (enchiladas, chimichangas, combo plates) and the stuff that actually matters: menudo, pozole, birria, carnitas, and tamales that surface on weekends when the family recipes come out. The chicken soup gets flagged repeatedly by people who've been coming back for decades, which tells you something.\n\nThe move here is knowing what you're walking into. This is a neighborhood spot where the portions are generous and the kitchen handles traditional preparations without apology or explanation. That's the whole thing, really.",
     "atmosphere": "Straightforward dining room with patio seating available. Family-run energy, locally familiar—the kind of place where regulars have their orders down and staff remembers faces. Cozy without trying too hard, decor lets the food do the talking. Margarita Mondays and Taco Tuesdays bring the weekly crowd.",
     "special_features": "Weekend family recipes, Menudo/Pozole/Birria available, Margarita Mondays, Taco Tuesdays, Patio seating, Catering available",
     "opening_date": "2019-06-01T00:00:00Z",
@@ -1513,7 +1744,9 @@ const RESTAURANTS = [
       "patio-dining",
       "margaritas"
     ],
-    "parking_info": "Strip mall parking lot available"
+    "parking_info": "Strip mall parking lot available",
+    "latitude": 35.9445297,
+    "longitude": -83.982691
   },
   {
     "name": "Elkmont Station",
@@ -1531,7 +1764,9 @@ const RESTAURANTS = [
     "tags": [
       "casual"
     ],
-    "parking_info": "Turkey Creek shopping center parking lot—plentiful and free"
+    "parking_info": "Turkey Creek shopping center parking lot—plentiful and free",
+    "latitude": 35.880509,
+    "longitude": -84.16065
   },
   {
     "name": "Emilia",
@@ -1557,7 +1792,9 @@ const RESTAURANTS = [
       "100% Italian wine list",
       "Matt Gallaher"
     ],
-    "parking_info": "Market Square Garage, Locust Street Garage, State Street Garage nearby"
+    "parking_info": "Market Square Garage, Locust Street Garage, State Street Garage nearby",
+    "latitude": 35.9653771,
+    "longitude": -83.9192245
   },
   {
     "name": "Emma's Southern Kitchen",
@@ -1582,7 +1819,9 @@ const RESTAURANTS = [
       "tacos",
       "limited_seating"
     ],
-    "parking_info": "Parking available on-site and street parking in the Sutherland Avenue area. Note: Parking can be limited during peak dining hours."
+    "parking_info": "Parking available on-site and street parking in the Sutherland Avenue area. Note: Parking can be limited during peak dining hours.",
+    "latitude": 35.946019,
+    "longitude": -83.980882
   },
   {
     "name": "EuroDelights Market & Cafe",
@@ -1607,7 +1846,9 @@ const RESTAURANTS = [
       "European pastries",
       "Slavic community"
     ],
-    "parking_info": "Strip mall parking lot on Kingston Pike"
+    "parking_info": "Strip mall parking lot on Kingston Pike",
+    "latitude": 35.9262261,
+    "longitude": -84.0436998
   },
   {
     "name": "Fable Hollow Coffee & Bookshoppe",
@@ -1617,7 +1858,7 @@ const RESTAURANTS = [
     "phone": "865-801-9370",
     "website": "https://fablehollow.com/",
     "hours": "{\"monday\": \"Closed\", \"tuesday\": \"8:00 AM-7:00 PM\", \"wednesday\": \"8:00 AM-7:00 PM\", \"thursday\": \"8:00 AM-7:00 PM\", \"friday\": \"8:00 AM-7:00 PM\", \"saturday\": \"9:00 AM-7:00 PM\", \"sunday\": \"10:00 AM-5:00 PM\"}",
-    "description": "Fantasy-themed independent bookshop that happens to serve coffee, not the other way around. Opened 2023 in Fountain City by owners who understood that genre readers need a third place that gets it—shelves heavy on fantasy, sci-fi, and speculative fiction, paper decorations dangling from ceiling, handwritten shelf signs, greenery everywhere like someone turned a D&D tavern into a real space. The coffee program exists to give you something to drink while you browse or camp out in one of the leather couches by the faux fireplace. This is where the people who grew up on Discworld and still play D&D can buy books without algorithm interference, attend author events, join book clubs that actually finish books. Not trying to be a cafe that sells books or a bookstore that happens to have an espresso machine—it's a bookstore that knows coffee makes people stay longer.",
+    "description": "A fantasy-themed independent bookshop that happens to serve coffee – not the other way around. Opened in 2023 in Fountain City by owners who clearly understood that genre readers need a third place that actually gets them: shelves heavy on fantasy, sci-fi, and speculative fiction; paper decorations dangling from the ceiling; handwritten shelf signs; greenery everywhere, like someone took a D&D tavern and willed it into a real physical space.\n\nThe coffee program exists to give you something to hold while you browse or sink into one of the leather couches by the faux fireplace. This is where the people who grew up on Discworld and still roll dice on weekends can buy books without an algorithm deciding what they probably meant to search for – and then stick around for author events and book clubs that actually finish the books.\n\nThis isn't a café that sells books, or a bookstore that happens to have an espresso machine tucked behind the register. It's a bookstore that figured out something simple: coffee makes people stay longer.",
     "atmosphere": "Fantasy tavern energy meets indie bookshop. Paper dragons hang overhead, plants spill from shelves, handwritten signs guide you through genres. Plush leather couches anchor reading nooks. Smells like fresh coffee and new books. The crowd: actual readers, D&D groups between sessions, people who know what \"cozy fantasy\" means. Quiet enough to read, lively enough to feel like community.",
     "special_features": "D&D nights, book clubs, author events, fantasy-inspired seasonal drinks",
     "opening_date": "2020-01-01T00:00:00Z",
@@ -1630,7 +1871,9 @@ const RESTAURANTS = [
       "community",
       "cozy"
     ],
-    "parking_info": "Strip mall parking lot"
+    "parking_info": "Strip mall parking lot",
+    "latitude": 36.024055,
+    "longitude": -83.923422
   },
   {
     "name": "Fai Thai Kitchen",
@@ -1653,7 +1896,9 @@ const RESTAURANTS = [
       "outdoor_seating",
       "QR_ordering"
     ],
-    "parking_info": "Strip mall parking lot"
+    "parking_info": "Strip mall parking lot",
+    "latitude": 35.9427385,
+    "longitude": -83.9783275
   },
   {
     "name": "Farm to Feast Knox",
@@ -1679,7 +1924,9 @@ const RESTAURANTS = [
       "She-Diggs-Farm",
       "by-appointment"
     ],
-    "parking_info": "Farm parking available"
+    "parking_info": "Farm parking available",
+    "latitude": 35.90476,
+    "longitude": -84.24939
   },
   {
     "name": "Farmacy",
@@ -1699,7 +1946,9 @@ const RESTAURANTS = [
       "healthy",
       "vegetarian_options"
     ],
-    "parking_info": "On-site parking available in wheelchair accessible lot. Limited parking during peak hours. Lot parking directly accessible from Kingston Pike."
+    "parking_info": "On-site parking available in wheelchair accessible lot. Limited parking during peak hours. Lot parking directly accessible from Kingston Pike.",
+    "latitude": 35.9391763,
+    "longitude": -83.9874251
   },
   {
     "name": "Fin-Two Japanese Ale House",
@@ -1721,7 +1970,9 @@ const RESTAURANTS = [
       "sake",
       "yakitori"
     ],
-    "parking_info": "Street parking available"
+    "parking_info": "Street parking available",
+    "latitude": 35.96983,
+    "longitude": -83.91812
   },
   {
     "name": "Finn's Restaurant & Tavern",
@@ -1745,13 +1996,15 @@ const RESTAURANTS = [
       "private-events",
       "trivia"
     ],
-    "parking_info": "On-site parking lot, wheelchair accessible"
+    "parking_info": "On-site parking lot, wheelchair accessible",
+    "latitude": 35.9122182,
+    "longitude": -84.0818825
   },
   {
     "name": "Fiori Restaurant, Bar & Lounge",
     "address": "111 E. Jackson Ave., Suite 103, Knoxville, TN 37915",
     "cuisine_type": "Italian-American Upscale Lounge",
-    "price_range": "$$-$$$",
+    "price_range": "$$$",
     "phone": "(865) 200-4928",
     "website": "https://fioribar.com",
     "hours": "{\"monday\": \"Closed\", \"tuesday\": \"5:00 PM - 10:00 PM\", \"wednesday\": \"5:00 PM - 10:00 PM\", \"thursday\": \"5:00 PM - 10:00 PM\", \"friday\": \"4:00 PM - 12:00 AM\", \"saturday\": \"4:00 PM - 12:00 AM\", \"sunday\": \"Closed\"}",
@@ -1772,7 +2025,9 @@ const RESTAURANTS = [
       "handcrafted",
       "locally-owned"
     ],
-    "parking_info": "Old City public parking: Old City Lot South (5 min walk) or Old City Lot North (6 min walk). Standard Old City parking situation—walkable but not right outside."
+    "parking_info": "Old City public parking: Old City Lot South (5 min walk) or Old City Lot North (6 min walk). Standard Old City parking situation—walkable but not right outside.",
+    "latitude": 35.970965,
+    "longitude": -83.918317
   },
   {
     "name": "Fire + Smoke",
@@ -1790,7 +2045,9 @@ const RESTAURANTS = [
     "tags": [
       "fine_dining"
     ],
-    "parking_info": "Located in Turkey Creek shopping center with ample free parking. Surface lot parking directly in front of restaurant. Additional parking available throughout Turkey Creek complex on Parkside Dr and S Northshore Dr."
+    "parking_info": "Located in Turkey Creek shopping center with ample free parking. Surface lot parking directly in front of restaurant. Additional parking available throughout Turkey Creek complex on Parkside Dr and S Northshore Dr.",
+    "latitude": 35.864283,
+    "longitude": -84.064212
   },
   {
     "name": "Five & Hoek Coffee Co.",
@@ -1798,7 +2055,7 @@ const RESTAURANTS = [
     "cuisine_type": "Coffee & Cafe",
     "price_range": "$$",
     "phone": "",
-    "website": "fiveandhoek.com",
+    "website": "https://fiveandhoek.com",
     "hours": "{\"monday\": \"7:00 AM - 3:00 PM\", \"tuesday\": \"7:00 AM - 3:00 PM\", \"wednesday\": \"7:00 AM - 3:00 PM\", \"thursday\": \"7:00 AM - 3:00 PM\", \"friday\": \"7:00 AM - 3:00 PM\", \"saturday\": \"8:00 AM - 3:00 PM\", \"sunday\": \"8:00 AM - 3:00 PM\"}",
     "description": "Illinois transplants who got tired of shoveling snow and opened a specialty roastery in Old City that actually understands what third-wave coffee means. Not the performative kind where baristas won't make a latte. The real kind: direct relationships with farmers in Honduras, Costa Rica, Papua New Guinea, Colombia, Rwanda, and Mexico. Light to medium roasts on a Diedrich IR-12 because the point is tasting what the farmer grew, not what the roaster burned. The 2,800-square-foot space opened in 2023 and feels like what a coffee shop should be: bright, minimal, actually comfortable. House-made caramels in lattes if you want them. Knoxville-specific chai blend developed for this location. Ground Control brewer for pour-overs. Everything roasted in small 10-15 pound batches on-site. The kind of place where coffee nerds and regular people can both find something to like without anyone being weird about it.",
     "atmosphere": "Bright minimalist space with high ceilings, natural wood, and windows that make it feel bigger than 2,800 square feet. Mix of communal tables for laptop workers, individual spots for reading, lounge seating for meeting friends. Clean lines, no clutter, good lighting. Noise level stays conversation-friendly even when busy. Espresso machine hum and grinder sounds are present but not overwhelming. Crowd skews coffee-literate but not exclusionary—remote workers, students, people who genuinely care about where their beans come from. The vibe is focused but relaxed.",
@@ -1815,7 +2072,9 @@ const RESTAURANTS = [
       "minimalist",
       "laptop-friendly"
     ],
-    "parking_info": "Street parking on Magnolia Avenue and surrounding blocks. Old City garage nearby."
+    "parking_info": "Street parking on Magnolia Avenue and surrounding blocks. Old City garage nearby.",
+    "latitude": 35.97201,
+    "longitude": -83.920639
   },
   {
     "name": "Five Thirty Lounge",
@@ -1840,7 +2099,9 @@ const RESTAURANTS = [
       "seasonal-outdoor",
       "downtown"
     ],
-    "parking_info": "The Hyatt Place offers valet parking (approximately $28 plus tax for overnight) and self-parking in a garage adjacent to the building. Street-level parking garages within walking distance include: State Street Garage (177 steps/4 minute walk), Market Square Garage (343 steps/8 minute walk), and Locust Street Garage (392 steps/9 minute walk). Accessible parking available near entrance."
+    "parking_info": "The Hyatt Place offers valet parking (approximately $28 plus tax for overnight) and self-parking in a garage adjacent to the building. Street-level parking garages within walking distance include: State Street Garage (177 steps/4 minute walk), Market Square Garage (343 steps/8 minute walk), and Locust Street Garage (392 steps/9 minute walk). Accessible parking available near entrance.",
+    "latitude": 35.964522,
+    "longitude": -83.917477
   },
   {
     "name": "Flock Beer & Wine",
@@ -1880,7 +2141,9 @@ const RESTAURANTS = [
       "shareables",
       "byob-next-door"
     ],
-    "parking_info": "Street parking on Sutherland Avenue and surrounding streets"
+    "parking_info": "Street parking on Sutherland Avenue and surrounding streets",
+    "latitude": 35.9531383,
+    "longitude": -83.9635846
   },
   {
     "name": "Fly by Night",
@@ -1902,7 +2165,9 @@ const RESTAURANTS = [
       "tern_club_team",
       "vintage"
     ],
-    "parking_info": "Street parking available on Sevier Avenue. South Knoxville area offers free street parking with no meters."
+    "parking_info": "Street parking available on Sevier Avenue. South Knoxville area offers free street parking with no meters.",
+    "latitude": 35.9583514,
+    "longitude": -83.9066296
   },
   {
     "name": "Flying Biscuit Café",
@@ -1912,9 +2177,9 @@ const RESTAURANTS = [
     "phone": "(865) 288-0513",
     "website": "https://www.flyingbiscuit.com/locations-2/knoxville/",
     "hours": "Mon-Fri 7 AM-2 PM; Sat-Sun 7 AM-3 PM",
-    "description": "Atlanta-based Southern breakfast and brunch café's first Tennessee location. All-day breakfast with dishes like cream dream biscuits, shrimp and grits, and organic oatmeal pancakes. Known for vegan-friendly options alongside classic Southern comfort food.",
-    "atmosphere": "Bright, casual brunch spot",
-    "special_features": "All-day breakfast, vegan options, Southern comfort food, first Tennessee location",
+    "description": "Atlanta-based Southern breakfast and brunch café's first Tennessee location. All-day breakfast with dishes like cream dream biscuits, shrimp and grits, and organic oatmeal pancakes. Known for vegan-friendly options alongside classic Southern comfort food.\n\nOpened May 2026 as the chain's first Tennessee location, in the Village at Parkside off the Turkey Creek corridor, with a second Knoxville store slated for downtown later in the year. The cheese grits are the calling card and what regulars mention first; past that it is Hollywood omelettes, eggs benedict, stuffed French toast, chicken and waffles, breakfast tacos and biscuits with gravy. Vegan diners get a real option rather than a garnish -- a tofu scramble with spinach, mushrooms, red peppers and onions. Gluten-free items are on the menu, but the brand does not claim celiac-safe preparation because the line is shared. Fridays add a mimosa tower at $29.95.",
+    "atmosphere": "Bright and mural-heavy, carrying the high-turnover energy of a brunch room that stops serving at two. Full table service, families and Turkey Creek shoppers filling the dining room through late morning, and a noise level that reviewers single out as the main complaint -- this is not a room for a lingering conversation on a weekend. Service runs warm but uneven, which tracks for a location still inside its first year. Weekday mornings are markedly calmer than the Saturday and Sunday rush, when the wait builds.",
+    "special_features": "All-day breakfast, vegan tofu scramble and vegan-friendly menu, Southern comfort food, first Tennessee location (opened May 2026), signature cheese grits, Friday mimosa tower ($29.95), gluten-free items available though preparation is not celiac-safe",
     "opening_date": null,
     "area": "Farragut",
     "tags": [
@@ -1924,7 +2189,9 @@ const RESTAURANTS = [
       "farragut",
       "vegan-friendly"
     ],
-    "parking_info": null
+    "parking_info": "Shared shopping-center lot at the Village at Parkside in the Turkey Creek corridor; free and ample, though the whole development fills on weekend mornings.",
+    "latitude": 35.8948766,
+    "longitude": -84.1720034
   },
   {
     "name": "Foothills Milling Company",
@@ -1943,7 +2210,9 @@ const RESTAURANTS = [
       "elegant",
       "historic"
     ],
-    "parking_info": "Street parking available on Washington Street. Broadway Avenue Municipal Parking Garage in downtown Maryville (253 spaces, entrances from Church Avenue and Broadway, located beside Barley's). Downtown Maryville has over 1,000 public parking spaces within walking distance."
+    "parking_info": "Street parking available on Washington Street. Broadway Avenue Municipal Parking Garage in downtown Maryville (253 spaces, entrances from Church Avenue and Broadway, located beside Barley's). Downtown Maryville has over 1,000 public parking spaces within walking distance.",
+    "latitude": 35.7585542,
+    "longitude": -83.9656297
   },
   {
     "name": "Fort Sanders Yacht Club",
@@ -1951,7 +2220,7 @@ const RESTAURANTS = [
     "cuisine_type": "Dive Bar",
     "price_range": "$",
     "phone": "(865) 673-3500",
-    "website": "fsycknoxville.com",
+    "website": "https://fsycknoxville.com",
     "hours": "{\"monday\": \"16:00-03:00\", \"tuesday\": \"16:00-03:00\", \"wednesday\": \"16:00-03:00\", \"thursday\": \"16:00-03:00\", \"friday\": \"20:00-03:00\", \"saturday\": \"16:00-03:00\", \"sunday\": \"closed\"}",
     "description": "College bar turned barcade that knows exactly what it's doing: cheap beer, quarter arcade games, and zero pretense. Nearly 100 beer selections from craft to PBR, full wall of 25-cent classic arcade games (Street Fighter, Tetris, Galaga), and board games for the taking. Happy hour 4-7 PM weekdays with half-off drafts and $3 wells. Daily specials like $2 draft Tuesdays and buck-off-everything Sundays. Named one of America's best college bars for beer by Men's Health. Late hours (open until 3 AM most nights), live music on rotation. The kind of place that survives ownership changes because the formula works.",
     "atmosphere": "Dive bar energy with barcade functionality. UT student crowd mixed with Fort Sanders locals. Arcade beeps and beer conversations, flat screens running games, vintage consoles available. Relaxed, friendly, genuinely unpretentious—the Cheers of the Strip without trying to be.",
@@ -1967,7 +2236,9 @@ const RESTAURANTS = [
       "college bar",
       "late night"
     ],
-    "parking_info": "Street parking in Fort Sanders neighborhood"
+    "parking_info": "Street parking in Fort Sanders neighborhood",
+    "latitude": 35.95667,
+    "longitude": -83.932764
   },
   {
     "name": "Fred's Around the Corner",
@@ -1996,7 +2267,9 @@ const RESTAURANTS = [
       "ut-sports",
       "soccer-friendly"
     ],
-    "parking_info": "Street parking available on Union Ave and surrounding downtown streets. Nearby parking garages within walking distance."
+    "parking_info": "Street parking available on Union Ave and surrounding downtown streets. Nearby parking garages within walking distance.",
+    "latitude": 35.9645053,
+    "longitude": -83.9199477
   },
   {
     "name": "Gogi Korean Kitchen",
@@ -2016,7 +2289,9 @@ const RESTAURANTS = [
       "cozy",
       "cultural"
     ],
-    "parking_info": "Ample parking available in private shopping center lot at Montvue Center. Free parking with easy access from Kingston Pike."
+    "parking_info": "Ample parking available in private shopping center lot at Montvue Center. Free parking with easy access from Kingston Pike.",
+    "latitude": 35.925052,
+    "longitude": -84.04273
   },
   {
     "name": "Good Golly Tamale",
@@ -2035,7 +2310,9 @@ const RESTAURANTS = [
       "budget_friendly",
       "casual"
     ],
-    "parking_info": "Street parking on Willow Ave and Jackson Ave. Free parking under James White Parkway (when no game). Old City South Lot available ($3 max). Central Street has 15-minute quick pickup parking."
+    "parking_info": "Street parking on Willow Ave and Jackson Ave. Free parking under James White Parkway (when no game). Old City South Lot available ($3 max). Central Street has 15-minute quick pickup parking.",
+    "latitude": 35.970074,
+    "longitude": -83.918126
   },
   {
     "name": "Gourmets Market & Café",
@@ -2051,7 +2328,9 @@ const RESTAURANTS = [
     "opening_date": "1978-01-01T00:00:00Z",
     "area": "Bearden",
     "tags": [],
-    "parking_info": "Ample on-site parking lot available at restaurant location on Kingston Pike."
+    "parking_info": "Ample on-site parking lot available at restaurant location on Kingston Pike.",
+    "latitude": 35.9393,
+    "longitude": -83.9880085
   },
   {
     "name": "Gus's Good Times Deli",
@@ -2069,7 +2348,9 @@ const RESTAURANTS = [
     "tags": [
       "lunch"
     ],
-    "parking_info": "Street parking on Melrose, small lot behind building"
+    "parking_info": "Street parking on Melrose, small lot behind building",
+    "latitude": 35.955947,
+    "longitude": -83.9321292
   },
   {
     "name": "Ham'n Goodys",
@@ -2087,7 +2368,9 @@ const RESTAURANTS = [
     "tags": [
       "sweets"
     ],
-    "parking_info": "Street parking on Gay Street (metered, $1.50/hr, 2hr max). State Street Garage nearby (free after 7pm weeknights and weekends, $1/hr weekdays). W. Jackson Ave Lot near 100 block of S Gay Street (free nights & weekends)."
+    "parking_info": "Street parking on Gay Street (metered, $1.50/hr, 2hr max). State Street Garage nearby (free after 7pm weeknights and weekends, $1/hr weekdays). W. Jackson Ave Lot near 100 block of S Gay Street (free nights & weekends).",
+    "latitude": 35.9648055,
+    "longitude": -83.9184601
   },
   {
     "name": "Hanna's",
@@ -2106,7 +2389,9 @@ const RESTAURANTS = [
       "nightclub",
       "nightlife"
     ],
-    "parking_info": "Old City Lot North offers free parking 24/7 (101 spaces, excluding special events). Free street parking after 8pm and all day Sunday. Free covered parking under I-40 on Magnolia. Additional paid lots on Jackson Ave, Central Ave, and surrounding streets."
+    "parking_info": "Old City Lot North offers free parking 24/7 (101 spaces, excluding special events). Free street parking after 8pm and all day Sunday. Free covered parking under I-40 on Magnolia. Additional paid lots on Jackson Ave, Central Ave, and surrounding streets.",
+    "latitude": 35.9703613,
+    "longitude": -83.9182255
   },
   {
     "name": "Harrogate Lounge",
@@ -2134,7 +2419,9 @@ const RESTAURANTS = [
       "dive",
       "dive-bar"
     ],
-    "parking_info": "Downtown Knoxville - Street parking and nearby garages"
+    "parking_info": "Downtown Knoxville - Street parking and nearby garages",
+    "latitude": 35.965931,
+    "longitude": -83.9190537
   },
   {
     "name": "Harvest",
@@ -2159,7 +2446,36 @@ const RESTAURANTS = [
       "upscale-casual",
       "chef-driven"
     ],
-    "parking_info": "Shopping center parking at Kingston Pike and Mohican"
+    "parking_info": "Shopping center parking at Kingston Pike and Mohican",
+    "latitude": 35.937886,
+    "longitude": -83.988804
+  },
+  {
+    "name": "Hi-Wire Brewing",
+    "address": "2020 Barber St, Knoxville, TN 37920",
+    "cuisine_type": "Brewery",
+    "price_range": "$$",
+    "phone": "(865) 935-9395",
+    "website": "https://hiwirebrewing.com/knoxville/",
+    "hours": "{\"monday\": \"15:00-22:00\", \"tuesday\": \"15:00-22:00\", \"wednesday\": \"15:00-22:00\", \"thursday\": \"15:00-22:00\", \"friday\": \"15:00-23:00\", \"saturday\": \"12:00-23:00\", \"sunday\": \"12:00-21:00\"}",
+    "description": "Asheville brewery's fourth taproom and its first outside North Carolina, occupying the entire second floor of an industrial mixed-use building on Barber Street, across the river from downtown. Twenty-plus taps carry Hi-Wire's full range -- year-round, seasonal, sour, specialty and one-offs -- alongside draft cocktails, wine, local cider, non-alcoholic options, and guest taps pulled from neighboring Knoxville breweries. There is no kitchen: food comes from downstairs neighbor Redbud Kitchen (sandwiches, salads, entrees), and outside food is explicitly welcome as long as the drinks are bought on site. What separates it from the rest of the South Knoxville beer cluster is scale. Ten thousand square feet, capacity in the hundreds, two outdoor decks -- one covered, one a rooftop looking straight at the downtown skyline -- and enough games that nobody has to sit still. To-go beer can be ordered online or by phone, and the space rents for private events.",
+    "atmosphere": "Big, bright and industrial, with vibrant murals running the interior walls and enough square footage that a full house never feels like a crush. The rooftop deck is the whole argument on a good-weather evening: downtown across the water, open tables, late light. The second deck is covered for when the weather does not cooperate. The crowd is genuinely mixed -- cyclists in off the Urban Wilderness, families with kids, dogs underfoot, groups staging for somewhere else. Noise runs high once the ping pong, foosball and pinball are going, so this is a hang rather than a conversation, unless you claim a corner of the roof early. Order at the bar, no reservations, casual throughout.",
+    "special_features": "20+ taps, rooftop deck with downtown skyline views, second covered outdoor deck, ping pong, foosball, pinball and arcade games, draft cocktails, wine, local cider and non-alcoholic options, guest taps from other Knoxville breweries, Redbud Kitchen downstairs, outside food permitted, dog-friendly, family-friendly, private event rental, to-go beer online or by phone",
+    "opening_date": null,
+    "area": "South Knoxville",
+    "tags": [
+      "brewery",
+      "taproom",
+      "rooftop",
+      "dog_friendly",
+      "games",
+      "outdoor_seating",
+      "family_friendly",
+      "south_knoxville"
+    ],
+    "parking_info": "Free lot at the building on Barber Street plus street parking through the Old Sevier neighborhood. The taproom is the entire second floor.",
+    "latitude": 35.958225580473,
+    "longitude": -83.906710950365
   },
   {
     "name": "Holy Land Market",
@@ -2183,7 +2499,9 @@ const RESTAURANTS = [
       "casual",
       "lunch"
     ],
-    "parking_info": "Strip mall parking"
+    "parking_info": "Strip mall parking",
+    "latitude": 35.9474753,
+    "longitude": -83.9787038
   },
   {
     "name": "Honeybee Coffee",
@@ -2207,7 +2525,9 @@ const RESTAURANTS = [
       "specialty_coffee",
       "subscription"
     ],
-    "parking_info": "Street parking on Sevier Avenue, South Knoxville metered and free spots"
+    "parking_info": "Street parking on Sevier Avenue, South Knoxville metered and free spots",
+    "latitude": 35.957381,
+    "longitude": -83.908993
   },
   {
     "name": "Humble Hog",
@@ -2227,7 +2547,9 @@ const RESTAURANTS = [
       "creative",
       "local_character"
     ],
-    "parking_info": "Street parking on S Gay St (metered, 2hr max). State Street Garage nearby (free after 7pm weeknights and weekends). First Horizon Plaza Garage 2 blocks away ($5-12 weekdays, $5 evenings/weekends)."
+    "parking_info": "Street parking on S Gay St (metered, 2hr max). State Street Garage nearby (free after 7pm weeknights and weekends). First Horizon Plaza Garage 2 blocks away ($5-12 weekdays, $5 evenings/weekends).",
+    "latitude": 35.9667907,
+    "longitude": -83.9190895
   },
   {
     "name": "Ichiban Japanese Grill",
@@ -2248,7 +2570,9 @@ const RESTAURANTS = [
       "egg_rolls",
       "family_friendly"
     ],
-    "parking_info": "Walmart parking lot - free and plentiful, shared with adjacent shops"
+    "parking_info": "Walmart parking lot - free and plentiful, shared with adjacent shops",
+    "latitude": 36.0046944,
+    "longitude": -84.0246947
   },
   {
     "name": "Inskip Grill",
@@ -2272,7 +2596,9 @@ const RESTAURANTS = [
       "live_music",
       "milkshakes"
     ],
-    "parking_info": "Parking lot available"
+    "parking_info": "Parking lot available",
+    "latitude": 36.027797,
+    "longitude": -83.928749
   },
   {
     "name": "Intrepid Nitro Coffee & Tea Bar Bearden",
@@ -2297,19 +2623,21 @@ const RESTAURANTS = [
       "community hangout",
       "Bearden"
     ],
-    "parking_info": "Strip mall parking at Kingston Pike—ample spots, zero stress."
+    "parking_info": "Strip mall parking at Kingston Pike—ample spots, zero stress.",
+    "latitude": 35.9385,
+    "longitude": -83.989613
   },
   {
     "name": "Iron Forge at the Park",
-    "address": "498 E Jackson Ave, Knoxville, TN 37902",
+    "address": "604 E Jackson Ave, Knoxville, TN 37915",
     "cuisine_type": "Brewery, Taproom",
     "price_range": "$$",
-    "phone": null,
-    "website": null,
-    "hours": "Open 7 days a week, year-round (including non-game days)",
-    "description": "Full-scale 4,000 sq ft taproom from the Sevierville-based Iron Forge Brewing Co., located at the entrance to Covenant Health Park. Official craft beer of the Knoxville Smokies, featuring their custom Knoxville Smokies Light lager. Indoor seating plus spacious patio for up to 150 guests.",
-    "atmosphere": "Casual brewery taproom, game day energy, spacious patio",
-    "special_features": "Custom Knoxville Smokies lager, 150-seat patio, open year-round including non-game days",
+    "phone": "(865) 910-8023",
+    "website": "https://atthepark.ironforgebrew.com/",
+    "hours": "Mon closed; Tue-Wed 3 PM-10 PM; Thu-Sat 12 PM-10 PM; Sun 12 PM-6 PM",
+    "description": "Full-scale 4,000 sq ft taproom from the Sevierville-based Iron Forge Brewing Co., located at the entrance to Covenant Health Park. Official craft beer of the Knoxville Smokies, featuring their custom Knoxville Smokies Light lager. Indoor seating plus spacious patio for up to 150 guests.\n\nOpened May 2026 at the third-base entrance to Covenant Health Park, the second location for a brewery whose Sevierville original dates to 2023. Twenty-four rotating taps plus a full cocktail bar, bourbon and wine, and a kitchen doing scratch smash burgers, fried green tomatoes, wings, steaks and salads rather than the reheated pretzel-and-nachos default of a stadium taproom. The Knoxville Smokies Light lager is brewed here and poured at every concession stand in the park, which is a real tie-in rather than a marketing line. TVs and pinball inside. Closed Mondays, and the hours run short on Sundays.",
+    "atmosphere": "An upscale finish on a room you can still walk into in a ball cap and a jersey -- 4,000 square feet inside plus a patio that holds 150, which is the seat you want when the weather cooperates. Two entirely different rooms depending on the calendar: on a Smokies game day it is a stadium bar, loud and full and moving, with the district's traffic and parking pressure around it. On a non-game night in the Old City it settles into a regular neighborhood taproom, quiet enough to talk, easy to park at. Check the schedule before you decide which one you are walking into.",
+    "special_features": "Custom Knoxville Smokies Light lager brewed on site and poured at all stadium concession stands, 24 rotating taps, full cocktail bar with bourbon and wine, scratch kitchen (smash burgers, fried green tomatoes, wings, steaks), 150-seat patio, 4,000 sq ft, TVs and pinball, open year-round including non-game days, closed Mondays",
     "opening_date": null,
     "area": "Old City",
     "tags": [
@@ -2320,7 +2648,9 @@ const RESTAURANTS = [
       "stadium",
       "patio"
     ],
-    "parking_info": null
+    "parking_info": "Free parking in the nearby lots on non-game days, including the lot across Florida Street by the East gate (some pages say validated rather than free, so confirm day-of). On Smokies game days expect stadium-district congestion and paid lots -- check the Covenant Health Park parking page.",
+    "latitude": 35.972865,
+    "longitude": -83.914911
   },
   {
     "name": "It's About Time Tavern",
@@ -2344,7 +2674,9 @@ const RESTAURANTS = [
       "local tavern",
       "casual"
     ],
-    "parking_info": "Strip mall parking lot"
+    "parking_info": "Strip mall parking lot",
+    "latitude": 35.9414981,
+    "longitude": -83.912283
   },
   {
     "name": "J.C. Holdway",
@@ -2369,7 +2701,9 @@ const RESTAURANTS = [
       "reservations-required",
       "downtown"
     ],
-    "parking_info": "Market Square, Locust Street, and Walnut Street garages all within one block. Most free evenings."
+    "parking_info": "Market Square, Locust Street, and Walnut Street garages all within one block. Most free evenings.",
+    "latitude": 35.9643358,
+    "longitude": -83.9206547
   },
   {
     "name": "Jaboni's Pizzeria",
@@ -2391,7 +2725,9 @@ const RESTAURANTS = [
       "patio_seating",
       "takeout"
     ],
-    "parking_info": "Free parking lot at restaurant location on Kingston Pike. Additional parking available at nearby West Town Mall (7600 Kingston Pike), approximately 200 yards away, with large parking lot and parking garage."
+    "parking_info": "Free parking lot at restaurant location on Kingston Pike. Additional parking available at nearby West Town Mall (7600 Kingston Pike), approximately 200 yards away, with large parking lot and parking garage.",
+    "latitude": 35.9300397,
+    "longitude": -84.0318296
   },
   {
     "name": "Jackie's Dream",
@@ -2416,7 +2752,9 @@ const RESTAURANTS = [
       "strip mall gem",
       "casual dining"
     ],
-    "parking_info": "Free lot in front of the strip mall. Fills up during lunch rush (11 AM-2 PM) but there's always a spot somewhere. Easy in and out."
+    "parking_info": "Free lot in front of the strip mall. Fills up during lunch rush (11 AM-2 PM) but there's always a spot somewhere. Easy in and out.",
+    "latitude": 35.991289,
+    "longitude": -83.923862
   },
   {
     "name": "Jacks Coffee & Plants - Downtown",
@@ -2439,7 +2777,9 @@ const RESTAURANTS = [
       "laptop-friendly",
       "gifts"
     ],
-    "parking_info": "Street parking on S Gay St downtown. Nearby public garages including State Street Garage (free weeknights after 6pm, free weekends)."
+    "parking_info": "Street parking on S Gay St downtown. Nearby public garages including State Street Garage (free weeknights after 6pm, free weekends).",
+    "latitude": 35.9681449,
+    "longitude": -83.9203244
   },
   {
     "name": "Jacks Coffee & Plants - Happy Holler",
@@ -2463,7 +2803,9 @@ const RESTAURANTS = [
       "happy-holler",
       "neighborhood-spot"
     ],
-    "parking_info": "Street parking on N Central St in Happy Holler neighborhood."
+    "parking_info": "Street parking on N Central St in Happy Holler neighborhood.",
+    "latitude": 35.9775154,
+    "longitude": -83.925037
   },
   {
     "name": "Jacob's Deli & Grill",
@@ -2487,7 +2829,9 @@ const RESTAURANTS = [
       "cash-friendly",
       "family-owned"
     ],
-    "parking_info": "Strip mall parking lot"
+    "parking_info": "Strip mall parking lot",
+    "latitude": 35.9575597,
+    "longitude": -84.0026716
   },
   {
     "name": "Joey's Sandwich Shop",
@@ -2511,7 +2855,9 @@ const RESTAURANTS = [
       "counter-service",
       "local"
     ],
-    "parking_info": "Shopping center parking lot"
+    "parking_info": "Shopping center parking lot",
+    "latitude": 35.831425,
+    "longitude": -84.166011
   },
   {
     "name": "Just 1 More Bar & Grille",
@@ -2519,7 +2865,7 @@ const RESTAURANTS = [
     "cuisine_type": "Bar & Grill",
     "price_range": "$$",
     "phone": "(865) 769-1500",
-    "website": "just1morebarandgrille.com",
+    "website": "https://just1morebarandgrille.com",
     "hours": "{\"monday\": \"15:00-03:00\", \"tuesday\": \"15:00-03:00\", \"wednesday\": \"15:00-03:00\", \"thursday\": \"15:00-03:00\", \"friday\": \"12:00-03:00\", \"saturday\": \"12:00-03:00\", \"sunday\": \"12:00-03:00\"}",
     "description": "West Knoxville bourbon bar where the whiskey selection is the real deal—Pappy Van Winkle, Blanton's, Stagg Jr., bottles most bars can't get or won't pour. The move is the 2oz pours instead of the industry-standard 1.5oz ripoff, which matters when you're spending $25 on allocated bourbon. Bar food that's better than it needs to be: gourmet sliders, creative apps, steaks cooked medium-rare when you ask for medium-rare. Live music Friday nights, trivia for competitive types, TVs for games, humidor for cigars. Smoking allowed, 21+ only, open until 3 AM most nights. The kind of place bourbon collectors bookmark for hunting specific bottles and neighborhood regulars claim for late-night hangs. Not trying to be a speakeasy or a dive—just a grown-up bar that knows its whiskey.",
     "atmosphere": "Long mahogany bar backed by hundreds of bottles arranged like a spirits library. Mix of bourbon nerds studying allocation lists, couples on relaxed dates, groups watching games. Allows smoking—either a feature or dealbreaker depending on who you are. Volume varies: quiet early week for conversation, louder Friday nights when bands play. Cleaner and more organized than a dive, less precious than a cocktail bar. Staff actually knows the difference between wheated and high-rye bourbons.",
@@ -2538,7 +2884,9 @@ const RESTAURANTS = [
       "west knoxville",
       "cigar friendly"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.912834,
+    "longitude": -84.095314
   },
   {
     "name": "K Brew",
@@ -2562,7 +2910,33 @@ const RESTAURANTS = [
       "family-friendly",
       "hammocks"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.9703001,
+    "longitude": -83.9188598
+  },
+  {
+    "name": "K Brew Bakery & Market",
+    "address": "1134 N Broadway, Knoxville, TN 37917",
+    "cuisine_type": "Bakery & Desserts",
+    "price_range": "$",
+    "phone": "(865) 432-0153",
+    "website": "https://www.knoxvillebrew.com/locations/bakery/",
+    "hours": "{\"sunday\": \"08:00-14:00\", \"monday\": \"closed\", \"tuesday\": \"closed\", \"wednesday\": \"08:00-14:00\", \"thursday\": \"08:00-14:00\", \"friday\": \"08:00-14:00\", \"saturday\": \"08:00-14:00\"}",
+    "description": "Walk-in bakery and market K Brew opened in August 2026 next door to its Broadway coffee shop, in the space that used to be Nothing Too Fancy's print shop. The 5,000-square-foot kitchen now produces baked goods for every K Brew location, replacing the 450-square-foot back room at West Hills that had been feeding four coffee shops plus the UT locations. Culinary Director Matt Cowen runs it. The pastry case carries the familiar K Brew lineup plus bakery-only items — sesame bagels, plain and everything focaccia — with focaccia sandwiches in testing. The market half is specialty coffee and kitchen goods: curated pantry and refrigerator staples leaning as local as possible (Benton's bacon and their harder-to-find Madisonville prosciutto), cookware, and East Fork ceramics.",
+    "atmosphere": "A walk-in counter in a 5,000-square-foot warehouse on N Broadway, fronted by the \"Greetings from Knoxville\" mural, next door to K Brew's flagship cafe. Daytime only -- it opens at eight and is done at two -- so it functions as a morning bakery and a pantry stop rather than a place to sit for long. Half pastry case, half retail shelving.",
+    "special_features": "Bakery and retail market in one space; supplies baked goods for all K Brew locations; local pantry goods including Benton's bacon and prosciutto; East Fork ceramics; sesame bagels and focaccia exclusive to this location",
+    "opening_date": null,
+    "area": "North Knoxville",
+    "tags": [
+      "bakery",
+      "market",
+      "coffee",
+      "pantry",
+      "local_products"
+    ],
+    "parking_info": null,
+    "latitude": 35.982992628486,
+    "longitude": -83.922598084415
   },
   {
     "name": "K Brew Coffee & Bagels",
@@ -2588,7 +2962,9 @@ const RESTAURANTS = [
       "laptop-friendly",
       "organic"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.9648055,
+    "longitude": -83.9184601
   },
   {
     "name": "Kabuki Sushi Bar",
@@ -2614,7 +2990,9 @@ const RESTAURANTS = [
       "happy-hour",
       "market-square"
     ],
-    "parking_info": "Market Square parking garage, street parking (metered), nearby lots"
+    "parking_info": "Market Square parking garage, street parking (metered), nearby lots",
+    "latitude": 35.965265,
+    "longitude": -83.9200876
   },
   {
     "name": "Kaizen",
@@ -2639,7 +3017,9 @@ const RESTAURANTS = [
       "craft-cocktails",
       "patio"
     ],
-    "parking_info": "Old City parking reality: street spots are metered, nearby lots mostly paid. Old City Lot South across the street is convenient but pricey during the week. Some lots free on weekends. Factor in a 5-10 minute walk from most free options."
+    "parking_info": "Old City parking reality: street spots are metered, nearby lots mostly paid. Old City Lot South across the street is convenient but pricey during the week. Some lots free on weekends. Factor in a 5-10 minute walk from most free options.",
+    "latitude": 35.96949,
+    "longitude": -83.91825
   },
   {
     "name": "Kefi",
@@ -2658,7 +3038,9 @@ const RESTAURANTS = [
       "cocktails",
       "romantic"
     ],
-    "parking_info": "Old City Lot North at 305 E Jackson Ave (1 block east, free 24/7 except special events, 101 spaces). Jackson Ave Lot at 401 W Jackson Ave (3 blocks west, $1/hr, $7 max daily, free after 6pm weeknights and all weekend, 190 spaces). Street parking on Jackson Ave (metered during business hours)."
+    "parking_info": "Old City Lot North at 305 E Jackson Ave (1 block east, free 24/7 except special events, 101 spaces). Jackson Ave Lot at 401 W Jackson Ave (3 blocks west, $1/hr, $7 max daily, free after 6pm weeknights and all weekend, 190 spaces). Street parking on Jackson Ave (metered during business hours).",
+    "latitude": 35.9707289,
+    "longitude": -83.9177853
   },
   {
     "name": "Kern's Food Hall",
@@ -2685,7 +3067,9 @@ const RESTAURANTS = [
       "multiple cuisines",
       "Great Lawn"
     ],
-    "parking_info": "Free first 2 hours (no validation needed). Beyond 2 hours: free with vendor purchase + QR code validation. Non-customers: $5 up to 4 hours, $10 up to 12 hours."
+    "parking_info": "Free first 2 hours (no validation needed). Beyond 2 hours: free with vendor purchase + QR code validation. Non-customers: $5 up to 4 hours, $10 up to 12 hours.",
+    "latitude": 35.953348,
+    "longitude": -83.91445
   },
   {
     "name": "King Gyros Mediterranean",
@@ -2710,7 +3094,9 @@ const RESTAURANTS = [
       "delivery",
       "budget-friendly"
     ],
-    "parking_info": "Free mall parking. Six-level garage on southwest side by Belk is closest to food court/Dining Pavilion entrance."
+    "parking_info": "Free mall parking. Six-level garage on southwest side by Belk is closest to food court/Dining Pavilion entrance.",
+    "latitude": 35.925605,
+    "longitude": -84.037993
   },
   {
     "name": "Knox Whiskey Works",
@@ -2730,7 +3116,9 @@ const RESTAURANTS = [
       "tennessee_whiskey_trail",
       "whiskey"
     ],
-    "parking_info": "Jackson Avenue Lot (401 W Jackson Ave) closest option - free nights and weekends. Free 24/7 parking in two large lots under James White Parkway on East Jackson Ave in Old City. City garages (State Street, Locust Street, Market Square) free all day Saturday-Sunday, $1/hour weekdays 7am-7pm ($7 max). Street parking available on Jackson Ave and Old City streets."
+    "parking_info": "Jackson Avenue Lot (401 W Jackson Ave) closest option - free nights and weekends. Free 24/7 parking in two large lots under James White Parkway on East Jackson Ave in Old City. City garages (State Street, Locust Street, Market Square) free all day Saturday-Sunday, $1/hour weekdays 7am-7pm ($7 max). Street parking available on Jackson Ave and Old City streets.",
+    "latitude": 35.9672343,
+    "longitude": -83.9229374
   },
   {
     "name": "Knoxville Birria Boss",
@@ -2753,7 +3141,9 @@ const RESTAURANTS = [
       "mobile",
       "street_food"
     ],
-    "parking_info": "Varies by location - check Instagram for daily spot"
+    "parking_info": "Varies by location - check Instagram for daily spot",
+    "latitude": 35.989905,
+    "longitude": -83.939117
   },
   {
     "name": "KoPita Mediterranean",
@@ -2780,7 +3170,9 @@ const RESTAURANTS = [
       "family-recipes",
       "first-friday-dinners"
     ],
-    "parking_info": "Embassy Suites valet parking $35/day. Nearby public garages: State Street Garage (500 State St, 1 block east, 0.2 miles, $7/day), Market Square Garage (5-min walk, 233 steps), Locust Street Garage (3 blocks, 7-min walk, $7/day). Public garages free on weekends."
+    "parking_info": "Embassy Suites valet parking $35/day. Nearby public garages: State Street Garage (500 State St, 1 block east, 0.2 miles, $7/day), Market Square Garage (5-min walk, 233 steps), Locust Street Garage (3 blocks, 7-min walk, $7/day). Public garages free on weekends.",
+    "latitude": 35.9648055,
+    "longitude": -83.9184601
   },
   {
     "name": "Kyuramen",
@@ -2804,7 +3196,34 @@ const RESTAURANTS = [
       "instagram-friendly",
       "omurice"
     ],
-    "parking_info": "Shopping center parking lot"
+    "parking_info": "Shopping center parking lot",
+    "latitude": 35.914925,
+    "longitude": -84.091426
+  },
+  {
+    "name": "La Fiesta Mexican Restaurant & Grill",
+    "address": "5707 Western Ave, Knoxville, TN 37921",
+    "cuisine_type": "Mexican",
+    "price_range": "$",
+    "phone": "(865) 588-2599",
+    "website": "",
+    "hours": "{\"monday\": \"11:00-21:30\", \"tuesday\": \"11:00-21:30\", \"wednesday\": \"11:00-21:30\", \"thursday\": \"11:00-21:30\", \"friday\": \"11:00-22:00\", \"saturday\": \"11:00-22:00\", \"sunday\": \"11:00-21:00\"}",
+    "description": "Full-service cantina on Western Ave that has been feeding the Middlebrook Pike side of town for years: a sprawling menu that runs from botanas and caldos through fajitas, enchiladas, mariscos and a vegetarian section, combination plates that mostly land under $12, and a Parrillada Mexicana mixed grill ($29.99) built for three. The fundamentals hold up. Carne asada is marinated sirloin done plainly and well, fajita nachos arrive properly loaded, and chimichangas, arroz con pollo and taquitos mexicanos are what the regulars keep ordering. Fried ice cream closes it out for five dollars. What actually distinguishes it from the dozen other Mexican rooms on this stretch of road is Friday night, when a live mariachi band works the dining room. Nobody should come here chasing regional Mexican cooking, but for a cheap, loud, genuinely festive weeknight dinner within ten minutes of most of West Knoxville it is a reliable call.",
+    "atmosphere": "Dim and warm and unapologetically themed: colorful cantina decor, murals, booths, painted tile. It reads well-worn rather than polished, and a fair number of reviewers note the room could use a deep clean. Service is quick and attentive; chips and salsa land before you have opened the menu. The room fills Friday and Saturday evenings, though the wait is usually five or ten minutes rather than half an hour. Noise runs moderate on weeknights and loud on mariachi Fridays, when the band works table to table. Come as you are.",
+    "special_features": "Live mariachi band on Friday nights, extensive menu across botanas, caldos, fajitas, enchiladas and mariscos, Parrillada Mexicana mixed grill for three, combination plates under $12, vegetarian section, takeout and delivery",
+    "opening_date": null,
+    "area": "Middlebrook Pike",
+    "tags": [
+      "mexican",
+      "live_music",
+      "mariachi",
+      "cantina",
+      "budget",
+      "family_friendly"
+    ],
+    "parking_info": "Free surface lot at the building on Western Ave with ample spaces; additional strip-center parking alongside.",
+    "latitude": 35.978917919001,
+    "longitude": -84.014015071649
   },
   {
     "name": "La Herradura",
@@ -2829,7 +3248,9 @@ const RESTAURANTS = [
       "salsa-bar",
       "house-made-tortillas"
     ],
-    "parking_info": "Private parking lot, bike parking"
+    "parking_info": "Private parking lot, bike parking",
+    "latitude": 35.9959983,
+    "longitude": -83.922816
   },
   {
     "name": "Lakeside Tavern",
@@ -2854,7 +3275,9 @@ const RESTAURANTS = [
       "local-favorite",
       "no-reservations"
     ],
-    "parking_info": "Free parking at Concord Marina"
+    "parking_info": "Free parking at Concord Marina",
+    "latitude": 35.8653585,
+    "longitude": -84.1300981
   },
   {
     "name": "Likewise Coffee",
@@ -2872,7 +3295,9 @@ const RESTAURANTS = [
     "tags": [
       "community"
     ],
-    "parking_info": "Behind Likewise: 5 spots (30-minute limit). Gibbons St: 2-hour street parking. Gibbons Corner Lot at Magnolia Ave & Gibbons St (1-minute walk). YMCA parking lot 2 blocks away for extended stays."
+    "parking_info": "Behind Likewise: 5 spots (30-minute limit). Gibbons St: 2-hour street parking. Gibbons Corner Lot at Magnolia Ave & Gibbons St (1-minute walk). YMCA parking lot 2 blocks away for extended stays.",
+    "latitude": 35.977403,
+    "longitude": -83.9120992
   },
   {
     "name": "Lilou French Brasserie",
@@ -2897,7 +3322,9 @@ const RESTAURANTS = [
       "downtown",
       "reservations-recommended"
     ],
-    "parking_info": "Downtown parking available (street meters, public garages nearby)"
+    "parking_info": "Downtown parking available (street meters, public garages nearby)",
+    "latitude": 35.9655866,
+    "longitude": -83.9180892
   },
   {
     "name": "Litton's Restaurant and Bakery",
@@ -2919,7 +3346,9 @@ const RESTAURANTS = [
       "knoxville_institution",
       "pimento_cheese"
     ],
-    "parking_info": "On-site parking lot"
+    "parking_info": "On-site parking lot",
+    "latitude": 36.0354669,
+    "longitude": -83.9315647
   },
   {
     "name": "Loco Burro",
@@ -2944,7 +3373,9 @@ const RESTAURANTS = [
       "mechanical-donkey",
       "live-music"
     ],
-    "parking_info": "West Town Mall parking lot"
+    "parking_info": "West Town Mall parking lot",
+    "latitude": 35.925605,
+    "longitude": -84.037993
   },
   {
     "name": "Lonesome Dove Western Bistro",
@@ -2967,7 +3398,9 @@ const RESTAURANTS = [
       "historic building",
       "Old City"
     ],
-    "parking_info": "Street parking and Old City public lots within walking distance"
+    "parking_info": "Street parking and Old City public lots within walking distance",
+    "latitude": 35.9706678,
+    "longitude": -83.9184728
   },
   {
     "name": "Love That BBQ",
@@ -2975,7 +3408,7 @@ const RESTAURANTS = [
     "cuisine_type": "BBQ",
     "price_range": "$",
     "phone": "(865) 748-1741",
-    "website": "lovethatbbqtn.com",
+    "website": "https://lovethatbbqtn.com",
     "hours": "{\"mon\": \"10:30am-6pm\", \"tue\": \"10:30am-6pm\", \"wed\": \"10:30am-6pm\", \"thu\": \"10:30am-7pm\", \"fri\": \"10:30am-7pm\", \"sat\": \"11am-6pm\", \"sun\": \"closed\"}",
     "description": "South Knoxville BBQ counter in a converted gas station where hickory smokers occupy the spots where fuel pumps used to be. Walter Love opened this place in 2011 after years of catering Vol tailgates, and the setup is exactly what it should be—smoke-stained awnings, rustic interior that some call a dive (it is), and a menu that sticks to Tennessee hickory-smoked fundamentals. Pulled pork comes smoky and tender on fresh buns. Brisket falls apart on the fork. Ribs slide off the bone without having to. The smoked bologna sandwich—thick-cut house-smoked bologna on white bread—is the sleeper hit that regulars know to order. BBQ nachos with hand-cut fries hit the spot when you want something heavier. Hand-cut fries are better than they need to be. Homemade desserts rotate. This is counter-service BBQ for workers on lunch break and families who want good smoked meat without performance. The smokers do the talking.",
     "atmosphere": "Converted gas station with visible hickory smokers under the awnings where pumps used to be. Rustic, no-frills interior with BBQ decor—nostalgic, divey, exactly what you want a real smokehouse to look like. Counter service, moderate noise, locals who know what to order. Zero pretense, all smoke.",
@@ -2986,7 +3419,9 @@ const RESTAURANTS = [
       "award_winning",
       "competition_style"
     ],
-    "parking_info": "On-site parking lot at the converted gas station location on Maryville Pike. Free parking available where fuel pumps were previously located."
+    "parking_info": "On-site parking lot at the converted gas station location on Maryville Pike. Free parking available where fuel pumps were previously located.",
+    "latitude": 35.9414981,
+    "longitude": -83.912283
   },
   {
     "name": "Magpies Bakery",
@@ -3010,7 +3445,9 @@ const RESTAURANTS = [
       "family-owned",
       "takeout-only"
     ],
-    "parking_info": "Street parking on N Central Street, free and generally available"
+    "parking_info": "Street parking on N Central Street, free and generally available",
+    "latitude": 35.9774579,
+    "longitude": -83.9249792
   },
   {
     "name": "Mahalo Coffee Roasters Downtown",
@@ -3037,7 +3474,9 @@ const RESTAURANTS = [
       "laptop-friendly",
       "downtown"
     ],
-    "parking_info": "Downtown street parking with meters; nearby Locust Street Garage, Langley Garage, and Market Square Garage with low hourly rates"
+    "parking_info": "Downtown street parking with meters; nearby Locust Street Garage, Langley Garage, and Market Square Garage with low hourly rates",
+    "latitude": 35.9642057,
+    "longitude": -83.9207905
   },
   {
     "name": "Mahalo Coffee Roasters Powell",
@@ -3060,7 +3499,9 @@ const RESTAURANTS = [
       "pastries",
       "laptop-friendly"
     ],
-    "parking_info": "Ample parking front and back, plus drive-thru"
+    "parking_info": "Ample parking front and back, plus drive-thru",
+    "latitude": 36.0495685,
+    "longitude": -83.9982957
   },
   {
     "name": "Marble City Kitchen",
@@ -3085,7 +3526,9 @@ const RESTAURANTS = [
       "late-hours",
       "downtown"
     ],
-    "parking_info": "Hilton parking garage, downtown street parking, public garages nearby"
+    "parking_info": "Hilton parking garage, downtown street parking, public garages nearby",
+    "latitude": 35.9625671,
+    "longitude": -83.9200681
   },
   {
     "name": "Marie's Old Town Tavern",
@@ -3107,7 +3550,9 @@ const RESTAURANTS = [
       "pool",
       "darts"
     ],
-    "parking_info": "Street parking"
+    "parking_info": "Street parking",
+    "latitude": 35.9780095,
+    "longitude": -83.9258515
   },
   {
     "name": "Masala - IndoPak Grill",
@@ -3129,7 +3574,9 @@ const RESTAURANTS = [
       "fresh-naan",
       "made-to-order"
     ],
-    "parking_info": "Free parking available in private lot at location. Broadway Avenue Municipal Parking Garage available nearby with public parking on all three levels."
+    "parking_info": "Free parking available in private lot at location. Broadway Avenue Municipal Parking Garage available nearby with public parking on all three levels.",
+    "latitude": 35.731168,
+    "longitude": -83.99749
   },
   {
     "name": "Matt Robbs Biscuits",
@@ -3148,7 +3595,9 @@ const RESTAURANTS = [
       "biscuits",
       "breakfast"
     ],
-    "parking_info": "Market Square Garage directly adjacent at Market Square (free after 6pm weekdays, $3 flat rate Saturdays, free Sundays). Street parking on Market St (metered, $1.50/hr, 2hr max). State Street Garage 2 blocks away with $1/hr rates."
+    "parking_info": "Market Square Garage directly adjacent at Market Square (free after 6pm weekdays, $3 flat rate Saturdays, free Sundays). Street parking on Market St (metered, $1.50/hr, 2hr max). State Street Garage 2 blocks away with $1/hr rates.",
+    "latitude": 35.962004,
+    "longitude": -83.917441
   },
   {
     "name": "Mia Piccola",
@@ -3170,7 +3619,9 @@ const RESTAURANTS = [
       "student-friendly",
       "espresso-bar"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.9588621,
+    "longitude": -83.9050192
   },
   {
     "name": "Mia Piccola - North Knox",
@@ -3180,9 +3631,9 @@ const RESTAURANTS = [
     "phone": "(865) 210-1452",
     "website": "https://www.miapiccola.com",
     "hours": null,
-    "description": "Nathan Kitner opened his second location on December 9, 2024, taking over the original KBrew building at 1328 N Broadway—continuing the neighborhood coffee tradition at a beloved address. Same Otto Coffee Club beans, same house-made syrups, same unpretentious approach as the South Knox cart-turned-café, just serving North Knox, Old North, Happy Holler, and Broadway corridor regulars. Dog-friendly shaded patio with water bowls, quiet corners for focused laptop work, communal tables for the social crowd. Weekday mornings pull UT students and remote workers; weekends bring Happy Holler foot traffic. Not reinventing the formula—executing the Mia Piccola coffee program in a second neighborhood that already knew this address meant good coffee.",
+    "description": "Nathan Kitner opened his second location on December 9, 2024, taking over the original KBrew building at 1328 N Broadway—continuing the neighborhood coffee tradition at a beloved address. Same Otto Coffee Club beans, same house-made syrups, same unpretentious approach as the South Knox cart-turned-café, just serving North Knox, Old North, Happy Holler, and Broadway corridor regulars. Dog-friendly shaded patio with water bowls, quiet corners for focused laptop work, communal tables for the social crowd. Weekday mornings pull UT students and remote workers; weekends bring Happy Holler foot traffic. Not reinventing the formula—executing the Mia Piccola coffee program in a second neighborhood that already knew this address meant good coffee.\n\nExpanding as of August 2026: owner Nathan Kitner knocked through the wall of the original 400-square-foot space into the former Roots and Releaf next door, adding roughly 1,200 square feet of room and seating, with a takeaway food menu planned. This address is where K Brew itself got its start. Mia Piccola began as a mobile coffee cart in 2024 and grew into a counter inside Southside Garage before taking this space. Weekend hours recently extended to 5 PM.",
     "atmosphere": "Former KBrew space keeps the bright, workspace-friendly energy with updated Mia Piccola touches. Mix of students with headphones, neighbors catching up over lattes, dogs lounging on the shaded patio. Reliable Wi-Fi, plenty of outlets, communal and solo seating options. Feels like the neighborhood coffee spot it replaced—just with new ownership carrying the tradition forward.",
-    "special_features": "Dog-friendly patio with water bowls, Otto Coffee Club local beans, house-made syrups, former KBrew building location",
+    "special_features": "Dog-friendly patio with water bowls, Otto Coffee Club local beans, house-made syrups, former KBrew building location; Expanding into the former Roots and Releaf next door (~1,200 sq ft added); takeaway food menu planned",
     "opening_date": "2024-12-09T00:00:00Z",
     "area": "North Knoxville",
     "tags": [
@@ -3193,7 +3644,9 @@ const RESTAURANTS = [
       "patio",
       "student-friendly"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.986017,
+    "longitude": -83.9214093
   },
   {
     "name": "Midland Restaurant",
@@ -3218,7 +3671,9 @@ const RESTAURANTS = [
       "scratch-made",
       "local-favorite"
     ],
-    "parking_info": "Free parking lot"
+    "parking_info": "Free parking lot",
+    "latitude": 35.763986,
+    "longitude": -83.98027
   },
   {
     "name": "Mimosas",
@@ -3242,7 +3697,9 @@ const RESTAURANTS = [
       "the_davy",
       "wood_fired"
     ],
-    "parking_info": "47 covered parking spots reserved for Mimosas guests; additional garage parking available free on nights and weekends"
+    "parking_info": "47 covered parking spots reserved for Mimosas guests; additional garage parking available free on nights and weekends",
+    "latitude": 35.95442,
+    "longitude": -83.915305
   },
   {
     "name": "Moonshine Mountain Cookie Company",
@@ -3265,7 +3722,9 @@ const RESTAURANTS = [
       "family-friendly",
       "tourist spot"
     ],
-    "parking_info": "Strip mall parking"
+    "parking_info": "Strip mall parking",
+    "latitude": 35.9304477,
+    "longitude": -84.0305201
   },
   {
     "name": "Mother Bar",
@@ -3290,7 +3749,9 @@ const RESTAURANTS = [
       "date night",
       "plant-themed"
     ],
-    "parking_info": "Street parking on Emory Place fills up during peak times—arrive early or check nearby lots. Neighborhood is walkable once parked."
+    "parking_info": "Street parking on Emory Place fills up during peak times—arrive early or check nearby lots. Neighborhood is walkable once parked.",
+    "latitude": 35.9745431,
+    "longitude": -83.9228818
   },
   {
     "name": "Nama Izakaya",
@@ -3315,7 +3776,31 @@ const RESTAURANTS = [
       "downtown",
       "late night"
     ],
-    "parking_info": "Downtown street parking and nearby garages"
+    "parking_info": "Downtown street parking and nearby garages",
+    "latitude": 35.9680303,
+    "longitude": -83.9201839
+  },
+  {
+    "name": "Next Level Brewing",
+    "address": "700 N Broadway, Knoxville, TN 37917",
+    "cuisine_type": "Brewery",
+    "price_range": "$$",
+    "phone": "(865) 381-2114",
+    "website": "https://www.nextlevelknox.com/",
+    "hours": "{\"monday\": \"16:00-21:00\", \"tuesday\": \"16:00-22:00\", \"wednesday\": \"16:00-22:00\", \"thursday\": \"16:00-22:00\", \"friday\": \"14:00-23:00\", \"saturday\": \"12:00-23:00\", \"sunday\": \"13:00-20:00\"}",
+    "description": "Brewery and taproom on N Broadway. The Last Days on Wheels food truck has been parked here since Last Days of Autumn closed its 808 E Magnolia Ave location in January 2026, serving favorites from that operation including its well-known fish fry.\n\nFounded by Nathaniel Sears and Andrew Armstrong and open since late 2019, in what the brewers' association calls the Craft Beer District of Old North Knoxville. Around ten taps, brewed in equipment you can see from the room: a Scruffy City Lager at 5%, hazy IPAs (Big Boi Map with Citra and Mosaic, Space Jam Band with Motueka and Taiheke), a West Coast Clinched Fist at 7.9%, a Sabro-dry-hopped Kolsch called Ludacrisp, rotating fruited sours, and heavier one-offs like a 10% English barley wine and a 9.7% Russian imperial stout. Pours run 4, 10 and 16 ounces, roughly \\$2.50 to \\$8. Trivia Wednesdays, occasional live music, dogs welcome, and a big lot -- a genuine neighborhood taproom rather than a destination.",
+    "atmosphere": "Indoor and outdoor seating with the brewing equipment in plain view from the taproom, and a big parking lot, which is not a given in this corridor. Casual neighborhood-bar feel -- good for watching a game, dog-friendly, marked good for kids and flagged LGBTQ+ friendly on Google. Staff get repeat praise for remembering regulars. The Last Days on Wheels truck in the lot means there is real food here most nights, not just pretzels.",
+    "special_features": "Roughly 10 rotating taps with brewing equipment visible from the taproom; Last Days on Wheels food truck resident on site; Wednesday trivia; occasional live music; dog-friendly; indoor and outdoor seating; large lot",
+    "opening_date": null,
+    "area": "Happy Holler",
+    "tags": [
+      "brewery",
+      "taproom",
+      "food_truck"
+    ],
+    "parking_info": "Large on-site parking lot, repeatedly noted by reviewers though not stated in the brewery's own copy. Uncommon for the N Broadway corridor.",
+    "latitude": 35.976122617894,
+    "longitude": -83.923622541446
   },
   {
     "name": "Nixon's Deli",
@@ -3337,7 +3822,9 @@ const RESTAURANTS = [
       "lunch-spot",
       "quick-service"
     ],
-    "parking_info": "Shopping center parking lot"
+    "parking_info": "Shopping center parking lot",
+    "latitude": 36.0074589,
+    "longitude": -83.9767815
   },
   {
     "name": "Northshore Brasserie",
@@ -3365,7 +3852,9 @@ const RESTAURANTS = [
       "upscale-casual",
       "family-owned"
     ],
-    "parking_info": "Shopping center parking lot"
+    "parking_info": "Shopping center parking lot",
+    "latitude": 35.8620465,
+    "longitude": -84.0663331
   },
   {
     "name": "Not Watson's kitchen + Bar",
@@ -3383,7 +3872,9 @@ const RESTAURANTS = [
     "tags": [
       "farm_to_table"
     ],
-    "parking_info": "Market Square Garage at 406 Walnut St ($1/hr weekdays, $3 flat rate Saturdays, free after 6pm weeknights and all day Sundays). Street parking available on Market Square (metered). Multiple city garages within 2 blocks offer free parking after 6pm and weekends."
+    "parking_info": "Market Square Garage at 406 Walnut St ($1/hr weekdays, $3 flat rate Saturdays, free after 6pm weeknights and all day Sundays). Street parking available on Market Square (metered). Multiple city garages within 2 blocks offer free parking after 6pm and weekends.",
+    "latitude": 35.9651221,
+    "longitude": -83.9198063
   },
   {
     "name": "Old City Java",
@@ -3393,7 +3884,7 @@ const RESTAURANTS = [
     "phone": "(865) 523-9817",
     "website": "https://oldcityjava.com/",
     "hours": "{\"monday\": \"7:00-18:00\", \"tuesday\": \"7:00-18:00\", \"wednesday\": \"7:00-18:00\", \"thursday\": \"7:00-18:00\", \"friday\": \"7:00-18:00\", \"saturday\": \"8:00-18:00\", \"sunday\": \"8:00-18:00\"}",
-    "description": "Knoxville's first modern-era coffee shop, opened 1991 when nobody else was doing this. The Van Gogh \"Starry Night\" ceiling fresco predates the current owners—it's been there for decades, watched over writers and artists camped on church pews for hours. Counter Culture espresso done right, Rishi loose leaf teas, pastries from their own Wild Love Bakehouse (get there before 10 AM for the monster breakfast biscuits). This is the coffee shop that proved Knoxville could support specialty coffee culture. Not trying to be third-wave minimalist, not trying to be corporate cozy—it's an actual community hub that refuses to conform to streamlined cafe aesthetics. Free parking under the overpass.",
+    "description": "Knoxville's first modern-era coffee shop opened in 1991, back when nobody else was doing this kind of thing. The Van Gogh \"Starry Night\" ceiling fresco predates the current owners by decades – it's just been up there, watching over writers and artists camped out on church pews for hours at a stretch. Counter Culture espresso done right, Rishi loose leaf teas, and pastries from their own Wild Love Bakehouse: get there before 10 AM if you want the monster breakfast biscuits, and you do want the monster breakfast biscuits.\n\nThis is the place that proved Knoxville could actually support a specialty coffee culture. It's a genuine community hub that has refused, for over thirty years now, to conform to whatever café aesthetic everyone else is chasing. So much freaking character in one room. Free parking under the overpass.",
     "atmosphere": "Church pews, couches, Van Gogh ceiling that's been there since the beginning. Writers, artists, readers focused for hours. 7 AM weekdays, 8 AM weekends. The kind of place with character that can't be designed—you earn it over 30+ years.",
     "special_features": "long-running Knoxville coffee landmark",
     "opening_date": "1991-01-01T00:00:00Z",
@@ -3401,7 +3892,9 @@ const RESTAURANTS = [
     "tags": [
       "landmark"
     ],
-    "parking_info": "Street parking on S Central St in Old City. Nearby Old City parking lots and garages (free weeknights after 6pm, free weekends)."
+    "parking_info": "Street parking on S Central St in Old City. Nearby Old City parking lots and garages (free weeknights after 6pm, free weekends).",
+    "latitude": 35.9700624,
+    "longitude": -83.9184553
   },
   {
     "name": "Oliver Royale",
@@ -3425,7 +3918,9 @@ const RESTAURANTS = [
       "reservations-recommended",
       "historic-building"
     ],
-    "parking_info": "Market Square Garage (2 min walk), Langley Garage, Locust Street Garage. Street parking if you're lucky."
+    "parking_info": "Market Square Garage (2 min walk), Langley Garage, Locust Street Garage. Street parking if you're lucky.",
+    "latitude": 35.9648876,
+    "longitude": -83.9196572
   },
   {
     "name": "Orange Hat Brewing",
@@ -3452,7 +3947,9 @@ const RESTAURANTS = [
       "brunch",
       "cornhole"
     ],
-    "parking_info": "Strip mall parking lot, ample free parking"
+    "parking_info": "Strip mall parking lot, ample free parking",
+    "latitude": 35.95518,
+    "longitude": -84.14098
   },
   {
     "name": "Osteria Stella",
@@ -3480,7 +3977,9 @@ const RESTAURANTS = [
       "family recipes",
       "Milan-trained chef"
     ],
-    "parking_info": "Street parking and nearby public garages in Old City"
+    "parking_info": "Street parking and nearby public garages in Old City",
+    "latitude": 35.970324,
+    "longitude": -83.918684
   },
   {
     "name": "Otsu Dumpling",
@@ -3488,7 +3987,7 @@ const RESTAURANTS = [
     "cuisine_type": "Asian Fusion",
     "price_range": "$",
     "phone": "(865) 545-4625",
-    "website": "otsudumpling.com",
+    "website": "https://otsudumpling.com",
     "hours": "{\"mon\": \"closed\", \"tue\": \"closed\", \"wed\": \"5pm-10pm\", \"thu\": \"5pm-10pm\", \"fri\": \"5pm-10pm\", \"sat\": \"5pm-10pm\", \"sun\": \"5pm-9pm\"}",
     "description": "Otsu Dumpling is what happens when Tako Taco's Jesse Newmister and Margaret Stolfi decide dumplings deserve the same reverence as tacos - which is to say, obsessive focus on wrapper technique and filling ratios, served without the white-tablecloth theater. The name comes from \"Otsukaresama,\" the Japanese thank-you-for-your-hard-work phrase that office workers exchange after clocking out, which feels right for a place where the kitchen crew hand-folds every wrapper and tends a Japanese Konro charcoal grill like it's a religious practice.\n\nChef Erin Parrish, who climbed from dishwasher to chef at Tako Taco, runs a menu that spans the Asian diaspora without the fusion-confusion bullshit. Saku Sai Mu - Thai coconut-peanut pork in crispy pastry - sits next to duck ham wrapped enoki and Chongqing crab claws slicked with chili oil. Everything from the grill tastes like it spent time over real fire because it did: that Konro charcoal burns hotter and cleaner than regular briquettes, leaving a whisper of smoke that doesn't punch you in the face. The dumplings shift between traditional (pork and napa) and curious (whatever Parrish is testing), all steamed or fried to order.\n\nThere's an all-you-can-eat option for thirty bucks that lets you pace yourself over two hours, treating dumplings like the snacking marathon they deserve to be. House sauces and Japanese-style cocktails round out the experience, but really you're here to watch pleated dough packages emerge from the kitchen while something sizzles over charcoal in the back.",
     "atmosphere": "The dining room occupies Tako Taco's old bones next to The Mill & Mine, renovated but not fancy - exposed brick, simple tables, counter seating where you can watch the line. The energy is casual but focused, the kind of place where the staff knows what they're doing and doesn't need to perform about it. Lighting is warm without being dim, noise level stays conversational even when busy. You'll see couples on weeknight dates, groups doing the all-you-can-eat crawl, solo diners at the bar with a cocktail and a dumpling flight. The open kitchen puts the Konro grill on display, so there's always the theater of fire and the smell of charcoal without the steakhouse vibe. It's dressed-up enough for a nice dinner but relaxed enough that nobody's checking if your jeans are dark enough.",
@@ -3499,7 +3998,9 @@ const RESTAURANTS = [
       "casual",
       "cozy"
     ],
-    "parking_info": "Street parking on W Depot Ave (metered during weekdays). Free parking available in downtown municipal garages after 6pm weekdays and all day weekends ($1/hour during business hours). Market Square Garage nearby offers Sunday free parking and $3 flat rate on Saturdays. Old City area has multiple surface lots and on-street metered parking."
+    "parking_info": "Street parking on W Depot Ave (metered during weekdays). Free parking available in downtown municipal garages after 6pm weekdays and all day weekends ($1/hour during business hours). Market Square Garage nearby offers Sunday free parking and $3 flat rate on Saturdays. Old City area has multiple surface lots and on-street metered parking.",
+    "latitude": 35.9709723,
+    "longitude": -83.920692
   },
   {
     "name": "Partial Coffee & Wine",
@@ -3517,7 +4018,9 @@ const RESTAURANTS = [
     "tags": [
       "wine_bar"
     ],
-    "parking_info": "Parking lot across street on N Broadway. Street parking available in Fourth & Gill neighborhood."
+    "parking_info": "Parking lot across street on N Broadway. Street parking available in Fourth & Gill neighborhood.",
+    "latitude": 35.9788917,
+    "longitude": -83.9233404
   },
   {
     "name": "Pastelito's Cuban Bakery",
@@ -3535,7 +4038,9 @@ const RESTAURANTS = [
     "tags": [
       "latin"
     ],
-    "parking_info": "Free parking in shared shopping center lot at 402 N Cedar Bluff Rd. Parking lot serves multiple businesses in the complex."
+    "parking_info": "Free parking in shared shopping center lot at 402 N Cedar Bluff Rd. Parking lot serves multiple businesses in the complex.",
+    "latitude": 35.923132,
+    "longitude": -84.092902
   },
   {
     "name": "Patches BBQ & More",
@@ -3551,7 +4056,9 @@ const RESTAURANTS = [
     "opening_date": "2020-01-01T00:00:00Z",
     "area": "East Knoxville",
     "tags": [],
-    "parking_info": "Accessible parking available at Rutledge Pike location"
+    "parking_info": "Accessible parking available at Rutledge Pike location",
+    "latitude": 36.0179531,
+    "longitude": -83.8586899
   },
   {
     "name": "Paul's Oasis Sports Grille & Spirits",
@@ -3578,7 +4085,9 @@ const RESTAURANTS = [
       "cheap beer",
       "dive bar"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.9251877,
+    "longitude": -84.0466464
   },
   {
     "name": "Peaceful Side Brewery + Taproom - Maryville",
@@ -3599,7 +4108,33 @@ const RESTAURANTS = [
       "smoky_mountains",
       "taproom"
     ],
-    "parking_info": "Street parking available in downtown Maryville with accessible parking near the entrance. Note: Avoid red tow-away zones. Parking information and detailed options available on their website."
+    "parking_info": "Street parking available in downtown Maryville with accessible parking near the entrance. Note: Avoid red tow-away zones. Parking information and detailed options available on their website.",
+    "latitude": 35.7620385,
+    "longitude": -83.965909
+  },
+  {
+    "name": "Peaceful Side Creamery",
+    "address": "7961 E Lamar Alexander Pkwy, Townsend, TN 37882",
+    "cuisine_type": "Ice Cream",
+    "price_range": "$",
+    "phone": "(865) 518-6300",
+    "website": "https://peacefulsidesocial.com/creamery/",
+    "hours": "Wed-Sun 12pm-8pm (seasonal)",
+    "description": "The ice cream arm of the Peaceful Side Social campus in Townsend, a mile and a half from the Townsend entrance to the Smokies. Flavors are made with locally sourced ingredients and the lineup changes daily rather than running a fixed roster, so the board is a different read every visit - s'mores, strawberry basil, cookies and cream, and butter pecan all turn up in reviews. The waffle cones are pressed in house every day, and they are the thing regulars actually single out: less sweet than a commercial cone and crisp without shattering.\n\nIt runs seasonally, Wednesday through Sunday from noon to 8 p.m., which makes it a daytime and early-evening stop rather than a dinner destination. The obvious use is the tail end of a Cades Cove or Little River day, or dessert after a meal at Peaceful Side Social a few doors down on the same campus - same ownership, same phone number, same parking lot.",
+    "atmosphere": "Campus dessert stop rather than a destination room: mountain air, the Townsend valley, families coming off the river or out of the park with kids still in swimsuits. Peak-season afternoons draw a line and the counter staff can get visibly slammed, though reviews consistently describe them as patient about walking people through the day's flavors. Closes at 8 p.m. and serves no alcohol, so the evening ceiling is low.\n\nWhether it is a standalone storefront, a walk-up window, or a counter inside the Peaceful Side Social building is not documented anywhere I could reach - the 7961 vs 7967 address split hints at a separate storefront next door, but that is inference.",
+    "special_features": "House-made waffle cones pressed fresh daily; flavor lineup changes daily",
+    "opening_date": null,
+    "area": "Townsend",
+    "tags": [
+      "ice_cream",
+      "dessert",
+      "family_friendly",
+      "seasonal",
+      "locally_owned"
+    ],
+    "parking_info": "Shared Peaceful Side Social campus lot on E Lamar Alexander Pkwy; same lot serves the brewpub and playscape and fills up on peak-season afternoons",
+    "latitude": 35.6802315,
+    "longitude": -83.7417503
   },
   {
     "name": "Peaceful Side Social",
@@ -3618,7 +4153,9 @@ const RESTAURANTS = [
       "casual_date",
       "outdoor_seating"
     ],
-    "parking_info": "On-site parking available at Townsend Town Square location"
+    "parking_info": "On-site parking available at Townsend Town Square location",
+    "latitude": 35.6802707,
+    "longitude": -83.7415869
   },
   {
     "name": "Pelanchos Mexican Grill",
@@ -3637,7 +4174,9 @@ const RESTAURANTS = [
       "casual",
       "grill"
     ],
-    "parking_info": "On-site parking lot available"
+    "parking_info": "On-site parking lot available",
+    "latitude": 35.9189169,
+    "longitude": -84.050776
   },
   {
     "name": "Perk City Coffee House",
@@ -3656,7 +4195,9 @@ const RESTAURANTS = [
       "morning",
       "pastries"
     ],
-    "parking_info": "Parking lot at E Magnolia Ave location."
+    "parking_info": "Parking lot at E Magnolia Ave location.",
+    "latitude": 35.9960999,
+    "longitude": -83.884604
   },
   {
     "name": "Pete's Restaurant & Coffee Shop",
@@ -3677,7 +4218,9 @@ const RESTAURANTS = [
       "diner",
       "family_owned"
     ],
-    "parking_info": "Free street parking on Union Ave. Nearby Market Square Garage (2 blocks) offers $1/hr weekday parking, free after 6pm and all day weekends. Locust Street Garage (3 blocks) offers similar rates with 649 spaces."
+    "parking_info": "Free street parking on Union Ave. Nearby Market Square Garage (2 blocks) offers $1/hr weekday parking, free after 6pm and all day weekends. Locust Street Garage (3 blocks) offers similar rates with 649 spaces.",
+    "latitude": 35.9639238,
+    "longitude": -83.9210203
   },
   {
     "name": "Peter Kern Library",
@@ -3693,7 +4236,9 @@ const RESTAURANTS = [
     "opening_date": "2020-01-01T00:00:00Z",
     "area": "Downtown",
     "tags": [],
-    "parking_info": "Street parking or Oliver Hotel garage"
+    "parking_info": "Street parking or Oliver Hotel garage",
+    "latitude": 35.964637,
+    "longitude": -83.919778
   },
   {
     "name": "Petty Coffee",
@@ -3713,7 +4258,9 @@ const RESTAURANTS = [
       "counter_culture",
       "espresso"
     ],
-    "parking_info": "Shopping center parking lot available at Brookview Centre."
+    "parking_info": "Shopping center parking lot available at Brookview Centre.",
+    "latitude": 35.934675,
+    "longitude": -84.003936
   },
   {
     "name": "Pizzeria Nora",
@@ -3729,7 +4276,9 @@ const RESTAURANTS = [
     "opening_date": "2020-01-01T00:00:00Z",
     "area": null,
     "tags": [],
-    "parking_info": "Parking available on-site"
+    "parking_info": "Parking available on-site",
+    "latitude": 35.990246,
+    "longitude": -83.940029
   },
   {
     "name": "Point B",
@@ -3753,7 +4302,9 @@ const RESTAURANTS = [
       "new_american",
       "outdoor_seating"
     ],
-    "parking_info": "Free parking lot with ample spaces"
+    "parking_info": "Free parking lot with ample spaces",
+    "latitude": 35.8926223,
+    "longitude": -84.0674862
   },
   {
     "name": "PostModern Spirits",
@@ -3773,7 +4324,9 @@ const RESTAURANTS = [
       "tennessee_whiskey_trail",
       "whiskey"
     ],
-    "parking_info": "Parking lot available adjacent to the distillery on West Jackson Avenue"
+    "parking_info": "Parking lot available adjacent to the distillery on West Jackson Avenue",
+    "latitude": 35.96952,
+    "longitude": -83.920064
   },
   {
     "name": "Potchke Bagel - Cedar Bluff",
@@ -3793,7 +4346,9 @@ const RESTAURANTS = [
       "bagels",
       "new"
     ],
-    "parking_info": "Dedicated parking lot available; can fill quickly during peak morning hours (before 8 AM)"
+    "parking_info": "Dedicated parking lot available; can fill quickly during peak morning hours (before 8 AM)",
+    "latitude": 35.9246785,
+    "longitude": -84.0933515
   },
   {
     "name": "Pour Taproom",
@@ -3818,7 +4373,9 @@ const RESTAURANTS = [
       "taproom",
       "wine"
     ],
-    "parking_info": "Paid street parking and public lots nearby. Closest options: Jackson Ave Lot (6 min walk), I-40 Lot West (8 min walk)"
+    "parking_info": "Paid street parking and public lots nearby. Closest options: Jackson Ave Lot (6 min walk), I-40 Lot West (8 min walk)",
+    "latitude": 35.9695741,
+    "longitude": -83.9198401
   },
   {
     "name": "Preservation Pub",
@@ -3844,7 +4401,9 @@ const RESTAURANTS = [
       "scruffy_city",
       "trivia"
     ],
-    "parking_info": "Market Square Garage (153 steps, 3.5 min walk), Langley Garage (256 steps, 5.8 min walk), State Street Garage (339 steps, 7.7 min walk)"
+    "parking_info": "Market Square Garage (153 steps, 3.5 min walk), Langley Garage (256 steps, 5.8 min walk), State Street Garage (339 steps, 7.7 min walk)",
+    "latitude": 35.9652822,
+    "longitude": -83.9197831
   },
   {
     "name": "Pretentious Beer Co.",
@@ -3860,7 +4419,9 @@ const RESTAURANTS = [
     "opening_date": "2016-01-01T00:00:00Z",
     "area": null,
     "tags": [],
-    "parking_info": "Street parking available on S Central St; nearby public lots include Old City Lot South, Jackson Ave Lot, and Old City Lot North within walking distance"
+    "parking_info": "Street parking available on S Central St; nearby public lots include Old City Lot South, Jackson Ave Lot, and Old City Lot North within walking distance",
+    "latitude": 35.969333,
+    "longitude": -83.918236
   },
   {
     "name": "Primo Passo Coffee Co.",
@@ -3880,7 +4441,9 @@ const RESTAURANTS = [
       "local_bakery_collab",
       "pourover"
     ],
-    "parking_info": "Shopping center parking available at Northshore Town Center, Cornerstone Building."
+    "parking_info": "Shopping center parking available at Northshore Town Center, Cornerstone Building.",
+    "latitude": 35.857093,
+    "longitude": -84.079432
   },
   {
     "name": "Printshop Beer Co",
@@ -3888,7 +4451,7 @@ const RESTAURANTS = [
     "cuisine_type": "Brewery",
     "price_range": "$",
     "phone": "(865) 474-9591",
-    "website": "printshopbeer.com",
+    "website": "https://printshopbeer.com",
     "hours": "Mon-Thu 11am-10pm, Fri-Sat 11am-11pm, Sun 11am-9pm",
     "description": "Printshop Beer Co occupies a former printing facility on Island Home Avenue in South Knoxville, where the building's industrial past informs both the aesthetic and the brewing philosophy. As a Craft Malt Certified brewery, Printshop commits to using malted grains from small, independent maltsters—a distinction that places them among a minority of American craft breweries dedicated to supporting the entire grain-to-glass supply chain.\n\nTheir brewing philosophy centers on letting ingredients shine through thoughtful, purposeful use: hop-forward beers highlight one or two specific varieties rather than aggressive blending, while their saison recipes prioritize yeast character, with grains and hops selected to complement rather than overshadow the flavors produced during fermentation. This ingredient-focused approach, combined with their use of Tennessee-grown grain when possible, creates a distinctly southeastern flavor profile.\n\nThe brewery sits within South Knoxville's emerging waterfront development area. This location shapes Printshop's identity as a community gathering space rather than just a taproom. The brewery regularly hosts events that extend beyond typical beer culture: weekly Saturday yoga classes, \"Dungeons and Drafts\" tabletop gaming nights, and Art Haus on Tap family-friendly creative sessions where kids create art while parents enjoy community time. They also run brewery tours, Friday Flights for $12, and beer-and-cheese pairings guided by their sensory training expert.",
     "atmosphere": "The converted printshop's industrial bones remain visible throughout the space—exposed beams, high ceilings, concrete floors, and raw materials that nod to the building's manufacturing past. Large garage doors open during favorable weather to blur the line between indoor taproom and outdoor patio, allowing natural light to flood the space and creating an airy, open feel. The movable furniture plan means the layout shifts depending on the day's activities: yoga mats might replace tables on Saturday mornings, while game nights see tables pushed together for larger groups. The lighting stays warm and unobtrusive. Noise levels vary significantly—weekday early evenings tend toward mellow conversation among small groups, while weekend afternoons and Friday nights generate more energetic, social volume. The crowd leans local neighborhood residents, young professionals, and outdoor recreation enthusiasts who combine trail time with post-activity beers.",
@@ -3898,7 +4461,9 @@ const RESTAURANTS = [
     "tags": [
       "brewery"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.9700624,
+    "longitude": -83.9184553
   },
   {
     "name": "Public House",
@@ -3923,7 +4488,9 @@ const RESTAURANTS = [
       "outdoor_seating",
       "southern_food"
     ],
-    "parking_info": "Street parking on Magnolia, nearby lots"
+    "parking_info": "Street parking on Magnolia, nearby lots",
+    "latitude": 35.9719543,
+    "longitude": -83.9207199
   },
   {
     "name": "RT Lodge",
@@ -3944,7 +4511,9 @@ const RESTAURANTS = [
       "lodge",
       "romantic"
     ],
-    "parking_info": "Free on-site private parking lot available; shuttle service provided for large events when parking capacity is exceeded"
+    "parking_info": "Free on-site private parking lot available; shuttle service provided for large events when parking capacity is exceeded",
+    "latitude": 35.7449105,
+    "longitude": -83.9619971
   },
   {
     "name": "Radius Roof Top Lounge",
@@ -3965,7 +4534,9 @@ const RESTAURANTS = [
       "rooftop",
       "views"
     ],
-    "parking_info": "State Street Garage with 3rd floor skywalk access (5.7 min walk), Market Square Garage (5.0 min walk), Langley Garage (7.0 min walk), street parking available"
+    "parking_info": "State Street Garage with 3rd floor skywalk access (5.7 min walk), Market Square Garage (5.0 min walk), Langley Garage (7.0 min walk), street parking available",
+    "latitude": 35.9648055,
+    "longitude": -83.9184601
   },
   {
     "name": "Rami's Cafe",
@@ -3983,7 +4554,9 @@ const RESTAURANTS = [
     "tags": [
       "casual"
     ],
-    "parking_info": "Small shared parking lot at N. Broadway and Raleigh Avenue intersection, across from Fisher Tire"
+    "parking_info": "Small shared parking lot at N. Broadway and Raleigh Avenue intersection, across from Fisher Tire",
+    "latitude": 36.0047092,
+    "longitude": -83.9269633
   },
   {
     "name": "Raven Steakhouse & Lounge",
@@ -3993,9 +4566,9 @@ const RESTAURANTS = [
     "phone": "(865) 419-0449",
     "website": "https://ravensteakhouse.com/",
     "hours": "Mon, Wed-Thu 4-10 PM; Fri-Sat 4-11 PM; Sun 4-9 PM; Closed Tue",
-    "description": "Elevated steakhouse from the owners of Bella, featuring USDA Prime steaks seared at 1800 degrees, seafood towers with lobster and snow crab, and a curated wine list. Dinner-only with a main dining room for reservations and a lounge for walk-ins. Exclusive barrel-select Maker's Mark program.",
-    "atmosphere": "Upscale, refined, intimate steakhouse with lounge area",
-    "special_features": "Wagyu beef, seafood towers, caviar service, barrel-select whiskey program, connected to Bella ownership",
+    "description": "Elevated steakhouse from the owners of Bella, featuring USDA Prime steaks seared at 1800 degrees, seafood towers with lobster and snow crab, and a curated wine list. Dinner-only with a main dining room for reservations and a lounge for walk-ins. Exclusive barrel-select Maker's Mark program.\n\nThe room is split in two and the split matters: a reservation-only dining room of twenty tables, and a lounge with nine tables and eleven bar seats that takes walk-ins off a bar-bites and cocktail menu. Steaks are Chatel Farms prime -- 8oz filet at 65, 16oz ribeye at 75, 12oz New York strip at 65 -- with a 3oz A5 Japanese wagyu filet at 90 and Beef Wellington at 85 anchoring the top of the menu. Off the water: Chilean seabass 58, jumbo scallops 46, lobster tails 55, branzino 65. A wagyu smash burger at 24 and chicken paillard at 36 keep the lounge accessible. The bar runs its own Maker's Mark barrel select, which the beverage director builds tableside Old Fashioneds around. Reservations through Resy; closed Tuesdays.",
+    "atmosphere": "The most deliberately designed dining room in Blount County: restored red oak floors, Belgian tapestry woodland wall coverings, dark paneling, bronze raven sculptures, pendant fixtures hung on leather straps. Upholstered seating throughout keeps it genuinely quiet -- the intimacy is engineered, not incidental, and conversation carries at the table without carrying to the next one. A restored original glass front door separates the formal dining room from the lounge, which is the looser half: plaid banquettes, granite corner bar, walk-ins welcome. No published dress code, but the room rewards dressing for it. This is the Maryville answer to a downtown Knoxville anniversary dinner.",
+    "special_features": "Chatel Farms USDA Prime steaks seared at 1800 degrees, A5 Japanese wagyu, Beef Wellington, seafood towers with lobster and snow crab, caviar service, exclusive Maker's Mark barrel-select program with tableside Old Fashioneds, reservation-only dining room plus walk-in lounge, Resy reservations, closed Tuesdays, same ownership as Bella",
     "opening_date": "2025-09-12T00:00:00Z",
     "area": "Downtown Maryville",
     "tags": [
@@ -4007,7 +4580,9 @@ const RESTAURANTS = [
       "seafood",
       "prime-steaks"
     ],
-    "parking_info": null
+    "parking_info": "Free Broadway Avenue Municipal Parking Garage (203 spaces) at W Broadway Ave and S Cusick St, plus a 123-space Broadway surface lot and downtown Maryville street parking.",
+    "latitude": 35.7548111,
+    "longitude": -83.9726266
   },
   {
     "name": "Redbud Kitchen",
@@ -4026,7 +4601,9 @@ const RESTAURANTS = [
       "casual",
       "locally_owned"
     ],
-    "parking_info": "Free street parking on Sevier Avenue; free parking lot adjacent to restaurant; additional parking available at school across the street after 6pm"
+    "parking_info": "Free street parking on Sevier Avenue; free parking lot adjacent to restaurant; additional parking available at school across the street after 6pm",
+    "latitude": 35.95814,
+    "longitude": -83.90653
   },
   {
     "name": "Remedy Coffee",
@@ -4034,7 +4611,7 @@ const RESTAURANTS = [
     "cuisine_type": "Coffee & Cafe",
     "price_range": "$",
     "phone": "(865) 335-0967",
-    "website": "remedycoffee.com",
+    "website": "https://remedycoffee.com",
     "hours": "Mon-Fri 7am-6pm, Sat 8am-6pm, Sun 9am-5pm",
     "description": "Established in 2009 in Knoxville's Old City, Remedy Coffee planted its flag as the city's entry point into third-wave coffee culture at a time when specialty coffee meant Starbucks to most Americans. The shop partnered with Chicago's Intelligentsia Coffee—founded in 1995 and widely recognized as a pioneer of the third-wave movement emphasizing direct trade relationships, light roasting, and treating coffee with the same seriousness as wine.\n\nIn 2015, Remedy relocated from the Old City to 800 Tyson Street in the Downtown North district, settling into a space adjacent to Old Gray Cemetery that creates an unexpectedly atmospheric backdrop, particularly during rainy days when the Victorian-era gravestones and moody weather transform the coffee shop into something resembling a scene from gothic literature.\n\nThe move brought significant expansion in both space and amenities. Remedy now operates as a full-service third-wave coffee shop with over 75 seats, high-speed WiFi, and enough room to accommodate the laptop-wielding remote workforce alongside coffee enthusiasts seeking carefully prepared single-origin pour-overs. The shop offers rotating roasters beyond Intelligentsia, including Methodical, Heart, Black and White, and Passenger. The menu ranges from straightforward drip coffee like \"The Cure\" to NOLA cold brew enhanced with chicory, nodding to New Orleans coffee traditions.",
     "atmosphere": "The space balances functional coffee shop with comfortable hangout, featuring white brick walls that brighten the interior, large windows that flood the room with natural light, and plants distributed throughout that soften the industrial elements. The \"grungy hippie modern\" aesthetic leans casual and welcoming rather than austere or minimalist—mismatched furniture, vintage accents, and a lived-in quality that suggests regulars rather than Instagram tourists. Seating options span individual work spaces along window counters, communal tables for groups, couches and lounge areas for more relaxed seating, and The Loft's private study room for those needing focused isolation. Lighting during daytime hours comes primarily from natural sources. The noise level stays moderate—conversation and espresso machine sounds create ambient energy without overwhelming concentration, making it equally suitable for focused laptop work or casual catch-ups. The crowd includes morning regulars grabbing pour-overs before work, students and remote workers camping out during midday, and weekend coffee enthusiasts exploring the rotating roaster selection.",
@@ -4050,7 +4627,27 @@ const RESTAURANTS = [
       "pastries",
       "pour_over"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.974571,
+    "longitude": -83.924621
+  },
+  {
+    "name": "Ricky's",
+    "address": "1520 Washington Ave., Knoxville, TN",
+    "cuisine_type": "Bar & Lounge",
+    "price_range": "$",
+    "phone": null,
+    "website": "https://www.instagram.com/rickys.bar.knox/",
+    "hours": "{\"mon\": \"4pm-12am\", \"tue\": \"4pm-12am\", \"wed\": \"4pm-12am\", \"thu\": \"4pm-12am\", \"fri\": \"4pm-2am\", \"sat\": \"2pm-2am\", \"sun\": \"2pm-10pm\"}",
+    "description": "True neighborhood bar in Parkridge from the team behind Tern Club and Fly By Night—Jocelyn Morin, Ryan Shanley, and business partner Dan Blaisdell. Named after Ryan's father and stepfather (both named Richard, neither goes by Ricky), the bar takes a more relaxed approach than its themed sibling establishments, designed to feel like it's been part of the neighborhood for decades.\n\nThe drink program emphasizes approachability with a broader beer selection than the team's cocktail-focused bars, plus a focused cocktail list suited to the space. Little Ricky's food truck out back serves smash burgers, fries, wings, and bratwurst, with Taco Tuesdays and weekly meatloaf nights bringing cozy comfort food to the Parkridge community.",
+    "atmosphere": "Maximalist vintage fever dream spread across 2,000 square feet of a restored 1920s grocery store. Nearly everything—chairs, couches, lamps, signage, the potentially haunted Big Mouth Billy Bass—came from Facebook Marketplace, estate sales, and long-distance pickups. Mid-century Brothers patchwork whiskey barrel chairs, vintage Miller Lite signs, wood paneling, warm sage walls, and enough lamps to create intimate glow zones everywhere. Pool table, dartboards, and a vintage soft-serve machine for cocktails (Brandy Alexanders, espresso martinis, Jungle Bird with Dole Whip). TVs for sports—a first for this ownership group. The aesthetic is \"every dive I've ever loved, reimagined for old-soul barflies who also enjoy a well-constructed cocktail.\" Family-friendly during the day, neighborhood bar energy at night. Mix of Parkridge locals, cocktail enthusiasts slumming it comfortably, and people who appreciate that nearly everything has had a previous life.",
+    "special_features": null,
+    "opening_date": "2026-01-15T00:00:00Z",
+    "area": "Parkridge",
+    "tags": [],
+    "parking_info": "Street parking available on Washington Ave in the Parkridge neighborhood.",
+    "latitude": 35.98408,
+    "longitude": -83.91167
   },
   {
     "name": "Roger's",
@@ -4073,7 +4670,9 @@ const RESTAURANTS = [
       "karaoke",
       "since 1976"
     ],
-    "parking_info": "Strip mall parking lot"
+    "parking_info": "Strip mall parking lot",
+    "latitude": 35.9170353,
+    "longitude": -84.0753465
   },
   {
     "name": "Rooster's Bar & Grill",
@@ -4100,7 +4699,9 @@ const RESTAURANTS = [
       "outdoor patio",
       "late night"
     ],
-    "parking_info": "Parking lot on-site"
+    "parking_info": "Parking lot on-site",
+    "latitude": 35.9042942,
+    "longitude": -84.0202281
   },
   {
     "name": "STIR Knoxville",
@@ -4120,7 +4721,9 @@ const RESTAURANTS = [
       "open_air",
       "romantic"
     ],
-    "parking_info": "Paid parking lots available nearby including Old City Lot South (5-minute walk) and Old City Lot North (7-minute walk). Street parking also available with typical rates of $11-16 for 2-hour minimum."
+    "parking_info": "Paid parking lots available nearby including Old City Lot South (5-minute walk) and Old City Lot North (7-minute walk). Street parking also available with typical rates of $11-16 for 2-hour minimum.",
+    "latitude": 35.9698943,
+    "longitude": -83.9176278
   },
   {
     "name": "Saint Lucille's Kitchen",
@@ -4139,7 +4742,9 @@ const RESTAURANTS = [
       "casual_date",
       "emory_place"
     ],
-    "parking_info": "Street parking available in Emory Place district; nearby parking reservable through SpotHero"
+    "parking_info": "Street parking available in Emory Place district; nearby parking reservable through SpotHero",
+    "latitude": 35.9744418,
+    "longitude": -83.9227074
   },
   {
     "name": "Savelli's Italian Restaurant",
@@ -4159,7 +4764,9 @@ const RESTAURANTS = [
       "family_owned",
       "romantic_casual"
     ],
-    "parking_info": "Limited on-site parking available. Adjacent lot (Gus's Hot Chicken) is not available for restaurant use."
+    "parking_info": "Limited on-site parking available. Adjacent lot (Gus's Hot Chicken) is not available for restaurant use.",
+    "latitude": 35.9523676,
+    "longitude": -83.9662958
   },
   {
     "name": "Scrambled Jake's Breakfast Co.",
@@ -4179,7 +4786,9 @@ const RESTAURANTS = [
       "brunch",
       "early_opening"
     ],
-    "parking_info": "Free parking lot available on-site"
+    "parking_info": "Free parking lot available on-site",
+    "latitude": 35.9044917,
+    "longitude": -84.0189746
   },
   {
     "name": "Scruffy City Hall",
@@ -4199,7 +4808,9 @@ const RESTAURANTS = [
       "live_music",
       "rooftop"
     ],
-    "parking_info": "Public parking in Scruffy City Lot (86 spaces, $16/day, $80/month), Market Square Garage nearby, street parking on Market Square"
+    "parking_info": "Public parking in Scruffy City Lot (86 spaces, $16/day, $80/month), Market Square Garage nearby, street parking on Market Square",
+    "latitude": 35.9652822,
+    "longitude": -83.9197831
   },
   {
     "name": "Seasons Innovative Bar & Grille",
@@ -4207,7 +4818,7 @@ const RESTAURANTS = [
     "cuisine_type": "American",
     "price_range": "$$$",
     "phone": "865-392-1121",
-    "website": "seasonsbarandgrille.com",
+    "website": "https://seasonsbarandgrille.com",
     "hours": "Mon-Thu: 11am-9pm, Fri-Sat: 11am-10pm, Sun: 11am-8:30pm",
     "description": "A Turkey Creek culinary gem since 2006, Seasons blends sophisticated seasonal dining with approachable warmth. Chef Deron Little's Certified Executive Chef credentials shine through innovative American plates that showcase the freshest seasonal ingredients.\n\nChef Little brings over 50 years of culinary excellence, earning multiple Top Chef Knoxville victories and the Farragut Press Readers Choice Award. His passion manifests in every thoughtfully crafted dish, from garlic-infused beef medallions to parmesan-encrusted barramundi, blending classic French techniques with creative American innovation across rotating small plates and signature seasonal soups.",
     "atmosphere": "Turkey Creek shopping center location with upscale-casual interior—warm woods, soft lighting, stone accents. Mix of booths and tables that work for date nights or business dinners. Covered patio for warm evenings. The vibe is polished suburban: well-dressed but not stuffy, conversation-friendly noise level, the kind of place where celebrating an anniversary and closing a deal both make sense.",
@@ -4218,7 +4829,9 @@ const RESTAURANTS = [
       "elegant",
       "seasonal"
     ],
-    "parking_info": "Free parking available in Turkey Creek shopping center lot"
+    "parking_info": "Free parking available in Turkey Creek shopping center lot",
+    "latitude": 35.8966382,
+    "longitude": -84.1701669
   },
   {
     "name": "Seed Coffee Co.",
@@ -4237,7 +4850,9 @@ const RESTAURANTS = [
       "mission_driven",
       "study_friendly"
     ],
-    "parking_info": "Free parking behind building via Seaman Street or Vaneventer Avenue"
+    "parking_info": "Free parking behind building via Seaman Street or Vaneventer Avenue",
+    "latitude": 35.9541498,
+    "longitude": -83.9583097
   },
   {
     "name": "Señor Taco Mexican Seafood Restaurant",
@@ -4253,7 +4868,9 @@ const RESTAURANTS = [
     "opening_date": "1998-01-01T00:00:00Z",
     "area": null,
     "tags": [],
-    "parking_info": "Street and lot parking available on North Broadway"
+    "parking_info": "Street and lot parking available on North Broadway",
+    "latitude": 36.002205,
+    "longitude": -83.92664
   },
   {
     "name": "Side Hustle",
@@ -4275,7 +4892,9 @@ const RESTAURANTS = [
       "live_music",
       "outdoor_seating"
     ],
-    "parking_info": "Old City Lot South (approximately 6-minute walk, free 24/7 parking) and Old City Lot North (approximately 6.8-minute walk, free 24/7 parking). Street parking available in Old City district."
+    "parking_info": "Old City Lot South (approximately 6-minute walk, free 24/7 parking) and Old City Lot North (approximately 6.8-minute walk, free 24/7 parking). Street parking available in Old City district.",
+    "latitude": 35.970749,
+    "longitude": -83.918444
   },
   {
     "name": "Sitar Knoxville",
@@ -4293,7 +4912,9 @@ const RESTAURANTS = [
     "tags": [
       "curry"
     ],
-    "parking_info": "Free parking lot"
+    "parking_info": "Free parking lot",
+    "latitude": 35.9328031,
+    "longitude": -84.0014232
   },
   {
     "name": "Small Comforts Kitchen",
@@ -4314,7 +4935,9 @@ const RESTAURANTS = [
       "pies",
       "seasonal"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.942355,
+    "longitude": -83.890111
   },
   {
     "name": "SmashCity",
@@ -4332,7 +4955,9 @@ const RESTAURANTS = [
     "tags": [
       "casual"
     ],
-    "parking_info": "Downtown location with nearby public parking at State Street Garage and Old City Lot South, both within 10-minute walk"
+    "parking_info": "Downtown location with nearby public parking at State Street Garage and Old City Lot South, both within 10-minute walk",
+    "latitude": 35.968393,
+    "longitude": -83.9177394
   },
   {
     "name": "Smoked Pickle Barbecue",
@@ -4340,7 +4965,7 @@ const RESTAURANTS = [
     "cuisine_type": "BBQ",
     "price_range": "$$",
     "phone": "(865) 804-8073",
-    "website": "smokedpicklebarbecue.com",
+    "website": "https://smokedpicklebarbecue.com",
     "hours": "{\"monday\": \"Closed\", \"tuesday\": \"Closed\", \"wednesday\": \"Closed\", \"thursday\": \"11:00 AM - 8:00 PM\", \"friday\": \"11:00 AM - 8:30 PM\", \"saturday\": \"11:00 AM - 8:00 PM\", \"sunday\": \"Closed\"}",
     "description": "Smoked Pickle Barbecue represents the convergence of pandemic-era reinvention and genuine craft barbecue passion. Pitmaster Eric Pickle—a Knoxville native and Bearden High School graduate—purchased a used $100 offset smoker in 2020 during an abrupt career change and began the journey from backyard experiments to opening a commercial operation. After months of trial and error with brisket, he took delivery of his first commercial smoker from Knoxville-based TMG Pits in October 2020.\n\nEric's approach draws from multiple regional barbecue traditions rather than adhering to a single orthodoxy. Central Texas-style brisket anchors the menu, cooked low and slow using only wood, fire, and steel until achieving the coveted bark. West Tennessee and Carolina influences appear in the pork and chicken preparations, with dry-rubbed spare ribs and Carolina-style pulled pork seasoned with techniques borrowed from Memphis pitmasters.\n\nThe menu features whole smoked briskets (4.5-6 lbs, $175), whole pork butts (5-6 lbs, $90), full racks of spare ribs ($35), smoked turkey breast, and specialty items like smoked brisket burger patties. Sides include Texas beans, Tennessee slaw, jalapeño street corn, potato salad, and queso mac and cheese. The operation runs Thursday through Saturday, with the kitchen closing at 8 PM most nights, making it a destination for weekend barbecue pilgrims seeking wood-fired meats in West Knoxville.",
     "atmosphere": "Smoked Pickle operates from a commercial barbecue trailer setup on Ebenezer Road, creating a casual, order-at-the-window experience focused entirely on the food. The space lacks traditional indoor dining, emphasizing the food truck aesthetic with outdoor seating options available nearby. The environment centers around the visual and aromatic experience of real wood-fired barbecue, with the smokers visible and the unmistakable scent of oak and hickory smoke creating the primary ambiance. The scene attracts barbecue enthusiasts who understand that authentic Central Texas-style barbecue rarely comes from brick-and-mortar restaurants with tablecloths. Expect a straightforward, no-frills experience where the focus remains squarely on the quality of the smoked meats. Lines can form during peak hours Thursday through Saturday, particularly on Friday and Saturday evenings.",
@@ -4348,7 +4973,9 @@ const RESTAURANTS = [
     "opening_date": "2020-01-01T00:00:00Z",
     "area": "West Knoxville",
     "tags": [],
-    "parking_info": "On-Site Parking Available"
+    "parking_info": "On-Site Parking Available",
+    "latitude": 35.895411,
+    "longitude": -84.067712
   },
   {
     "name": "Smoky Mountain Brewery",
@@ -4364,7 +4991,9 @@ const RESTAURANTS = [
     "opening_date": "2020-01-01T00:00:00Z",
     "area": "Turkey Creek",
     "tags": [],
-    "parking_info": "Free parking available in Turkey Creek shopping center lot, located across from Regal Cinemas Pinnacle 18"
+    "parking_info": "Free parking available in Turkey Creek shopping center lot, located across from Regal Cinemas Pinnacle 18",
+    "latitude": 35.8998887,
+    "longitude": -84.158468
   },
   {
     "name": "SoKno Taco Cantina",
@@ -4383,7 +5012,9 @@ const RESTAURANTS = [
       "brewery",
       "brewpub"
     ],
-    "parking_info": "On-site lot with overflow parking in back, plus street parking"
+    "parking_info": "On-site lot with overflow parking in back, plus street parking",
+    "latitude": 35.94492,
+    "longitude": -83.890406
   },
   {
     "name": "SoKno Taco Cantina - Sevierville Pike",
@@ -4403,7 +5034,9 @@ const RESTAURANTS = [
       "casual",
       "outdoor_friendly"
     ],
-    "parking_info": "On-site parking lot available"
+    "parking_info": "On-site parking lot available",
+    "latitude": 35.94492,
+    "longitude": -83.890406
   },
   {
     "name": "Soccer Taco",
@@ -4421,7 +5054,31 @@ const RESTAURANTS = [
     "tags": [
       "sports_bar"
     ],
-    "parking_info": "Strip mall parking lot, overflow parking available, can be tight on weekends"
+    "parking_info": "Strip mall parking lot, overflow parking available, can be tight on weekends",
+    "latitude": 35.9324071,
+    "longitude": -84.0135732
+  },
+  {
+    "name": "Sonny's Pizza & Wings",
+    "address": "2300 N Central St, Knoxville, TN 37917",
+    "cuisine_type": "Pizza",
+    "price_range": "$",
+    "phone": "(865) 390-9464",
+    "website": "https://sonnyspizzaandwings.com/",
+    "hours": "{\"monday\": \"closed\", \"tuesday\": \"11:00-21:00\", \"wednesday\": \"11:00-21:00\", \"thursday\": \"11:00-21:00\", \"friday\": \"11:00-21:00\", \"saturday\": \"11:00-21:00\", \"sunday\": \"12:00-20:00\"}",
+    "description": "Pizza and wings shop on N Central, in the space Hard Knox Pizza vacated -- with Sonny's Brewing taking the adjoining former Ebony & Ivory taproom in the same building. Ebony & Ivory closed that taproom in March 2026 but continues to brew, and its beer still turns up in bars around town.\n\nNot an independent one-off and not a franchise: it is Sonny's Concepts, the local group Michael McLain built after running Marble City Pub while working as a Knox County Sheriff's deputy, alongside partners who are Marine Corps and Air Force veterans. The original is Sonny's Original Southern Pub on Adair Drive in Fountain City; this is the second step, with Sonny's Brewing sharing the same building and running its own later hours. Ebony & Ivory's co-owners Mitchell Russell and Chico Dupas picked McLain as their preferred tenant; he had meant to combine the two breweries before they decided to close outright, and beer now comes through a partnership with Peaceful Side Brewery in Maryville.\n\nThe kitchen leans smoked. Wings come smoked by the pound, and the pizzas put smoked chicken and smoked pork butt on house dough -- The Volunteer runs a housemade big-orange sauce under both, plus jalapenos, onions and bacon. Twelve-inch specialty pies are \\$16.50 and sixteens \\$24, build-your-own starts at \\$12.50, a pound of wings is \\$12.75, and there is a \\$9 lunch special of two slices and a drink. McLain's own framing: \"We just want it to be a little neighborhood spot.\" ",
+    "atmosphere": "A suite in the multi-tenant building on N Central that held Hard Knox Pizza and then Ebony & Ivory Brewing, sharing the space with Sonny's Brewing, which stays open later than the kitchen. Casual neighborhood room -- self-described as comfort meeting a bit of culinary creativity -- with a dog-friendly patio on the taproom side, solo-guitar nights and private-party bookings. Veteran- and first-responder-owned, and flagged veteran-owned on Google.",
+    "special_features": "Smoked wings by the pound and smoked meats on house-dough pizza; Sonny's Brewing taproom in the same building with later hours and a dog-friendly patio; beer partnership with Peaceful Side Brewery; veteran- and first-responder-owned; \\$9 two-slice lunch special",
+    "opening_date": null,
+    "area": "North Knoxville",
+    "tags": [
+      "pizza",
+      "wings",
+      "casual"
+    ],
+    "parking_info": null,
+    "latitude": 35.989499081131,
+    "longitude": -83.939105829605
   },
   {
     "name": "SouthSide Garage",
@@ -4443,7 +5100,9 @@ const RESTAURANTS = [
       "outdoor_seating",
       "sevier_avenue"
     ],
-    "parking_info": "On-site parking available"
+    "parking_info": "On-site parking available",
+    "latitude": 35.9588621,
+    "longitude": -83.9050192
   },
   {
     "name": "Southbound",
@@ -4462,7 +5121,9 @@ const RESTAURANTS = [
       "nightclub",
       "nightlife"
     ],
-    "parking_info": "Old City Lot South (5.6 min walk, free weeknights/weekends, $3 max weekdays) and Old City Lot North (7.4 min walk) nearby"
+    "parking_info": "Old City Lot South (5.6 min walk, free weeknights/weekends, $3 max weekdays) and Old City Lot North (7.4 min walk) nearby",
+    "latitude": 35.9702597,
+    "longitude": -83.9182023
   },
   {
     "name": "Southern Grit",
@@ -4472,7 +5133,7 @@ const RESTAURANTS = [
     "phone": "(865) 240-4275",
     "website": "https://thesoutherngrit.com/",
     "hours": "Mon: Closed; Tue-Thu: 11:30am-9pm; Fri: 11:30am-10pm; Sat: 11am-10pm; Sun: 11am-9pm",
-    "description": "Southern Grit brings lowcountry-inspired comfort food to Knoxville's historic Old City with a modern twist. Known for their creative biscuit sandwiches and brunch favorites, the restaurant has become a downtown destination for hearty Southern classics.\n\nThe kitchen celebrates traditional Southern cooking techniques while incorporating contemporary culinary approaches, showcasing dishes like shrimp and grits with Cajun flair, chicken fried chicken, jambalaya pasta, and their signature fried biscuit donuts. The menu emphasizes generous portions and bold flavors, with locally-sourced ingredients prepared with precision and presentation.",
+    "description": "Southern Grit opened in Knoxville's Old City and decided to do something interesting with it: lowcountry comfort food, but pushed a little further than you'd expect. The biscuit sandwiches have made it a downtown destination, and the brunch crowd has noticed.\n\nThe kitchen holds onto traditional Southern technique while layering in something more contemporary – shrimp and grits with a Cajun lean, chicken fried chicken, jambalaya pasta, and the thing everyone seems to talk about: fried biscuit donuts. The portions are generous, the flavors are bold, and they're sourcing locally and treating the plating like it matters. It's classic Southern cooking that takes itself seriously without losing the plot.",
     "atmosphere": "Exposed brick walls, natural light flooding through industrial windows, and an open kitchen where you can watch the line work. Mix of brunch crowds on weekends (expect a wait, no reservations), date-night couples mid-week, and Old City regulars who know the biscuits are legitimately the best in town. The space feels modern without erasing the historic building—rustic furniture, local art, energy that is lively without being loud. Bar scene is active but conversation-friendly.",
     "special_features": "Biscuit sandwiches, fried biscuit donuts, mimosas",
     "opening_date": "2020-01-01T00:00:00Z",
@@ -4482,7 +5143,9 @@ const RESTAURANTS = [
       "brunch",
       "mimosas"
     ],
-    "parking_info": "Street parking available on S Central St. Nearby parking at Old City Lot South, approximately 6-minute walk."
+    "parking_info": "Street parking available on S Central St. Nearby parking at Old City Lot South, approximately 6-minute walk.",
+    "latitude": 35.9697467,
+    "longitude": -83.918038
   },
   {
     "name": "Space Bar",
@@ -4507,7 +5170,9 @@ const RESTAURANTS = [
       "craft cocktails",
       "small plates"
     ],
-    "parking_info": "Shopping center parking lot, plenty of spaces"
+    "parking_info": "Shopping center parking lot, plenty of spaces",
+    "latitude": 35.9116222,
+    "longitude": -84.1004547
   },
   {
     "name": "Spice Express Indian Kitchen",
@@ -4526,7 +5191,9 @@ const RESTAURANTS = [
       "curry",
       "quick_service"
     ],
-    "parking_info": "Strip mall parking lot - ample free parking"
+    "parking_info": "Strip mall parking lot - ample free parking",
+    "latitude": 35.780175,
+    "longitude": -83.54919
   },
   {
     "name": "Spice Hut",
@@ -4544,7 +5211,9 @@ const RESTAURANTS = [
     "tags": [
       "curry"
     ],
-    "parking_info": "Ample free parking in shared lot at gas station location with easy access from I-75 and I-40"
+    "parking_info": "Ample free parking in shared lot at gas station location with easy access from I-75 and I-40",
+    "latitude": 35.829876,
+    "longitude": -84.281387
   },
   {
     "name": "Spice Thai",
@@ -4560,7 +5229,9 @@ const RESTAURANTS = [
     "opening_date": "2020-01-01T00:00:00Z",
     "area": "Bearden",
     "tags": [],
-    "parking_info": "Strip mall parking available at Kingston Pike location"
+    "parking_info": "Strip mall parking available at Kingston Pike location",
+    "latitude": 35.932813,
+    "longitude": -84.0050442
   },
   {
     "name": "Steamboat Sandwiches",
@@ -4578,7 +5249,32 @@ const RESTAURANTS = [
     "tags": [
       "lunch"
     ],
-    "parking_info": "Street parking available in North Knoxville commercial district, outdoor patio shared with neighboring brewery"
+    "parking_info": "Street parking available in North Knoxville commercial district, outdoor patio shared with neighboring brewery",
+    "latitude": 35.9902353,
+    "longitude": -83.9403072
+  },
+  {
+    "name": "Stem To Stem",
+    "address": "1200 N Central St, Knoxville, TN 37917",
+    "cuisine_type": "Cocktail Bar",
+    "price_range": "$$",
+    "phone": "(865) 809-8848",
+    "website": "https://stemtostemknoxvilleflowers.com/",
+    "hours": "{\"monday\": \"17:00-23:00\", \"tuesday\": \"17:00-23:00\", \"wednesday\": \"17:00-00:00\", \"thursday\": \"17:00-00:00\", \"friday\": \"17:00-02:00\", \"saturday\": \"15:00-02:00\", \"sunday\": \"15:00-22:00\"}",
+    "description": "Flower shop by day, cocktail bar by night, in the former Raven Records space in Happy Holler. One of the more original hospitality concepts to open in Knoxville recently — not really a restaurant, but a genuine destination.\n\nOwner Brooke Martin spent seven years bartending at Stock & Barrel on Market Square and did funeral and celebration-of-life floral work before putting the two trades in one room. It opened 17 July 2026. The florist runs weekdays until four and Saturday mornings -- weddings, sympathy work, everyday arrangements, same-day delivery if you order by eleven -- then closes for an hour and reopens as a bar, and whatever bouquets did not sell migrate into the front room to be bought alongside a drink.\n\nThe cocktails are classics done properly, named after the friends who got her here: a Bee's Knees called The Honey Hole, a house old fashioned, a whiskey sour, martinis running pistachio-espresso and lavender and pear, palomas and mules and a French 75, mostly \\$11 to \\$15, with \\$7 customizable mocktails. No food menu.",
+    "atmosphere": "One room that changes twice a day. Walls in Sherwin-Williams Stone Cutter, which reads charcoal or navy or green depending on the light, and no traditional exterior signage at all -- Martin hung a disco ball instead, and the rose-gold flecks it throws through the front windows have become how people find the place. Flowers are physically present in the bar: the day's unsold arrangements move into the front room each evening and stay for sale next to the cocktails. Open to two in the morning Friday and Saturday, which makes it a late room as well as an early one.",
+    "special_features": "Dual-concept florist and cocktail bar in one room; florist Mon-Fri 10a-4p and Sat 10a-2p with same-day delivery before 11 AM; unsold bouquets move into the bar each evening and stay for sale; disco ball in place of exterior signage; open to 2 AM Fri-Sat; no food menu",
+    "opening_date": null,
+    "area": "Happy Holler",
+    "tags": [
+      "cocktails",
+      "florist",
+      "date_night",
+      "unique_concept"
+    ],
+    "parking_info": null,
+    "latitude": 35.981713768246,
+    "longitude": -83.929374139683
   },
   {
     "name": "Sticky Rice Café",
@@ -4598,7 +5294,9 @@ const RESTAURANTS = [
       "cultural",
       "family_style"
     ],
-    "parking_info": "Strip mall parking lot with limited spaces available"
+    "parking_info": "Strip mall parking lot with limited spaces available",
+    "latitude": 35.927185,
+    "longitude": -84.043434
   },
   {
     "name": "Stock & Barrel",
@@ -4617,7 +5315,9 @@ const RESTAURANTS = [
       "bourbon",
       "casual"
     ],
-    "parking_info": "Market Square Garage directly behind restaurant at 406 Walnut (cheapest option). Free parking weeknights after 6pm and all day Sunday, $3 flat rate Saturdays. Alternative garages: Langley (407 Walnut), Promenade (401 State), State Street (520 State)."
+    "parking_info": "Market Square Garage directly behind restaurant at 406 Walnut (cheapest option). Free parking weeknights after 6pm and all day Sunday, $3 flat rate Saturdays. Alternative garages: Langley (407 Walnut), Promenade (401 State), State Street (520 State).",
+    "latitude": 35.9656845,
+    "longitude": -83.9201342
   },
   {
     "name": "Storming Crab",
@@ -4635,7 +5335,9 @@ const RESTAURANTS = [
     "tags": [
       "casual"
     ],
-    "parking_info": "Strip mall parking lot available"
+    "parking_info": "Strip mall parking lot available",
+    "latitude": 35.9238796,
+    "longitude": -84.0575272
   },
   {
     "name": "Sullivan's at Rocky Hill",
@@ -4654,7 +5356,9 @@ const RESTAURANTS = [
       "locally_owned",
       "scratch_cooking"
     ],
-    "parking_info": "Free parking available in Rocky Hill Shopping Center lot"
+    "parking_info": "Free parking available in Rocky Hill Shopping Center lot",
+    "latitude": 35.904813,
+    "longitude": -84.019572
   },
   {
     "name": "Sunspot",
@@ -4676,7 +5380,9 @@ const RESTAURANTS = [
       "the_strip",
       "vegetarian_options"
     ],
-    "parking_info": "On-site parking available"
+    "parking_info": "On-site parking available",
+    "latitude": 35.9537052,
+    "longitude": -83.939207
   },
   {
     "name": "Taj Indian Bistro",
@@ -4695,7 +5401,9 @@ const RESTAURANTS = [
       "curry",
       "vegetarian_options"
     ],
-    "parking_info": "Free parking in Turkey Creek shopping center lot"
+    "parking_info": "Free parking in Turkey Creek shopping center lot",
+    "latitude": 35.902555,
+    "longitude": -84.146034
   },
   {
     "name": "Tangerine's Japanese Cuisine Sushi and Bar",
@@ -4713,7 +5421,9 @@ const RESTAURANTS = [
     "tags": [
       "casual"
     ],
-    "parking_info": "Free parking available in strip center lot with quick and easy access"
+    "parking_info": "Free parking available in strip center lot with quick and easy access",
+    "latitude": 36.0334738,
+    "longitude": -83.8695449
   },
   {
     "name": "Tarik's North African",
@@ -4732,7 +5442,9 @@ const RESTAURANTS = [
       "cultural",
       "welcoming"
     ],
-    "parking_info": "Parking available at the shopping center at 900 E Hill Ave"
+    "parking_info": "Parking available at the shopping center at 900 E Hill Ave",
+    "latitude": 35.969556,
+    "longitude": -83.906234
   },
   {
     "name": "Tavern at Maker Exchange",
@@ -4756,7 +5468,9 @@ const RESTAURANTS = [
       "tennessee_ingredients",
       "worlds_fair_park"
     ],
-    "parking_info": "Free valet parking for diners, Marriott Hotel Garage, World's Fair North Lot, Langley Garage, and Locust Street Garage nearby"
+    "parking_info": "Free valet parking for diners, Marriott Hotel Garage, World's Fair North Lot, Langley Garage, and Locust Street Garage nearby",
+    "latitude": 35.962776,
+    "longitude": -83.923098
   },
   {
     "name": "Tennessee Tap House",
@@ -4764,7 +5478,7 @@ const RESTAURANTS = [
     "cuisine_type": "Bar & Lounge",
     "price_range": "$$",
     "phone": "(865) 394-9425",
-    "website": "tennesseetaphouse.com",
+    "website": "https://tennesseetaphouse.com",
     "hours": null,
     "description": "West Knoxville neighborhood tap house that knows exactly what it is: 36 rotating craft beers, reliably good thin-crust pizza, and 15 TVs for whatever game matters today. The pizza program is the real anchor—handmade daily from an old family recipe, Wisconsin cheese, scratch sauces, fresh herbs. It's legitimately good thin crust, not just \"good for a sports bar.\" The beer selection rotates constantly, Tennessee-first but not Tennessee-only, with monthly craft swaps keeping regulars engaged. Live music Thursday through Sunday, trivia Tuesdays, happy hour 4-7 PM weekdays. Not trying to be fine dining, not apologizing for being a sports bar—succeeds at being the neighborhood spot where you can watch the game, drink local beer, and eat better pizza than you expected.",
     "atmosphere": "Sports bar template executed well: 15 TVs distributed without overwhelming the room, 36-tap beer wall as visual anchor, mix of tables and high-tops. Tennessee-themed touches stay tasteful. Moderate noise weekday lunches, considerably louder during live music and games. West Knoxville professionals and families early, younger crowd as evening progresses.",
@@ -4775,7 +5489,9 @@ const RESTAURANTS = [
       "craft_beer",
       "locally_owned"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.91443,
+    "longitude": -84.095935
   },
   {
     "name": "Tern Club",
@@ -4796,7 +5512,9 @@ const RESTAURANTS = [
       "speakeasy_adjacent",
       "tiki"
     ],
-    "parking_info": "Street parking on Gay St (metered, $1.50/hr, 2hr max). State Street Garage 2 blocks away (434 spaces, $1/hr weekdays, free after 7pm and weekends). Market Square Garage nearby (253 spaces, same rates). W. Jackson Ave Lot near 100 block of South Gay Street (free nights & weekends)."
+    "parking_info": "Street parking on Gay St (metered, $1.50/hr, 2hr max). State Street Garage 2 blocks away (434 spaces, $1/hr weekdays, free after 7pm and weekends). Market Square Garage nearby (253 spaces, same rates). W. Jackson Ave Lot near 100 block of South Gay Street (free nights & weekends).",
+    "latitude": 35.9680979,
+    "longitude": -83.9202549
   },
   {
     "name": "Tesoro Gelato",
@@ -4816,7 +5534,9 @@ const RESTAURANTS = [
       "gelato",
       "local_ingredients"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.9720983,
+    "longitude": -83.9198439
   },
   {
     "name": "The Appalachian",
@@ -4837,7 +5557,9 @@ const RESTAURANTS = [
       "romantic",
       "sevierville"
     ],
-    "parking_info": "Street parking only in downtown Sevierville historic district"
+    "parking_info": "Street parking only in downtown Sevierville historic district",
+    "latitude": 35.8666313,
+    "longitude": -83.5632017
   },
   {
     "name": "The Barn at Blackberry Farm",
@@ -4856,7 +5578,9 @@ const RESTAURANTS = [
       "tasting_menu",
       "walland"
     ],
-    "parking_info": "Complimentary on-site parking and valet service available at Blackberry Farm resort (4,200-acre estate). The Barn is located in the center of the Farmstead with convenient access from main parking areas."
+    "parking_info": "Complimentary on-site parking and valet service available at Blackberry Farm resort (4,200-acre estate). The Barn is located in the center of the Farmstead with convenient access from main parking areas.",
+    "latitude": 35.686155,
+    "longitude": -83.865577
   },
   {
     "name": "The Brass Pearl",
@@ -4881,7 +5605,9 @@ const RESTAURANTS = [
       "champagne bar",
       "sustainable seafood"
     ],
-    "parking_info": "Market Square Garage at 406 Walnut St (677 spaces, $1/hr, $7 day max, free after 6pm weeknights, $3 flat rate Saturdays, free Sundays). Street parking on Market Square (metered, $1.50/hr, 2hr max). Locust Street Garage nearby (free after 6pm and all weekend)."
+    "parking_info": "Market Square Garage at 406 Walnut St (677 spaces, $1/hr, $7 day max, free after 6pm weeknights, $3 flat rate Saturdays, free Sundays). Street parking on Market Square (metered, $1.50/hr, 2hr max). Locust Street Garage nearby (free after 6pm and all weekend).",
+    "latitude": 35.965615,
+    "longitude": -83.9193561
   },
   {
     "name": "The Corner Lounge",
@@ -4904,7 +5630,9 @@ const RESTAURANTS = [
       "brunch",
       "weekday-lunch"
     ],
-    "parking_info": "Free street parking available on N Central St and surrounding Happy Holler streets. Additional free parking at nearby church next door on weekends."
+    "parking_info": "Free street parking available on N Central St and surrounding Happy Holler streets. Additional free parking at nearby church next door on weekends.",
+    "latitude": 35.977432,
+    "longitude": -83.9249512
   },
   {
     "name": "The Double S Wine Bar",
@@ -4922,7 +5650,9 @@ const RESTAURANTS = [
     "tags": [
       "wine_bar"
     ],
-    "parking_info": "Abundant parking available across the street under I-40"
+    "parking_info": "Abundant parking available across the street under I-40",
+    "latitude": 35.971408,
+    "longitude": -83.921532
   },
   {
     "name": "The Egyptian Taste",
@@ -4930,11 +5660,11 @@ const RESTAURANTS = [
     "cuisine_type": "Egyptian, Mediterranean",
     "price_range": "$",
     "phone": "(865) 268-5138",
-    "website": "https://theegyptiantaste.com/",
-    "hours": "Daily 11 AM-8 PM",
-    "description": "Family-owned Egyptian restaurant at Foothills Mall serving authentic dishes like lamb and chicken kebab, falafel made with fava beans, kofta, and chicken thighs marinated in Egyptian seasonings with rice, garlic white sauce, hummus, and pita. Time-honored recipes with high-quality ingredients.",
-    "atmosphere": "Casual, family-friendly",
-    "special_features": "Authentic Egyptian recipes, fava bean falafel, family-owned",
+    "website": "",
+    "hours": "Mon-Sat 11 AM-8 PM; Sun 12 PM-6 PM",
+    "description": "Family-owned Egyptian restaurant at Foothills Mall serving authentic dishes like lamb and chicken kebab, falafel made with fava beans, kofta, and chicken thighs marinated in Egyptian seasonings with rice, garlic white sauce, hummus, and pita. Time-honored recipes with high-quality ingredients.\n\nOwner Mohamed Allam is a Maryville resident and the operation is genuinely family-run, which shows in a menu that stays narrow and cooks it properly rather than sprawling into generic Mediterranean. The falafel is made from fava beans, the Egyptian way, not chickpeas -- a real distinction and the thing to order if you only get one item. Kofta blends ground beef and lamb with onion and herbs; the tahini gets singled out repeatedly in reviews. Allam's own recommendation is the mixed grill: chicken kebab, lamb kebab and kofta over saffron rice. Kunafa closes it out. Halal, and workable for gluten-free diners.",
+    "atmosphere": "A small counter-service storefront in the Foothills Mall drive retail strip, plainly furnished, with the food doing all of the work -- no decor program, no music to speak of, fluorescent-bright and clean. Seating is limited and turnover is quick; most of the volume goes out the door. The crowd is Blount County locals and the odd traveler who did the research. Quiet enough to talk, and family-friendly by default rather than design. This is a lunch and early-dinner proposition, closing at 8 most nights and 6 on Sundays.",
+    "special_features": "Authentic Egyptian recipes, falafel made with fava beans rather than chickpeas, mixed grill of chicken kebab, lamb kebab and kofta over saffron rice, kunafa, halal, gluten-free friendly, family-owned by Maryville resident Mohamed Allam, online ordering via Square",
     "opening_date": null,
     "area": "Foothills Mall",
     "tags": [
@@ -4945,7 +5675,9 @@ const RESTAURANTS = [
       "maryville",
       "casual"
     ],
-    "parking_info": null
+    "parking_info": "Free shared surface lot along Foothills Mall Drive with ample spaces.",
+    "latitude": 35.742398,
+    "longitude": -83.997104
   },
   {
     "name": "The French Market Creperie",
@@ -4966,7 +5698,9 @@ const RESTAURANTS = [
       "crepes",
       "french"
     ],
-    "parking_info": "Street parking on Clinch Ave (metered). Locust Street Garage 185 steps away (4 min walk, closest option). Market Square Garage 275 steps away (6 min walk, free evenings after 6pm, free Sundays, $3 flat rate Saturdays). Limited street parking, garages recommended."
+    "parking_info": "Street parking on Clinch Ave (metered). Locust Street Garage 185 steps away (4 min walk, closest option). Market Square Garage 275 steps away (6 min walk, free evenings after 6pm, free Sundays, $3 flat rate Saturdays). Limited street parking, garages recommended.",
+    "latitude": 35.963546,
+    "longitude": -83.919202
   },
   {
     "name": "The Greenbrier Restaurant",
@@ -4986,7 +5720,9 @@ const RESTAURANTS = [
       "historic",
       "whiskey_society"
     ],
-    "parking_info": "On-site parking lot available. Restaurant located up steep hill at 370 Newman Rd, requiring careful navigation on winding road to hilltop location."
+    "parking_info": "On-site parking lot available. Restaurant located up steep hill at 370 Newman Rd, requiring careful navigation on winding road to hilltop location.",
+    "latitude": 35.7248089,
+    "longitude": -83.4845622
   },
   {
     "name": "The Hill Bar & Grill",
@@ -5006,7 +5742,9 @@ const RESTAURANTS = [
       "fort_sanders",
       "sports_bar"
     ],
-    "parking_info": "Free street parking available on Forest Ave and surrounding Fort Sanders neighborhood streets. On-site parking lot may be available (call to confirm). Limited availability during University of Tennessee home games and events."
+    "parking_info": "Free street parking available on Forest Ave and surrounding Fort Sanders neighborhood streets. On-site parking lot may be available (call to confirm). Limited availability during University of Tennessee home games and events.",
+    "latitude": 35.9638288,
+    "longitude": -83.9280912
   },
   {
     "name": "The Kennedy",
@@ -5026,7 +5764,9 @@ const RESTAURANTS = [
       "live_music",
       "romantic"
     ],
-    "parking_info": "State Street Garage recommended (free after 7pm weeknights, free weekends). Market Square Garage nearby ($3 flat rate Saturdays, free Sundays after 6pm). Street parking on Gay St ($1.50/hr, 2hr limit). Municipal garages $1/hr weekdays, free after 6pm and weekends."
+    "parking_info": "State Street Garage recommended (free after 7pm weeknights, free weekends). Market Square Garage nearby ($3 flat rate Saturdays, free Sundays after 6pm). Street parking on Gay St ($1.50/hr, 2hr limit). Municipal garages $1/hr weekdays, free after 6pm and weekends.",
+    "latitude": 35.9655163,
+    "longitude": -83.9180479
   },
   {
     "name": "The Kraken's Cup",
@@ -5044,7 +5784,9 @@ const RESTAURANTS = [
     "tags": [
       "afternoon_tea"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 36.025391,
+    "longitude": -83.929577
   },
   {
     "name": "The Marlowe",
@@ -5064,7 +5806,9 @@ const RESTAURANTS = [
       "neighborhood_dining",
       "sophisticated"
     ],
-    "parking_info": "Street parking available on N Central St. Additional parking at nearby church next door. Happy Holler area offers free parking at downtown garages on weeknights and weekends."
+    "parking_info": "Street parking available on N Central St. Additional parking at nearby church next door. Happy Holler area offers free parking at downtown garages on weeknights and weekends.",
+    "latitude": 35.981372,
+    "longitude": -83.929439
   },
   {
     "name": "The Original Freezo",
@@ -5084,7 +5828,9 @@ const RESTAURANTS = [
       "ice_cream",
       "retro"
     ],
-    "parking_info": "Small private lot, can be tight on summer weekends; drive-through available"
+    "parking_info": "Small private lot, can be tight on summer weekends; drive-through available",
+    "latitude": 35.9825053,
+    "longitude": -83.930429
   },
   {
     "name": "The Phoenix Pharmacy & Fountain",
@@ -5102,7 +5848,9 @@ const RESTAURANTS = [
     "tags": [
       "dessert_date"
     ],
-    "parking_info": "Market Square Garage 2 blocks away (free after 7pm weeknights, free weekends). State Street Garage nearby ($1/hour weekdays, free nights/weekends). On-street metered parking on Gay St ($1.50/hour, 2hr max). W. Jackson Ave Lot near 100 block S Gay St (free nights/weekends)."
+    "parking_info": "Market Square Garage 2 blocks away (free after 7pm weeknights, free weekends). State Street Garage nearby ($1/hour weekdays, free nights/weekends). On-street metered parking on Gay St ($1.50/hour, 2hr max). W. Jackson Ave Lot near 100 block S Gay St (free nights/weekends).",
+    "latitude": 35.965831,
+    "longitude": -83.918342
   },
   {
     "name": "The Pink Cactus",
@@ -5112,9 +5860,9 @@ const RESTAURANTS = [
     "phone": "(865) 437-3293",
     "website": "https://www.thepinkcactusknox.com/",
     "hours": "Thu-Fri 4 PM-2 AM; Sat-Sun 12 PM-2 AM; Mon-Wed closed",
-    "description": "South Knoxville karaoke bar in the former Landing House space. Private karaoke rooms for groups starting at $30/hour, plus a full bar with agave-based cocktails and food. Fun, inclusive atmosphere with a \"no pricks allowed\" ethos.",
-    "atmosphere": "Fun, inclusive, lively nightlife",
-    "special_features": "Private karaoke rooms, agave-focused cocktail program, late night hours",
+    "description": "South Knoxville karaoke bar in the former Landing House space. Private karaoke rooms for groups starting at $30/hour, plus a full bar with agave-based cocktails and food. Fun, inclusive atmosphere with a \"no pricks allowed\" ethos.\n\nFive private karaoke rooms upstairs, each holding up to twenty, bookable online by the hour from 30 dollars or walkable-into if there is space -- that is the draw and it is genuinely rare in Knoxville. Downstairs is a straightforward lounge bar built on agave, with the house cocktail (also called the Pink Cactus) made on pisco rather than tequila. The kitchen goes Latin: arepas, ropa vieja, patacones. Out front is a spacious covered patio with yard games. The whole thing runs Thursday through Sunday only, so half the week is a closed door -- check before you drive over.",
+    "atmosphere": "A bright pink house on Sevier Ave, which tells you most of what you need to know about how seriously it takes itself. The downstairs bar is laid-back lounge rather than club -- conversation-level until a karaoke room empties into it -- and the covered front patio with yard games is where the evening actually happens in good weather. Upstairs the private rooms mean the singing stays contained instead of hijacking the whole building, which is the structural difference between this and a bar with a karaoke night. The stated ethos is inclusive, with no pricks allowed as the literal house line, and the room reflects it: a mixed, unpretentious, welcoming crowd, family-friendly earlier on weekends and a date-night or pre-game bar later.",
+    "special_features": "Five private karaoke rooms upstairs holding up to 20 each, bookable online by the hour from $30 or by walk-in, agave-focused cocktail program, signature Pink Cactus cocktail made with pisco, Latin food menu (arepas, ropa vieja, patacones), spacious covered front patio with yard games, late-night hours, open Thursday through Sunday only, occupies the former Landing House space",
     "opening_date": null,
     "area": "South Knoxville",
     "tags": [
@@ -5125,7 +5873,9 @@ const RESTAURANTS = [
       "cocktails",
       "late-night"
     ],
-    "parking_info": null
+    "parking_info": "Street parking along Sevier Ave through the Old Sevier District; the neighborhood tightens on weekend nights.",
+    "latitude": 35.9601544,
+    "longitude": -83.9028839
   },
   {
     "name": "The Pint House",
@@ -5151,7 +5901,9 @@ const RESTAURANTS = [
       "north knoxville",
       "family-owned"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 36.0057769,
+    "longitude": -83.979851
   },
   {
     "name": "The Plaid Apron",
@@ -5174,7 +5926,9 @@ const RESTAURANTS = [
       "patio-dining",
       "gluten-free-options"
     ],
-    "parking_info": "Ample parking available"
+    "parking_info": "Ample parking available",
+    "latitude": 35.9345937,
+    "longitude": -83.9635355
   },
   {
     "name": "The Shrimp Dock - Alcoa",
@@ -5199,7 +5953,9 @@ const RESTAURANTS = [
       "counter-service",
       "casual"
     ],
-    "parking_info": "Free parking lot on-site at 321 S Calderwood St. Additional street parking available on S Calderwood St."
+    "parking_info": "Free parking lot on-site at 321 S Calderwood St. Additional street parking available on S Calderwood St.",
+    "latitude": 35.7593496,
+    "longitude": -83.9749057
   },
   {
     "name": "The Shrimp Dock - Bearden",
@@ -5223,7 +5979,9 @@ const RESTAURANTS = [
       "casual lunch",
       "takeout"
     ],
-    "parking_info": "Free on-site parking lot at restaurant. Additional parking available at nearby Kroger (4918 Kingston Pike, short walk). Street parking on Kingston Pike with standard metered restrictions."
+    "parking_info": "Free on-site parking lot at restaurant. Additional parking available at nearby Kroger (4918 Kingston Pike, short walk). Street parking on Kingston Pike with standard metered restrictions.",
+    "latitude": 35.9377987,
+    "longitude": -83.9893559
   },
   {
     "name": "The Shrimp Dock - Farragut",
@@ -5239,7 +5997,9 @@ const RESTAURANTS = [
     "opening_date": "2008-03-01T00:00:00Z",
     "area": "Farragut",
     "tags": [],
-    "parking_info": "Free parking in shared shopping center lot at 11124 Kingston Pike. The Shrimp Dock is located in a retail complex with ample customer parking directly in front of the restaurant and market."
+    "parking_info": "Free parking in shared shopping center lot at 11124 Kingston Pike. The Shrimp Dock is located in a retail complex with ample customer parking directly in front of the restaurant and market.",
+    "latitude": 35.886422,
+    "longitude": -84.149557
   },
   {
     "name": "The Stillhouse Tavern",
@@ -5263,7 +6023,9 @@ const RESTAURANTS = [
       "dog friendly",
       "west knoxville"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.93844,
+    "longitude": -83.986702
   },
   {
     "name": "The Vault",
@@ -5279,7 +6041,9 @@ const RESTAURANTS = [
     "opening_date": "2021-01-01T00:00:00Z",
     "area": "Downtown",
     "tags": [],
-    "parking_info": "Metered street parking and nearby parking garage; garage and street options available downtown"
+    "parking_info": "Metered street parking and nearby parking garage; garage and street options available downtown",
+    "latitude": 35.9642548,
+    "longitude": -83.9181207
   },
   {
     "name": "The Walnut Kitchen",
@@ -5299,7 +6063,9 @@ const RESTAURANTS = [
       "farm_to_table",
       "rustic_charm"
     ],
-    "parking_info": "Limited parking in front; additional parking available behind and on the side of the building. Disabled parking available."
+    "parking_info": "Limited parking in front; additional parking available behind and on the side of the building. Disabled parking available.",
+    "latitude": 35.7570578,
+    "longitude": -83.9647987
   },
   {
     "name": "Three Rivers Market",
@@ -5320,7 +6086,9 @@ const RESTAURANTS = [
       "vegan_options",
       "vegetarian_options"
     ],
-    "parking_info": "Free parking lot on-site (enter from N. Central St. after Baxter Ave intersection). Additional street parking available on south side of Baxter Ave (across from store). KAT bus routes #13, #20, #21, #24 stop nearby (every 30 minutes)."
+    "parking_info": "Free parking lot on-site (enter from N. Central St. after Baxter Ave intersection). Additional street parking available on south side of Baxter Ave (across from store). KAT bus routes #13, #20, #21, #24 stop nearby (every 30 minutes).",
+    "latitude": 35.9813747,
+    "longitude": -83.9280096
   },
   {
     "name": "Tia's Tacos",
@@ -5336,7 +6104,9 @@ const RESTAURANTS = [
     "opening_date": "2020-01-01T00:00:00Z",
     "area": "Turkey Creek",
     "tags": [],
-    "parking_info": "Free parking lot at Turkey Creek shopping center. Ample parking spaces directly in front of restaurant at 11071 Parkside Drive. Additional overflow parking throughout Turkey Creek complex within short walking distance."
+    "parking_info": "Free parking lot at Turkey Creek shopping center. Ample parking spaces directly in front of restaurant at 11071 Parkside Drive. Additional overflow parking throughout Turkey Creek complex within short walking distance.",
+    "latitude": 35.902737,
+    "longitude": -84.1516797
   },
   {
     "name": "Tomato Head",
@@ -5355,7 +6125,9 @@ const RESTAURANTS = [
       "casual",
       "family_friendly"
     ],
-    "parking_info": "Market Square Garage at 406 Walnut St (1 block away, 677 spaces, $1/hr with $7/day max, free after 6pm weeknights and all day Sunday, $3 flat rate Saturday). Street parking on Market Square (metered, $1.50/hr, 2hr max). Locust Street Garage nearby (649 spaces, same rates as Market Square)."
+    "parking_info": "Market Square Garage at 406 Walnut St (1 block away, 677 spaces, $1/hr with $7/day max, free after 6pm weeknights and all day Sunday, $3 flat rate Saturday). Street parking on Market Square (metered, $1.50/hr, 2hr max). Locust Street Garage nearby (649 spaces, same rates as Market Square).",
+    "latitude": 35.9652452,
+    "longitude": -83.9191538
   },
   {
     "name": "Townsend Abbey",
@@ -5374,7 +6146,9 @@ const RESTAURANTS = [
       "outdoor_seating",
       "riverfront"
     ],
-    "parking_info": "Free off-street parking lot on-site with ample spaces. Private lot parking available directly at restaurant."
+    "parking_info": "Free off-street parking lot on-site with ample spaces. Private lot parking available directly at restaurant.",
+    "latitude": 35.6783533,
+    "longitude": -83.752535
   },
   {
     "name": "Trailhead",
@@ -5394,7 +6168,9 @@ const RESTAURANTS = [
       "beer",
       "cider"
     ],
-    "parking_info": "Free parking lot on-site at 1317 Island Home Ave. Street parking available on Island Home Ave (unrestricted). Located 1 block from Tennessee River greenway access."
+    "parking_info": "Free parking lot on-site at 1317 Island Home Ave. Street parking available on Island Home Ave (unrestricted). Located 1 block from Tennessee River greenway access.",
+    "latitude": 35.9605224,
+    "longitude": -83.9000497
   },
   {
     "name": "Treetop Coffee Shop Sequoyah Hills",
@@ -5413,7 +6189,9 @@ const RESTAURANTS = [
       "sequoyah_hills",
       "strollable"
     ],
-    "parking_info": "Free street parking available on Kenesaw Ave and surrounding residential streets in Sequoyah Hills neighborhood. Located in Sequoyah Hills Office Plaza (1200-1210 Kenesaw Ave)."
+    "parking_info": "Free street parking available on Kenesaw Ave and surrounding residential streets in Sequoyah Hills neighborhood. Located in Sequoyah Hills Office Plaza (1200-1210 Kenesaw Ave).",
+    "latitude": 35.9346328,
+    "longitude": -83.963535
   },
   {
     "name": "Tupelo Honey",
@@ -5437,7 +6215,9 @@ const RESTAURANTS = [
       "Local Craft Beer",
       "Market Square"
     ],
-    "parking_info": "Street parking and nearby parking garages available. Free parking after 7pm and on weekends in select downtown lots."
+    "parking_info": "Street parking and nearby parking garages available. Free parking after 7pm and on weekends in select downtown lots.",
+    "latitude": 35.9647017,
+    "longitude": -83.9195441
   },
   {
     "name": "Twisted Mike's Tap Room",
@@ -5461,7 +6241,9 @@ const RESTAURANTS = [
       "dog friendly",
       "west knoxville"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.930808,
+    "longitude": -84.027172
   },
   {
     "name": "U Brew Coffee Lounge",
@@ -5481,7 +6263,9 @@ const RESTAURANTS = [
       "manual_brew",
       "single_origin"
     ],
-    "parking_info": "Street parking on Carr St in Old City. Nearby Old City parking lots and garages available (free weeknights after 6pm, free weekends at many city garages)."
+    "parking_info": "Street parking on Carr St in Old City. Nearby Old City parking lots and garages available (free weeknights after 6pm, free weekends at many city garages).",
+    "latitude": 35.94104,
+    "longitude": -83.987562
   },
   {
     "name": "Union Jack's English Pub",
@@ -5507,7 +6291,9 @@ const RESTAURANTS = [
       "smoke-free",
       "late night food"
     ],
-    "parking_info": "Parking lot on-site"
+    "parking_info": "Parking lot on-site",
+    "latitude": 35.931544,
+    "longitude": -84.001892
   },
   {
     "name": "Union Place Bar and Grill",
@@ -5531,7 +6317,9 @@ const RESTAURANTS = [
       "pet friendly",
       "patio"
     ],
-    "parking_info": "Parking lot on-site"
+    "parking_info": "Parking lot on-site",
+    "latitude": 35.9408988,
+    "longitude": -83.9871008
   },
   {
     "name": "Urban Bar",
@@ -5554,7 +6342,9 @@ const RESTAURANTS = [
       "patio",
       "service industry"
     ],
-    "parking_info": "Street parking on N Central St (metered, $1.50/hr, 2hr limit weekdays; free after 6pm and weekends). Multiple municipal garages within 2-3 blocks including State Street Garage and Market Square Garage ($1/hr weekdays; free after 6pm weekdays and all day weekends). Use Parkopedia app for real-time garage availability."
+    "parking_info": "Street parking on N Central St (metered, $1.50/hr, 2hr limit weekdays; free after 6pm and weekends). Multiple municipal garages within 2-3 blocks including State Street Garage and Market Square Garage ($1/hr weekdays; free after 6pm weekdays and all day weekends). Use Parkopedia app for real-time garage availability.",
+    "latitude": 35.97064,
+    "longitude": -83.918734
   },
   {
     "name": "Velocity Coffee & Roasters",
@@ -5573,7 +6363,9 @@ const RESTAURANTS = [
       "drive_thru",
       "roastery"
     ],
-    "parking_info": "Easy access with traffic light nearby, drive-thru available"
+    "parking_info": "Easy access with traffic light nearby, drive-thru available",
+    "latitude": 36.0142885,
+    "longitude": -84.0359575
   },
   {
     "name": "Victor's Taco Shop",
@@ -5592,7 +6384,9 @@ const RESTAURANTS = [
       "student_favorite",
       "the_strip"
     ],
-    "parking_info": "Street parking and small lot (notoriously difficult near UT campus)"
+    "parking_info": "Street parking and small lot (notoriously difficult near UT campus)",
+    "latitude": 35.9546335,
+    "longitude": -83.9385394
   },
   {
     "name": "Vida",
@@ -5600,7 +6394,7 @@ const RESTAURANTS = [
     "cuisine_type": "American (Fine Dining)",
     "price_range": "$$$",
     "phone": "(865) 544-8564",
-    "website": "vidaknoxville.com",
+    "website": "https://vidaknoxville.com",
     "hours": "{\"sunday\":\"4:00 PM - 10:00 PM\",\"monday\":\"4:00 PM - 10:00 PM\",\"tuesday\":\"4:00 PM - 10:00 PM\",\"wednesday\":\"4:00 PM - 10:00 PM\",\"thursday\":\"4:00 PM - 10:00 PM\",\"friday\":\"4:00 PM - 11:00 PM\",\"saturday\":\"4:00 PM - 11:00 PM\"}",
     "description": "Pan-Latin small plates with Asian flourishes in downtown's 1913 Holston Building, where preserved architecture meets contemporary design. Chef Jim Klonaris (opened January 2021) executes globally-minded tapas: duck confit, Peruvian crispy chicken with Brussels sprouts, smoked guacamole, yuca fries that punch above their weight class, tender short ribs, shrimp empanadas. The plates are larger than typical tapas—you're not chasing hunger around the table. Small-batch cocktails matter here. Below, The Vault cocktail lounge hides in the original bank vault, Old Hollywood glamour in marble and brass. Vida works for couples wanting elevated without performative, groups splitting dishes, anyone who appreciates technique without the lecture.",
     "atmosphere": "Historic brick and tufted booths under modern artwork. Dim lighting, conversation-friendly volume. Date-night couples dressed a step above casual, groups celebrating something. Sophisticated energy that doesn't require formality—nice jeans work fine.",
@@ -5611,7 +6405,9 @@ const RESTAURANTS = [
       "romantic",
       "sophisticated"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.9642548,
+    "longitude": -83.9181207
   },
   {
     "name": "Wagon Wheel",
@@ -5631,7 +6427,9 @@ const RESTAURANTS = [
       "country",
       "nightlife"
     ],
-    "parking_info": "Street parking in Old City, nearby public lots"
+    "parking_info": "Street parking in Old City, nearby public lots",
+    "latitude": 35.9697954,
+    "longitude": -83.9183989
   },
   {
     "name": "Wasabi Japanese Restaurant",
@@ -5650,7 +6448,9 @@ const RESTAURANTS = [
       "live_music",
       "teppanyaki"
     ],
-    "parking_info": "On-site parking lot available at restaurant. Located in Bearden shopping area with ample parking."
+    "parking_info": "On-site parking lot available at restaurant. Located in Bearden shopping area with ample parking.",
+    "latitude": 35.9331576,
+    "longitude": -84.0088177
   },
   {
     "name": "Water Into Wine",
@@ -5666,7 +6466,9 @@ const RESTAURANTS = [
     "opening_date": "2016-01-01T00:00:00Z",
     "area": null,
     "tags": [],
-    "parking_info": "Free parking in Walgreens Shopping Center strip mall lot. Parking can be crowded during peak hours and weekends, may need to circle for a spot. Located off Campbell Station Rd with easy I-40 access."
+    "parking_info": "Free parking in Walgreens Shopping Center strip mall lot. Parking can be crowded during peak hours and weekends, may need to circle for a spot. Located off Campbell Station Rd with easy I-40 access.",
+    "latitude": 35.893524,
+    "longitude": -84.1751
   },
   {
     "name": "Wholly Souled Soul Food",
@@ -5691,7 +6493,9 @@ const RESTAURANTS = [
       "casual",
       "takeout"
     ],
-    "parking_info": "On-site parking available"
+    "parking_info": "On-site parking available",
+    "latitude": 36.0074803,
+    "longitude": -83.9275142
   },
   {
     "name": "Wild Love Bakehouse",
@@ -5699,7 +6503,7 @@ const RESTAURANTS = [
     "cuisine_type": "Coffee & Cafe",
     "price_range": "$$",
     "phone": "(865) 200-8078",
-    "website": "wildlovebakehouse.com",
+    "website": "https://wildlovebakehouse.com",
     "hours": "Wed-Sun 8am-2pm",
     "description": "Wild Love Bakehouse earned the title \"best bakery in America\" from Afar Magazine in 2017, just one year after opening its North Knoxville location. The recognition wasn't hyperbole. Meg Parrish spent years perfecting a croissant recipe that requires four full days from start to finish, and the Monster breakfast biscuits made with Cruze Farm buttermilk, Tickiwoo Farm eggs, and Crooked Road Farm maple-glazed sausage routinely sell out by mid-morning. This is the neighborhood bakery where everything gets made from scratch daily using seasonal, local, and regional ingredients.\n\nMeg and Shaun Parrish opened Old City Java first, then quickly outgrew the limited baking space in back. When they found the Central Street location in 2015, they built exactly what Meg had dreamed about during her printmaking major days at UT and her apprenticeships at local bakeries including Magpies. The bakery operates Wednesday through Sunday, and serious pastry hunters know to arrive early.\n\nThe four-day croissant process yields flaky, buttery layers that reviewers consistently describe as the best in Knoxville, whether you order the classic butter, chocolate, almond, or ham and Gruyère versions. Beyond croissants, the daily lineup includes hand pies filled with seasonal ingredients like pear and rosemary, galettes with fig and almond, carrot cake with mascarpone buttercream, pumpkin tea cakes, and rosemary-pecan shortbread bars. The coffee program uses Counter Culture beans, and the kitchen turns out full breakfast and lunch options.",
     "atmosphere": "The space occupies a converted storefront in North Knoxville's Fountain City neighborhood with a casual, unpretentious layout. Inside, you'll find a small counter for ordering, a few tables and chairs for dining in, and display cases showcasing the day's pastry selection. The decor stays minimal and functional, letting the baked goods take center stage. Natural light comes through the front windows, and the overall vibe leans coffee-shop casual rather than formal bakery. Free wi-fi makes it laptop-friendly for the work-from-anywhere crowd, though seating fills quickly on weekends. The outdoor patio provides additional seating during temperate weather and welcomes dogs. The crowd skews toward young professionals, students, and serious food enthusiasts who've heard about the national recognition. Noise levels stay conversational, and the service moves efficiently even during peak morning hours.",
@@ -5714,7 +6518,9 @@ const RESTAURANTS = [
       "sourdough",
       "specialty_espresso"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.985404,
+    "longitude": -83.934511
   },
   {
     "name": "Wilder at Windy Hill Farm",
@@ -5734,7 +6540,9 @@ const RESTAURANTS = [
       "farm_setting",
       "romantic"
     ],
-    "parking_info": "On-site parking lot available. Park in front of the Watchhouse where guest services agents will guide visitors to Wilder restaurant."
+    "parking_info": "On-site parking lot available. Park in front of the Watchhouse where guest services agents will guide visitors to Wilder restaurant.",
+    "latitude": 35.7544243,
+    "longitude": -84.2890462
   },
   {
     "name": "WokChow Fire Seared Asian",
@@ -5752,7 +6560,9 @@ const RESTAURANTS = [
     "tags": [
       "casual"
     ],
-    "parking_info": "Free parking lot on-site. Additional parking available in surrounding area along Kingston Pike and adjacent shopping center lots."
+    "parking_info": "Free parking lot on-site. Additional parking available in surrounding area along Kingston Pike and adjacent shopping center lots.",
+    "latitude": 35.9405124,
+    "longitude": -83.9810136
   },
   {
     "name": "Xül Beer Company",
@@ -5760,7 +6570,7 @@ const RESTAURANTS = [
     "cuisine_type": "Brewery",
     "price_range": "$",
     "phone": "(865) 200-5119",
-    "website": "xulbeer.com",
+    "website": "https://xulbeer.com",
     "hours": "Wed-Thu 4-10pm, Fri-Sat 12-11pm, Sun 12-8pm",
     "description": "Xül Beer Company opened in October 2019 when brewer Bentley Blackshear and investor Brad West decided to build something different in Knoxville's craft beer scene. Blackshear brought 12 years of homebrewing experience and stints at Crafty Bastard and Bearden Beer Market, while West had already invested in another local brewery and wanted to do his own thing. Co-founder Tara Thacker handles merchandise and taproom operations. The result is a microbrewery specializing in copiously dry-hopped IPAs, heavily fruited sours, and decadent pastry stouts.\n\nThe brewing philosophy emphasizes \"balanced intensity,\" pushing flavor boundaries without losing drinkability. The PB&J Mixtape series exemplifies this approach, layering peanut butter and fruit flavors into sours that taste like liquid nostalgia. The tap list rotates through West Coast IPAs, hazy IPAs, fruited sours with blueberry cobbler or other seasonal additions, Mexican lagers, pilsners, and stouts. Every detail matters to this team, from glassware selection to serving temperatures to the aesthetic experience.\n\nThe downtown location occupies the former Carmichael's car showroom from the 1960s, a mid-century building the team transformed into one of Knoxville's most striking taprooms. Floor-to-ceiling windows provide panoramic downtown views, food trucks rotate through for meals, and Tuesday trivia nights hosted by Not Rocket Science Trivia pack the place. The brewery has earned regional recognition and distributes to other states, but the 5th Avenue taproom remains the flagship.",
     "atmosphere": "The downtown taproom merges dark elegance with playful eccentricity. Plush velvet couches, quartz countertops, and dramatic chandeliers create an upscale lounge feel, while movie posters from the owners' personal collection, a life-sized Gremlin perched on a taxidermied goat head with a pink goatee (tributing Pantera's Dimebag Darrell), and faux concrete walls by artist Eugenia Almeida add irreverent character. Custom iron Xul logo door handles announce you're entering somewhere specific. During the day, natural light floods through the massive windows overlooking downtown Knoxville. At night, the space transforms into moody, sexy ambiance with city lights as backdrop. The mid-century car showroom bones remain visible, particularly in the open floor plan and window wall. The crowd spans craft beer enthusiasts, Old City bar-hoppers, trivia teams, and families (it's kid-friendly). The staff knows their beer list cold and pours samples readily. It's the rare brewery taproom that feels designed rather than assembled.",
@@ -5770,7 +6580,9 @@ const RESTAURANTS = [
     "tags": [
       "brewery"
     ],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.9580846,
+    "longitude": -83.9077684
   },
   {
     "name": "Y-NOT Tavern",
@@ -5793,7 +6605,9 @@ const RESTAURANTS = [
       "patio",
       "smoking allowed"
     ],
-    "parking_info": "Street parking on Anderson Avenue and surrounding neighborhood streets"
+    "parking_info": "Street parking on Anderson Avenue and surrounding neighborhood streets",
+    "latitude": 35.981945,
+    "longitude": -83.928752
   },
   {
     "name": "Yamato Ramen House",
@@ -5809,7 +6623,9 @@ const RESTAURANTS = [
     "opening_date": "2020-01-01T00:00:00Z",
     "area": "Turkey Creek",
     "tags": [],
-    "parking_info": "Free parking in Turkey Creek shopping center lot directly adjacent to restaurant at 11527 Parkside Dr. Additional parking available at nearby Pinnacle Parking (11361 Parkside Dr) and throughout Turkey Creek development lots."
+    "parking_info": "Free parking in Turkey Creek shopping center lot directly adjacent to restaurant at 11527 Parkside Dr. Additional parking available at nearby Pinnacle Parking (11361 Parkside Dr) and throughout Turkey Creek development lots.",
+    "latitude": 35.8976263,
+    "longitude": -84.1701448
   },
   {
     "name": "Yassin's Falafel House",
@@ -5828,7 +6644,9 @@ const RESTAURANTS = [
       "cultural",
       "welcoming"
     ],
-    "parking_info": "Locust Street Garage with entrances on both Locust St and Walnut St (649 spaces, $1/hr, $7 max/day). Free parking weeknights after 6pm and all weekend. Downtown offers over 5,000 free parking spaces in municipal garages after 6pm weekdays and all day weekends. EV charging available at Locust Street Garage."
+    "parking_info": "Locust Street Garage with entrances on both Locust St and Walnut St (649 spaces, $1/hr, $7 max/day). Free parking weeknights after 6pm and all weekend. Downtown offers over 5,000 free parking spaces in municipal garages after 6pm weekdays and all day weekends. EV charging available at Locust Street Garage.",
+    "latitude": 35.962544,
+    "longitude": -83.9190839
   },
   {
     "name": "Ye Olde Steak House",
@@ -5847,7 +6665,9 @@ const RESTAURANTS = [
       "award_winning",
       "prime_rib"
     ],
-    "parking_info": "On-site private parking lot (note: hillside location creates challenging navigation, parking built into slope with confusing layout - pay attention to parking lines)."
+    "parking_info": "On-site private parking lot (note: hillside location creates challenging navigation, parking built into slope with confusing layout - pay attention to parking lines).",
+    "latitude": 35.916413,
+    "longitude": -83.8572212
   },
   {
     "name": "Yee-Haw Brewing Co.",
@@ -5857,9 +6677,9 @@ const RESTAURANTS = [
     "phone": "(865) 210-8862",
     "website": "https://yeehawbrewing.com/knoxville/",
     "hours": "{\"monday\": \"11:00-22:00\", \"tuesday\": \"11:00-22:00\", \"wednesday\": \"11:00-22:00\", \"thursday\": \"11:00-22:00\", \"friday\": \"11:00-00:00\", \"saturday\": \"11:00-00:00\", \"sunday\": \"11:00-22:00\"}",
-    "description": "Johnson City brewery that took over the old Elkmont Exchange space in Happy Holler and turned it into something the original could never be: a 700-capacity beer garden with a jumbotron, 62 taps, and actual Nashville royalty in the kitchen. Prince's Hot Chicken—the Prince's, the one that sparked Nashville's hot chicken renaissance—runs the food program. The beer's what you'd expect from an East Tennessee brewery with a barrel-aging program: solid IPAs, sours, lagers that don't try too hard. The move is Prince's hot chicken with a Dunkel on game day, outdoor seating by the fire pits when it's cold enough.",
+    "description": "Johnson City brewery that took over the old Elkmont Exchange space in Happy Holler and turned it into something the original could never be: a 700-capacity beer garden with a jumbotron and 62 taps. The kitchen was run by Prince's Hot Chicken — the Prince's, the one that sparked Nashville's hot chicken renaissance — until the menu changed around May 2026; it now runs pub fare in house: wings and tenders, smash burgers, loaded fries, giant pretzels, chicken and club sandwiches, plus weekly specials. The beer's what you'd expect from an East Tennessee brewery with a barrel-aging program: solid IPAs, sours, lagers that don't try too hard. The move is a Dunkel on game day, outdoor seating by the fire pits when it's cold enough.",
     "atmosphere": "Cavernous industrial space that knows exactly what it is: a party brewery for UT game days and concert nights. Exposed ductwork, communal tables, jumbotron dominating one wall. The beer garden holds 700 people and has an amphitheater for live shows. Noise level spikes when the Vols play. Crowd skews younger—students, young professionals, groups looking to drink and watch sports. Not trying to be a quiet craft beer temple.",
-    "special_features": "Prince's Hot Chicken in-house, 700-capacity beer garden, amphitheater for concerts, 62 taps, barrel-aging program, jumbotron",
+    "special_features": "700-capacity beer garden, amphitheater for concerts, 62 taps, barrel-aging program, jumbotron, fire pits",
     "opening_date": "2022-01-01T00:00:00Z",
     "area": "Happy Holler",
     "tags": [
@@ -5871,7 +6691,9 @@ const RESTAURANTS = [
       "outdoor-seating",
       "game-day"
     ],
-    "parking_info": "Large parking lot"
+    "parking_info": "Large parking lot",
+    "latitude": 35.9778776,
+    "longitude": -83.9238319
   },
   {
     "name": "Yummy Bowl",
@@ -5887,7 +6709,9 @@ const RESTAURANTS = [
     "opening_date": "2020-01-01T00:00:00Z",
     "area": "Kingston Pike",
     "tags": [],
-    "parking_info": null
+    "parking_info": null,
+    "latitude": 35.922344,
+    "longitude": -84.0604049
   },
   {
     "name": "Zero/Zero",
@@ -5906,6 +6730,8 @@ const RESTAURANTS = [
       "pre_post_dinner",
       "wine_bar"
     ],
-    "parking_info": "On-street parking available on N Central St in Happy Holler neighborhood. Rear parking lot accessible behind building. Additional street parking throughout Happy Holler area, approximately 1 mile north of downtown Knoxville."
+    "parking_info": "On-street parking available on N Central St in Happy Holler neighborhood. Rear parking lot accessible behind building. Additional street parking throughout Happy Holler area, approximately 1 mile north of downtown Knoxville.",
+    "latitude": 35.9817407,
+    "longitude": -83.9296247
   }
 ];
