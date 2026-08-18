@@ -1467,34 +1467,6 @@ const RESTAURANTS = [
     "longitude": -83.9196602
   },
   {
-    "name": "Curry Pot Taste of India",
-    "address": "9408 Apison Pike, Ooltewah, TN 37363",
-    "cuisine_type": "Indian",
-    "price_range": "$$",
-    "phone": "(423) 541-6520",
-    "website": "https://currypottn.com/",
-    "hours": "Mon: 11am-8pm, Tue: Closed, Wed: 11am-8pm, Thu: 11am-7pm, Fri-Sat: 11am-8pm, Sun: 1pm-8pm",
-    "description": "Strip-mall Indian restaurant that knows what suburban Chattanooga wants and delivers it without apology. The lunch buffet (Mon-Sat 11 AM-2:30 PM, $12.99) is the real draw—rotating curries, tandoori chicken, naan (when they remember to refill it), vegetable samosas, and rice. Quality depends entirely on timing: hit it right after 11 AM and you're eating fresh; arrive at 2 PM and you're scraping the bottom of steam trays. Menu highlights include masala dosa (rice crepe stuffed with spiced potatoes), chicken tikka masala, goat curry, and palak paneer. They do tandoori proteins (chicken, shrimp, lamb chops) but the oven's not the star here—this is curry-and-rice territory. The naan game is strong when they're paying attention: garlic cilantro, cheese-stuffed, onion-cilantro, potato-stuffed. Not trying to be Rasika. Trying to feed families and office workers who want predictable North Indian food at suburban prices. Succeeds at exactly that.",
-    "atmosphere": "Standard strip-mall dining room in Apison Crossing shopping center. Buffet line along one wall, tables for families and business lunches. Fluorescent lighting, minimal decor. The vibe is \"get lunch and get back to work\" not \"linger over wine.\" Efficient, utilitarian, exactly what a weekday buffet spot should be.",
-    "special_features": "Authentic Indian",
-    "opening_date": "2022-01-01T00:00:00Z",
-    "area": null,
-    "tags": [
-      "\"lunch buffet",
-      "north indian",
-      "strip mall",
-      "family-friendly",
-      "suburban",
-      "masala dosa",
-      "tandoori",
-      "naan",
-      "vegetarian options\""
-    ],
-    "parking_info": "Free parking available in Apison Crossing shopping center lot. Located in retail strip center at 9408 Apison Pike with shared parking for multiple businesses.",
-    "latitude": 35.0593394,
-    "longitude": -85.0685886
-  },
-  {
     "name": "DSB Provisions",
     "address": "235 Greenway Village Lane, Maryville, TN 37801",
     "cuisine_type": "Italian",
@@ -5013,28 +4985,6 @@ const RESTAURANTS = [
       "brewpub"
     ],
     "parking_info": "On-site lot with overflow parking in back, plus street parking",
-    "latitude": 35.94492,
-    "longitude": -83.890406
-  },
-  {
-    "name": "SoKno Taco Cantina - Sevierville Pike",
-    "address": "3701 Sevierville Pike, Knoxville, TN 37920",
-    "cuisine_type": "Mexican",
-    "price_range": "$$",
-    "phone": "(865) 851-8882",
-    "website": "https://soknota.co",
-    "hours": "Mon-Fri 11am-11pm, Sat-Sun 10am-11pm (brunch Sat-Sun 10am-2pm)",
-    "description": "SoKno Taco Cantina brings Southern California street taco culture to South Knoxville with 24 beers on tap and house margaritas. This locally owned cantina opened in 2017 near Ijams Nature Center, drawing cyclists and outdoor enthusiasts.\n\nChef-driven SoCal-style tacos feature blue corn tortillas alongside signature items like the Nasty Nachos, known for generous portions. The kitchen accommodates vegan and gluten-free diets while maintaining authentic street taco technique, complemented by a full bar showcasing tequila varietals and draft margaritas.",
-    "atmosphere": "Dia de Los Muertos-themed interior with modern decor, covered picnic tables outside, ping-pong table, big-screen TV, and small stage. Draws cyclists fresh off Ijams trails, families with kids, and South Knoxville locals who want SoCal street tacos without the pretense. Spacious patio stays busy through happy hour. Festive but laid-back—the kind of place where you linger over a second margarita.",
-    "special_features": "beer garden, 24 beers on tap, blue corn tortillas, near ijams nature center, cyclist-friendly",
-    "opening_date": "2017-03-01T00:00:00Z",
-    "area": null,
-    "tags": [
-      "beer_garden",
-      "casual",
-      "outdoor_friendly"
-    ],
-    "parking_info": "On-site parking lot available",
     "latitude": 35.94492,
     "longitude": -83.890406
   },
