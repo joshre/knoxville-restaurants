@@ -2,8 +2,8 @@
 
 Static restaurant directory for Knoxville, TN.
 
-**Last Updated**: 2026-07-09 18:09:39 UTC
-**Total Restaurants**: 269
+**Last Updated**: 2026-08-18 15:39:20 UTC
+**Total Restaurants**: 281
 
 ## Usage
 
@@ -11,11 +11,12 @@ This is a static site. Simply open `index.html` in your browser or deploy to Git
 
 ## Updating
 
-To update the restaurant data:
+Every file here is generated. Edit `src/templates/restaurants.html` and
+`cortex-web/src/lib/restaurant-map.js` in Cortex, never this directory.
 
 ```bash
 cd /Users/josh/web/_projects/cortex
-cargo run export-restaurants --output ~/web/knoxville-restaurants
+cortex export-restaurants --output ~/web/knoxville-restaurants
 ```
 
 Then commit and push:
@@ -31,6 +32,6 @@ git push
 
 - Search restaurants by name, cuisine, or description
 - Filter by cuisine type, price range, and neighborhood
+- Interactive map with clustering
 - Dark mode support
 - Mobile responsive
-- No build tools or dependencies required
